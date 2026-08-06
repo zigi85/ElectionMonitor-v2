@@ -1,0 +1,16 @@
+{
+  "updated_at": "2026-05-28T09:00:00Z",
+  "entries": [
+    {
+      "id": "sample-1",
+      "reporter": "שם הכתב",
+      "role": "כתב פוליטי בכיר",
+      "initials": "שכ",
+      "avatar_color": "#1a2f7a",
+      "quote": "לחצו על כפתור העריכה ב-/admin להוסיף את הפרשנות שלכם. כאן תוכלו לכתוב ניתוח קצר של המצב הפוליטי ולקשר לכתבה המלאה.",
+      "article_url": "https://www.israelhayom.co.il",
+      "article_title": "כותרת הכתבה תופיע כאן",
+      "published_at": "2026-05-28T09:00:00Z"
+    }
+  ]
+}

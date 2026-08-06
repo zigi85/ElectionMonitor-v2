@@ -1,0 +1,1122 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>מוניטור הבחירות — Mobile</title>
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Heebo', sans-serif;
+    background: #c8d4e8;
+    min-height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 32px 16px 48px;
+    direction: rtl;
+  }
+
+  .phone-shell {
+    width: 100%;
+    max-width: 390px;
+    background: #ffffff;
+    border-radius: 44px;
+    box-shadow: 0 25px 60px rgba(0,0,0,0.35), 0 8px 20px rgba(0,0,0,0.15), inset 0 1px 0 rgba(255,255,255,0.8);
+    overflow: hidden;
+    position: relative;
+  }
+
+  .phone-notch {
+    background: #fff;
+    height: 44px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    flex-shrink: 0;
+  }
+  .notch-bar {
+    width: 120px;
+    height: 34px;
+    background: #111;
+    border-radius: 0 0 20px 20px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .app-content {
+    background: #f0f4f8;
+    overflow-y: auto;
+    max-height: 80vh;
+  }
+
+  /* ===================== HEADER ===================== */
+  .header {
+    background: #ffffff;
+    padding: 14px 16px 12px;
+    border-bottom: 1px solid #e8ecf2;
+  }
+
+  .header-top-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+
+  .info-btn {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    border: 1.5px solid #94a3b8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #64748b;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    flex-shrink: 0;
+    font-style: normal;
+  }
+
+  .live-badge {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background: #cc1e2b;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 800;
+    padding: 4px 11px;
+    border-radius: 20px;
+    letter-spacing: 0.5px;
+  }
+  .live-dot {
+    width: 7px;
+    height: 7px;
+    background: #fff;
+    border-radius: 50%;
+    position: relative;
+    flex-shrink: 0;
+  }
+  .live-dot::after {
+    content: '';
+    position: absolute;
+    inset: -3px;
+    border-radius: 50%;
+    border: 1.5px solid rgba(255,255,255,0.55);
+    animation: livePulse 1.5s ease-in-out infinite;
+  }
+  @keyframes livePulse {
+    0%, 100% { transform: scale(1); opacity: 1; }
+    50% { transform: scale(1.6); opacity: 0; }
+  }
+
+  .header-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+
+  .header-text {
+    text-align: right;
+  }
+
+  .header-title {
+    font-size: 28px;
+    font-weight: 900;
+    color: #1a2f7a;
+    line-height: 1.1;
+    letter-spacing: -0.5px;
+  }
+
+  .header-subtitle {
+    font-size: 10px;
+    color: #94a3b8;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    margin-top: 2px;
+    direction: ltr;
+    text-align: left;
+  }
+
+  .war-room-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    background: #eff6ff;
+    border: 1.5px solid #bfdbfe;
+    border-radius: 20px;
+    padding: 7px 14px;
+    font-family: 'Heebo', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: #1a2f7a;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  /* ===================== CONTENT AREA ===================== */
+  .content {
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  /* ===================== HERO CARD ===================== */
+  .hero-card {
+    background: linear-gradient(160deg, #0c1a4a 0%, #1a3080 50%, #162560 100%);
+    border-radius: 16px;
+    padding: 16px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .hero-bg-art {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.055;
+    pointer-events: none;
+    height: 60%;
+  }
+
+  .hero-top-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 14px;
+  }
+
+  .hero-live-badge {
+    background: #cc1e2b;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 800;
+    padding: 3px 9px;
+    border-radius: 4px;
+    letter-spacing: 1.2px;
+  }
+
+  .hero-time {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: rgba(255,255,255,0.55);
+    font-size: 11px;
+    direction: rtl;
+  }
+
+  .hero-question {
+    font-size: 20px;
+    font-weight: 900;
+    color: #ffffff;
+    line-height: 1.25;
+    margin-bottom: 10px;
+    position: relative;
+  }
+
+  .hero-summary {
+    color: rgba(255,255,255,0.85);
+    font-size: 12.5px;
+    font-weight: 400;
+    line-height: 1.7;
+    position: relative;
+  }
+
+  /* ===================== WHITE CARD ===================== */
+  .card {
+    background: #ffffff;
+    border-radius: 14px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+    overflow: hidden;
+  }
+
+  .card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 13px 14px 10px;
+    border-bottom: 1px solid #f1f5f9;
+  }
+
+  .card-title {
+    font-size: 14px;
+    font-weight: 800;
+    color: #1e293b;
+  }
+
+  .card-subtitle {
+    font-size: 11px;
+    color: #94a3b8;
+    font-weight: 400;
+  }
+
+  /* ===================== MOMENTUM CARD ===================== */
+  .momentum-col-headers {
+    display: grid;
+    grid-template-columns: 1fr 46px 64px 96px;
+    gap: 4px;
+    padding: 8px 14px 4px;
+    direction: rtl;
+  }
+  .col-h {
+    font-size: 9px;
+    font-weight: 700;
+    color: #94a3b8;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+  }
+  .col-h:first-child { text-align: right; }
+
+  .momentum-table {
+    width: 100%;
+    padding: 0 14px;
+  }
+
+  .momentum-row {
+    display: grid;
+    grid-template-columns: 1fr 46px 64px 96px;
+    align-items: center;
+    padding: 9px 0;
+    border-bottom: 1px solid #f8fafc;
+    gap: 4px;
+    direction: rtl;
+  }
+  .momentum-row:last-child { border-bottom: none; }
+
+  .m-party {
+    font-size: 12.5px;
+    font-weight: 700;
+    color: #1e293b;
+    text-align: right;
+  }
+
+  .m-seats {
+    font-size: 17px;
+    font-weight: 800;
+    color: #1a2f7a;
+    text-align: center;
+  }
+
+  .m-trend {
+    font-size: 11.5px;
+    font-weight: 700;
+    text-align: center;
+    white-space: nowrap;
+  }
+  .trend-up { color: #16a34a; }
+  .trend-down { color: #cc1e2b; }
+  .trend-flat { color: #94a3b8; }
+
+  .m-sparkline {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .m-sparkline svg {
+    width: 90px;
+    height: 24px;
+    overflow: visible;
+  }
+
+  /* Bloc bar */
+  .bloc-section {
+    background: #f8fafc;
+    margin: 8px 14px 14px;
+    border-radius: 10px;
+    padding: 11px 12px;
+  }
+
+  .bloc-labels {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 9px;
+  }
+
+  .bloc-label-group {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .bloc-name {
+    font-size: 9.5px;
+    font-weight: 700;
+    color: #64748b;
+    white-space: nowrap;
+  }
+
+  .bloc-seats-row {
+    display: flex;
+    align-items: baseline;
+    gap: 5px;
+  }
+
+  .bloc-seats-left {
+    font-size: 22px;
+    font-weight: 900;
+    color: #cc1e2b;
+    line-height: 1;
+  }
+
+  .bloc-seats-right {
+    font-size: 22px;
+    font-weight: 900;
+    color: #1a2f7a;
+    line-height: 1;
+  }
+
+  .bloc-trend-up { font-size: 10px; font-weight: 700; color: #16a34a; }
+  .bloc-trend-down { font-size: 10px; font-weight: 700; color: #cc1e2b; }
+
+  .bloc-bar-wrap {
+    position: relative;
+    height: 18px;
+    border-radius: 9px;
+    background: #e2e8f0;
+    display: flex;
+    overflow: visible;
+  }
+
+  .bloc-bar-opp {
+    height: 100%;
+    background: #cc1e2b;
+    border-radius: 9px 0 0 9px;
+    width: 46.67%;
+    flex-shrink: 0;
+  }
+
+  .bloc-bar-right {
+    height: 100%;
+    background: #1a2f7a;
+    border-radius: 0 9px 9px 0;
+    width: 42.5%;
+    margin-right: auto;
+  }
+
+  .majority-marker {
+    position: absolute;
+    top: -5px;
+    bottom: -5px;
+    width: 2.5px;
+    background: #334155;
+    left: 49.17%;
+    border-radius: 2px;
+  }
+  .majority-marker-label {
+    position: absolute;
+    bottom: -20px;
+    left: 49.17%;
+    transform: translateX(-50%);
+    font-size: 9px;
+    font-weight: 700;
+    color: #475569;
+    white-space: nowrap;
+  }
+
+  .bloc-bar-container {
+    position: relative;
+    margin-bottom: 22px;
+  }
+
+  /* ===================== SOCIAL CARD ===================== */
+  .hashtag-scroll {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    padding: 10px 14px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    direction: rtl;
+  }
+  .hashtag-scroll::-webkit-scrollbar { display: none; }
+
+  .hashtag-chip {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 6px 11px;
+    border-radius: 20px;
+    background: #f1f5f9;
+    border: 1.5px solid #e2e8f0;
+    white-space: nowrap;
+    flex-shrink: 0;
+    cursor: pointer;
+  }
+
+  .hashtag-chip.active {
+    background: #1a2f7a;
+    border-color: #1a2f7a;
+  }
+
+  .chip-rank {
+    font-size: 10px;
+    font-weight: 700;
+    color: #94a3b8;
+  }
+  .hashtag-chip.active .chip-rank { color: rgba(255,255,255,0.6); }
+
+  .chip-tag {
+    font-size: 11.5px;
+    font-weight: 700;
+    color: #1e293b;
+    direction: rtl;
+  }
+  .hashtag-chip.active .chip-tag { color: #fff; }
+
+  .chip-count {
+    font-size: 10px;
+    font-weight: 600;
+    color: #64748b;
+  }
+  .hashtag-chip.active .chip-count { color: rgba(255,255,255,0.65); }
+
+  .posts-section-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px 14px 6px;
+    border-top: 1px solid #f1f5f9;
+  }
+
+  .posts-section-title {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #1e293b;
+  }
+
+  .posts-link {
+    font-size: 11px;
+    color: #3b82f6;
+    font-weight: 600;
+    cursor: pointer;
+    direction: ltr;
+  }
+
+  .posts-carousel {
+    display: flex;
+    gap: 10px;
+    padding: 4px 14px 14px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    scroll-snap-type: x mandatory;
+    -ms-overflow-style: none;
+    direction: rtl;
+  }
+  .posts-carousel::-webkit-scrollbar { display: none; }
+
+  .post-card {
+    flex-shrink: 0;
+    width: 240px;
+    background: #f8fafc;
+    border: 1px solid #e8ecf2;
+    border-radius: 12px;
+    padding: 12px;
+    scroll-snap-align: start;
+    direction: rtl;
+  }
+
+  .post-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    margin-bottom: 8px;
+  }
+
+  .post-avatar {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 800;
+    color: #fff;
+    flex-shrink: 0;
+  }
+
+  .post-meta { flex: 1; min-width: 0; }
+
+  .post-name-row {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    flex-wrap: nowrap;
+  }
+
+  .post-name {
+    font-size: 12.5px;
+    font-weight: 700;
+    color: #1e293b;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .verified-icon {
+    color: #3b82f6;
+    font-size: 11px;
+    line-height: 1;
+    flex-shrink: 0;
+  }
+
+  .post-handle-row {
+    font-size: 10.5px;
+    color: #94a3b8;
+    margin-top: 1px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    flex-wrap: wrap;
+    direction: ltr;
+    text-align: left;
+  }
+
+  .post-time {
+    font-size: 10px;
+    color: #94a3b8;
+    font-weight: 400;
+  }
+
+  .post-text {
+    font-size: 12.5px;
+    color: #334155;
+    line-height: 1.55;
+    margin-bottom: 9px;
+  }
+
+  .post-stats {
+    display: flex;
+    gap: 9px;
+    direction: ltr;
+    flex-wrap: nowrap;
+  }
+
+  .post-stat {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    font-size: 10.5px;
+    color: #94a3b8;
+    font-weight: 500;
+    white-space: nowrap;
+  }
+
+  .carousel-dots {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    padding: 0 14px 12px;
+  }
+
+  .dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #cbd5e1;
+    transition: all 0.2s;
+  }
+  .dot.active {
+    background: #1a2f7a;
+    width: 18px;
+    border-radius: 4px;
+  }
+
+  /* ===================== QUICK SIGNALS ===================== */
+  .signals-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 7px;
+    padding: 10px 14px 14px;
+  }
+
+  .signal-chip {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    padding: 10px 5px;
+    background: #f8fafc;
+    border: 1px solid #e8ecf2;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .signal-icon {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  .signal-label {
+    font-size: 11px;
+    font-weight: 800;
+    color: #1e293b;
+    line-height: 1.2;
+  }
+
+  .signal-desc {
+    font-size: 8.5px;
+    color: #94a3b8;
+    font-weight: 400;
+    line-height: 1.3;
+  }
+
+  .signal-status {
+    font-size: 8.5px;
+    font-weight: 700;
+    padding: 2px 5px;
+    border-radius: 8px;
+    line-height: 1.3;
+    white-space: nowrap;
+  }
+
+  .status-green { background: #dcfce7; color: #16a34a; }
+  .status-red { background: #fee2e2; color: #cc1e2b; }
+  .status-blue { background: #dbeafe; color: #1d4ed8; }
+  .status-gray { background: #f1f5f9; color: #64748b; }
+
+  /* ===================== FOOTER ===================== */
+  .footer {
+    padding: 14px 16px 18px;
+    text-align: center;
+    background: #fff;
+    border-top: 1px solid #e8ecf2;
+  }
+
+  .footer-line1 {
+    font-size: 10px;
+    color: #94a3b8;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 5px;
+  }
+
+  .footer-line2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    font-size: 10px;
+    color: #cbd5e1;
+    font-weight: 500;
+    direction: ltr;
+  }
+
+  .home-indicator {
+    background: #fff;
+    padding: 10px 0 8px;
+    display: flex;
+    justify-content: center;
+  }
+  .home-bar {
+    width: 130px;
+    height: 5px;
+    background: #1a1a1a;
+    border-radius: 3px;
+  }
+</style>
+</head>
+<body>
+<div class="phone-shell">
+  <div class="phone-notch">
+    <div class="notch-bar"></div>
+  </div>
+
+  <div class="app-content">
+
+    <!-- HEADER -->
+    <header class="header">
+      <div class="header-top-row">
+        <div class="info-btn">i</div>
+        <div class="live-badge">
+          <span class="live-dot"></span>
+          שידור חי
+        </div>
+      </div>
+
+      <div class="header-center">
+        <div class="header-text">
+          <div class="header-title">מוניטור הבחירות</div>
+          <div class="header-subtitle">Israel Hayom Elections Monitor</div>
+        </div>
+        <!-- Israel Hayom Logo SVG -->
+        <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg" style="flex-shrink:0;">
+          <rect width="46" height="46" rx="10" fill="#1a2f7a"/>
+          <polygon points="5,36 19,10 24,10 10,36" fill="white" opacity="0.92"/>
+          <polygon points="14,36 28,10 33,10 19,36" fill="white" opacity="0.92"/>
+          <polygon points="23,36 37,10 42,10 28,36" fill="white" opacity="0.92"/>
+          <rect x="30" y="34" width="13" height="9" rx="2" fill="#cc1e2b"/>
+        </svg>
+      </div>
+
+      <button class="war-room-btn">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#1a2f7a" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        חדר מצב פוליטי
+      </button>
+    </header>
+
+    <div class="content">
+
+      <!-- HERO CARD -->
+      <div class="hero-card">
+        <svg class="hero-bg-art" viewBox="0 0 390 90" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMax slice">
+          <rect x="10" y="20" width="20" height="70" fill="white"/>
+          <rect x="36" y="10" width="16" height="80" fill="white"/>
+          <rect x="58" y="35" width="13" height="55" fill="white"/>
+          <rect x="77" y="5" width="22" height="85" fill="white"/>
+          <rect x="106" y="28" width="17" height="62" fill="white"/>
+          <rect x="130" y="18" width="14" height="72" fill="white"/>
+          <rect x="150" y="42" width="11" height="48" fill="white"/>
+          <rect x="167" y="2" width="24" height="88" fill="white"/>
+          <rect x="198" y="22" width="16" height="68" fill="white"/>
+          <rect x="220" y="14" width="19" height="76" fill="white"/>
+          <rect x="246" y="30" width="13" height="60" fill="white"/>
+          <rect x="265" y="8" width="18" height="82" fill="white"/>
+          <rect x="290" y="38" width="12" height="52" fill="white"/>
+          <rect x="308" y="20" width="21" height="70" fill="white"/>
+          <rect x="336" y="12" width="15" height="78" fill="white"/>
+          <rect x="358" y="32" width="13" height="58" fill="white"/>
+        </svg>
+
+        <div class="hero-top-row">
+          <div class="hero-live-badge">LIVE</div>
+          <div class="hero-time">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/>
+            </svg>
+            עודכן לפני 7 דקות
+          </div>
+        </div>
+
+        <div class="hero-question">מה קורה עכשיו פוליטית?</div>
+        <div class="hero-summary">
+          יחד חוצה את הליכוד לראשונה — 26 מנדטים לכל אחד.<br/>
+          האופוזיציה מובילה 56 מול 51 לקואליציה.<br/>
+          הפער עדיין רחוק מ-61 המנדטים הדרושים למהפך.
+        </div>
+      </div>
+
+      <!-- MOMENTUM CARD -->
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">מדד מומנטום 📊</div>
+          <div class="card-subtitle">בשבוע האחרון</div>
+        </div>
+
+        <div class="momentum-col-headers">
+          <div class="col-h" style="text-align:right;">גוש / מפלגה</div>
+          <div class="col-h">מנדטים</div>
+          <div class="col-h">מגמה</div>
+          <div class="col-h" style="text-align:right;">גרף מומנטום</div>
+        </div>
+
+        <div class="momentum-table">
+          <div class="momentum-row">
+            <div class="m-party">יחד</div>
+            <div class="m-seats">26</div>
+            <div class="m-trend trend-up">▲ +2.0</div>
+            <div class="m-sparkline">
+              <svg viewBox="0 0 90 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <polyline points="0,22 13,19 26,16 39,13 51,10 64,7 77,4 90,1" fill="none" stroke="#2563eb" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+          </div>
+
+          <div class="momentum-row">
+            <div class="m-party">ליכוד</div>
+            <div class="m-seats">26</div>
+            <div class="m-trend trend-down">▼ −1.6</div>
+            <div class="m-sparkline">
+              <svg viewBox="0 0 90 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <polyline points="0,18 13,14 26,10 39,6 51,4 64,2 77,5 90,14" fill="none" stroke="#2563eb" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+          </div>
+
+          <div class="momentum-row">
+            <div class="m-party">ש״ס</div>
+            <div class="m-seats">9</div>
+            <div class="m-trend trend-flat">→ 0.0</div>
+            <div class="m-sparkline">
+              <svg viewBox="0 0 90 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <polyline points="0,12 13,9 26,14 39,11 51,13 64,10 77,12 90,12" fill="none" stroke="#2563eb" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+          </div>
+
+          <div class="momentum-row">
+            <div class="m-party">עוצמה יהודית</div>
+            <div class="m-seats">9</div>
+            <div class="m-trend trend-flat">→ 0.0</div>
+            <div class="m-sparkline">
+              <svg viewBox="0 0 90 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <polyline points="0,11 13,14 26,10 39,13 51,11 64,14 77,11 90,12" fill="none" stroke="#2563eb" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+          </div>
+
+          <div class="momentum-row">
+            <div class="m-party">יהדות התורה</div>
+            <div class="m-seats">7</div>
+            <div class="m-trend trend-down">▼ −0.2</div>
+            <div class="m-sparkline">
+              <svg viewBox="0 0 90 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <polyline points="0,8 13,9 26,10 39,12 51,13 64,15 77,17 90,18" fill="none" stroke="#2563eb" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+          </div>
+
+          <div class="momentum-row">
+            <div class="m-party">הדמוקרטים</div>
+            <div class="m-seats">8</div>
+            <div class="m-trend trend-up">▲ +0.3</div>
+            <div class="m-sparkline">
+              <svg viewBox="0 0 90 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <polyline points="0,20 13,18 26,16 39,14 51,12 64,10 77,8 90,6" fill="none" stroke="#2563eb" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bloc bar -->
+        <div class="bloc-section">
+          <div class="bloc-labels">
+            <div class="bloc-label-group">
+              <div class="bloc-name">גוש מרכז-שמאל נרחב</div>
+              <div class="bloc-seats-row">
+                <span class="bloc-seats-left">56</span>
+                <span class="bloc-trend-up">▲+2.0</span>
+              </div>
+            </div>
+            <div class="bloc-label-group" style="align-items:flex-end;">
+              <div class="bloc-name">גוש הימין</div>
+              <div class="bloc-seats-row">
+                <span class="bloc-trend-down">▼−1.6</span>
+                <span class="bloc-seats-right">51</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="bloc-bar-container">
+            <div class="bloc-bar-wrap">
+              <div class="bloc-bar-opp"></div>
+              <div class="bloc-bar-right"></div>
+              <div class="majority-marker"></div>
+            </div>
+            <div class="majority-marker-label">61 מנדטים לרוב</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SOCIAL MONITOR CARD -->
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title"># מוניטור רשתות</div>
+          <div class="card-subtitle">נושאים חמים עכשיו</div>
+        </div>
+
+        <div class="hashtag-scroll">
+          <div class="hashtag-chip active">
+            <span class="chip-rank">1</span>
+            <span class="chip-tag"># עסקת חטופים</span>
+            <span class="chip-count">28.7K</span>
+          </div>
+          <div class="hashtag-chip">
+            <span class="chip-rank">2</span>
+            <span class="chip-tag"># ממשלת אחדות</span>
+            <span class="chip-count">18.2K</span>
+          </div>
+          <div class="hashtag-chip">
+            <span class="chip-rank">3</span>
+            <span class="chip-tag"># חוק הגיוס</span>
+            <span class="chip-count">12.4K</span>
+          </div>
+          <div class="hashtag-chip">
+            <span class="chip-rank">4</span>
+            <span class="chip-tag"># בחירות2026</span>
+            <span class="chip-count">9.1K</span>
+          </div>
+          <div class="hashtag-chip">
+            <span class="chip-rank">5</span>
+            <span class="chip-tag"># נתניהו</span>
+            <span class="chip-count">7.3K</span>
+          </div>
+        </div>
+
+        <div class="posts-section-header">
+          <div class="posts-section-title">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#1e293b" stroke-width="2.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+            פוסטים נבחרים
+          </div>
+          <div class="posts-link">הכל ←</div>
+        </div>
+
+        <div class="posts-carousel">
+          <div class="post-card">
+            <div class="post-header">
+              <div class="post-avatar" style="background:#7c3aed;">נב</div>
+              <div class="post-meta">
+                <div class="post-name-row">
+                  <span class="post-name">נפתלי בנט</span>
+                  <span class="verified-icon">✓</span>
+                </div>
+                <div class="post-handle-row">@naftalibennett <span class="post-time">· 9 דק׳</span></div>
+              </div>
+            </div>
+            <div class="post-text">יחד הוכחנו שאפשר לגבש גוש חזק. האיחוד הוא הצעד הנכון לישראל. ביחד נשנה את פני המדינה.</div>
+            <div class="post-stats">
+              <span class="post-stat">💬 38</span>
+              <span class="post-stat">🔄 24</span>
+              <span class="post-stat">❤️ 187</span>
+              <span class="post-stat">📊 4.8K</span>
+            </div>
+          </div>
+
+          <div class="post-card">
+            <div class="post-header">
+              <div class="post-avatar" style="background:#1d4ed8;">בנ</div>
+              <div class="post-meta">
+                <div class="post-name-row">
+                  <span class="post-name">בנימין נתניהו</span>
+                  <span class="verified-icon">✓</span>
+                </div>
+                <div class="post-handle-row">@Netanyahu <span class="post-time">· 12 דק׳</span></div>
+              </div>
+            </div>
+            <div class="post-text">הליכוד ממשיך להיות עמוד השדרה של ישראל. נקים ממשלה יציבה שתשמור על ביטחוננו.</div>
+            <div class="post-stats">
+              <span class="post-stat">💬 52</span>
+              <span class="post-stat">🔄 31</span>
+              <span class="post-stat">❤️ 213</span>
+              <span class="post-stat">📊 5.2K</span>
+            </div>
+          </div>
+
+          <div class="post-card">
+            <div class="post-header">
+              <div class="post-avatar" style="background:#0369a1;">אל</div>
+              <div class="post-meta">
+                <div class="post-name-row">
+                  <span class="post-name">אביגדור ליברמן</span>
+                  <span class="verified-icon">✓</span>
+                </div>
+                <div class="post-handle-row">@lieberman_av <span class="post-time">· 15 דק׳</span></div>
+              </div>
+            </div>
+            <div class="post-text">ישראל ביתנו מציגה תוכנית כלכלית שתוריד את יוקר המחיה. 9 מנדטים — כוח ממשי בכנסת.</div>
+            <div class="post-stats">
+              <span class="post-stat">💬 29</span>
+              <span class="post-stat">🔄 18</span>
+              <span class="post-stat">❤️ 142</span>
+              <span class="post-stat">📊 3.7K</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-dots">
+          <div class="dot active"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+        </div>
+      </div>
+
+      <!-- QUICK SIGNALS CARD -->
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">⚡ אותות מהירים</div>
+        </div>
+
+        <div class="signals-grid">
+          <div class="signal-chip">
+            <div class="signal-icon" style="background:#1a2f7a;">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5">
+                <rect x="3" y="12" width="4" height="9" rx="1"/><rect x="10" y="8" width="4" height="13" rx="1"/><rect x="17" y="4" width="4" height="17" rx="1"/>
+              </svg>
+            </div>
+            <div class="signal-label">סקרים</div>
+            <div class="signal-desc">ממוצע אחרון</div>
+            <div class="signal-status status-green">מעודכן</div>
+          </div>
+
+          <div class="signal-chip">
+            <div class="signal-icon" style="background:#fef3c7;">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#b45309" stroke-width="2.5">
+                <path d="M3 21h18"/><path d="M5 21V9l7-6 7 6v12"/><path d="M9 21v-6h6v6"/>
+              </svg>
+            </div>
+            <div class="signal-label">כנסת</div>
+            <div class="signal-desc">הצבעות היום</div>
+            <div class="signal-status status-red">● עדכונים</div>
+          </div>
+
+          <div class="signal-chip">
+            <div class="signal-icon" style="background:#dbeafe;">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1d4ed8" stroke-width="2.5">
+                <circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/>
+                <path d="M8.59 13.51l6.83 3.98M15.41 6.51l-6.82 3.98"/>
+              </svg>
+            </div>
+            <div class="signal-label">רשתות</div>
+            <div class="signal-desc">מדד שיח</div>
+            <div class="signal-status status-blue">↑ בעלייה</div>
+          </div>
+
+          <div class="signal-chip">
+            <div class="signal-icon" style="background:#fee2e2;">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#cc1e2b" stroke-width="2.5">
+                <circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/>
+              </svg>
+            </div>
+            <div class="signal-label">תחזית</div>
+            <div class="signal-desc">הכרעת תוצאה</div>
+            <div class="signal-status status-gray">יציבה →</div>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- end .content -->
+
+    <footer class="footer">
+      <div class="footer-line1">הנתונים נאספים אוטומטית ממקורות גלויים ומעודכנים בזמן אמת.</div>
+      <div class="footer-line2">
+        <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#cbd5e1" stroke-width="2">
+          <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+        </svg>
+        Israel Hayom Elections Monitor
+      </div>
+    </footer>
+
+  </div><!-- end .app-content -->
+
+  <div class="home-indicator">
+    <div class="home-bar"></div>
+  </div>
+
+</div><!-- end .phone-shell -->
+</body>
+</html>

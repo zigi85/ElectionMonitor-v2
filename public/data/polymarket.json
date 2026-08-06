@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-06-01T00:00:00Z",
+  "is_live": false,
+  "markets": [
+    {
+      "key": "next_pm",
+      "title": "ראש הממשלה הבא",
+      "slug": "who-will-be-the-next-prime-minister-of-israel-after-the-next-election",
+      "url": "https://polymarket.com/event/who-will-be-the-next-prime-minister-of-israel-after-the-next-election",
+      "updated_at": "2026-06-01T00:00:00Z",
+      "outcomes": [
+        { "name": "Benjamin Netanyahu", "probability": 0.401 },
+        { "name": "Naftali Bennett",    "probability": 0.391 },
+        { "name": "Gadi Eizenkot",      "probability": 0.111 },
+        { "name": "Avigdor Lieberman",  "probability": 0.071 }
+      ]
+    },
+    {
+      "key": "netanyahu_out",
+      "title": "נתניהו עוזב לפני 2027?",
+      "slug": "netanyahu-out-before-2027",
+      "url": "https://polymarket.com/event/netanyahu-out-before-2027",
+      "updated_at": "2026-06-01T00:00:00Z",
+      "outcomes": [
+        { "name": "Yes", "probability": 0.58 },
+        { "name": "No",  "probability": 0.42 }
+      ]
+    },
+    {
+      "key": "parliament_dissolved",
+      "title": "כנסת תתפזר עד 31.10.26?",
+      "slug": "israeli-parliament-dissolved-by-october-31",
+      "url": "https://polymarket.com/event/israeli-parliament-dissolved-by-october-31",
+      "updated_at": "2026-06-01T00:00:00Z",
+      "outcomes": [
+        { "name": "Yes", "probability": 0.72 },
+        { "name": "No",  "probability": 0.28 }
+      ]
+    },
+    {
+      "key": "eisenkot_join",
+      "title": "איזנקוט יצטרף לברית?",
+      "slug": "will-eisenkot-join-the-bennett-lapid-alliance-by-june-30",
+      "url": "https://polymarket.com/event/will-eisenkot-join-the-bennett-lapid-alliance-by-june-30",
+      "updated_at": "2026-06-01T00:00:00Z",
+      "outcomes": [
+        { "name": "Yes", "probability": 0.45 },
+        { "name": "No",  "probability": 0.55 }
+      ]
+    }
+  ]
+}

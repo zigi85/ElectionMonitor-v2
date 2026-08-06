@@ -1,0 +1,88 @@
+{
+  "generated_at": "2026-05-27T06:00:00Z",
+  "status": "ok",
+  "timeframe": "today 3-m",
+  "geo": "IL",
+  "keywords": [
+    {
+      "keyword": "ליכוד",
+      "keyword_en": "Likud",
+      "current_interest": 68,
+      "previous_interest": 72,
+      "change_pct": -5.6,
+      "direction": "stable",
+      "weekly_data": [
+        { "date": "2026-03-01", "value": 58 }, { "date": "2026-03-08", "value": 62 },
+        { "date": "2026-03-15", "value": 70 }, { "date": "2026-03-22", "value": 74 },
+        { "date": "2026-03-29", "value": 72 }, { "date": "2026-04-05", "value": 69 },
+        { "date": "2026-04-12", "value": 71 }, { "date": "2026-04-19", "value": 73 },
+        { "date": "2026-04-26", "value": 75 }, { "date": "2026-05-03", "value": 74 },
+        { "date": "2026-05-10", "value": 72 }, { "date": "2026-05-17", "value": 68 }
+      ]
+    },
+    {
+      "keyword": "נפתלי בנט",
+      "keyword_en": "Naftali Bennett",
+      "current_interest": 91,
+      "previous_interest": 71,
+      "change_pct": 28.2,
+      "direction": "rising",
+      "weekly_data": [
+        { "date": "2026-03-01", "value": 45 }, { "date": "2026-03-08", "value": 48 },
+        { "date": "2026-03-15", "value": 52 }, { "date": "2026-03-22", "value": 55 },
+        { "date": "2026-03-29", "value": 58 }, { "date": "2026-04-05", "value": 62 },
+        { "date": "2026-04-12", "value": 66 }, { "date": "2026-04-19", "value": 69 },
+        { "date": "2026-04-26", "value": 88 }, { "date": "2026-05-03", "value": 95 },
+        { "date": "2026-05-10", "value": 89 }, { "date": "2026-05-17", "value": 91 }
+      ]
+    },
+    {
+      "keyword": "בנימין נתניהו",
+      "keyword_en": "Benjamin Netanyahu",
+      "current_interest": 100,
+      "previous_interest": 94,
+      "change_pct": 6.4,
+      "direction": "stable",
+      "weekly_data": [
+        { "date": "2026-03-01", "value": 88 }, { "date": "2026-03-08", "value": 85 },
+        { "date": "2026-03-15", "value": 90 }, { "date": "2026-03-22", "value": 92 },
+        { "date": "2026-03-29", "value": 89 }, { "date": "2026-04-05", "value": 91 },
+        { "date": "2026-04-12", "value": 93 }, { "date": "2026-04-19", "value": 94 },
+        { "date": "2026-04-26", "value": 97 }, { "date": "2026-05-03", "value": 98 },
+        { "date": "2026-05-10", "value": 96 }, { "date": "2026-05-17", "value": 100 }
+      ]
+    },
+    {
+      "keyword": "יחד",
+      "keyword_en": "Together (alliance)",
+      "current_interest": 79,
+      "previous_interest": 52,
+      "change_pct": 51.9,
+      "direction": "rising",
+      "weekly_data": [
+        { "date": "2026-03-01", "value": 10 }, { "date": "2026-03-08", "value": 12 },
+        { "date": "2026-03-15", "value": 11 }, { "date": "2026-03-22", "value": 14 },
+        { "date": "2026-03-29", "value": 13 }, { "date": "2026-04-05", "value": 15 },
+        { "date": "2026-04-12", "value": 18 }, { "date": "2026-04-19", "value": 22 },
+        { "date": "2026-04-26", "value": 85 }, { "date": "2026-05-03", "value": 76 },
+        { "date": "2026-05-10", "value": 72 }, { "date": "2026-05-17", "value": 79 }
+      ]
+    },
+    {
+      "keyword": "בחירות 2026",
+      "keyword_en": "Elections 2026",
+      "current_interest": 74,
+      "previous_interest": 61,
+      "change_pct": 21.3,
+      "direction": "rising",
+      "weekly_data": [
+        { "date": "2026-03-01", "value": 38 }, { "date": "2026-03-08", "value": 42 },
+        { "date": "2026-03-15", "value": 45 }, { "date": "2026-03-22", "value": 48 },
+        { "date": "2026-03-29", "value": 51 }, { "date": "2026-04-05", "value": 55 },
+        { "date": "2026-04-12", "value": 57 }, { "date": "2026-04-19", "value": 59 },
+        { "date": "2026-04-26", "value": 68 }, { "date": "2026-05-03", "value": 71 },
+        { "date": "2026-05-10", "value": 70 }, { "date": "2026-05-17", "value": 74 }
+      ]
+    }
+  ]
+}

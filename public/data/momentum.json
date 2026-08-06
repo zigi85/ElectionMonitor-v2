@@ -1,0 +1,116 @@
+{
+  "generated_at": "2026-06-02T09:05:17Z",
+  "weights": {
+    "polls": 0.45,
+    "polymarket": 0.3,
+    "google_trends": 0.25
+  },
+  "degraded_sources": [],
+  "parties": [
+    {
+      "party": "likud",
+      "direction": "gaining",
+      "score": 0.6429,
+      "label": "הליכוד",
+      "signals": {
+        "polls": 1,
+        "polymarket": null,
+        "google_trends": 0
+      }
+    },
+    {
+      "party": "together",
+      "direction": "gaining",
+      "score": 1.0,
+      "label": "יחד",
+      "signals": {
+        "polls": 1,
+        "polymarket": null,
+        "google_trends": 1
+      }
+    },
+    {
+      "party": "shas",
+      "direction": "stable",
+      "score": 0.0,
+      "label": "ש״ס",
+      "signals": {
+        "polls": 0,
+        "polymarket": null,
+        "google_trends": null
+      }
+    },
+    {
+      "party": "yisrael_beiteinu",
+      "direction": "losing",
+      "score": -1.0,
+      "label": "ישראל ביתנו",
+      "signals": {
+        "polls": -1,
+        "polymarket": null,
+        "google_trends": null
+      }
+    },
+    {
+      "party": "democrats",
+      "direction": "stable",
+      "score": 0.0,
+      "label": "הדמוקרטים",
+      "signals": {
+        "polls": 0,
+        "polymarket": null,
+        "google_trends": null
+      }
+    },
+    {
+      "party": "otzma_yehudit",
+      "direction": "losing",
+      "score": -1.0,
+      "label": "עוצמה יהודית",
+      "signals": {
+        "polls": -1,
+        "polymarket": null,
+        "google_trends": null
+      }
+    },
+    {
+      "party": "yashar",
+      "direction": "stable",
+      "score": 0.0,
+      "label": "ישר",
+      "signals": {
+        "polls": null,
+        "polymarket": null,
+        "google_trends": null
+      }
+    },
+    {
+      "party": "reservists",
+      "direction": "stable",
+      "score": 0.0,
+      "label": "המילואימניקים",
+      "signals": {
+        "polls": null,
+        "polymarket": null,
+        "google_trends": null
+      }
+    }
+  ],
+  "blocs": {
+    "coalition": {
+      "seats": 47.0,
+      "delta": -0.5,
+      "direction": "stable"
+    },
+    "opposition": {
+      "seats": 58.6,
+      "delta": 23.6,
+      "direction": "gaining"
+    },
+    "unaligned": {
+      "seats": 11.5,
+      "delta": 7.0,
+      "direction": "gaining"
+    }
+  }
+}

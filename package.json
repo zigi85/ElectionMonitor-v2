@@ -1,0 +1,28 @@
+{
+  "name": "israel-hayom-elections-monitor",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "refresh-data": "python scripts/scrape_polls.py && python scripts/fetch_polymarket.py && python scripts/fetch_trends.py && python scripts/calculate_momentum.py",
+    "refresh-polls": "python scripts/scrape_polls.py",
+    "refresh-markets": "python scripts/fetch_polymarket.py && python scripts/calculate_momentum.py"
+  },
+  "dependencies": {
+    "next": "^15.5.18",
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.15.21",
+    "@types/react": "19.0.12",
+    "@types/react-dom": "19.0.4",
+    "eslint": "9.27.0",
+    "eslint-config-next": "^15.5.18",
+    "typescript": "5.8.3"
+  }
+}

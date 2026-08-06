@@ -1,0 +1,2384 @@
+{
+  "last_updated": "2026-05-30",
+  "timestamps": [
+    {
+      "id": "2025-12-05",
+      "label": "05.12.2025",
+      "polls": [
+        {
+          "outlet": "כאן 11",
+          "outlet_id": "kan11",
+          "parties": {
+            "likud": 27,
+            "yashar": 7,
+            "bennett": 22,
+            "yisrael_beiteinu": 9,
+            "shas": 9,
+            "yesh_atid": 10,
+            "democrats": 10,
+            "utj": 7,
+            "otzma_yehudit": 9,
+            "hadash_taal": 5,
+            "raam": 5
+          },
+          "total": 120
+        },
+        {
+          "outlet": "חדשות 12",
+          "outlet_id": "news12",
+          "parties": {
+            "likud": 25,
+            "yashar": 8,
+            "bennett": 21,
+            "yisrael_beiteinu": 9,
+            "shas": 9,
+            "yesh_atid": 9,
+            "democrats": 12,
+            "utj": 7,
+            "otzma_yehudit": 6,
+            "religious_zionism": 4,
+            "hadash_taal": 5,
+            "raam": 5
+          },
+          "total": 120
+        },
+        {
+          "outlet": "חדשות 13",
+          "outlet_id": "news13",
+          "parties": {
+            "likud": 23,
+            "yashar": 6,
+            "bennett": 19,
+            "yisrael_beiteinu": 10,
+            "shas": 10,
+            "yesh_atid": 9,
+            "democrats": 10,
+            "utj": 6,
+            "otzma_yehudit": 9,
+            "religious_zionism": 4,
+            "hadash_taal": 6,
+            "raam": 4,
+            "reservists": 4
+          },
+          "total": 120
+        },
+        {
+          "outlet": "ערוץ 14",
+          "outlet_id": "channel14",
+          "parties": {
+            "likud": 35,
+            "yashar": 7,
+            "bennett": 12,
+            "yisrael_beiteinu": 11,
+            "shas": 11,
+            "yesh_atid": 4,
+            "democrats": 10,
+            "utj": 8,
+            "otzma_yehudit": 7,
+            "religious_zionism": 5,
+            "hadash_taal": 5,
+            "raam": 5
+          },
+          "total": 120
+        },
+        {
+          "outlet": "ישראל היום",
+          "outlet_id": "israel_hayom",
+          "parties": {
+            "likud": 25,
+            "yashar": 7,
+            "bennett": 23,
+            "yisrael_beiteinu": 9,
+            "shas": 9,
+            "yesh_atid": 9,
+            "democrats": 9,
+            "utj": 7,
+            "otzma_yehudit": 8,
+            "hadash_taal": 5,
+            "raam": 5,
+            "reservists": 4
+          },
+          "total": 120
+        },
+        {
+          "outlet": "וואלה",
+          "outlet_id": "walla",
+          "parties": {
+            "likud": 26,
+            "yashar": 8,
+            "bennett": 22,
+            "yisrael_beiteinu": 9,
+            "shas": 8,
+            "yesh_atid": 9,
+            "democrats": 9,
+            "utj": 7,
+            "otzma_yehudit": 8,
+            "religious_zionism": 4,
+            "hadash_taal": 5,
+            "raam": 5
+          },
+          "total": 120
+        },
+        {
+          "outlet": "מעריב",
+          "outlet_id": "maariv",
+          "parties": {
+            "likud": 26,
+            "yashar": 8,
+            "bennett": 22,
+            "yisrael_beiteinu": 9,
+            "shas": 8,
+            "yesh_atid": 9,
+            "democrats": 9,
+            "utj": 7,
+            "otzma_yehudit": 8,
+            "religious_zionism": 4,
+            "hadash_taal": 5,
+            "raam": 5
+          },
+          "total": 120
+        },
+        {
+          "outlet": "i24",
+          "outlet_id": "i24",
+          "parties": {
+            "likud": 34,
+            "yashar": 6,
+            "bennett": 17,
+            "yisrael_beiteinu": 9,
+            "shas": 10,
+            "yesh_atid": 4,
+            "democrats": 10,
+            "utj": 8,
+            "otzma_yehudit": 6,
+            "religious_zionism": 5,
+            "hadash_taal": 5,
+            "raam": 6
+          },
+          "total": 120
+        }
+      ]
+    },
+    {
+      "id": "2025-12-12",
+      "label": "12.12.2025",
+      "polls": [
+        {
+          "outlet": "חדשות 12",
+          "outlet_id": "news12",
+          "parties": {
+            "likud": 27,
+            "yashar": 8,
+            "bennett": 22,
+            "yisrael_beiteinu": 9,
+            "shas": 9,
+            "yesh_atid": 9,
+            "democrats": 11,
+            "utj": 7,
+            "otzma_yehudit": 8,
+            "hadash_taal": 5,
+            "raam": 5
+          },
+          "total": 120
+        },
+        {
+          "outlet": "וואלה",
+          "outlet_id": "walla",
+          "parties": {
+            "likud": 28,
+            "yashar": 8,
+            "bennett": 20,
+            "yisrael_beiteinu": 11,
+            "shas": 9,
+            "yesh_atid": 8,
+            "democrats": 11,
+            "utj": 7,
+            "otzma_yehudit": 8,
+            "raam": 5,
+            "balad": 5
+          },
+          "total": 120
+        },
+        {
+          "outlet": "מעריב",
+          "outlet_id": "maariv",
+          "parties": {
+            "likud": 28,
+            "yashar": 8,
+            "bennett": 20,
+            "yisrael_beiteinu": 11,
+            "shas": 9,
+            "yesh_atid": 8,
+            "democrats": 11,
+            "utj": 7,
+            "otzma_yehudit": 8,
+            "raam": 5,
+            "balad": 5
+          },
+          "total": 120
+        }
+      ]
+    },
+    {
+      "id": "2026-01-01",
+      "label": "01.01.2026",
+      "polls": [
+        {
+          "outlet": "חדשות 12",
+          "outlet_id": "news12",
+          "parties": {
+            "likud": 26,
+            "yashar": 8,
+            "bennett": 21,
+            "yisrael_beiteinu": 9,
+            "shas": 9,
+            "yesh_atid": 10,
+            "democrats": 11,
+            "utj": 7,
+            "otzma_yehudit": 9,
+            "hadash_taal": 5,
+            "raam": 5
+          },
+          "total": 120
+        },
+        {
+          "outlet": "ערוץ 14",
+          "outlet_id": "channel14",
+          "parties": {
+            "likud": 35,
+            "yashar": 8,
+            "bennett": 11,
+            "yisrael_beiteinu": 9,
+            "shas": 11,
+            "yesh_atid": 6,
+            "democrats": 10,
+            "utj": 8,
+            "otzma_yehudit": 7,
+            "religious_zionism": 5,
+            "hadash_taal": 5,
+            "raam": 5
+          },
+          "total": 120
+        },
+        {
+          "outlet": "וואלה",
+          "outlet_id": "walla",
+          "parties": {
+            "likud": 27,
+            "yashar": 10,
+            "bennett": 19,
+            "yisrael_beiteinu": 10,
+            "shas": 8,
+            "yesh_atid": 9,
+            "democrats": 10,
+            "utj": 7,
+            "otzma_yehudit": 10,
+            "hadash_taal": 5,
+            "raam": 5
+          },
+          "total": 120,
+          "below_threshold_pcts": {
+            "blue_and_white": 2.0,
+            "religious_zionism": 2.8,
+            "balad": 2.0,
+            "reservists": 3.0
+          }
+        },
+        {
+          "outlet": "מעריב",
+          "outlet_id": "maariv",
+          "parties": {
+            "likud": 27,
+            "yashar": 10,
+            "bennett": 19,
+            "yisrael_beiteinu": 10,
+            "shas": 8,
+            "yesh_atid": 9,
+            "democrats": 10,
+            "utj": 7,
+            "otzma_yehudit": 10,
+            "hadash_taal": 5,
+            "raam": 5
+          },
+          "total": 120,
+          "below_threshold_pcts": {
+            "blue_and_white": 2.0,
+            "religious_zionism": 2.8,
+            "balad": 2.0,
+            "reservists": 3.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-01-08",
+      "label": "08.01.2026",
+      "polls": [
+        {
+          "outlet": "חדשות 12",
+          "outlet_id": "news12",
+          "parties": {
+            "likud": 25,
+            "yashar": 8,
+            "bennett": 21,
+            "yisrael_beiteinu": 8,
+            "shas": 8,
+            "yesh_atid": 9,
+            "democrats": 12,
+            "utj": 7,
+            "otzma_yehudit": 8,
+            "religious_zionism": 4,
+            "hadash_taal": 5,
+            "raam": 5
+          },
+          "total": 120,
+          "below_threshold_pcts": {
+            "blue_and_white": 0.6,
+            "balad": 1.3,
+            "reservists": 2.5
+          }
+        },
+        {
+          "outlet": "חדשות 13",
+          "outlet_id": "news13",
+          "parties": {
+            "likud": 26,
+            "yashar": 8,
+            "bennett": 24,
+            "yisrael_beiteinu": 8,
+            "shas": 10,
+            "yesh_atid": 7,
+            "democrats": 10,
+            "utj": 7,
+            "otzma_yehudit": 10,
+            "hadash_taal": 5,
+            "raam": 5
+          },
+          "total": 120
+        },
+        {
+          "outlet": "ערוץ 14",
+          "outlet_id": "channel14",
+          "parties": {
+            "likud": 35,
+            "yashar": 8,
+            "bennett": 13,
+            "yisrael_beiteinu": 9,
+            "shas": 11,
+            "yesh_atid": 6,
+            "democrats": 8,
+            "utj": 9,
+            "otzma_yehudit": 7,
+            "religious_zionism": 4,
+            "hadash_taal": 5,
+            "raam": 5
+          },
+          "total": 120,
+          "below_threshold_pcts": {
+            "blue_and_white": 1.4,
+            "balad": 2.1
+          }
+        },
+        {
+          "outlet": "i24",
+          "outlet_id": "i24",
+          "parties": {
+            "likud": 35,
+            "yashar": 4,
+            "bennett": 19,
+            "yisrael_beiteinu": 10,
+            "shas": 11,
+            "democrats": 10,
+            "utj": 9,
+            "otzma_yehudit": 7,
+            "religious_zionism": 5,
+            "hadash_taal": 5,
+            "raam": 5
+          },
+          "total": 120
+        }
+      ]
+    },
+    {
+      "id": "2026-01-15",
+      "label": "15.01.2026",
+      "polls": [
+        {
+          "outlet": "חדשות 12",
+          "outlet_id": "news12",
+          "parties": {
+            "likud": 26,
+            "yashar": 8,
+            "bennett": 22,
+            "yisrael_beiteinu": 8,
+            "shas": 8,
+            "yesh_atid": 9,
+            "democrats": 12,
+            "utj": 8,
+            "otzma_yehudit": 9,
+            "hadash_taal": 5,
+            "raam": 5
+          },
+          "total": 120,
+          "below_threshold_pcts": {
+            "blue_and_white": 2.4,
+            "balad": 1.7,
+            "reservists": 1.4
+          }
+        },
+        {
+          "outlet": "ערוץ 14",
+          "outlet_id": "channel14",
+          "parties": {
+            "likud": 35,
+            "yashar": 6,
+            "bennett": 11,
+            "yisrael_beiteinu": 10,
+            "shas": 11,
+            "yesh_atid": 5,
+            "democrats": 11,
+            "utj": 9,
+            "otzma_yehudit": 7,
+            "religious_zionism": 4,
+            "hadash_taal": 5,
+            "raam": 6
+          },
+          "total": 120,
+          "below_threshold_pcts": {
+            "blue_and_white": 2.8,
+            "balad": 2.1
+          }
+        },
+        {
+          "outlet": "ישראל היום",
+          "outlet_id": "israel_hayom",
+          "parties": {
+            "likud": 27,
+            "yashar": 9,
+            "bennett": 23,
+            "yisrael_beiteinu": 8,
+            "shas": 10,
+            "yesh_atid": 8,
+            "democrats": 9,
+            "utj": 7,
+            "otzma_yehudit": 9,
+            "hadash_taal": 5,
+            "raam": 5
+          },
+          "total": 120,
+          "below_threshold_pcts": {
+            "blue_and_white": 3.0,
+            "religious_zionism": 2.9,
+            "reservists": 2.7
+          }
+        },
+        {
+          "outlet": "וואלה",
+          "outlet_id": "walla",
+          "parties": {
+            "likud": 26,
+            "yashar": 11,
+            "bennett": 22,
+            "yisrael_beiteinu": 8,
+            "shas": 8,
+            "yesh_atid": 9,
+            "democrats": 10,
+            "utj": 7,
+            "otzma_yehudit": 10,
+            "hadash_taal": 5,
+            "raam": 4
+          },
+          "total": 120,
+          "below_threshold_pcts": {
+            "religious_zionism": 2.6,
+            "balad": 2.1,
+            "reservists": 2.6
+          }
+        },
+        {
+          "outlet": "מעריב",
+          "outlet_id": "maariv",
+          "parties": {
+            "likud": 26,
+            "yashar": 11,
+            "bennett": 22,
+            "yisrael_beiteinu": 8,
+            "shas": 8,
+            "yesh_atid": 9,
+            "democrats": 10,
+            "utj": 7,
+            "otzma_yehudit": 10,
+            "hadash_taal": 5,
+            "raam": 4
+          },
+          "total": 120,
+          "below_threshold_pcts": {
+            "religious_zionism": 2.6,
+            "balad": 2.1,
+            "reservists": 2.6
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-01-20",
+      "label": "20.01.2026",
+      "polls": [
+        {
+          "outlet": "חדשות 12",
+          "outlet_id": "news12",
+          "parties": {
+            "likud": 25,
+            "yashar": 9,
+            "bennett": 22,
+            "yisrael_beiteinu": 9,
+            "shas": 9,
+            "yesh_atid": 8,
+            "democrats": 11,
+            "utj": 8,
+            "otzma_yehudit": 9,
+            "hadash_taal": 5,
+            "raam": 5
+          },
+          "total": 120,
+          "below_threshold_pcts": {
+            "blue_and_white": 1.7,
+            "religious_zionism": 2.9,
+            "balad": 1.1,
+            "reservists": 2.7
+          }
+        },
+        {
+          "outlet": "חדשות 13",
+          "outlet_id": "news13",
+          "parties": {
+            "likud": 25,
+            "yashar": 7,
+            "bennett": 23,
+            "yisrael_beiteinu": 9,
+            "shas": 10,
+            "yesh_atid": 8,
+            "democrats": 9,
+            "utj": 7,
+            "otzma_yehudit": 9,
+            "hadash_taal": 5,
+            "raam": 4,
+            "balad": 4
+          },
+          "total": 120,
+          "below_threshold_pcts": {
+            "blue_and_white": 2.0,
+            "religious_zionism": 2.6,
+            "reservists": 2.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-01-29",
+      "label": "29.01.2026",
+      "polls": [
+        {
+          "outlet": "חדשות 12",
+          "outlet_id": "news12",
+          "parties": {
+            "likud": 27,
+            "yashar": 9,
+            "bennett": 21,
+            "yisrael_beiteinu": 8,
+            "shas": 9,
+            "yesh_atid": 8,
+            "democrats": 11,
+            "utj": 7,
+            "otzma_yehudit": 8,
+            "joint_list": 12
+          },
+          "total": 120,
+          "below_threshold_pcts": {
+            "blue_and_white": 1.8,
+            "religious_zionism": 2.9,
+            "reservists": 1.0
+          }
+        },
+        {
+          "outlet": "ערוץ 14",
+          "outlet_id": "channel14",
+          "parties": {
+            "likud": 34,
+            "yashar": 7,
+            "bennett": 12,
+            "yisrael_beiteinu": 9,
+            "shas": 10,
+            "yesh_atid": 6,
+            "democrats": 9,
+            "utj": 9,
+            "otzma_yehudit": 7,
+            "religious_zionism": 4,
+            "joint_list": 13
+          },
+          "total": 120
+        },
+        {
+          "outlet": "וואלה",
+          "outlet_id": "walla",
+          "parties": {
+            "likud": 27,
+            "yashar": 10,
+            "bennett": 22,
+            "yisrael_beiteinu": 9,
+            "shas": 8,
+            "yesh_atid": 7,
+            "democrats": 9,
+            "utj": 7,
+            "otzma_yehudit": 8,
+            "joint_list": 13
+          },
+          "total": 120,
+          "below_threshold_pcts": {
+            "blue_and_white": 2.7,
+            "religious_zionism": 2.22,
+            "reservists": 1.8
+          }
+        },
+        {
+          "outlet": "מעריב",
+          "outlet_id": "maariv",
+          "parties": {
+            "likud": 27,
+            "yashar": 10,
+            "bennett": 22,
+            "yisrael_beiteinu": 9,
+            "shas": 8,
+            "yesh_atid": 7,
+            "democrats": 9,
+            "utj": 7,
+            "otzma_yehudit": 8,
+            "joint_list": 13
+          },
+          "total": 120,
+          "below_threshold_pcts": {
+            "blue_and_white": 2.7,
+            "religious_zionism": 2.22,
+            "reservists": 1.8
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-02-06",
+      "label": "06.02.2026",
+      "polls": [
+        {
+          "outlet": "חדשות 12",
+          "outlet_id": "news12",
+          "parties": {
+            "likud": 26,
+            "yashar": 10,
+            "bennett": 23,
+            "yisrael_beiteinu": 8,
+            "shas": 9,
+            "yesh_atid": 7,
+            "democrats": 10,
+            "utj": 7,
+            "otzma_yehudit": 8,
+            "joint_list": 12
+          },
+          "total": 120,
+          "below_threshold_pcts": {
+            "religious_zionism": 1.9,
+            "reservists": 1.6
+          }
+        },
+        {
+          "outlet": "חדשות 13",
+          "outlet_id": "news13",
+          "parties": {
+            "likud": 26,
+            "yashar": 6,
+            "bennett": 22,
+            "yisrael_beiteinu": 7,
+            "shas": 9,
+            "yesh_atid": 8,
+            "democrats": 8,
+            "utj": 6,
+            "otzma_yehudit": 9,
+            "religious_zionism": 4,
+            "joint_list": 15
+          },
+          "total": 120
+        },
+        {
+          "outlet": "וואלה",
+          "outlet_id": "walla",
+          "parties": {
+            "likud": 26,
+            "yashar": 9,
+            "bennett": 24,
+            "yisrael_beiteinu": 9,
+            "shas": 8,
+            "yesh_atid": 7,
+            "democrats": 10,
+            "utj": 7,
+            "otzma_yehudit": 9,
+            "hadash_taal": 6,
+            "raam": 5
+          },
+          "total": 120,
+          "below_threshold_pcts": {
+            "blue_and_white": 2.5,
+            "religious_zionism": 2.5,
+            "reservists": 2.5
+          }
+        },
+        {
+          "outlet": "מעריב",
+          "outlet_id": "maariv",
+          "parties": {
+            "likud": 26,
+            "yashar": 9,
+            "bennett": 24,
+            "yisrael_beiteinu": 9,
+            "shas": 8,
+            "yesh_atid": 7,
+            "democrats": 10,
+            "utj": 7,
+            "otzma_yehudit": 9,
+            "hadash_taal": 6,
+            "raam": 5
+          },
+          "total": 120,
+          "below_threshold_pcts": {
+            "blue_and_white": 2.5,
+            "religious_zionism": 2.5,
+            "reservists": 2.5
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-02-13",
+      "label": "13.02.2026",
+      "polls": [
+        {
+          "outlet": "חדשות 12",
+          "outlet_id": "news12",
+          "parties": {
+            "likud": 26,
+            "yashar": 11,
+            "bennett": 21,
+            "yisrael_beiteinu": 9,
+            "shas": 9,
+            "yesh_atid": 7,
+            "democrats": 11,
+            "utj": 7,
+            "otzma_yehudit": 9,
+            "hadash_taal": 5,
+            "raam": 5
+          },
+          "total": 120,
+          "below_threshold_pcts": {
+            "religious_zionism": 2.3,
+            "reservists": 1.9
+          }
+        },
+        {
+          "outlet": "ערוץ 14",
+          "outlet_id": "channel14",
+          "parties": {
+            "likud": 35,
+            "yashar": 8,
+            "bennett": 10,
+            "yisrael_beiteinu": 8,
+            "shas": 10,
+            "yesh_atid": 5,
+            "democrats": 10,
+            "utj": 9,
+            "otzma_yehudit": 7,
+            "religious_zionism": 5,
+            "joint_list": 13
+          },
+          "total": 120
+        },
+        {
+          "outlet": "ישראל היום",
+          "outlet_id": "israel_hayom",
+          "parties": {
+            "likud": 27,
+            "yashar": 11,
+            "bennett": 21,
+            "yisrael_beiteinu": 9,
+            "shas": 9,
+            "yesh_atid": 7,
+            "democrats": 9,
+            "utj": 7,
+            "otzma_yehudit": 10,
+            "hadash_taal": 5,
+            "raam": 5
+          },
+          "total": 120,
+          "below_threshold_pcts": {
+            "blue_and_white": 2.9,
+            "religious_zionism": 2.7,
+            "balad": 2.3,
+            "reservists": 1.9
+          }
+        },
+        {
+          "outlet": "וואלה",
+          "outlet_id": "walla",
+          "parties": {
+            "likud": 25,
+            "yashar": 12,
+            "bennett": 21,
+            "yisrael_beiteinu": 9,
+            "shas": 8,
+            "yesh_atid": 9,
+            "democrats": 9,
+            "utj": 7,
+            "otzma_yehudit": 10,
+            "hadash_taal": 5,
+            "raam": 5
+          },
+          "total": 120,
+          "below_threshold_pcts": {
+            "blue_and_white": 2.5,
+            "religious_zionism": 2.5,
+            "balad": 2.0,
+            "reservists": 2.3
+          }
+        },
+        {
+          "outlet": "מעריב",
+          "outlet_id": "maariv",
+          "parties": {
+            "likud": 25,
+            "yashar": 12,
+            "bennett": 21,
+            "yisrael_beiteinu": 9,
+            "shas": 8,
+            "yesh_atid": 9,
+            "democrats": 9,
+            "utj": 7,
+            "otzma_yehudit": 10,
+            "hadash_taal": 5,
+            "raam": 5
+          },
+          "total": 120,
+          "below_threshold_pcts": {
+            "blue_and_white": 2.5,
+            "religious_zionism": 2.5,
+            "balad": 2.0,
+            "reservists": 2.3
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-02-20",
+      "label": "20.02.2026",
+      "polls": [
+        {
+          "outlet": "חדשות 12",
+          "outlet_id": "news12",
+          "parties": {
+            "likud": 26,
+            "yashar": 11,
+            "bennett": 21,
+            "yisrael_beiteinu": 8,
+            "shas": 9,
+            "yesh_atid": 7,
+            "democrats": 11,
+            "utj": 7,
+            "otzma_yehudit": 10,
+            "hadash_taal": 4,
+            "raam": 6
+          },
+          "total": 120,
+          "below_threshold_pcts": {
+            "blue_and_white": 2.9,
+            "religious_zionism": 2.8,
+            "balad": 1.4,
+            "reservists": 1.6
+          }
+        },
+        {
+          "outlet": "חדשות 13",
+          "outlet_id": "news13",
+          "parties": {
+            "likud": 25,
+            "yashar": 9,
+            "bennett": 22,
+            "yisrael_beiteinu": 8,
+            "shas": 10,
+            "yesh_atid": 9,
+            "democrats": 7,
+            "utj": 7,
+            "otzma_yehudit": 8,
+            "joint_list": 15
+          },
+          "total": 120,
+          "below_threshold_pcts": {
+            "reservists": 1.3
+          }
+        },
+        {
+          "outlet": "ערוץ 14",
+          "outlet_id": "channel14",
+          "parties": {
+            "likud": 33,
+            "yashar": 11,
+            "bennett": 10,
+            "yisrael_beiteinu": 8,
+            "shas": 11,
+            "yesh_atid": 4,
+            "democrats": 9,
+            "utj": 8,
+            "otzma_yehudit": 8,
+            "religious_zionism": 5,
+            "joint_list": 13
+          },
+          "total": 120
+        },
+        {
+          "outlet": "וואלה",
+          "outlet_id": "walla",
+          "parties": {
+            "likud": 26,
+            "yashar": 14,
+            "bennett": 19,
+            "yisrael_beiteinu": 8,
+            "shas": 8,
+            "yesh_atid": 8,
+            "democrats": 11,
+            "utj": 7,
+            "otzma_yehudit": 9,
+            "hadash_taal": 5,
+            "raam": 5
+          },
+          "total": 120,
+          "below_threshold_pcts": {
+            "blue_and_white": 2.8,
+            "religious_zionism": 2.2,
+            "balad": 1.5
+          }
+        },
+        {
+          "outlet": "מעריב",
+          "outlet_id": "maariv",
+          "parties": {
+            "likud": 26,
+            "yashar": 14,
+            "bennett": 19,
+            "yisrael_beiteinu": 8,
+            "shas": 8,
+            "yesh_atid": 8,
+            "democrats": 11,
+            "utj": 7,
+            "otzma_yehudit": 9,
+            "hadash_taal": 5,
+            "raam": 5
+          },
+          "total": 120,
+          "below_threshold_pcts": {
+            "blue_and_white": 2.8,
+            "religious_zionism": 2.2,
+            "balad": 1.5
+          }
+        },
+        {
+          "outlet": "i24",
+          "outlet_id": "i24",
+          "parties": {
+            "likud": 34,
+            "yashar": 11,
+            "bennett": 14,
+            "yisrael_beiteinu": 8,
+            "shas": 10,
+            "democrats": 9,
+            "utj": 8,
+            "otzma_yehudit": 8,
+            "religious_zionism": 4,
+            "joint_list": 14
+          },
+          "total": 120,
+          "below_threshold_pcts": {
+            "blue_and_white": 2.6
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-03-06",
+      "label": "06.03.2026",
+      "polls": [
+        {
+          "outlet": "חדשות 13",
+          "outlet_id": "news13",
+          "parties": {
+            "likud": 25,
+            "yashar": 13,
+            "bennett": 17,
+            "yisrael_beiteinu": 8,
+            "shas": 10,
+            "yesh_atid": 8,
+            "democrats": 7,
+            "utj": 7,
+            "otzma_yehudit": 9,
+            "joint_list": 16
+          },
+          "total": 120,
+          "below_threshold_pcts": {
+            "blue_and_white": 2.8,
+            "religious_zionism": 2.4,
+            "reservists": 1.4
+          }
+        },
+        {
+          "outlet": "וואלה",
+          "outlet_id": "walla",
+          "parties": {
+            "likud": 27,
+            "yashar": 14,
+            "bennett": 21,
+            "yisrael_beiteinu": 8,
+            "shas": 8,
+            "yesh_atid": 6,
+            "democrats": 10,
+            "utj": 7,
+            "otzma_yehudit": 9,
+            "hadash_taal": 5,
+            "raam": 5
+          },
+          "total": 120,
+          "below_threshold_pcts": {
+            "blue_and_white": 2.0,
+            "balad": 1.6
+          }
+        },
+        {
+          "outlet": "מעריב",
+          "outlet_id": "maariv",
+          "parties": {
+            "likud": 27,
+            "yashar": 14,
+            "bennett": 21,
+            "yisrael_beiteinu": 8,
+            "shas": 8,
+            "yesh_atid": 6,
+            "democrats": 10,
+            "utj": 7,
+            "otzma_yehudit": 9,
+            "hadash_taal": 5,
+            "raam": 5
+          },
+          "total": 120,
+          "below_threshold_pcts": {
+            "blue_and_white": 2.0,
+            "balad": 1.6
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-03-13",
+      "label": "13.03.2026",
+      "polls": [
+        {
+          "outlet": "חדשות 12",
+          "outlet_id": "news12",
+          "parties": {
+            "likud": 26,
+            "yashar": 11,
+            "bennett": 21,
+            "yisrael_beiteinu": 9,
+            "shas": 9,
+            "yesh_atid": 6,
+            "democrats": 12,
+            "utj": 7,
+            "otzma_yehudit": 9,
+            "hadash_taal": 5,
+            "raam": 5
+          },
+          "total": 120,
+          "below_threshold_pcts": {
+            "blue_and_white": 1.5,
+            "religious_zionism": 2.3,
+            "reservists": 1.4
+          }
+        },
+        {
+          "outlet": "וואלה",
+          "outlet_id": "walla",
+          "parties": {
+            "likud": 27,
+            "yashar": 13,
+            "bennett": 22,
+            "yisrael_beiteinu": 8,
+            "shas": 8,
+            "yesh_atid": 7,
+            "democrats": 10,
+            "utj": 7,
+            "otzma_yehudit": 8,
+            "hadash_taal": 5,
+            "raam": 5
+          },
+          "total": 120,
+          "below_threshold_pcts": {
+            "blue_and_white": 1.3,
+            "religious_zionism": 3.0,
+            "balad": 1.4,
+            "reservists": 2.8
+          }
+        },
+        {
+          "outlet": "מעריב",
+          "outlet_id": "maariv",
+          "parties": {
+            "likud": 27,
+            "yashar": 13,
+            "bennett": 22,
+            "yisrael_beiteinu": 8,
+            "shas": 8,
+            "yesh_atid": 7,
+            "democrats": 10,
+            "utj": 7,
+            "otzma_yehudit": 8,
+            "hadash_taal": 5,
+            "raam": 5
+          },
+          "total": 120,
+          "below_threshold_pcts": {
+            "blue_and_white": 1.3,
+            "religious_zionism": 3.0,
+            "balad": 1.4,
+            "reservists": 2.8
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-03-20",
+      "label": "20.03.2026",
+      "polls": [
+        {
+          "outlet": "חדשות 12",
+          "outlet_id": "news12",
+          "parties": {
+            "likud": 28,
+            "yashar": 12,
+            "bennett": 20,
+            "yisrael_beiteinu": 9,
+            "shas": 9,
+            "yesh_atid": 6,
+            "democrats": 12,
+            "utj": 7,
+            "otzma_yehudit": 7,
+            "hadash_taal": 5,
+            "raam": 5
+          },
+          "total": 120
+        },
+        {
+          "outlet": "ערוץ 14",
+          "outlet_id": "channel14",
+          "parties": {
+            "likud": 36,
+            "yashar": 11,
+            "bennett": 10,
+            "yisrael_beiteinu": 8,
+            "shas": 10,
+            "yesh_atid": 4,
+            "democrats": 9,
+            "utj": 9,
+            "otzma_yehudit": 7,
+            "religious_zionism": 4,
+            "joint_list": 12
+          },
+          "total": 120,
+          "below_threshold_pcts": {
+            "blue_and_white": 1.4
+          }
+        },
+        {
+          "outlet": "וואלה",
+          "outlet_id": "walla",
+          "parties": {
+            "likud": 28,
+            "yashar": 11,
+            "bennett": 21,
+            "yisrael_beiteinu": 10,
+            "shas": 8,
+            "yesh_atid": 8,
+            "democrats": 10,
+            "utj": 7,
+            "otzma_yehudit": 7,
+            "hadash_taal": 5,
+            "raam": 5
+          },
+          "total": 120,
+          "below_threshold_pcts": {
+            "blue_and_white": 2.9,
+            "religious_zionism": 2.9,
+            "balad": 1.4,
+            "reservists": 2.0
+          }
+        },
+        {
+          "outlet": "מעריב",
+          "outlet_id": "maariv",
+          "parties": {
+            "likud": 28,
+            "yashar": 11,
+            "bennett": 21,
+            "yisrael_beiteinu": 10,
+            "shas": 8,
+            "yesh_atid": 8,
+            "democrats": 10,
+            "utj": 7,
+            "otzma_yehudit": 7,
+            "hadash_taal": 5,
+            "raam": 5
+          },
+          "total": 120,
+          "below_threshold_pcts": {
+            "blue_and_white": 2.9,
+            "religious_zionism": 2.9,
+            "balad": 1.4,
+            "reservists": 2.0
+          }
+        },
+        {
+          "outlet": "i24",
+          "outlet_id": "i24",
+          "parties": {
+            "likud": 34,
+            "yashar": 13,
+            "bennett": 13,
+            "yisrael_beiteinu": 7,
+            "shas": 10,
+            "yesh_atid": 4,
+            "democrats": 9,
+            "utj": 8,
+            "otzma_yehudit": 7,
+            "religious_zionism": 4,
+            "hadash_taal": 4,
+            "raam": 7
+          },
+          "total": 120
+        }
+      ]
+    },
+    {
+      "id": "2026-03-27",
+      "label": "27.03.2026",
+      "polls": [
+        {
+          "outlet": "כאן 11",
+          "outlet_id": "kan11",
+          "parties": {
+            "likud": 28,
+            "yashar": 13,
+            "bennett": 19,
+            "yisrael_beiteinu": 8,
+            "shas": 9,
+            "yesh_atid": 7,
+            "democrats": 9,
+            "utj": 8,
+            "otzma_yehudit": 8,
+            "hadash_taal": 6,
+            "raam": 5
+          },
+          "total": 120
+        },
+        {
+          "outlet": "חדשות 13",
+          "outlet_id": "news13",
+          "parties": {
+            "likud": 25,
+            "yashar": 13,
+            "bennett": 18,
+            "yisrael_beiteinu": 8,
+            "shas": 10,
+            "yesh_atid": 7,
+            "democrats": 7,
+            "utj": 7,
+            "otzma_yehudit": 9,
+            "religious_zionism": 4,
+            "hadash_taal": 7,
+            "raam": 5
+          },
+          "total": 120
+        }
+      ]
+    },
+    {
+      "id": "2026-04-01",
+      "label": "01.04.2026",
+      "polls": [
+        {
+          "outlet": "וואלה",
+          "outlet_id": "walla",
+          "parties": {
+            "likud": 25,
+            "yashar": 14,
+            "bennett": 22,
+            "yisrael_beiteinu": 8,
+            "shas": 9,
+            "yesh_atid": 8,
+            "democrats": 9,
+            "utj": 7,
+            "otzma_yehudit": 8,
+            "hadash_taal": 6,
+            "raam": 4
+          },
+          "total": 120,
+          "below_threshold_pcts": {
+            "blue_and_white": 1.4,
+            "religious_zionism": 2.1,
+            "balad": 1.2,
+            "reservists": 1.4
+          }
+        },
+        {
+          "outlet": "מעריב",
+          "outlet_id": "maariv",
+          "parties": {
+            "likud": 25,
+            "yashar": 14,
+            "bennett": 22,
+            "yisrael_beiteinu": 8,
+            "shas": 9,
+            "yesh_atid": 8,
+            "democrats": 9,
+            "utj": 7,
+            "otzma_yehudit": 8,
+            "hadash_taal": 6,
+            "raam": 4
+          },
+          "total": 120,
+          "below_threshold_pcts": {
+            "blue_and_white": 1.4,
+            "religious_zionism": 2.1,
+            "balad": 1.2,
+            "reservists": 1.4
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-04-10",
+      "label": "10.04.2026",
+      "polls": [
+        {
+          "outlet": "כאן 11",
+          "outlet_id": "kan11",
+          "parties": {
+            "likud": 25,
+            "yashar": 14,
+            "bennett": 19,
+            "yisrael_beiteinu": 9,
+            "shas": 9,
+            "yesh_atid": 6,
+            "democrats": 11,
+            "utj": 7,
+            "otzma_yehudit": 10,
+            "hadash_taal": 5,
+            "raam": 5
+          },
+          "total": 120,
+          "below_threshold_pcts": {
+            "blue_and_white": 1.7,
+            "religious_zionism": 2.4,
+            "balad": 1.8
+          }
+        },
+        {
+          "outlet": "חדשות 12",
+          "outlet_id": "news12",
+          "parties": {
+            "likud": 25,
+            "yashar": 13,
+            "bennett": 22,
+            "yisrael_beiteinu": 9,
+            "shas": 9,
+            "yesh_atid": 7,
+            "democrats": 10,
+            "utj": 7,
+            "otzma_yehudit": 9,
+            "hadash_taal": 5,
+            "raam": 5
+          },
+          "total": 121,
+          "below_threshold_pcts": {
+            "blue_and_white": 1.5,
+            "balad": 0.9,
+            "reservists": 0.9
+          }
+        },
+        {
+          "outlet": "חדשות 13",
+          "outlet_id": "news13",
+          "parties": {
+            "likud": 22,
+            "yashar": 12,
+            "bennett": 21,
+            "yisrael_beiteinu": 8,
+            "shas": 10,
+            "yesh_atid": 6,
+            "democrats": 8,
+            "utj": 7,
+            "otzma_yehudit": 10,
+            "religious_zionism": 5,
+            "hadash_taal": 6,
+            "raam": 5
+          },
+          "total": 120
+        },
+        {
+          "outlet": "ערוץ 14",
+          "outlet_id": "channel14",
+          "parties": {
+            "likud": 35,
+            "yashar": 12,
+            "bennett": 10,
+            "yisrael_beiteinu": 8,
+            "shas": 10,
+            "yesh_atid": 4,
+            "democrats": 10,
+            "utj": 9,
+            "otzma_yehudit": 7,
+            "religious_zionism": 4,
+            "joint_list": 11
+          },
+          "total": 120,
+          "below_threshold_pcts": {
+            "blue_and_white": 1.8
+          }
+        },
+        {
+          "outlet": "i24",
+          "outlet_id": "i24",
+          "parties": {
+            "likud": 32,
+            "yashar": 14,
+            "bennett": 11,
+            "yisrael_beiteinu": 10,
+            "shas": 10,
+            "democrats": 10,
+            "utj": 9,
+            "otzma_yehudit": 9,
+            "religious_zionism": 4,
+            "hadash_taal": 4,
+            "raam": 7
+          },
+          "total": 120,
+          "below_threshold_pcts": {
+            "yesh_atid": 2.7,
+            "blue_and_white": 1.8,
+            "balad": 2.3
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-04-17",
+      "label": "17.04.2026",
+      "polls": [
+        {
+          "outlet": "חדשות 12",
+          "outlet_id": "news12",
+          "parties": {
+            "likud": 25,
+            "yashar": 14,
+            "bennett": 20,
+            "yisrael_beiteinu": 9,
+            "shas": 9,
+            "yesh_atid": 6,
+            "democrats": 10,
+            "utj": 7,
+            "otzma_yehudit": 10,
+            "hadash_taal": 5,
+            "raam": 5
+          },
+          "total": 120,
+          "below_threshold_pcts": {
+            "blue_and_white": 2.0,
+            "religious_zionism": 2.8,
+            "balad": 1.4,
+            "reservists": 2.2
+          }
+        },
+        {
+          "outlet": "ערוץ 14",
+          "outlet_id": "channel14",
+          "parties": {
+            "likud": 35,
+            "yashar": 13,
+            "bennett": 11,
+            "yisrael_beiteinu": 9,
+            "shas": 11,
+            "democrats": 10,
+            "utj": 8,
+            "otzma_yehudit": 7,
+            "religious_zionism": 4,
+            "joint_list": 12
+          },
+          "total": 120,
+          "below_threshold_pcts": {
+            "yesh_atid": 2.9,
+            "blue_and_white": 1.2
+          }
+        },
+        {
+          "outlet": "ישראל היום",
+          "outlet_id": "israel_hayom",
+          "parties": {
+            "likud": 26,
+            "yashar": 14,
+            "bennett": 20,
+            "yisrael_beiteinu": 8,
+            "shas": 9,
+            "yesh_atid": 6,
+            "democrats": 9,
+            "utj": 7,
+            "otzma_yehudit": 10,
+            "hadash_taal": 6,
+            "raam": 5
+          },
+          "total": 120
+        },
+        {
+          "outlet": "וואלה",
+          "outlet_id": "walla",
+          "parties": {
+            "likud": 25,
+            "yashar": 12,
+            "bennett": 24,
+            "yisrael_beiteinu": 9,
+            "shas": 9,
+            "yesh_atid": 7,
+            "democrats": 9,
+            "utj": 7,
+            "otzma_yehudit": 8,
+            "hadash_taal": 5,
+            "raam": 5
+          },
+          "total": 120,
+          "below_threshold_pcts": {
+            "balad": 2.0
+          }
+        },
+        {
+          "outlet": "מעריב",
+          "outlet_id": "maariv",
+          "parties": {
+            "likud": 25,
+            "yashar": 12,
+            "bennett": 24,
+            "yisrael_beiteinu": 9,
+            "shas": 9,
+            "yesh_atid": 7,
+            "democrats": 9,
+            "utj": 7,
+            "otzma_yehudit": 8,
+            "hadash_taal": 5,
+            "raam": 5
+          },
+          "total": 120,
+          "below_threshold_pcts": {
+            "balad": 2.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-04-24",
+      "label": "24.04.2026",
+      "polls": [
+        {
+          "outlet": "חדשות 12",
+          "outlet_id": "news12",
+          "parties": {
+            "likud": 25,
+            "yashar": 14,
+            "bennett": 21,
+            "yisrael_beiteinu": 8,
+            "shas": 9,
+            "yesh_atid": 7,
+            "democrats": 10,
+            "utj": 7,
+            "otzma_yehudit": 9,
+            "hadash_taal": 5,
+            "raam": 5
+          },
+          "total": 120,
+          "below_threshold_pcts": {
+            "blue_and_white": 0.8,
+            "religious_zionism": 2.7,
+            "balad": 0.4,
+            "reservists": 1.3
+          }
+        },
+        {
+          "outlet": "ערוץ 14",
+          "outlet_id": "channel14",
+          "parties": {
+            "likud": 35,
+            "yashar": 12,
+            "bennett": 10,
+            "yisrael_beiteinu": 9,
+            "shas": 11,
+            "yesh_atid": 4,
+            "democrats": 8,
+            "utj": 8,
+            "otzma_yehudit": 8,
+            "religious_zionism": 4,
+            "joint_list": 11
+          },
+          "total": 120,
+          "below_threshold_pcts": {
+            "blue_and_white": 1.2
+          }
+        },
+        {
+          "outlet": "וואלה",
+          "outlet_id": "walla",
+          "parties": {
+            "likud": 24,
+            "yashar": 12,
+            "bennett": 24,
+            "yisrael_beiteinu": 9,
+            "shas": 9,
+            "yesh_atid": 7,
+            "democrats": 9,
+            "utj": 7,
+            "otzma_yehudit": 9,
+            "hadash_taal": 5,
+            "raam": 5
+          },
+          "total": 120,
+          "below_threshold_pcts": {
+            "blue_and_white": 1.7,
+            "religious_zionism": 2.8,
+            "balad": 1.4,
+            "reservists": 2.0
+          }
+        },
+        {
+          "outlet": "מעריב",
+          "outlet_id": "maariv",
+          "parties": {
+            "likud": 24,
+            "yashar": 12,
+            "bennett": 24,
+            "yisrael_beiteinu": 9,
+            "shas": 9,
+            "yesh_atid": 7,
+            "democrats": 9,
+            "utj": 7,
+            "otzma_yehudit": 9,
+            "hadash_taal": 5,
+            "raam": 5
+          },
+          "total": 120,
+          "below_threshold_pcts": {
+            "blue_and_white": 1.7,
+            "religious_zionism": 2.8,
+            "balad": 1.4,
+            "reservists": 2.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-04-27",
+      "label": "27.04.2026",
+      "polls": [
+        {
+          "outlet": "כאן 11",
+          "outlet_id": "kan11",
+          "parties": {
+            "likud": 27,
+            "yashar": 15,
+            "together": 24,
+            "yisrael_beiteinu": 8,
+            "shas": 9,
+            "democrats": 11,
+            "utj": 7,
+            "otzma_yehudit": 9,
+            "hadash_taal": 6,
+            "raam": 6
+          },
+          "total": 122
+        },
+        {
+          "outlet": "חדשות 12",
+          "outlet_id": "news12",
+          "parties": {
+            "likud": 25,
+            "yashar": 15,
+            "together": 26,
+            "yisrael_beiteinu": 9,
+            "shas": 9,
+            "democrats": 10,
+            "utj": 7,
+            "otzma_yehudit": 9,
+            "hadash_taal": 5,
+            "raam": 5
+          },
+          "total": 120,
+          "below_threshold_pcts": {
+            "balad": 1.8
+          }
+        },
+        {
+          "outlet": "חדשות 13",
+          "outlet_id": "news13",
+          "parties": {
+            "likud": 26,
+            "yashar": 12,
+            "together": 26,
+            "yisrael_beiteinu": 6,
+            "shas": 10,
+            "democrats": 8,
+            "utj": 7,
+            "otzma_yehudit": 10,
+            "religious_zionism": 4,
+            "hadash_taal": 6,
+            "raam": 5
+          },
+          "total": 120
+        },
+        {
+          "outlet": "וואלה",
+          "outlet_id": "walla",
+          "parties": {
+            "likud": 28,
+            "yashar": 15,
+            "together": 27,
+            "yisrael_beiteinu": 8,
+            "shas": 8,
+            "democrats": 9,
+            "utj": 7,
+            "otzma_yehudit": 8,
+            "hadash_taal": 5,
+            "raam": 5
+          },
+          "total": 120
+        },
+        {
+          "outlet": "מעריב",
+          "outlet_id": "maariv",
+          "parties": {
+            "likud": 28,
+            "yashar": 15,
+            "together": 27,
+            "yisrael_beiteinu": 8,
+            "shas": 8,
+            "democrats": 9,
+            "utj": 7,
+            "otzma_yehudit": 8,
+            "hadash_taal": 5,
+            "raam": 5
+          },
+          "total": 120
+        },
+        {
+          "outlet": "i24",
+          "outlet_id": "i24",
+          "parties": {
+            "likud": 33,
+            "yashar": 8,
+            "together": 24,
+            "yisrael_beiteinu": 6,
+            "shas": 11,
+            "democrats": 9,
+            "utj": 8,
+            "otzma_yehudit": 6,
+            "religious_zionism": 4,
+            "hadash_taal": 4,
+            "raam": 7
+          },
+          "total": 120
+        }
+      ]
+    },
+    {
+      "id": "2026-05-01",
+      "label": "01.05.2026",
+      "polls": [
+        {
+          "outlet": "ישראל היום",
+          "outlet_id": "israel_hayom",
+          "parties": {
+            "likud": 28,
+            "yashar": 16,
+            "together": 23,
+            "yisrael_beiteinu": 9,
+            "shas": 8,
+            "democrats": 9,
+            "utj": 7,
+            "otzma_yehudit": 9,
+            "hadash_taal": 6,
+            "raam": 5
+          },
+          "total": 120
+        },
+        {
+          "outlet": "וואלה",
+          "outlet_id": "walla",
+          "parties": {
+            "likud": 26,
+            "yashar": 14,
+            "together": 28,
+            "yisrael_beiteinu": 8,
+            "shas": 8,
+            "democrats": 10,
+            "utj": 7,
+            "otzma_yehudit": 9,
+            "hadash_taal": 5,
+            "raam": 5
+          },
+          "total": 120,
+          "below_threshold_pcts": {
+            "blue_and_white": 1.4,
+            "religious_zionism": 1.5,
+            "balad": 1.0,
+            "reservists": 2.8
+          }
+        },
+        {
+          "outlet": "מעריב",
+          "outlet_id": "maariv",
+          "parties": {
+            "likud": 26,
+            "yashar": 14,
+            "together": 28,
+            "yisrael_beiteinu": 8,
+            "shas": 8,
+            "democrats": 10,
+            "utj": 7,
+            "otzma_yehudit": 9,
+            "hadash_taal": 5,
+            "raam": 5
+          },
+          "total": 120,
+          "below_threshold_pcts": {
+            "blue_and_white": 1.4,
+            "religious_zionism": 1.5,
+            "balad": 1.0,
+            "reservists": 2.8
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-05-08",
+      "label": "08.05.2026",
+      "polls": [
+        {
+          "outlet": "חדשות 12",
+          "outlet_id": "news12",
+          "parties": {
+            "likud": 25,
+            "yashar": 14,
+            "together": 25,
+            "yisrael_beiteinu": 9,
+            "shas": 9,
+            "democrats": 11,
+            "utj": 8,
+            "otzma_yehudit": 9,
+            "hadash_taal": 5,
+            "raam": 5
+          },
+          "total": 120
+        },
+        {
+          "outlet": "חדשות 13",
+          "outlet_id": "news13",
+          "parties": {
+            "likud": 34,
+            "yashar": 13,
+            "together": 16,
+            "yisrael_beiteinu": 8,
+            "shas": 10,
+            "democrats": 8,
+            "utj": 8,
+            "otzma_yehudit": 8,
+            "religious_zionism": 5,
+            "hadash_taal": 5,
+            "raam": 5
+          },
+          "total": 120,
+          "below_threshold_pcts": {
+            "blue_and_white": 1.8,
+            "balad": 2.1
+          }
+        },
+        {
+          "outlet": "וואלה",
+          "outlet_id": "walla",
+          "parties": {
+            "likud": 26,
+            "yashar": 15,
+            "together": 26,
+            "yisrael_beiteinu": 9,
+            "shas": 8,
+            "democrats": 10,
+            "utj": 7,
+            "otzma_yehudit": 9,
+            "hadash_taal": 5,
+            "raam": 5
+          },
+          "total": 120,
+          "below_threshold_pcts": {
+            "blue_and_white": 1.9,
+            "religious_zionism": 2.5,
+            "joint_list": 1.8,
+            "reservists": 2.6
+          }
+        },
+        {
+          "outlet": "מעריב",
+          "outlet_id": "maariv",
+          "parties": {
+            "likud": 26,
+            "yashar": 15,
+            "together": 26,
+            "yisrael_beiteinu": 9,
+            "shas": 8,
+            "democrats": 10,
+            "utj": 7,
+            "otzma_yehudit": 9,
+            "hadash_taal": 5,
+            "raam": 5
+          },
+          "total": 120,
+          "below_threshold_pcts": {
+            "blue_and_white": 1.9,
+            "religious_zionism": 2.5,
+            "joint_list": 1.8,
+            "reservists": 2.6
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-05-15",
+      "label": "15.05.2026",
+      "polls": [
+        {
+          "outlet": "כאן 11",
+          "outlet_id": "kan11",
+          "parties": {
+            "likud": 26,
+            "yashar": 15,
+            "together": 25,
+            "yisrael_beiteinu": 9,
+            "shas": 9,
+            "democrats": 10,
+            "utj": 7,
+            "otzma_yehudit": 9,
+            "hadash_taal": 5,
+            "raam": 5
+          },
+          "total": 120
+        },
+        {
+          "outlet": "חדשות 12",
+          "outlet_id": "news12",
+          "parties": {
+            "likud": 26,
+            "yashar": 15,
+            "together": 24,
+            "yisrael_beiteinu": 9,
+            "shas": 9,
+            "democrats": 10,
+            "utj": 8,
+            "otzma_yehudit": 9,
+            "hadash_taal": 5,
+            "raam": 5
+          },
+          "total": 120
+        },
+        {
+          "outlet": "חדשות 13",
+          "outlet_id": "news13",
+          "parties": {
+            "likud": 25,
+            "yashar": 12,
+            "together": 26,
+            "yisrael_beiteinu": 7,
+            "shas": 10,
+            "democrats": 9,
+            "utj": 7,
+            "otzma_yehudit": 10,
+            "religious_zionism": 4,
+            "hadash_taal": 5,
+            "raam": 5
+          },
+          "total": 120
+        },
+        {
+          "outlet": "ערוץ 14",
+          "outlet_id": "channel14",
+          "parties": {
+            "likud": 33,
+            "yashar": 14,
+            "together": 16,
+            "yisrael_beiteinu": 7,
+            "shas": 10,
+            "democrats": 9,
+            "utj": 7,
+            "otzma_yehudit": 8,
+            "hadash_taal": 5,
+            "raam": 6
+          },
+          "total": 115
+        },
+        {
+          "outlet": "וואלה",
+          "outlet_id": "walla",
+          "parties": {
+            "likud": 25,
+            "yashar": 16,
+            "together": 26,
+            "yisrael_beiteinu": 9,
+            "shas": 9,
+            "democrats": 10,
+            "utj": 7,
+            "otzma_yehudit": 8,
+            "hadash_taal": 5,
+            "raam": 5
+          },
+          "total": 120,
+          "below_threshold_pcts": {
+            "blue_and_white": 2.3
+          }
+        },
+        {
+          "outlet": "מעריב",
+          "outlet_id": "maariv",
+          "parties": {
+            "likud": 25,
+            "yashar": 16,
+            "together": 26,
+            "yisrael_beiteinu": 9,
+            "shas": 9,
+            "democrats": 10,
+            "utj": 7,
+            "otzma_yehudit": 8,
+            "hadash_taal": 5,
+            "raam": 5
+          },
+          "total": 120,
+          "below_threshold_pcts": {
+            "blue_and_white": 2.3
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-05-21",
+      "label": "21.05.2026",
+      "polls": [
+        {
+          "outlet": "כאן 11",
+          "outlet_id": "kan11",
+          "parties": {
+            "likud": 27,
+            "yashar": 16,
+            "together": 23,
+            "yisrael_beiteinu": 8,
+            "shas": 9,
+            "democrats": 10,
+            "utj": 8,
+            "otzma_yehudit": 9,
+            "hadash_taal": 5,
+            "raam": 5
+          },
+          "total": 120,
+          "below_threshold_pcts": {
+            "blue_and_white": 1.1,
+            "religious_zionism": 3.1,
+            "balad": 2.5
+          }
+        },
+        {
+          "outlet": "חדשות 12",
+          "outlet_id": "news12",
+          "parties": {
+            "likud": 25,
+            "yashar": 16,
+            "together": 23,
+            "yisrael_beiteinu": 8,
+            "shas": 9,
+            "democrats": 10,
+            "utj": 8,
+            "otzma_yehudit": 7,
+            "religious_zionism": 4,
+            "hadash_taal": 5,
+            "raam": 5
+          },
+          "total": 120,
+          "below_threshold_pcts": {
+            "blue_and_white": 1.4,
+            "balad": 1.4,
+            "reservists": 2.4
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-05-30",
+      "label": "30.05.2026",
+      "polls": [
+        {
+          "outlet": "חדשות 12",
+          "outlet_id": "news12",
+          "parties": {
+            "likud": 23,
+            "yashar": 17,
+            "together": 22,
+            "yisrael_beiteinu": 9,
+            "shas": 8,
+            "democrats": 11,
+            "utj": 8,
+            "otzma_yehudit": 8,
+            "religious_zionism": 4,
+            "hadash_taal": 5,
+            "raam": 5
+          },
+          "total": 120
+        },
+        {
+          "outlet": "ישראל היום",
+          "outlet_id": "israel_hayom",
+          "parties": {
+            "likud": 25,
+            "yashar": 17,
+            "together": 22,
+            "yisrael_beiteinu": 9,
+            "shas": 9,
+            "democrats": 9,
+            "utj": 7,
+            "otzma_yehudit": 8,
+            "religious_zionism": 4,
+            "hadash_taal": 5,
+            "raam": 5
+          },
+          "total": 120
+        },
+        {
+          "outlet": "וואלה",
+          "outlet_id": "walla",
+          "parties": {
+            "likud": 23,
+            "yashar": 17,
+            "together": 22,
+            "yisrael_beiteinu": 9,
+            "shas": 9,
+            "democrats": 10,
+            "utj": 7,
+            "otzma_yehudit": 9,
+            "religious_zionism": 4,
+            "hadash_taal": 6,
+            "raam": 4
+          },
+          "total": 120
+        },
+        {
+          "outlet": "מעריב",
+          "outlet_id": "maariv",
+          "parties": {
+            "likud": 23,
+            "yashar": 17,
+            "together": 22,
+            "yisrael_beiteinu": 9,
+            "shas": 9,
+            "democrats": 10,
+            "utj": 7,
+            "otzma_yehudit": 9,
+            "religious_zionism": 4,
+            "hadash_taal": 6,
+            "raam": 4
+          },
+          "total": 120
+        }
+      ]
+    }
+  ],
+  "party_metadata": {
+    "likud": {
+      "name_he": "הליכוד",
+      "leader": "נתניהו",
+      "color": "#003DA5",
+      "bloc": "coalition",
+      "order": 1
+    },
+    "otzma_yehudit": {
+      "name_he": "עוצמה יהודית",
+      "leader": "בן גביר",
+      "color": "#F9A825",
+      "bloc": "coalition",
+      "order": 2
+    },
+    "shas": {
+      "name_he": "ש\"ס",
+      "leader": "דרעי",
+      "color": "#00897B",
+      "bloc": "coalition",
+      "order": 3
+    },
+    "utj": {
+      "name_he": "יהדות התורה",
+      "leader": "גפני",
+      "color": "#1A237E",
+      "bloc": "coalition",
+      "order": 4
+    },
+    "religious_zionism": {
+      "name_he": "הציונות הדתית",
+      "leader": "סמוטריץ'",
+      "color": "#E64A19",
+      "bloc": "coalition",
+      "order": 5
+    },
+    "together": {
+      "name_he": "יחד (בנט + לפיד)",
+      "leader": "בנט",
+      "color": "#2E7D32",
+      "bloc": "opposition",
+      "order": 6
+    },
+    "bennett": {
+      "name_he": "נפתלי בנט",
+      "leader": "בנט",
+      "color": "#2E7D32",
+      "bloc": "opposition",
+      "order": 6,
+      "note": "Pre-merger. After 27.04.2026 use 'together'"
+    },
+    "yesh_atid": {
+      "name_he": "יש עתיד",
+      "leader": "לפיד",
+      "color": "#FF8F00",
+      "bloc": "opposition",
+      "order": 7,
+      "note": "Merged into 'together' on 27.04.2026"
+    },
+    "yashar": {
+      "name_he": "ישר",
+      "leader": "איזנקוט",
+      "color": "#546E7A",
+      "bloc": "opposition",
+      "order": 8
+    },
+    "democrats": {
+      "name_he": "הדמוקרטים",
+      "leader": "",
+      "color": "#C2185B",
+      "bloc": "opposition",
+      "order": 9
+    },
+    "yisrael_beiteinu": {
+      "name_he": "ישראל ביתנו",
+      "leader": "ליברמן",
+      "color": "#1565C0",
+      "bloc": "opposition",
+      "order": 10
+    },
+    "raam": {
+      "name_he": "רע\"מ",
+      "leader": "עבאס",
+      "color": "#81C784",
+      "bloc": "unaligned",
+      "order": 11
+    },
+    "hadash_taal": {
+      "name_he": "חד\"ש-תע\"ל",
+      "leader": "",
+      "color": "#D32F2F",
+      "bloc": "unaligned",
+      "order": 12
+    },
+    "joint_list": {
+      "name_he": "הרשימה המשותפת",
+      "leader": "",
+      "color": "#66BB6A",
+      "bloc": "unaligned",
+      "order": 11
+    },
+    "blue_and_white": {
+      "name_he": "כחול לבן",
+      "leader": "גנץ",
+      "color": "#039BE5",
+      "bloc": "unaligned",
+      "order": 13,
+      "note": "Consistently below threshold"
+    },
+    "reservists": {
+      "name_he": "המילואימניקים",
+      "leader": "הנדל",
+      "color": "#795548",
+      "bloc": "unaligned",
+      "order": 14,
+      "note": "Consistently below threshold"
+    },
+    "balad": {
+      "name_he": "בל\"ד",
+      "leader": "",
+      "color": "#7B1FA2",
+      "bloc": "unaligned",
+      "order": 15,
+      "note": "Usually below threshold"
+    }
+  },
+  "outlet_metadata": {
+    "kan11": {
+      "name": "כאן 11",
+      "order": 1
+    },
+    "news12": {
+      "name": "חדשות 12",
+      "order": 2
+    },
+    "news13": {
+      "name": "חדשות 13",
+      "order": 3
+    },
+    "channel14": {
+      "name": "ערוץ 14",
+      "order": 4
+    },
+    "israel_hayom": {
+      "name": "ישראל היום",
+      "order": 5
+    },
+    "ynet": {
+      "name": "ידיעות אחרונות",
+      "order": 6
+    },
+    "haaretz": {
+      "name": "הארץ",
+      "order": 7
+    },
+    "walla": {
+      "name": "וואלה",
+      "order": 8
+    },
+    "maariv": {
+      "name": "מעריב",
+      "order": 9
+    },
+    "walla_maariv": {
+      "name": "וואלה/מעריב",
+      "order": 8,
+      "note": "Combined column"
+    },
+    "i24": {
+      "name": "i24",
+      "order": 10
+    }
+  }
+}

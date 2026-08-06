@@ -1,0 +1,42 @@
+name: Refresh polling data
+
+on:
+  schedule:
+    - cron: '0 5 * * *'  # 05:00 UTC = 08:00 Israel time, daily
+  workflow_dispatch:       # allow manual run from GitHub Actions UI
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Scrape polls from Wikipedia
+        run: python scripts/scrape_polls.py
+
+      - name: Calculate momentum
+        run: python scripts/calculate_momentum.py
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data/polls.json public/data/momentum.json
+          git diff --staged --quiet && echo "No changes, skipping commit" || (
+            git commit -m "chore: refresh polling data [skip ci]" &&
+            git push
+          )

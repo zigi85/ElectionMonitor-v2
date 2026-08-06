@@ -1,0 +1,12 @@
+{
+  "generated_at": "2026-06-04T06:00:00Z",
+  "posts": [],
+  "hot_topics": [
+    { "topic": "#בחירות2026", "volume_24h": 128000, "spike": true },
+    { "topic": "#נתניהו", "volume_24h": 85000, "spike": false },
+    { "topic": "#החלפת_השלטון", "volume_24h": 63000, "spike": false },
+    { "topic": "#יוקר_המחיה", "volume_24h": 42000, "spike": false },
+    { "topic": "#בנט_ראש_ממשלה", "volume_24h": 31000, "spike": true },
+    { "topic": "#גוש_השינוי", "volume_24h": 24000, "spike": false }
+  ]
+}
