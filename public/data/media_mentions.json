@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T18:39:11Z",
+  "generated_at": "2026-08-09T21:31:26Z",
   "period": "3d",
   "period_label": "3 ימים אחרונים",
   "source": "Google News",
@@ -12,10 +12,10 @@
       "mention_count": 100,
       "headlines": [
         {
-          "title": "נתניהו ואיזנקוט בשלב הראש בראש - ומי הציבור מהמר שינצח?",
+          "title": "גפני מסרב להתחייב: \"היום אני כבר לא אומר שנלך עם נתניהו\"",
           "source": "ישראל היום",
           "published_at": "",
-          "url": "https://www.israelhayom.co.il/news/politics/article/21094691",
+          "url": "https://www.israelhayom.co.il/news/politics/article/21162935",
           "fallback": true
         },
         {
@@ -24,9 +24,9 @@
           "published_at": "Sun, 09 Aug 2026 14:08:15 GMT"
         },
         {
-          "title": "נתניהו: \"ישראל שוללת את תוכנית 15 הנקודות לעזה\"",
-          "source": "כאן 11",
-          "published_at": "Sun, 09 Aug 2026 11:32:20 GMT"
+          "title": "נתניהו: ישראל שוללת את מסמך 15 הנקודות של מועצת השלום לעזה",
+          "source": "ynet",
+          "published_at": "Sun, 09 Aug 2026 10:56:03 GMT"
         }
       ]
     },
@@ -35,13 +35,13 @@
       "name_he": "גדי איזנקוט",
       "role": "יו\"ר ישר",
       "party": "yashar",
-      "mention_count": 83,
+      "mention_count": 89,
       "headlines": [
         {
-          "title": "איזנקוט פגש את מרדכי דוד בחוף הים - כך זה נגמר | תיעוד",
+          "title": "נתניהו ואיזנקוט בשלב הראש בראש - ומי הציבור מהמר שינצח?",
           "source": "ישראל היום",
           "published_at": "",
-          "url": "https://www.israelhayom.co.il/news/politics/article/21150136",
+          "url": "https://www.israelhayom.co.il/news/politics/article/21094691",
           "fallback": true
         },
         {
@@ -50,9 +50,9 @@
           "published_at": "Sun, 09 Aug 2026 07:19:30 GMT"
         },
         {
-          "title": "גדי איזנקוט למרדכי דוד: \"לך תשרת בצבא ותחזור אליי\"",
-          "source": "ynet",
-          "published_at": "Fri, 07 Aug 2026 14:46:35 GMT"
+          "title": "סקר מנדטים: מהפך בצמרת - נתניהו מנצח את איזנקוט שלוש פעמים",
+          "source": "מעריב",
+          "published_at": "Sun, 09 Aug 2026 18:41:33 GMT"
         }
       ]
     },
@@ -61,7 +61,7 @@
       "name_he": "נפתלי בנט",
       "role": "יו\"ר ביחד",
       "party": "together",
-      "mention_count": 34,
+      "mention_count": 40,
       "headlines": [
         {
           "title": "הליכוד בשפל בבייס שלא ראה מאז ההתנתקות; בנט משנה כיוון",
@@ -71,14 +71,14 @@
           "fallback": true
         },
         {
-          "title": "הימין כבר לא קונה את זה: דן אילוז הפך לנפתלי בנט קטן | גלעד כץ",
-          "source": "מעריב",
-          "published_at": "Sun, 09 Aug 2026 14:57:00 GMT"
+          "title": "גפני: \"הפעם אני לא אומר מראש שאלך עם נתניהו\"",
+          "source": "ynet",
+          "published_at": "Sun, 09 Aug 2026 20:51:18 GMT"
         },
         {
-          "title": "בלעדי: ריאיון עם רה\"מ לשעבר נפתלי בנט - שבע עם קרן מרציאנו 09.08.26 | קטעים קצרים | +12",
-          "source": "mako",
-          "published_at": "Sun, 09 Aug 2026 17:46:16 GMT"
+          "title": "לאור הירידה בסקרים: בנט לוחץ על טרופר להצטרף למפלגת \"ביחד\"",
+          "source": "רשת 13",
+          "published_at": "Sun, 09 Aug 2026 17:19:26 GMT"
         }
       ]
     },
@@ -87,8 +87,13 @@
       "name_he": "אביגדור ליברמן",
       "role": "יו\"ר ישראל ביתנו",
       "party": "yisrael_beiteinu",
-      "mention_count": 23,
+      "mention_count": 25,
       "headlines": [
+        {
+          "title": "הדיון בביתו של האדמו\"ר מגור: \"ליברמן ואדלשטיין קומוניסטים\" | האזינו",
+          "source": "i24news.tv",
+          "published_at": "Sun, 09 Aug 2026 18:39:35 GMT"
+        },
         {
           "title": "ליברמן חשף למי הציע שריונים - וסורב",
           "source": "mako",
@@ -98,11 +103,6 @@
           "title": "חיפשנו סימנים: האם ארדן שתול של נתניהו, או בכלל של ליברמן?",
           "source": "הארץ",
           "published_at": "Sun, 09 Aug 2026 09:16:00 GMT"
-        },
-        {
-          "title": "נכנסתי לפוליטיקה כדי שהחומות לא ייפלו שוב | דביר קריב",
-          "source": "מעריב",
-          "published_at": "Sun, 09 Aug 2026 14:06:53 GMT"
         }
       ]
     },
@@ -111,12 +111,12 @@
       "name_he": "יאיר גולן",
       "role": "יו\"ר הדמוקרטים",
       "party": "democrats",
-      "mention_count": 27,
+      "mention_count": 28,
       "headlines": [
         {
-          "title": "דן אילוז: \"עדיף יאיר גולן על פני החרדים\"",
-          "source": "בחדרי חרדים",
-          "published_at": "Sun, 09 Aug 2026 04:30:00 GMT"
+          "title": "עירית לינור: זה ההבדל האמיתי בין יאיר גולן לנתניהו",
+          "source": "C14",
+          "published_at": "Sun, 09 Aug 2026 16:54:00 GMT"
         },
         {
           "title": "הדבשת הדמוקרטית",
@@ -124,9 +124,9 @@
           "published_at": "Sat, 08 Aug 2026 07:59:19 GMT"
         },
         {
-          "title": "ח\"כ דן אילוז: עדיפה ממשלה עם יאיר גולן על ממשלה עם החרדים",
-          "source": "ערוץ 7",
-          "published_at": "Sat, 08 Aug 2026 17:49:00 GMT"
+          "title": "דן אילוז: \"עדיף יאיר גולן על פני החרדים\"",
+          "source": "בחדרי חרדים",
+          "published_at": "Sun, 09 Aug 2026 04:30:00 GMT"
         }
       ]
     },
@@ -135,8 +135,13 @@
       "name_he": "איתמר בן גביר",
       "role": "יו\"ר עוצמה יהודית",
       "party": "otzma_yehudit",
-      "mention_count": 44,
+      "mention_count": 40,
       "headlines": [
+        {
+          "title": "רגע לפני הבחירות: בן גביר \"נזכר\" להצהיר על הונו האישי",
+          "source": "רשת 13",
+          "published_at": "Sun, 09 Aug 2026 17:33:39 GMT"
+        },
         {
           "title": "חיים גוזלי נגד איתמר בן גביר: ״האיש ליצן״",
           "source": "היום",
@@ -146,11 +151,6 @@
           "title": "השופט נעם סולברג הורה: לטשטש שוטרים בסרטון הבחירות של איתמר בן גביר",
           "source": "ערוץ 7",
           "published_at": "Sun, 09 Aug 2026 12:11:00 GMT"
-        },
-        {
-          "title": "רגע לפני הבחירות: בן גביר \"נזכר\" להצהיר על הונו האישי",
-          "source": "רשת 13",
-          "published_at": "Sun, 09 Aug 2026 17:33:39 GMT"
         }
       ]
     },
@@ -159,22 +159,22 @@
       "name_he": "בצלאל סמוטריץ'",
       "role": "יו\"ר הציונות הדתית",
       "party": "religious_zionism",
-      "mention_count": 30,
+      "mention_count": 29,
       "headlines": [
+        {
+          "title": "ראש הממשלה שר הבינוי והשיכון ושר האוצר הציגו את התוכנית \"ממילואים למפתח\" להרחבת הטבות הדיור למשרתי המילואים",
+          "source": "Gov.il",
+          "published_at": "Sun, 09 Aug 2026 16:28:01 GMT"
+        },
         {
           "title": "פרשנות נתניהו קרוע בין טראמפ לסמוטריץ', וינסה למשוך זמן עד הבחירות",
           "source": "הארץ",
           "published_at": "Sun, 09 Aug 2026 16:17:00 GMT"
         },
         {
-          "title": "\"צה\"ל עור ועצמות\": נתניהו פותח את תקציב הביטחון, והממשלה הבאה תצטרך להעלות מסים",
-          "source": "גלובס",
-          "published_at": "Sun, 09 Aug 2026 14:08:15 GMT"
-        },
-        {
-          "title": "כדי להגדיל את התקציב: במערכת הביטחון מזהים שעת כושר ומציגים לנתניהו תרחישי אימים",
-          "source": "TheMarker",
-          "published_at": "Sun, 09 Aug 2026 03:04:00 GMT"
+          "title": "חיל האוויר מחכה למסוקים - ובגלל בצלאל סמוטריץ' הם יעלו כפול ולהגיע רק עוד שנים | פרסום ראשון",
+          "source": "מעריב",
+          "published_at": "Sun, 09 Aug 2026 16:53:00 GMT"
         }
       ]
     }
