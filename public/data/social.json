@@ -1,41 +1,41 @@
 {
-  "generated_at": "2026-08-09T07:23:41Z",
-  "headline_count": 115,
+  "generated_at": "2026-08-09T09:36:55Z",
+  "headline_count": 121,
   "hot_topics": [
     {
       "id": "elections",
       "label": "בחירות וסקרים",
-      "mention_count": 25,
+      "mention_count": 26,
       "sample_headline": "סקר מעריב: איזנקוט עוקף את נתניהו במנדטים ובהתאמה לראשות הממשלה",
       "sample_source": "זמן ישראל"
     },
     {
       "id": "coalition",
       "label": "קואליציה וכנסת",
-      "mention_count": 22,
+      "mention_count": 24,
       "sample_headline": "אדלשטיין: בימים הקרובים אפרוש מהליכוד ומהכנסת, \"לא נהיה האצבע ה-61 של ממשלה צרה\"",
       "sample_source": "זמן ישראל"
     },
     {
       "id": "security",
       "label": "ביטחון",
-      "mention_count": 13,
+      "mention_count": 12,
       "sample_headline": "דיווח: שרים ובכירי ביטחון דנו בחידוש התקיפות בעזה, בניגוד למהלכי מועצת השלום",
       "sample_source": "זמן ישראל"
     },
     {
       "id": "negotiations",
       "label": "דיפלומטיה",
-      "mention_count": 5,
-      "sample_headline": "\"שלום כלכלי\" או שילוב של ישראל ב־IMEC לא ייתכנו בלי הסדר עם הפלסטינים",
-      "sample_source": "הארץ"
+      "mention_count": 4,
+      "sample_headline": "ועדת הבחירות ותוכנית הפיתוח של האומות המאוחדות חותמות על הסכם לחיזוק מוכנות הבחירות הכנסת",
+      "sample_source": "وكالة صدى نيوز"
     },
     {
       "id": "haredim",
       "label": "חרדים וגיוס",
       "mention_count": 3,
       "sample_headline": "מה באמת מסתתר מאחורי ההתפקדות ההמונית של חרדים לליכוד?",
-      "sample_source": "ynet.co.il"
+      "sample_source": "ynet"
     },
     {
       "id": "judiciary",
@@ -58,9 +58,9 @@
       "key": "netanyahu",
       "name_he": "בנימין נתניהו",
       "views_7d": 5435,
-      "prev_views_7d": 6968,
-      "change_pct": -22.0,
-      "direction": "falling"
+      "prev_views_7d": 0,
+      "change_pct": 0.0,
+      "direction": "stable"
     },
     {
       "key": "golan",
@@ -105,44 +105,22 @@
   ],
   "viral_videos": [
     {
-      "video_id": "dKixKX5S1S0",
-      "title": "השר בן גביר הגיע להכנות לנטיעות בנגב, שם התעמת עם בדואי ואמר: \"מה שלא חוקי – אנחנו הורסים\"",
-      "channel": "ערוץ 7",
-      "views": 68899,
-      "views_str": "68.9K",
-      "duration": "0:24",
-      "published_text": "לפני 4 ימים",
-      "thumbnail": "https://i.ytimg.com/vi/dKixKX5S1S0/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARhIIFQoZTAP&rs=AOn4CLBrZ3anpIKSvIvqXMTXc-SmEapDUw",
-      "url": "https://www.youtube.com/watch?v=dKixKX5S1S0"
-    },
-    {
       "video_id": "9BP0iMeQNBA",
       "title": "במהלך סיור בבית הכלא, מחבל התלונן בפני השר בן גביר על תנאי הכליאה. השר השיב לו: ״זה לא מלון״",
       "channel": "ערוץ 7",
-      "views": 37268,
-      "views_str": "37.3K",
+      "views": 43022,
+      "views_str": "43.0K",
       "duration": "0:38",
-      "published_text": "לפני 11 שעות",
+      "published_text": "לפני 13 שעות",
       "thumbnail": "https://i.ytimg.com/vi/9BP0iMeQNBA/hq720_2.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARg0IEwocjAP&rs=AOn4CLDTXfsMAYgsiFyWAuPb86i-etS1wA",
       "url": "https://www.youtube.com/watch?v=9BP0iMeQNBA"
-    },
-    {
-      "video_id": "q-og4tHrTxw",
-      "title": "מחזירים את האמון: גדי איזנקוט מציג את מתווה חוק ועדת החקירה הממלכתית של ישר!",
-      "channel": "ישר! עם איזנקוט",
-      "views": 35073,
-      "views_str": "35.1K",
-      "duration": "5:57",
-      "published_text": "לפני 3 ימים",
-      "thumbnail": "https://i.ytimg.com/vi/q-og4tHrTxw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBJH-QS8kObOnL2xfRk2CeQr4Smtg",
-      "url": "https://www.youtube.com/watch?v=q-og4tHrTxw"
     },
     {
       "video_id": "Enicu7Zgq1k",
       "title": "\"בנט, שוב אתה עם קמפיין 'האח שלי'?\": אברהם חסון על קמפיין הבחירות של בנט",
       "channel": "C14",
-      "views": 30176,
-      "views_str": "30.2K",
+      "views": 30381,
+      "views_str": "30.4K",
       "duration": "0:45",
       "published_text": "לפני 5 ימים",
       "thumbnail": "https://i.ytimg.com/vi/Enicu7Zgq1k/hq720_2.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARg3IF4ocjAP&rs=AOn4CLB0xefrhN1iJZM0K2ZOXiEHq2dE1w",
@@ -152,45 +130,67 @@
       "video_id": "EfTKjA1axXs",
       "title": "סקר המנדטים של חדשות 14 | הפער נמחק: סמוטריץ' ובן גביר משתווים במנדטים",
       "channel": "C14",
-      "views": 24432,
-      "views_str": "24.4K",
+      "views": 24671,
+      "views_str": "24.7K",
       "duration": "1:48",
       "published_text": "לפני 4 ימים",
       "thumbnail": "https://i.ytimg.com/vi/EfTKjA1axXs/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhWIF8oZTAP&rs=AOn4CLDPOxgcOBeP-wBu9AViQYwAADfZ7Q",
       "url": "https://www.youtube.com/watch?v=EfTKjA1axXs"
     },
     {
-      "video_id": "oxrEc0yaiVE",
-      "title": "🤣🤣🤣!!! עדי שמאי הכהן על פגישת טראמפ נתניהו",
-      "channel": "John Smith",
-      "views": 20064,
-      "views_str": "20.1K",
-      "duration": "0:30",
-      "published_text": "לפני יומיים (2)",
-      "thumbnail": "https://i.ytimg.com/vi/oxrEc0yaiVE/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARhGIE8ocjAP&rs=AOn4CLDNFzulCeDpJo5WjkpJbc4YflaC0w",
-      "url": "https://www.youtube.com/watch?v=oxrEc0yaiVE"
+      "video_id": "7XakIDQ4ETQ",
+      "title": "אהוד ברק, נתניהו והמהפך האידיאולוגי: ד\"ר עינת וילף מגיעה למפגש קצוות",
+      "channel": "i24NEWS עברית",
+      "views": 13292,
+      "views_str": "13.3K",
+      "duration": "12:31",
+      "published_text": "לפני יום אחד (1)",
+      "thumbnail": "https://i.ytimg.com/vi/7XakIDQ4ETQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD6ovw2hQcbtjWHbwSqJRkHeqRmCQ",
+      "url": "https://www.youtube.com/watch?v=7XakIDQ4ETQ"
     },
     {
-      "video_id": "q4HUIQkN3mg",
-      "title": "מה עובר על יש עתיד? 🎙️☕",
-      "channel": "ערוץ כנסת 99",
-      "views": 8749,
-      "views_str": "8.7K",
-      "duration": "1:03",
-      "published_text": "לפני יומיים (2)",
-      "thumbnail": "https://i.ytimg.com/vi/q4HUIQkN3mg/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARghIGUoVjAP&rs=AOn4CLCcsL08BYKJjSHrbzWwwk2hc07TXg",
-      "url": "https://www.youtube.com/watch?v=q4HUIQkN3mg"
+      "video_id": "5g9t68IYttE",
+      "title": "ח\"כ איתן גינזבורג, ברוך הבא לנבחרת התיקון שלנו 🇮🇱ביחד נתקן!",
+      "channel": "נפתלי בנט | Naftali Bennett",
+      "views": 12357,
+      "views_str": "12.4K",
+      "duration": "0:24",
+      "published_text": "לפני 3 ימים",
+      "thumbnail": "https://i.ytimg.com/vi/5g9t68IYttE/hq720_2.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARhBIFcoZTAP&rs=AOn4CLCA8XxixZP7VKFCw8k0c_wjimfbtg",
+      "url": "https://www.youtube.com/watch?v=5g9t68IYttE"
     },
     {
       "video_id": "sqWOvSPp-zg",
       "title": "היד שמנענעת את הגוש: עד כמה יקשה ליברמן על חבריו בשמאל?",
       "channel": "i24NEWS עברית",
-      "views": 7022,
-      "views_str": "7.0K",
+      "views": 7254,
+      "views_str": "7.3K",
       "duration": "12:29",
       "published_text": "לפני יום אחד (1)",
       "thumbnail": "https://i.ytimg.com/vi/sqWOvSPp-zg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAU1CGkOLxn4jR3M9ZsYgIw8sRu2g",
       "url": "https://www.youtube.com/watch?v=sqWOvSPp-zg"
+    },
+    {
+      "video_id": "XZWkP7P7cwk",
+      "title": "משתמט לא יישב בקבינט! זה מה שעניתי לישי כהן כששאל אותי על דרעי",
+      "channel": "נפתלי בנט | Naftali Bennett",
+      "views": 5486,
+      "views_str": "5.5K",
+      "duration": "1:06",
+      "published_text": "לפני 13 שעות",
+      "thumbnail": "https://i.ytimg.com/vi/XZWkP7P7cwk/hq720_2.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBvgSAAoAIigIMCAAQARhyIEwoOzAP&rs=AOn4CLAamQv0kyoaTa_lujfSkS-pHC7Onw",
+      "url": "https://www.youtube.com/watch?v=XZWkP7P7cwk"
+    },
+    {
+      "video_id": "w8eMD1MNHhQ",
+      "title": "אמסלם: איזנקוט מתאים לליכוד | 05 באוגוסט 2026",
+      "channel": "103fm",
+      "views": 1586,
+      "views_str": "1.6K",
+      "duration": "1:01:10",
+      "published_text": "לפני 3 ימים",
+      "thumbnail": "https://i.ytimg.com/vi/w8eMD1MNHhQ/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAArgIigIMCAAQARgeIGUoYjAP&rs=AOn4CLCkZIgnlqOZZdV3EDhA1oc8Dq_X5w",
+      "url": "https://www.youtube.com/watch?v=w8eMD1MNHhQ"
     }
   ],
   "telegram_channels": [
@@ -200,8 +200,8 @@
       "username": "bnetanyahu",
       "type": "politician",
       "post_count": 20,
-      "avg_views": 23035,
-      "avg_views_str": "23.0K",
+      "avg_views": 23050,
+      "avg_views_str": "23.1K",
       "top_post": {
         "text": "בסוף השבוע האחרון, מחבל פלסטיני נתעב רצח את רס״ן יובל עזרא ואת רס״ר (במיל׳) בניהו מלט ז״ל. זמן קצר לאחר הפיגוע הנפשע, מו",
         "views": 50000,
@@ -230,12 +230,12 @@
       "username": "bengvir",
       "type": "politician",
       "post_count": 20,
-      "avg_views": 5268,
+      "avg_views": 5350,
       "avg_views_str": "5.3K",
       "top_post": {
         "text": "השר לביטחון לאומי, איתמר בן גביר: מגבה את לוחמי שב״ס וצה״ל מול התחקיר המכפיש של ה״ניו יורק טיימס״. הם לא אנסו ולא עברו ע",
-        "views": 21200,
-        "views_str": "21.2K",
+        "views": 21600,
+        "views_str": "21.6K",
         "date": "2026-08-07T14:19:24+00:00"
       }
     },
@@ -255,33 +255,33 @@
       }
     },
     {
-      "key": "ynet",
-      "name_he": "ynet",
-      "username": "ynetalerts",
-      "type": "news",
-      "post_count": 20,
-      "avg_views": 4109,
-      "avg_views_str": "4.1K",
-      "top_post": {
-        "text": "🔴 דיווח: הפנטגון לוחץ על חברות הנשק להגביר את קצב הייצור - בעקבות המחסור בטילים למבזק המלא ב-ynet >",
-        "views": 7310,
-        "views_str": "7.31K",
-        "date": "2026-08-08T21:56:11+00:00"
-      }
-    },
-    {
       "key": "israelhayom",
       "name_he": "ישראל היום",
       "username": "israelhayomofficial",
       "type": "news",
       "post_count": 20,
-      "avg_views": 3397,
-      "avg_views_str": "3.4K",
+      "avg_views": 3196,
+      "avg_views_str": "3.2K",
       "top_post": {
-        "text": "איזנקוט למרדכי דוד: ״לך תשרת בצבא ותחזור אליי״",
-        "views": 4710,
-        "views_str": "4.71K",
-        "date": "2026-08-07T14:23:56+00:00"
+        "text": "החתך בגדר",
+        "views": 4460,
+        "views_str": "4.46K",
+        "date": "2026-08-07T22:31:07+00:00"
+      }
+    },
+    {
+      "key": "ynet",
+      "name_he": "ynet",
+      "username": "ynetalerts",
+      "type": "news",
+      "post_count": 20,
+      "avg_views": 3085,
+      "avg_views_str": "3.1K",
+      "top_post": {
+        "text": "🔴 רימון רסס הושלך לעבר מסעדה בראשון לציון, אין נפגעים למבזק המלא ב-ynet >",
+        "views": 4960,
+        "views_str": "4.96K",
+        "date": "2026-08-09T05:32:26+00:00"
       }
     },
     {
@@ -290,12 +290,12 @@
       "username": "naftalibennett1",
       "type": "politician",
       "post_count": 20,
-      "avg_views": 2510,
+      "avg_views": 2515,
       "avg_views_str": "2.5K",
       "top_post": {
         "text": "עכשיו בכותל, כמו בכל שנה בערב תשעה באב, ביחד עם כל גווני עם ישראל האהוב שלנו. פעמיים היתה לנו מדינה יהודית על האדמה הזו,",
-        "views": 3730,
-        "views_str": "3.73K",
+        "views": 3740,
+        "views_str": "3.74K",
         "date": "2026-07-22T18:21:48+00:00"
       }
     },
@@ -305,8 +305,8 @@
       "username": "smutrich",
       "type": "politician",
       "post_count": 12,
-      "avg_views": 964,
-      "avg_views_str": "964",
+      "avg_views": 968,
+      "avg_views_str": "968",
       "top_post": {
         "text": "״כל פלסטיני שאני הורג אני פוגע במצב הביטחוני, כי אז תהיה סוכת אבלים והתלהמות״. יאיר גולן, שר הביטחון בממשלת איזנקוט, חוש",
         "views": 1120,
@@ -320,12 +320,12 @@
       "username": "N12_News",
       "type": "news",
       "post_count": 20,
-      "avg_views": 82,
-      "avg_views_str": "82",
+      "avg_views": 70,
+      "avg_views_str": "70",
       "top_post": {
         "text": "מבזקן 12: עדכון לשרפה באתר הבנייה בפתח תקווה: צוותי כיבוי והצלה ממשיכים בשעה זו בפעולות הכיבוי בחניון תת-קרקעי באתר בניי",
-        "views": 114,
-        "views_str": "114",
+        "views": 120,
+        "views_str": "120",
         "date": "2026-08-08T20:02:12+00:00"
       }
     },
@@ -335,13 +335,13 @@
       "username": "now14tv",
       "type": "news",
       "post_count": 20,
-      "avg_views": 5,
-      "avg_views_str": "5",
+      "avg_views": 3,
+      "avg_views_str": "3",
       "top_post": {
-        "text": "סוער בירושלים עשרות מחו נגד בית הקפה שפתוח בשבת, יאיר גולן הגיע \"לתמוך\" | צפו קישור לכתבה",
+        "text": "בדרך לשנים ארוכות בכלא? הספר הפרובוקטיבי שסיבך את המחבר בצרות קישור לכתבה",
         "views": 6,
         "views_str": "6",
-        "date": "2026-08-08T17:55:33+00:00"
+        "date": "2026-08-09T04:39:04+00:00"
       }
     }
   ]
