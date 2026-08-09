@@ -131,15 +131,20 @@ def fetch_event_by_fallback(title_keywords: list[str]) -> Optional[dict]:
 def parse_outcomes(event: dict) -> list[dict]:
     """
     Extract outcomes from the event's markets array.
-    Each market has:
-      - outcomes: JSON string array of outcome names
-      - outcomePrices: JSON string array of prices (0–1 floats as strings)
-    Aggregates across all markets in the event.
+
+    Polymarket multi-outcome events have one sub-market per option, each with
+    binary ["Yes","No"] outcomes.  We use ``groupItemTitle`` (or fall back to
+    parsing ``question``) as the option name, and the "Yes" price as its
+    probability.
+
+    For simple binary markets (e.g. "hung parliament?") with a single market,
+    we keep Yes/No as-is.
     """
     markets_data = event.get("markets", [])
     if not markets_data:
-        # Some events store outcomes directly
         return []
+
+    is_multi = len(markets_data) > 1
 
     all_outcomes: list[dict] = []
 
@@ -147,7 +152,6 @@ def parse_outcomes(event: dict) -> list[dict]:
         raw_outcomes = market.get("outcomes", "[]")
         raw_prices = market.get("outcomePrices", "[]")
 
-        # Parse JSON strings if necessary
         if isinstance(raw_outcomes, str):
             try:
                 raw_outcomes = json.loads(raw_outcomes)
@@ -159,14 +163,30 @@ def parse_outcomes(event: dict) -> list[dict]:
             except json.JSONDecodeError:
                 raw_prices = []
 
-        for name, price in zip(raw_outcomes, raw_prices):
-            try:
-                prob = float(price)
-            except (ValueError, TypeError):
-                prob = 0.0
-            all_outcomes.append({"name": str(name), "probability": round(prob, 4)})
+        if is_multi:
+            name = market.get("groupItemTitle") or ""
+            if not name:
+                q = market.get("question", "")
+                name = q.replace("Will ", "").split(" be ")[0].strip() or q
+            yes_idx = None
+            for i, o in enumerate(raw_outcomes):
+                if str(o).lower() == "yes":
+                    yes_idx = i
+                    break
+            if yes_idx is not None and yes_idx < len(raw_prices):
+                try:
+                    prob = float(raw_prices[yes_idx])
+                except (ValueError, TypeError):
+                    prob = 0.0
+                all_outcomes.append({"name": name, "probability": round(prob, 4)})
+        else:
+            for oname, price in zip(raw_outcomes, raw_prices):
+                try:
+                    prob = float(price)
+                except (ValueError, TypeError):
+                    prob = 0.0
+                all_outcomes.append({"name": str(oname), "probability": round(prob, 4)})
 
-    # Sort by probability descending
     all_outcomes.sort(key=lambda o: o["probability"], reverse=True)
     return all_outcomes
 

@@ -2,21 +2,27 @@ import { getWidgetData } from "@/lib/data";
 import TopKnessetBar from "./components/TopKnessetBar";
 import KnessetHemicycle from "./components/KnessetHemicycle";
 import PredictionMarkets from "./components/PredictionMarkets";
+import GoogleTrends from "./components/GoogleTrends";
+import MediaMentions from "./components/MediaMentions";
+import ElectionCountdown from "./components/ElectionCountdown";
 import SocialMonitor from "./components/SocialMonitor";
 
 export const revalidate = 300;
 
 export default async function HomePage() {
-  const { polymarket, manualPolls } = await getWidgetData();
+  const { polymarket, manualPolls, trends, mediaMentions, socialData } = await getWidgetData();
 
   return (
     <div className="app-shell">
       <TopKnessetBar />
 
       <main className="app-content">
+        <ElectionCountdown />
         <KnessetHemicycle manualPolls={manualPolls} />
         <PredictionMarkets polymarket={polymarket} />
-        <SocialMonitor />
+        <GoogleTrends trends={trends} />
+        <MediaMentions mediaMentions={mediaMentions} />
+        <SocialMonitor socialData={socialData} />
 
         <footer className="app-footer">
           <div className="app-footer-brand">

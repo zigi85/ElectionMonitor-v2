@@ -1,42 +1,114 @@
-name: Refresh polling data
+name: Refresh election data
 
 on:
   schedule:
-    - cron: '0 5 * * *'  # 05:00 UTC = 08:00 Israel time, daily
-  workflow_dispatch:       # allow manual run from GitHub Actions UI
+    - cron: "0 */3 * * *"     # media mentions — every 3 hours
+    - cron: "0 6,18 * * *"    # google trends  — every 12 hours
+    - cron: "0 5 * * *"       # polls           — daily 08:00 IST
+    - cron: "0 3,9,15,21 * * *"  # social signals — every 6 hours
+  workflow_dispatch:
+    inputs:
+      target:
+        description: "Which data to refresh"
+        required: true
+        default: "all"
+        type: choice
+        options:
+          - all
+          - media
+          - trends
+          - polls
+          - social
 
 permissions:
   contents: write
 
 jobs:
-  refresh:
+  refresh-media:
+    if: >-
+      (github.event_name == 'schedule' && github.event.schedule == '0 */3 * * *')
+      || (github.event_name == 'workflow_dispatch' && (inputs.target == 'all' || inputs.target == 'media'))
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
-          python-version: '3.12'
-          cache: 'pip'
+          python-version: "3.12"
+      - run: python scripts/fetch_media_mentions.py
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data/media_mentions.json
+          git diff --staged --quiet && echo "No changes" || (
+            git commit -m "data: refresh media mentions [skip ci]" &&
+            git push
+          )
 
-      - name: Install dependencies
-        run: pip install -r scripts/requirements.txt
+  refresh-trends:
+    if: >-
+      (github.event_name == 'schedule' && github.event.schedule == '0 6,18 * * *')
+      || (github.event_name == 'workflow_dispatch' && (inputs.target == 'all' || inputs.target == 'trends'))
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install pytrends pandas
+      - run: python scripts/fetch_trends.py
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data/google_trends.json
+          git diff --staged --quiet && echo "No changes" || (
+            git commit -m "data: refresh google trends [skip ci]" &&
+            git push
+          )
 
-      - name: Scrape polls from Wikipedia
-        run: python scripts/scrape_polls.py
+  refresh-social:
+    if: >-
+      (github.event_name == 'schedule' && github.event.schedule == '0 3,9,15,21 * * *')
+      || (github.event_name == 'workflow_dispatch' && (inputs.target == 'all' || inputs.target == 'social'))
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python scripts/fetch_social.py
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data/social.json
+          git diff --staged --quiet && echo "No changes" || (
+            git commit -m "data: refresh social signals [skip ci]" &&
+            git push
+          )
 
-      - name: Calculate momentum
-        run: python scripts/calculate_momentum.py
-
-      - name: Commit updated data
+  refresh-polls:
+    if: >-
+      (github.event_name == 'schedule' && github.event.schedule == '0 5 * * *')
+      || (github.event_name == 'workflow_dispatch' && (inputs.target == 'all' || inputs.target == 'polls'))
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r scripts/requirements.txt
+      - run: python scripts/scrape_polls.py
+      - run: python scripts/calculate_momentum.py
+      - name: Commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add public/data/polls.json public/data/momentum.json
-          git diff --staged --quiet && echo "No changes, skipping commit" || (
-            git commit -m "chore: refresh polling data [skip ci]" &&
+          git diff --staged --quiet && echo "No changes" || (
+            git commit -m "data: refresh polls [skip ci]" &&
             git push
           )

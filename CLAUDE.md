@@ -14,7 +14,7 @@ Israeli legislative elections are scheduled for **27.10.2026**. The widget aggre
 
 ## Editorial Rules
 
-- Filber/Channel 14 and Direct Polls are included in raw polling data but excluded from weekly averages.
+- Direct Polls are included in raw polling data but excluded from weekly averages.
 - Weeks with fewer than 3 included polling firms are marked `sparse: true`.
 - Momentum is directional only. It is not an election prediction.
 - Google Trends is a pluggable signal and must never crash momentum calculation if unavailable.

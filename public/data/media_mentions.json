@@ -1,0 +1,182 @@
+{
+  "generated_at": "2026-08-09T07:25:49Z",
+  "period": "3d",
+  "period_label": "3 ימים אחרונים",
+  "source": "Google News",
+  "leaders": [
+    {
+      "key": "netanyahu",
+      "name_he": "בנימין נתניהו",
+      "role": "ראש הממשלה",
+      "party": "likud",
+      "mention_count": 100,
+      "headlines": [
+        {
+          "title": "נתניהו ואיזנקוט בשלב הראש בראש - ומי הציבור מהמר שינצח?",
+          "source": "ישראל היום",
+          "published_at": "",
+          "url": "https://www.israelhayom.co.il/news/politics/article/21094691",
+          "fallback": true
+        },
+        {
+          "title": "כדי להגדיל את התקציב: במערכת הביטחון מזהים שעת כושר ומציגים לנתניהו תרחישי אימים",
+          "source": "TheMarker",
+          "published_at": "Sun, 09 Aug 2026 03:04:00 GMT"
+        },
+        {
+          "title": "יורם כהן הבטיח לקדם את \"חוק הנאשם\", סביבת נתניהו: \"מפחדים מבחירת העם\"",
+          "source": "ynet.co.il",
+          "published_at": "Sun, 09 Aug 2026 06:32:47 GMT"
+        }
+      ]
+    },
+    {
+      "key": "eisenkot",
+      "name_he": "גדי איזנקוט",
+      "role": "יו\"ר ישר",
+      "party": "yashar",
+      "mention_count": 99,
+      "headlines": [
+        {
+          "title": "איזנקוט פגש את מרדכי דוד בחוף הים - כך זה נגמר | תיעוד",
+          "source": "ישראל היום",
+          "published_at": "",
+          "url": "https://www.israelhayom.co.il/news/politics/article/21150136",
+          "fallback": true
+        },
+        {
+          "title": "גדי איזנקוט: \"זה חייב לטלטל את אמות הסיפים\"",
+          "source": "סרוגים",
+          "published_at": "Sun, 09 Aug 2026 07:19:30 GMT"
+        },
+        {
+          "title": "עכשיו הם מנסים לשלול מאיזנקוט את המרוקאיות שלו. כך היה גם עם אובמה",
+          "source": "הארץ",
+          "published_at": "Sun, 09 Aug 2026 03:00:00 GMT"
+        }
+      ]
+    },
+    {
+      "key": "bennett",
+      "name_he": "נפתלי בנט",
+      "role": "יו\"ר ביחד",
+      "party": "together",
+      "mention_count": 43,
+      "headlines": [
+        {
+          "title": "הליכוד בשפל בבייס שלא ראה מאז ההתנתקות; בנט משנה כיוון",
+          "source": "ישראל היום",
+          "published_at": "",
+          "url": "https://www.israelhayom.co.il/news/politics/article/20993009",
+          "fallback": true
+        },
+        {
+          "title": "בנט משתלח: \"נעקור את הסרטן הזה מתוכנו\"",
+          "source": "סרוגים",
+          "published_at": "Sun, 09 Aug 2026 06:51:02 GMT"
+        },
+        {
+          "title": "בנט: \"נתניהו לא רשע אבל חייב ללכת, הוא נושק לגיל 80; לא רוצה לראות אותו בכלא\"",
+          "source": "כיכר השבת",
+          "published_at": "Sat, 08 Aug 2026 18:00:00 GMT"
+        }
+      ]
+    },
+    {
+      "key": "lieberman",
+      "name_he": "אביגדור ליברמן",
+      "role": "יו\"ר ישראל ביתנו",
+      "party": "yisrael_beiteinu",
+      "mention_count": 31,
+      "headlines": [
+        {
+          "title": "ליברמן חשף למי הציע שריונים - וסורב",
+          "source": "mako",
+          "published_at": "Sun, 09 Aug 2026 07:03:00 GMT"
+        },
+        {
+          "title": "היד שמנענעת את הגוש: עד כמה יקשה ליברמן על חבריו בשמאל?",
+          "source": "i24NEWS",
+          "published_at": "Sat, 08 Aug 2026 04:33:28 GMT"
+        },
+        {
+          "title": "לא נפתלי בנט ולא גדי איזנקוט: היורש הפוליטי של נתניהו כבר בפעולה | דניאל רוט אבנרי",
+          "source": "מעריב",
+          "published_at": "Fri, 07 Aug 2026 12:50:28 GMT"
+        }
+      ]
+    },
+    {
+      "key": "golan",
+      "name_he": "יאיר גולן",
+      "role": "יו\"ר הדמוקרטים",
+      "party": "democrats",
+      "mention_count": 47,
+      "headlines": [
+        {
+          "title": "יאיר גולן לעינב צנגאוקר: לא מתכוון להשתמש בזכות השריונים עבור אף מועמד",
+          "source": "ynet.co.il",
+          "published_at": "Thu, 06 Aug 2026 17:04:50 GMT"
+        },
+        {
+          "title": "ח\"כ דן אילוז: עדיפה ממשלה עם יאיר גולן על ממשלה עם החרדים",
+          "source": "ערוץ 7",
+          "published_at": "Sat, 08 Aug 2026 17:49:00 GMT"
+        },
+        {
+          "title": "יאיר גולן: לא אעשה שימוש בשריונים ברשימת הדמוקרטים לכנסת",
+          "source": "הארץ",
+          "published_at": "Thu, 06 Aug 2026 17:39:00 GMT"
+        }
+      ]
+    },
+    {
+      "key": "ben_gvir",
+      "name_he": "איתמר בן גביר",
+      "role": "יו\"ר עוצמה יהודית",
+      "party": "otzma_yehudit",
+      "mention_count": 27,
+      "headlines": [
+        {
+          "title": "בן גביר נגד ראש רשות האכיפה: \"פוגע במדיניות\"",
+          "source": "ערוץ 7",
+          "published_at": "Sat, 08 Aug 2026 18:35:00 GMT"
+        },
+        {
+          "title": "פרשת התנינים של בן גביר אינה חריגה, היא חלק ממנגנון רחב של פוליטיזציה",
+          "source": "הארץ",
+          "published_at": "Sat, 08 Aug 2026 17:00:00 GMT"
+        },
+        {
+          "title": "הסיוט של נתניהו במספרים: הסיכוי של הקואליציה ל-61 צלל לנתון בלתי נתפס | מתי טוכפלד",
+          "source": "מעריב",
+          "published_at": "Sun, 09 Aug 2026 03:01:00 GMT"
+        }
+      ]
+    },
+    {
+      "key": "smotrich",
+      "name_he": "בצלאל סמוטריץ'",
+      "role": "יו\"ר הציונות הדתית",
+      "party": "religious_zionism",
+      "mention_count": 21,
+      "headlines": [
+        {
+          "title": "האיחוד שמטלטל את הימין: כך סמוטריץ' יכול להגיע ל-10 מנדטים | בלעדי ל\"מעריב\"",
+          "source": "מעריב",
+          "published_at": "Sat, 08 Aug 2026 18:47:14 GMT"
+        },
+        {
+          "title": "כדי להגדיל את התקציב: במערכת הביטחון מזהים שעת כושר ומציגים לנתניהו תרחישי אימים",
+          "source": "TheMarker",
+          "published_at": "Sun, 09 Aug 2026 03:04:00 GMT"
+        },
+        {
+          "title": "יורם כהן משאיר פתח לאוטונומיה פלסטינית: \"אוטונומיה זה יהיה המקסימום\"",
+          "source": "ערוץ 7",
+          "published_at": "Sun, 09 Aug 2026 06:04:00 GMT"
+        }
+      ]
+    }
+  ]
+}

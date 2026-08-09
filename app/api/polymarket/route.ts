@@ -41,19 +41,14 @@ const MARKET_CONFIGS: Array<{
     slugs: ["who-will-be-the-next-prime-minister-of-israel-after-the-next-election"],
   },
   {
-    key: "netanyahu_out",
-    title: "נתניהו עוזב לפני 2027?",
-    slugs: ["netanyahu-out-before-2027"],
+    key: "hung_parliament",
+    title: "האם הבחירות יסתיימו ללא רוב לאף אחד מהגושים?",
+    slugs: ["israeli-election-results-in-a-hung-parliament"],
   },
   {
-    key: "parliament_dissolved",
-    title: "כנסת תתפזר עד 31.10.26?",
-    slugs: ["israeli-parliament-dissolved-by-october-31"],
-  },
-  {
-    key: "eisenkot_join",
-    title: "איזנקוט יצטרף לברית?",
-    slugs: ["will-eisenkot-join-the-bennett-lapid-alliance-by-june-30"],
+    key: "likud_seats",
+    title: "ליכוד — כמה מנדטים?",
+    slugs: ["israel-election-likud-of-seats"],
   },
 ];
 
@@ -110,6 +105,40 @@ function parseNextPmOutcomes(event: any): MarketOutcome[] {
   }
 }
 
+const LIKUD_RANGE_LABELS: Record<string, string> = {
+  "fewer than 20": "פחות מ-20",
+  "20-24": "20-24",
+  "25-29": "25-29",
+  "30-34": "30-34",
+  "35 or more": "35+",
+};
+
+function extractLikudRange(question: string): string {
+  for (const [en, he] of Object.entries(LIKUD_RANGE_LABELS)) {
+    if (question.toLowerCase().includes(en.toLowerCase())) return he;
+  }
+  const m = question.match(/(\d[\d\-\+]*\s*(?:or more)?)\s*seats/i);
+  return m ? m[1] : question;
+}
+
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+function parseLikudSeatsOutcomes(event: any): MarketOutcome[] {
+  try {
+    const markets = event.markets;
+    if (!Array.isArray(markets) || markets.length === 0) return [];
+    const outcomes: MarketOutcome[] = [];
+    for (const m of markets) {
+      const prices: string[] = JSON.parse(m.outcomePrices ?? "[]");
+      const yesP = parseFloat(prices[0] ?? "0");
+      const question: string = m.question ?? m.title ?? "";
+      outcomes.push({ name: extractLikudRange(question), probability: yesP });
+    }
+    return outcomes.sort((a, b) => b.probability - a.probability);
+  } catch {
+    return [];
+  }
+}
+
 export async function GET() {
   const now = new Date().toISOString();
   const markets: PolymarketMarket[] = [];
@@ -121,6 +150,8 @@ export async function GET() {
       if (!events) continue;
       const outcomes = config.key === "next_pm"
         ? parseNextPmOutcomes(events[0])
+        : config.key === "likud_seats"
+        ? parseLikudSeatsOutcomes(events[0])
         : parseOutcomes(events[0]);
       if (outcomes.length === 0) continue;
       markets.push({

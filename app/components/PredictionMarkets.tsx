@@ -18,12 +18,11 @@ const HEBREW_NAMES: Record<string, string> = {
 
 const MARKET_TITLES: Record<string, string> = {
   next_pm: "ראש הממשלה הבא",
-  netanyahu_out: "נתניהו עוזב לפני 2027?",
-  parliament_dissolved: "כנסת תתפזר עד 31.10.26?",
-  eisenkot_join: "איזנקוט יצטרף לברית?",
+  hung_parliament: "האם הבחירות יסתיימו ללא רוב לאף אחד מהגושים?",
+  likud_seats: "ליכוד — כמה מנדטים?",
 };
 
-const MARKET_ORDER = ["next_pm", "netanyahu_out", "parliament_dissolved", "eisenkot_join"] as const;
+const MARKET_ORDER = ["next_pm", "hung_parliament", "likud_seats"] as const;
 
 function fmt(p: number): string {
   return `${Math.round(p * 100)}%`;
@@ -144,7 +143,7 @@ export default function PredictionMarkets({ polymarket: initial }: PredictionMar
         {MARKET_ORDER.map(key => {
           const market = data.markets.find(m => m.key === key);
           if (!market) return <PlaceholderCard key={key} marketKey={key} />;
-          if (key === "next_pm") return <PMCard key={key} market={market} />;
+          if (key === "next_pm" || key === "likud_seats") return <PMCard key={key} market={market} />;
           return <BinaryCard key={key} market={market} />;
         })}
       </div>

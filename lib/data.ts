@@ -1,6 +1,6 @@
 import { readFile } from "node:fs/promises";
 import path from "node:path";
-import type { EditorialData, GoogleTrendsData, MomentumData, PollsData, PolymarketData, ManualPollsData } from "./types";
+import type { EditorialData, GoogleTrendsData, MediaMentionsData, MomentumData, PollsData, PolymarketData, ManualPollsData, SocialData } from "./types";
 
 async function readJson<T>(fileName: string): Promise<T> {
   const filePath = path.join(process.cwd(), "public", "data", fileName);
@@ -33,12 +33,32 @@ async function fetchPolymarket(): Promise<PolymarketData> {
 }
 
 export async function getWidgetData() {
-  const [polymarket, manualPolls] = await Promise.all([
+  const [polymarket, manualPolls, trends, mediaMentions, socialData] = await Promise.all([
     fetchPolymarket(),
     readJson<ManualPollsData>("polls_manual.json"),
+    readJson<GoogleTrendsData>("google_trends.json").catch(() => ({
+      generated_at: "",
+      status: "error" as const,
+      timeframe: "",
+      geo: "",
+      keywords: [],
+    } as GoogleTrendsData)),
+    readJson<MediaMentionsData>("media_mentions.json").catch(() => ({
+      generated_at: "",
+      period: "",
+      period_label: "",
+      source: "",
+      leaders: [],
+    } as MediaMentionsData)),
+    readJson<SocialData>("social.json").catch(() => ({
+      generated_at: "",
+      headline_count: 0,
+      hot_topics: [],
+      leader_buzz: [],
+    } as SocialData)),
   ]);
 
-  return { polymarket, manualPolls };
+  return { polymarket, manualPolls, trends, mediaMentions, socialData };
 }
 
 // Keep legacy exports for any remaining references

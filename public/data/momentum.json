@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T09:05:17Z",
+  "generated_at": "2026-08-09T07:30:42Z",
   "weights": {
     "polls": 0.45,
     "polymarket": 0.3,
@@ -9,45 +9,45 @@
   "parties": [
     {
       "party": "likud",
-      "direction": "gaining",
-      "score": 0.6429,
+      "direction": "stable",
+      "score": 0.05,
       "label": "הליכוד",
       "signals": {
-        "polls": 1,
-        "polymarket": null,
-        "google_trends": 0
+        "polls": 0,
+        "polymarket": 1,
+        "google_trends": -1
       }
     },
     {
       "party": "together",
-      "direction": "gaining",
-      "score": 1.0,
+      "direction": "stable",
+      "score": 0.05,
       "label": "יחד",
       "signals": {
-        "polls": 1,
-        "polymarket": null,
-        "google_trends": 1
+        "polls": 0,
+        "polymarket": 1,
+        "google_trends": -1
       }
     },
     {
       "party": "shas",
-      "direction": "stable",
-      "score": 0.0,
+      "direction": "gaining",
+      "score": 1.0,
       "label": "ש״ס",
       "signals": {
-        "polls": 0,
+        "polls": 1,
         "polymarket": null,
         "google_trends": null
       }
     },
     {
       "party": "yisrael_beiteinu",
-      "direction": "losing",
-      "score": -1.0,
+      "direction": "gaining",
+      "score": 0.4,
       "label": "ישראל ביתנו",
       "signals": {
-        "polls": -1,
-        "polymarket": null,
+        "polls": 0,
+        "polymarket": 1,
         "google_trends": null
       }
     },
@@ -64,23 +64,23 @@
     },
     {
       "party": "otzma_yehudit",
-      "direction": "losing",
-      "score": -1.0,
+      "direction": "stable",
+      "score": 0.0,
       "label": "עוצמה יהודית",
       "signals": {
-        "polls": -1,
+        "polls": 0,
         "polymarket": null,
         "google_trends": null
       }
     },
     {
       "party": "yashar",
-      "direction": "stable",
-      "score": 0.0,
+      "direction": "gaining",
+      "score": 0.4,
       "label": "ישר",
       "signals": {
-        "polls": null,
-        "polymarket": null,
+        "polls": 0,
+        "polymarket": 1,
         "google_trends": null
       }
     },
@@ -99,18 +99,18 @@
   "blocs": {
     "coalition": {
       "seats": 47.0,
-      "delta": -0.5,
-      "direction": "stable"
+      "delta": 2.0,
+      "direction": "gaining"
     },
     "opposition": {
-      "seats": 58.6,
-      "delta": 23.6,
-      "direction": "gaining"
+      "seats": 56.0,
+      "delta": -0.6,
+      "direction": "stable"
     },
     "unaligned": {
-      "seats": 11.5,
-      "delta": 7.0,
-      "direction": "gaining"
+      "seats": 9.0,
+      "delta": -0.7,
+      "direction": "stable"
     }
   }
 }

@@ -106,7 +106,7 @@ function generateHemicycleSeats(
 
 function computeSeats(ts: ManualTimestamp, outletId: string): Record<string, number> {
   const polls = outletId === "average"
-    ? ts.polls.filter(p => p.outlet_id !== "channel14")
+    ? ts.polls
     : ts.polls.filter(p => p.outlet_id === outletId);
 
   if (polls.length === 0) return {};
@@ -202,12 +202,6 @@ export default function KnessetHemicycle({ manualPolls }: Props) {
   const blocs   = useMemo(() => computeBlocs(seats, partyMeta), [seats, partyMeta]);
   const barData = useMemo(() => buildBarData(seats, partyMeta), [seats, partyMeta]);
 
-  // Majority line: midpoint between the 60th and 61st seats sorted right-to-left
-  const majorityLineX = useMemo(() => {
-    if (hemi.seats.length < 62) return 0;
-    const sorted = [...hemi.seats].sort((a, b) => b.x - a.x);
-    return (sorted[60].x + sorted[61].x) / 2;
-  }, [hemi.seats]);
 
   function goTo(idx: number) {
     setDateId(timestamps[idx].id);
@@ -268,9 +262,6 @@ export default function KnessetHemicycle({ manualPolls }: Props) {
           ))}
         </div>
 
-        {outlet === "channel14" && (
-          <p className="channel14-note">ערוץ 14 מבוסס על מכון פילבר הקשור פוליטית — אינו נכלל בממוצע</p>
-        )}
       </div>
 
       {/* ── Hemicycle visualization card ─────────────────────────────────── */}
@@ -284,12 +275,6 @@ export default function KnessetHemicycle({ manualPolls }: Props) {
                 viewBox={hemi.vb.join(" ")}
                 className="hemicycle-svg"
               >
-                {/* Majority line drawn FIRST — seats render on top, dots never clipped */}
-                <line
-                  x1={majorityLineX} y1={hemi.vb[1]}
-                  x2={majorityLineX} y2={hemi.seatR}
-                  stroke="#475569" strokeWidth="0.3" strokeDasharray="1 0.8"
-                />
                 {/* Seat circles — keyed on dateId+outlet so animations re-fire on data change */}
                 <g key={dateId + outlet}>
                   {hemi.seats.map((s, i) => (
@@ -302,11 +287,6 @@ export default function KnessetHemicycle({ manualPolls }: Props) {
                     />
                   ))}
                 </g>
-                {/* "61" label drawn last — always visible above dots */}
-                <text
-                  x={majorityLineX} y={hemi.vb[1] + 1.8}
-                  textAnchor="middle" fontSize="1.5" fill="#64748b" fontWeight="700"
-                >61</text>
               </svg>
             </div>
 

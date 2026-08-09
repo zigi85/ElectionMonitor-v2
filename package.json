@@ -8,9 +8,12 @@
     "start": "next start",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
-    "refresh-data": "python scripts/scrape_polls.py && python scripts/fetch_polymarket.py && python scripts/fetch_trends.py && python scripts/calculate_momentum.py",
+    "refresh-data": "python scripts/scrape_polls.py && python scripts/fetch_polymarket.py && python scripts/fetch_trends.py && python scripts/fetch_media_mentions.py && python scripts/calculate_momentum.py",
     "refresh-polls": "python scripts/scrape_polls.py",
-    "refresh-markets": "python scripts/fetch_polymarket.py && python scripts/calculate_momentum.py"
+    "refresh-markets": "python scripts/fetch_polymarket.py && python scripts/calculate_momentum.py",
+    "refresh-media": "python scripts/fetch_media_mentions.py",
+    "refresh-trends": "python scripts/fetch_trends.py",
+    "refresh-social": "python scripts/fetch_social.py"
   },
   "dependencies": {
     "next": "^15.5.18",
