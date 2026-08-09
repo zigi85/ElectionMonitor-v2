@@ -65,7 +65,7 @@ export async function getWidgetData() {
 export async function getLegacyData() {
   const [polls, trends, momentum, editorial] = await Promise.all([
     readJson<PollsData>("polls.json").catch(() => ({ generated_at: "", source_urls: [], raw_polls: [], weekly_averages: [] } as PollsData)),
-    readJson<GoogleTrendsData>("google_trends.json").catch(() => ({ generated_at: "", available: false, keywords: [], series: [] } as GoogleTrendsData)),
+    readJson<GoogleTrendsData>("google_trends.json").catch(() => ({ generated_at: "", status: "error", timeframe: "", geo: "", keywords: [] } as GoogleTrendsData)),
     readJson<MomentumData>("momentum.json").catch(() => null),
     readJson<EditorialData>("editorial.json").catch(() => ({ updated_at: "", entries: [] } as EditorialData)),
   ]);
