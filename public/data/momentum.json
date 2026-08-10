@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T07:30:42Z",
+  "generated_at": "2026-08-10T06:09:23Z",
   "weights": {
     "polls": 0.45,
     "polymarket": 0.3,
@@ -10,22 +10,22 @@
     {
       "party": "likud",
       "direction": "stable",
-      "score": 0.05,
+      "score": 0.25,
       "label": "הליכוד",
       "signals": {
         "polls": 0,
-        "polymarket": 1,
-        "google_trends": -1
+        "polymarket": 0,
+        "google_trends": 1
       }
     },
     {
       "party": "together",
       "direction": "stable",
-      "score": 0.05,
+      "score": -0.25,
       "label": "יחד",
       "signals": {
         "polls": 0,
-        "polymarket": 1,
+        "polymarket": 0,
         "google_trends": -1
       }
     },
@@ -42,12 +42,12 @@
     },
     {
       "party": "yisrael_beiteinu",
-      "direction": "gaining",
-      "score": 0.4,
+      "direction": "stable",
+      "score": 0.0,
       "label": "ישראל ביתנו",
       "signals": {
         "polls": 0,
-        "polymarket": 1,
+        "polymarket": 0,
         "google_trends": null
       }
     },
@@ -75,12 +75,12 @@
     },
     {
       "party": "yashar",
-      "direction": "gaining",
-      "score": 0.4,
+      "direction": "stable",
+      "score": 0.0,
       "label": "ישר",
       "signals": {
         "polls": 0,
-        "polymarket": 1,
+        "polymarket": 0,
         "google_trends": null
       }
     },
