@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T18:56:27Z",
+  "generated_at": "2026-08-10T21:40:30Z",
   "period": "3d",
   "period_label": "3 ימים אחרונים",
   "source": "Google News",
@@ -19,14 +19,14 @@
           "fallback": true
         },
         {
-          "title": "שריון ראשון של נתניהו בליכוד: אורן דוברונסקי",
-          "source": "ynet.co.il",
-          "published_at": "Mon, 10 Aug 2026 16:17:33 GMT"
+          "title": "לרצות את טראמפ - מבלי לפגוע בבייס: מלכוד הבחירות של נתניהו",
+          "source": "ynet",
+          "published_at": "Mon, 10 Aug 2026 20:19:18 GMT"
         },
         {
-          "title": "נתניהו ישריין ברשימת הליכוד את יזם ההייטק אורן דוברונסקי",
-          "source": "TheMarker",
-          "published_at": "Mon, 10 Aug 2026 16:35:00 GMT"
+          "title": "דברי ראש הממשלה נתניהו בהשקת התוכנית הלאומית לבינה מלאכותית",
+          "source": "Gov.il",
+          "published_at": "Mon, 10 Aug 2026 19:23:03 GMT"
         }
       ]
     },
@@ -35,7 +35,7 @@
       "name_he": "גדי איזנקוט",
       "role": "יו\"ר ישר",
       "party": "yashar",
-      "mention_count": 85,
+      "mention_count": 94,
       "headlines": [
         {
           "title": "נתניהו ואיזנקוט בשלב הראש בראש - ומי הציבור מהמר שינצח?",
@@ -45,14 +45,14 @@
           "fallback": true
         },
         {
-          "title": "גדי איזנקוט: \"זה חייב לטלטל את אמות הסיפים\"",
-          "source": "סרוגים",
-          "published_at": "Mon, 10 Aug 2026 17:02:11 GMT"
-        },
-        {
           "title": "לאחר שהציגה את איזנקוט כטיפש, מכונת הרעל החלה להכחיש את מוצאו המרוקאי",
           "source": "הארץ",
           "published_at": "Mon, 10 Aug 2026 17:02:00 GMT"
+        },
+        {
+          "title": "היזם והפעיל החברתי שיראל חוגג מצטרף למפלגת \"ישר!\" של גדי איזנקוט",
+          "source": "i24NEWS",
+          "published_at": "Mon, 10 Aug 2026 09:03:09 GMT"
         }
       ]
     },
@@ -61,7 +61,7 @@
       "name_he": "נפתלי בנט",
       "role": "יו\"ר ביחד",
       "party": "together",
-      "mention_count": 56,
+      "mention_count": 58,
       "headlines": [
         {
           "title": "הליכוד בשפל בבייס שלא ראה מאז ההתנתקות; בנט משנה כיוון",
@@ -76,9 +76,9 @@
           "published_at": "Mon, 10 Aug 2026 18:19:27 GMT"
         },
         {
-          "title": "בנט חוזר לאירועי הציונות הדתית - והרב מדן קיבל אותו בחום",
-          "source": "סרוגים",
-          "published_at": "Mon, 10 Aug 2026 17:36:35 GMT"
+          "title": "סקר מנדטים: איזנקוט פתח פער רציני בצמרת מהליכוד - בנט מתחזק",
+          "source": "מעריב",
+          "published_at": "Mon, 10 Aug 2026 20:03:27 GMT"
         }
       ]
     },
@@ -87,7 +87,7 @@
       "name_he": "אביגדור ליברמן",
       "role": "יו\"ר ישראל ביתנו",
       "party": "yisrael_beiteinu",
-      "mention_count": 30,
+      "mention_count": 35,
       "headlines": [
         {
           "title": "ליברמן עוקף לראשונה את בנט: המהמרים בעולם מכריעים את הבחירות",
@@ -111,22 +111,22 @@
       "name_he": "יאיר גולן",
       "role": "יו\"ר הדמוקרטים",
       "party": "democrats",
-      "mention_count": 58,
+      "mention_count": 62,
       "headlines": [
         {
           "title": "עינב צנגאוקר נגד יאיר גולן: התחייב לשריין אותי - והפר את ההבטחה",
-          "source": "kan.org.il",
+          "source": "כאן 11",
           "published_at": "Mon, 10 Aug 2026 13:58:06 GMT"
+        },
+        {
+          "title": "עינב צנגאוקר: יאיר גולן לא עמד בהבטחת השריון שנתן לי",
+          "source": "ynet",
+          "published_at": "Mon, 10 Aug 2026 13:26:20 GMT"
         },
         {
           "title": "יאיר גולן הציע שריון לעינב צנגאוקר בדמוקרטים ולא עמד בהתחייבות",
           "source": "הארץ",
           "published_at": "Mon, 10 Aug 2026 13:20:00 GMT"
-        },
-        {
-          "title": "עינב צנגאוקר: יאיר גולן לא עמד בהבטחת השריון שנתן לי",
-          "source": "ynet.co.il",
-          "published_at": "Mon, 10 Aug 2026 13:26:20 GMT"
         }
       ]
     },
@@ -135,7 +135,7 @@
       "name_he": "איתמר בן גביר",
       "role": "יו\"ר עוצמה יהודית",
       "party": "otzma_yehudit",
-      "mention_count": 44,
+      "mention_count": 43,
       "headlines": [
         {
           "title": "התחזה ליריבו ואיים על בן גביר וסוכות: כתב אישום נגד תושב שועפט",
@@ -149,7 +149,7 @@
         },
         {
           "title": "רגע לפני הבחירות: בן גביר \"נזכר\" להצהיר על הונו האישי",
-          "source": "רשת 13",
+          "source": "13tv.co.il",
           "published_at": "Mon, 10 Aug 2026 05:18:32 GMT"
         }
       ]
@@ -159,22 +159,22 @@
       "name_he": "בצלאל סמוטריץ'",
       "role": "יו\"ר הציונות הדתית",
       "party": "religious_zionism",
-      "mention_count": 33,
+      "mention_count": 35,
       "headlines": [
         {
           "title": "ההכנסות ממסים עלו, והגירעון בחודש יולי ירד ל-3.3%",
           "source": "גלובס",
-          "published_at": "Mon, 10 Aug 2026 10:51:36 GMT"
+          "published_at": "Mon, 10 Aug 2026 10:52:35 GMT"
         },
         {
-          "title": "הגירעון בתקציב המדינה נותר יציב על 3.3%, ההכנסות עלו דרמטית",
-          "source": "ynet.co.il",
-          "published_at": "Mon, 10 Aug 2026 10:31:52 GMT"
+          "title": "מפרקים את אוסלו",
+          "source": "ynet",
+          "published_at": "Mon, 10 Aug 2026 21:00:00 GMT"
         },
         {
-          "title": "הגירעון ביולי נותר ללא שינוי - על 3.3% מהתוצר",
-          "source": "Calcalist",
-          "published_at": "Mon, 10 Aug 2026 10:19:00 GMT"
+          "title": "נתניהו, סמוטריץ וכ\"ץ הודיעו על הטבות למילואמניקים - שבכלל לא אושרו",
+          "source": "i24NEWS",
+          "published_at": "Mon, 10 Aug 2026 16:10:10 GMT"
         }
       ]
     }
