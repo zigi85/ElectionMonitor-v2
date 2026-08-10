@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-08-09T21:29:54Z",
-  "headline_count": 113,
+  "generated_at": "2026-08-10T04:28:04Z",
+  "headline_count": 109,
   "hot_topics": [
     {
       "id": "elections",
       "label": "בחירות וסקרים",
-      "mention_count": 30,
-      "sample_headline": "סקר מנדטים עדכני - המידע העדכני ביותר לבחירות 2026 | מרכז הסקרים",
-      "sample_source": "כאן 11"
+      "mention_count": 28,
+      "sample_headline": "בחירות 2026 סקר כאן 11: גוש איזנקוט מתחזק ומוביל על מפלגות הקואליציה בשלושה מנדטים",
+      "sample_source": "הארץ"
     },
     {
       "id": "coalition",
       "label": "קואליציה וכנסת",
-      "mention_count": 18,
+      "mention_count": 16,
       "sample_headline": "אדלשטיין: בימים הקרובים אפרוש מהליכוד ומהכנסת, \"לא נהיה האצבע ה-61 של ממשלה צרה\"",
       "sample_source": "זמן ישראל"
     },
@@ -26,16 +26,9 @@
     {
       "id": "judiciary",
       "label": "מערכת המשפט",
-      "mention_count": 4,
+      "mention_count": 3,
       "sample_headline": "בג\"ץ סגר את הדלת לשרן השכל: \"השיהוי הוא כרסום בבסיס הטענה שלה\"",
       "sample_source": "מעריב"
-    },
-    {
-      "id": "haredim",
-      "label": "חרדים וגיוס",
-      "mention_count": 3,
-      "sample_headline": "סקר: יהדות התורה עוקפת את ש\"ס, בנט מתרסק וארדן רחוק מאחוז החסימה",
-      "sample_source": "News1 מחלקה ראשונה"
     },
     {
       "id": "negotiations",
@@ -45,68 +38,75 @@
       "sample_source": "זמן ישראל"
     },
     {
+      "id": "haredim",
+      "label": "חרדים וגיוס",
+      "mention_count": 2,
+      "sample_headline": "סקר: יהדות התורה עוקפת את ש\"ס, בנט מתרסק וארדן רחוק מאחוז החסימה",
+      "sample_source": "News1 מחלקה ראשונה"
+    },
+    {
       "id": "economy",
       "label": "כלכלה ויוקר המחיה",
       "mention_count": 1,
-      "sample_headline": "זוג תיירים תועד מקיים יחסי מין בזמן נסיעה - ושילם ביוקר",
-      "sample_source": "היום"
+      "sample_headline": "תעמולת בחירות וגלולת רעל: למה נתניהו להוט להגדיל את תקציב הביטחון?",
+      "sample_source": "TheMarker"
     }
   ],
   "leader_buzz": [
     {
       "key": "eisenkot",
       "name_he": "גדי איזנקוט",
-      "views_7d": 14355,
-      "prev_views_7d": 10876,
-      "change_pct": 32.0,
+      "views_7d": 14644,
+      "prev_views_7d": 10559,
+      "change_pct": 38.7,
       "direction": "rising"
     },
     {
       "key": "netanyahu",
       "name_he": "בנימין נתניהו",
-      "views_7d": 5435,
-      "prev_views_7d": 6968,
-      "change_pct": -22.0,
+      "views_7d": 5369,
+      "prev_views_7d": 6787,
+      "change_pct": -20.9,
       "direction": "falling"
     },
     {
       "key": "golan",
       "name_he": "יאיר גולן",
-      "views_7d": 5310,
-      "prev_views_7d": 8423,
-      "change_pct": -37.0,
+      "views_7d": 4855,
+      "prev_views_7d": 8764,
+      "change_pct": -44.6,
       "direction": "falling"
     },
     {
       "key": "bennett",
       "name_he": "נפתלי בנט",
-      "views_7d": 3058,
-      "prev_views_7d": 2995,
-      "change_pct": 2.1,
-      "direction": "stable"
+      "views_7d": 2690,
+      "prev_views_7d": 3347,
+      "change_pct": -19.6,
+      "direction": "falling"
     },
     {
       "key": "lieberman",
       "name_he": "אביגדור ליברמן",
-      "views_7d": 2727,
-      "prev_views_7d": 1995,
-      "change_pct": 36.7,
-      "direction": "rising"
+      "views_7d": 2660,
+      "prev_views_7d": 0,
+      "change_pct": 0.0,
+      "direction": "stable"
     },
     {
       "key": "ben_gvir",
       "name_he": "איתמר בן גביר",
-      "views_7d": 1602,
-      "prev_views_7d": 1813,
-      "change_pct": -11.6,
+      "views_7d": 1679,
+      "prev_views_7d": 1723,
+      "change_pct": -2.6,
       "direction": "stable"
     },
     {
       "key": "smotrich",
       "name_he": "בצלאל סמוטריץ'",
-      "views_7d": 1285,
-      "prev_views_7d": 1709,
-      "change_pct": -24.8,
+      "views_7d": 1250,
+      "prev_views_7d": 1550,
+      "change_pct": -19.4,
       "direction": "falling"
     }
   ],
@@ -115,30 +115,30 @@
       "video_id": "9BP0iMeQNBA",
       "title": "במהלך סיור בבית הכלא, מחבל התלונן בפני השר בן גביר על תנאי הכליאה. השר השיב לו: ״זה לא מלון״",
       "channel": "ערוץ 7",
-      "views": 72190,
-      "views_str": "72.2K",
+      "views": 81622,
+      "views_str": "81.6K",
       "duration": "0:38",
       "published_text": "לפני יום אחד (1)",
       "thumbnail": "https://i.ytimg.com/vi/9BP0iMeQNBA/hq720_2.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARg0IEwocjAP&rs=AOn4CLDTXfsMAYgsiFyWAuPb86i-etS1wA",
       "url": "https://www.youtube.com/watch?v=9BP0iMeQNBA"
     },
     {
-      "video_id": "EfTKjA1axXs",
-      "title": "סקר המנדטים של חדשות 14 | הפער נמחק: סמוטריץ' ובן גביר משתווים במנדטים",
-      "channel": "C14",
-      "views": 26081,
-      "views_str": "26.1K",
-      "duration": "1:48",
-      "published_text": "לפני 5 ימים",
-      "thumbnail": "https://i.ytimg.com/vi/EfTKjA1axXs/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhWIF8oZTAP&rs=AOn4CLDPOxgcOBeP-wBu9AViQYwAADfZ7Q",
-      "url": "https://www.youtube.com/watch?v=EfTKjA1axXs"
+      "video_id": "7f5hp5C-gdI",
+      "title": "מחבל מתלונן לשר בן גביר ״אין לי אוכל כאן״.",
+      "channel": "עוצמה יהודית",
+      "views": 23576,
+      "views_str": "23.6K",
+      "duration": "0:39",
+      "published_text": "לפני 21 שעות",
+      "thumbnail": "https://i.ytimg.com/vi/7f5hp5C-gdI/hq720_2.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBzgWAAoAKigIMCAAQARh_IBMoPTAP&rs=AOn4CLB-jhlI1fsIbMM5e32DWK-slJqlPA",
+      "url": "https://www.youtube.com/watch?v=7f5hp5C-gdI"
     },
     {
       "video_id": "7XakIDQ4ETQ",
       "title": "אהוד ברק, נתניהו והמהפך האידיאולוגי: ד\"ר עינת וילף מגיעה למפגש קצוות",
       "channel": "i24NEWS עברית",
-      "views": 16217,
-      "views_str": "16.2K",
+      "views": 16932,
+      "views_str": "16.9K",
       "duration": "12:31",
       "published_text": "לפני יומיים (2)",
       "thumbnail": "https://i.ytimg.com/vi/7XakIDQ4ETQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD6ovw2hQcbtjWHbwSqJRkHeqRmCQ",
@@ -148,30 +148,19 @@
       "video_id": "nfnP9SO1YeI",
       "title": "דברי ראש הממשלה בנימין נתניהו בפתח ישיבת הממשלה - 09/08/2026",
       "channel": "IsraeliPM",
-      "views": 13516,
-      "views_str": "13.5K",
+      "views": 15676,
+      "views_str": "15.7K",
       "duration": "3:53",
-      "published_text": "לפני 10 שעות",
+      "published_text": "לפני 17 שעות",
       "thumbnail": "https://i.ytimg.com/vi/nfnP9SO1YeI/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhyIFEoOzAP&rs=AOn4CLCbyaW_iHPFVYm1rVf-4NbnObe68g",
       "url": "https://www.youtube.com/watch?v=nfnP9SO1YeI"
-    },
-    {
-      "video_id": "5g9t68IYttE",
-      "title": "ח\"כ איתן גינזבורג, ברוך הבא לנבחרת התיקון שלנו 🇮🇱ביחד נתקן!",
-      "channel": "נפתלי בנט | Naftali Bennett",
-      "views": 13284,
-      "views_str": "13.3K",
-      "duration": "0:24",
-      "published_text": "לפני 4 ימים",
-      "thumbnail": "https://i.ytimg.com/vi/5g9t68IYttE/hq720_2.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARhBIFcoZTAP&rs=AOn4CLCA8XxixZP7VKFCw8k0c_wjimfbtg",
-      "url": "https://www.youtube.com/watch?v=5g9t68IYttE"
     },
     {
       "video_id": "sqWOvSPp-zg",
       "title": "היד שמנענעת את הגוש: עד כמה יקשה ליברמן על חבריו בשמאל?",
       "channel": "i24NEWS עברית",
-      "views": 8384,
-      "views_str": "8.4K",
+      "views": 8677,
+      "views_str": "8.7K",
       "duration": "12:29",
       "published_text": "לפני יומיים (2)",
       "thumbnail": "https://i.ytimg.com/vi/sqWOvSPp-zg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAU1CGkOLxn4jR3M9ZsYgIw8sRu2g",
@@ -181,23 +170,34 @@
       "video_id": "XZWkP7P7cwk",
       "title": "משתמט לא יישב בקבינט! זה מה שעניתי לישי כהן כששאל אותי על דרעי",
       "channel": "נפתלי בנט | Naftali Bennett",
-      "views": 7424,
-      "views_str": "7.4K",
+      "views": 8223,
+      "views_str": "8.2K",
       "duration": "1:06",
       "published_text": "לפני יום אחד (1)",
-      "thumbnail": "https://i.ytimg.com/vi/XZWkP7P7cwk/hq720_2.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBvgSAAoAIigIMCAAQARhyIEwoOzAP&rs=AOn4CLAamQv0kyoaTa_lujfSkS-pHC7Onw",
+      "thumbnail": "https://i.ytimg.com/vi/XZWkP7P7cwk/hq720_2.jpg?sqp=-oaymwE6CNAFEJQDSFXyq4qpAywIARUAAIhCGABwAcABBvABAfgBvgSAAoAIigIMCAAQARhyIEwoOzAPuAL3GA==&rs=AOn4CLBDkMd3dDeEAK5pRBE5xZliCCeauQ",
       "url": "https://www.youtube.com/watch?v=XZWkP7P7cwk"
     },
     {
       "video_id": "Gqc9no1Pvpk",
       "title": "\"ביקשו מסמך נאמנות\": האיש שהיה הכי קרוב לנתניהו פותח הכל",
       "channel": "חדשות 13",
-      "views": 4440,
-      "views_str": "4.4K",
+      "views": 5956,
+      "views_str": "6.0K",
       "duration": "18:48",
-      "published_text": "לפני 12 שעות",
+      "published_text": "לפני 18 שעות",
       "thumbnail": "https://i.ytimg.com/vi/Gqc9no1Pvpk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB53kM0axzZqP63Tm1eHtrDHrOZ1g",
       "url": "https://www.youtube.com/watch?v=Gqc9no1Pvpk"
+    },
+    {
+      "video_id": "G0IC2N0EHTA",
+      "title": "אורן חזן: \"נתניהו במצב רעוע, זה יכול להשתנות ברגע באירוע שאני מעדיף שלא להרחיב עליו\"",
+      "channel": "ערוץ כנסת 99",
+      "views": 4626,
+      "views_str": "4.6K",
+      "duration": "0:44",
+      "published_text": "לפני 20 שעות",
+      "thumbnail": "https://i.ytimg.com/vi/G0IC2N0EHTA/hq720_2.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARhyIE8oQDAP&rs=AOn4CLCj_MN0Cu_bBiMRDOIBJnEmdWPX7A",
+      "url": "https://www.youtube.com/watch?v=G0IC2N0EHTA"
     }
   ],
   "telegram_channels": [
@@ -207,12 +207,12 @@
       "username": "bnetanyahu",
       "type": "politician",
       "post_count": 20,
-      "avg_views": 23558,
-      "avg_views_str": "23.6K",
+      "avg_views": 23812,
+      "avg_views_str": "23.8K",
       "top_post": {
         "text": "בסוף השבוע האחרון, מחבל פלסטיני נתעב רצח את רס״ן יובל עזרא ואת רס״ר (במיל׳) בניהו מלט ז״ל. זמן קצר לאחר הפיגוע הנפשע, מו",
-        "views": 50400,
-        "views_str": "50.4K",
+        "views": 50500,
+        "views_str": "50.5K",
         "date": "2026-07-26T13:03:16+00:00"
       }
     },
@@ -237,12 +237,12 @@
       "username": "bengvir",
       "type": "politician",
       "post_count": 20,
-      "avg_views": 6120,
-      "avg_views_str": "6.1K",
+      "avg_views": 6309,
+      "avg_views_str": "6.3K",
       "top_post": {
         "text": "השר לביטחון לאומי, איתמר בן גביר: מגבה את לוחמי שב״ס וצה״ל מול התחקיר המכפיש של ה״ניו יורק טיימס״. הם לא אנסו ולא עברו ע",
-        "views": 22800,
-        "views_str": "22.8K",
+        "views": 22900,
+        "views_str": "22.9K",
         "date": "2026-08-07T14:19:24+00:00"
       }
     },
@@ -252,13 +252,13 @@
       "username": "ynetalerts",
       "type": "news",
       "post_count": 20,
-      "avg_views": 4665,
-      "avg_views_str": "4.7K",
+      "avg_views": 5014,
+      "avg_views_str": "5.0K",
       "top_post": {
-        "text": "🔴 צו סגירה מנהלי חלקי נגד דיור מוגן בפתח תקווה למבזק המלא ב-ynet >",
-        "views": 6460,
-        "views_str": "6.46K",
-        "date": "2026-08-09T15:40:08+00:00"
+        "text": "🔴 הלך לעולמו דון נלסון, ממאמני ה-NBA הגדולים בכל הזמנים למבזק המלא ב-ynet >",
+        "views": 7170,
+        "views_str": "7.17K",
+        "date": "2026-08-09T17:50:59+00:00"
       }
     },
     {
@@ -282,12 +282,12 @@
       "username": "israelhayomofficial",
       "type": "news",
       "post_count": 20,
-      "avg_views": 3222,
-      "avg_views_str": "3.2K",
+      "avg_views": 3377,
+      "avg_views_str": "3.4K",
       "top_post": {
         "text": "זמר מוכר נעצר בחשד לעבירות אלימות >> bit.ly/4q52RrX",
-        "views": 4019,
-        "views_str": "4.02K",
+        "views": 4080,
+        "views_str": "4.08K",
         "date": "2026-08-08T18:51:22+00:00"
       }
     },
@@ -297,12 +297,12 @@
       "username": "naftalibennett1",
       "type": "politician",
       "post_count": 20,
-      "avg_views": 2444,
-      "avg_views_str": "2.4K",
+      "avg_views": 2498,
+      "avg_views_str": "2.5K",
       "top_post": {
         "text": "עכשיו בכותל, כמו בכל שנה בערב תשעה באב, ביחד עם כל גווני עם ישראל האהוב שלנו. פעמיים היתה לנו מדינה יהודית על האדמה הזו,",
-        "views": 3780,
-        "views_str": "3.78K",
+        "views": 3800,
+        "views_str": "3.8K",
         "date": "2026-07-22T18:21:48+00:00"
       }
     },
@@ -312,12 +312,12 @@
       "username": "smutrich",
       "type": "politician",
       "post_count": 6,
-      "avg_views": 662,
-      "avg_views_str": "662",
+      "avg_views": 704,
+      "avg_views_str": "704",
       "top_post": {
         "text": "אין על האווירה של השוק בראש העין בשישי. התמיכה שלכם מרגשת אותי ❤️ אוהב אתכם!",
-        "views": 911,
-        "views_str": "911",
+        "views": 919,
+        "views_str": "919",
         "date": "2026-08-07T14:34:24+00:00"
       }
     },
@@ -327,13 +327,13 @@
       "username": "N12_News",
       "type": "news",
       "post_count": 20,
-      "avg_views": 69,
-      "avg_views_str": "69",
+      "avg_views": 73,
+      "avg_views_str": "73",
       "top_post": {
-        "text": "טרגדיה בירדן: בן ה-12 שהתהפך עם סירה אותר ללא רוח חיים קישור לכתבה",
-        "views": 92,
-        "views_str": "92",
-        "date": "2026-08-09T13:24:10+00:00"
+        "text": "ההימור של טראמפ לגבי איראן: \"מצבה הכלכלי גרוע מאוד\" | הציטוטים המלאים בריאיון לברק רביד קישור לכתבה",
+        "views": 96,
+        "views_str": "96",
+        "date": "2026-08-09T17:04:07+00:00"
       }
     },
     {
@@ -342,13 +342,13 @@
       "username": "now14tv",
       "type": "news",
       "post_count": 20,
-      "avg_views": 3,
-      "avg_views_str": "3",
+      "avg_views": 4,
+      "avg_views_str": "4",
       "top_post": {
-        "text": "מכה לשרן השכל בג\"ץ דחה את העתירה של חברת הכנסת נגד הליכוד קישור לכתבה",
-        "views": 5,
-        "views_str": "5",
-        "date": "2026-08-09T18:16:07+00:00"
+        "text": "באמצע הכביש בן של ח\"כ לשעבר נתפס עם אקדח טעון ליד רמלה | תיעוד המעצר, ושמו של החשוד קישור לכתבה",
+        "views": 6,
+        "views_str": "6",
+        "date": "2026-08-09T19:04:10+00:00"
       }
     }
   ]
