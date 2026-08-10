@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T07:39:50Z",
+  "generated_at": "2026-08-10T10:16:01Z",
   "period": "3d",
   "period_label": "3 ימים אחרונים",
   "source": "Google News",
@@ -9,24 +9,14 @@
       "name_he": "בנימין נתניהו",
       "role": "ראש הממשלה",
       "party": "likud",
-      "mention_count": 100,
+      "mention_count": 0,
       "headlines": [
         {
-          "title": "נתניהו מול איזנקוט: המבחן שיכריע מי ראוי להוביל את ישראל",
+          "title": "נתניהו ואיזנקוט בשלב הראש בראש - ומי הציבור מהמר שינצח?",
           "source": "ישראל היום",
           "published_at": "",
-          "url": "https://www.israelhayom.co.il/opinions/article/21159975",
+          "url": "https://www.israelhayom.co.il/news/politics/article/21094691",
           "fallback": true
-        },
-        {
-          "title": "נתניהו עסוק בלהשכיח את טבח 7 באוקטובר — ודוחף גלולת רעל לממשלה הבאה",
-          "source": "TheMarker",
-          "published_at": "Mon, 10 Aug 2026 03:03:00 GMT"
-        },
-        {
-          "title": "איך משפט נתניהו צפוי לשנות את הדין הפלילי בישראל",
-          "source": "the7eye.org.il",
-          "published_at": "Mon, 10 Aug 2026 06:29:22 GMT"
         }
       ]
     },
@@ -35,24 +25,14 @@
       "name_he": "גדי איזנקוט",
       "role": "יו\"ר ישר",
       "party": "yashar",
-      "mention_count": 71,
+      "mention_count": 0,
       "headlines": [
         {
-          "title": "נתניהו מול איזנקוט: המבחן שיכריע מי ראוי להוביל את ישראל",
+          "title": "מנכ\"ל רשת AM:PM לשעבר מצטרף לגדי איזנקוט",
           "source": "ישראל היום",
           "published_at": "",
-          "url": "https://www.israelhayom.co.il/opinions/article/21159975",
+          "url": "https://www.israelhayom.co.il/news/politics/article/21164502",
           "fallback": true
-        },
-        {
-          "title": "גדי איזנקוט: \"זה חייב לטלטל את אמות הסיפים\"",
-          "source": "סרוגים",
-          "published_at": "Sun, 09 Aug 2026 07:19:30 GMT"
-        },
-        {
-          "title": "סקר מנדטים: מהפך בצמרת - נתניהו מנצח את איזנקוט שלוש פעמים",
-          "source": "מעריב",
-          "published_at": "Sun, 09 Aug 2026 18:41:33 GMT"
         }
       ]
     },
@@ -61,7 +41,7 @@
       "name_he": "נפתלי בנט",
       "role": "יו\"ר ביחד",
       "party": "together",
-      "mention_count": 44,
+      "mention_count": 0,
       "headlines": [
         {
           "title": "הליכוד בשפל בבייס שלא ראה מאז ההתנתקות; בנט משנה כיוון",
@@ -69,16 +49,6 @@
           "published_at": "",
           "url": "https://www.israelhayom.co.il/news/politics/article/20993009",
           "fallback": true
-        },
-        {
-          "title": "הקמפיין קורס, אז ממציאים עלילה: האמת מאחורי הספין של נפתלי בנט",
-          "source": "מעריב",
-          "published_at": "Mon, 10 Aug 2026 06:46:24 GMT"
-        },
-        {
-          "title": "לאור הירידה בסקרים: בנט לוחץ על טרופר להצטרף למפלגת \"ביחד\"",
-          "source": "רשת 13",
-          "published_at": "Mon, 10 Aug 2026 05:18:26 GMT"
         }
       ]
     },
@@ -87,96 +57,32 @@
       "name_he": "אביגדור ליברמן",
       "role": "יו\"ר ישראל ביתנו",
       "party": "yisrael_beiteinu",
-      "mention_count": 24,
-      "headlines": [
-        {
-          "title": "מכתב גלוי לליברמן: האם לא הגיע הזמן לחשב מסלול חדש? | יוסי אחימאיר",
-          "source": "מעריב",
-          "published_at": "Mon, 10 Aug 2026 03:01:01 GMT"
-        },
-        {
-          "title": "חודשיים וחצי לבחירות: ליברמן בהודעה לראשי האופוזיציה",
-          "source": "סרוגים",
-          "published_at": "Mon, 10 Aug 2026 07:19:57 GMT"
-        },
-        {
-          "title": "ליברמן במסר לראשי האופוזיציה: תפסיקו",
-          "source": "ערוץ 7",
-          "published_at": "Mon, 10 Aug 2026 05:44:00 GMT"
-        }
-      ]
+      "mention_count": 0,
+      "headlines": []
     },
     {
       "key": "golan",
       "name_he": "יאיר גולן",
       "role": "יו\"ר הדמוקרטים",
       "party": "democrats",
-      "mention_count": 20,
-      "headlines": [
-        {
-          "title": "זמרי: יאיר גולן לא עוקב אחרי משפט נתניהו - רק רוצה שיתנהל",
-          "source": "C14",
-          "published_at": "Sun, 09 Aug 2026 16:57:00 GMT"
-        },
-        {
-          "title": "הדבשת הדמוקרטית",
-          "source": "ynet",
-          "published_at": "Sat, 08 Aug 2026 07:59:19 GMT"
-        },
-        {
-          "title": "לפני הגשת הרשימות: נדחתה בקשה לפסול מועמד של \"הדמוקרטים\"",
-          "source": "JDN",
-          "published_at": "Mon, 10 Aug 2026 06:11:22 GMT"
-        }
-      ]
+      "mention_count": 0,
+      "headlines": []
     },
     {
       "key": "ben_gvir",
       "name_he": "איתמר בן גביר",
       "role": "יו\"ר עוצמה יהודית",
       "party": "otzma_yehudit",
-      "mention_count": 42,
-      "headlines": [
-        {
-          "title": "רגע לפני הבחירות: בן גביר \"נזכר\" להצהיר על הונו האישי",
-          "source": "רשת 13",
-          "published_at": "Mon, 10 Aug 2026 05:18:32 GMT"
-        },
-        {
-          "title": "בן גביר בעקבות החשיפה: רק כוח יביא ביטחון",
-          "source": "אמס",
-          "published_at": "Mon, 10 Aug 2026 07:13:26 GMT"
-        },
-        {
-          "title": "איתמר בן גביר חוטף מלוחם ה-MMA: \"האיש ליצן\"",
-          "source": "היום",
-          "published_at": "Sun, 09 Aug 2026 09:22:40 GMT"
-        }
-      ]
+      "mention_count": 0,
+      "headlines": []
     },
     {
       "key": "smotrich",
       "name_he": "בצלאל סמוטריץ'",
       "role": "יו\"ר הציונות הדתית",
       "party": "religious_zionism",
-      "mention_count": 28,
-      "headlines": [
-        {
-          "title": "יפרק את הגוש? התרחיש שבו סמוטריץ' עלול לנטוש את נתניהו - והשאלה שסירב להשיב עליה",
-          "source": "מעריב",
-          "published_at": "Mon, 10 Aug 2026 04:12:43 GMT"
-        },
-        {
-          "title": "ראש הממשלה שר הבינוי והשיכון ושר האוצר הציגו את התוכנית \"ממילואים למפתח\" להרחבת הטבות הדיור למשרתי המילואים",
-          "source": "Gov.il",
-          "published_at": "Sun, 09 Aug 2026 16:28:01 GMT"
-        },
-        {
-          "title": "פרשנות נתניהו קרוע בין טראמפ לסמוטריץ', וינסה למשוך זמן עד הבחירות",
-          "source": "הארץ",
-          "published_at": "Sun, 09 Aug 2026 16:17:00 GMT"
-        }
-      ]
+      "mention_count": 0,
+      "headlines": []
     }
   ]
 }
