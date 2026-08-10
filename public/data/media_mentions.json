@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T21:31:26Z",
+  "generated_at": "2026-08-10T01:45:07Z",
   "period": "3d",
   "period_label": "3 ימים אחרונים",
   "source": "Google News",
@@ -12,21 +12,21 @@
       "mention_count": 100,
       "headlines": [
         {
-          "title": "גפני מסרב להתחייב: \"היום אני כבר לא אומר שנלך עם נתניהו\"",
+          "title": "נתניהו מול איזנקוט: המבחן שיכריע מי ראוי להוביל את ישראל",
           "source": "ישראל היום",
           "published_at": "",
-          "url": "https://www.israelhayom.co.il/news/politics/article/21162935",
+          "url": "https://www.israelhayom.co.il/opinions/article/21159975",
           "fallback": true
-        },
-        {
-          "title": "\"צה\"ל עור ועצמות\": נתניהו פותח את תקציב הביטחון, והממשלה הבאה תצטרך להעלות מסים",
-          "source": "גלובס",
-          "published_at": "Sun, 09 Aug 2026 14:08:15 GMT"
         },
         {
           "title": "נתניהו: ישראל שוללת את מסמך 15 הנקודות של מועצת השלום לעזה",
           "source": "ynet",
           "published_at": "Sun, 09 Aug 2026 10:56:03 GMT"
+        },
+        {
+          "title": "\"צה\"ל עור ועצמות\": נתניהו פותח את תקציב הביטחון, והממשלה הבאה תצטרך להעלות מסים",
+          "source": "globes.co.il",
+          "published_at": "Sun, 09 Aug 2026 14:08:41 GMT"
         }
       ]
     },
@@ -35,13 +35,13 @@
       "name_he": "גדי איזנקוט",
       "role": "יו\"ר ישר",
       "party": "yashar",
-      "mention_count": 89,
+      "mention_count": 87,
       "headlines": [
         {
-          "title": "נתניהו ואיזנקוט בשלב הראש בראש - ומי הציבור מהמר שינצח?",
+          "title": "נתניהו מול איזנקוט: המבחן שיכריע מי ראוי להוביל את ישראל",
           "source": "ישראל היום",
           "published_at": "",
-          "url": "https://www.israelhayom.co.il/news/politics/article/21094691",
+          "url": "https://www.israelhayom.co.il/opinions/article/21159975",
           "fallback": true
         },
         {
@@ -61,7 +61,7 @@
       "name_he": "נפתלי בנט",
       "role": "יו\"ר ביחד",
       "party": "together",
-      "mention_count": 40,
+      "mention_count": 41,
       "headlines": [
         {
           "title": "הליכוד בשפל בבייס שלא ראה מאז ההתנתקות; בנט משנה כיוון",
@@ -76,9 +76,9 @@
           "published_at": "Sun, 09 Aug 2026 20:51:18 GMT"
         },
         {
-          "title": "לאור הירידה בסקרים: בנט לוחץ על טרופר להצטרף למפלגת \"ביחד\"",
-          "source": "רשת 13",
-          "published_at": "Sun, 09 Aug 2026 17:19:26 GMT"
+          "title": "גלגל הצלה פוליטי? הצעד הנואש של נפתלי בנט מול הצניחה בסקרים",
+          "source": "כיכר השבת",
+          "published_at": "Sun, 09 Aug 2026 20:56:01 GMT"
         }
       ]
     },
@@ -87,22 +87,22 @@
       "name_he": "אביגדור ליברמן",
       "role": "יו\"ר ישראל ביתנו",
       "party": "yisrael_beiteinu",
-      "mention_count": 25,
+      "mention_count": 29,
       "headlines": [
         {
-          "title": "הדיון בביתו של האדמו\"ר מגור: \"ליברמן ואדלשטיין קומוניסטים\" | האזינו",
-          "source": "i24news.tv",
-          "published_at": "Sun, 09 Aug 2026 18:39:35 GMT"
-        },
-        {
           "title": "ליברמן חשף למי הציע שריונים - וסורב",
-          "source": "mako",
+          "source": "Mako",
           "published_at": "Sun, 09 Aug 2026 07:03:00 GMT"
         },
         {
           "title": "חיפשנו סימנים: האם ארדן שתול של נתניהו, או בכלל של ליברמן?",
           "source": "הארץ",
           "published_at": "Sun, 09 Aug 2026 09:16:00 GMT"
+        },
+        {
+          "title": "הדיון בביתו של האדמו\"ר מגור: \"ליברמן ואדלשטיין קומוניסטים\" | האזינו",
+          "source": "i24NEWS",
+          "published_at": "Sun, 09 Aug 2026 18:39:35 GMT"
         }
       ]
     },
@@ -111,12 +111,12 @@
       "name_he": "יאיר גולן",
       "role": "יו\"ר הדמוקרטים",
       "party": "democrats",
-      "mention_count": 28,
+      "mention_count": 27,
       "headlines": [
         {
-          "title": "עירית לינור: זה ההבדל האמיתי בין יאיר גולן לנתניהו",
+          "title": "זמרי: יאיר גולן לא עוקב אחרי משפט נתניהו - רק רוצה שיתנהל",
           "source": "C14",
-          "published_at": "Sun, 09 Aug 2026 16:54:00 GMT"
+          "published_at": "Sun, 09 Aug 2026 16:57:00 GMT"
         },
         {
           "title": "הדבשת הדמוקרטית",
@@ -124,9 +124,9 @@
           "published_at": "Sat, 08 Aug 2026 07:59:19 GMT"
         },
         {
-          "title": "דן אילוז: \"עדיף יאיר גולן על פני החרדים\"",
-          "source": "בחדרי חרדים",
-          "published_at": "Sun, 09 Aug 2026 04:30:00 GMT"
+          "title": "סקר מנדטים: מהפך בצמרת - נתניהו מנצח את איזנקוט שלוש פעמים",
+          "source": "מעריב",
+          "published_at": "Sun, 09 Aug 2026 18:41:33 GMT"
         }
       ]
     },
@@ -135,7 +135,7 @@
       "name_he": "איתמר בן גביר",
       "role": "יו\"ר עוצמה יהודית",
       "party": "otzma_yehudit",
-      "mention_count": 40,
+      "mention_count": 39,
       "headlines": [
         {
           "title": "רגע לפני הבחירות: בן גביר \"נזכר\" להצהיר על הונו האישי",
@@ -148,9 +148,9 @@
           "published_at": "Sun, 09 Aug 2026 09:22:40 GMT"
         },
         {
-          "title": "השופט נעם סולברג הורה: לטשטש שוטרים בסרטון הבחירות של איתמר בן גביר",
-          "source": "ערוץ 7",
-          "published_at": "Sun, 09 Aug 2026 12:11:00 GMT"
+          "title": "מפתיע: יועצו של בן גביר לשעבר מצטרף לגלעד ארדן",
+          "source": "סרוגים",
+          "published_at": "Sun, 09 Aug 2026 12:49:30 GMT"
         }
       ]
     },
@@ -159,7 +159,7 @@
       "name_he": "בצלאל סמוטריץ'",
       "role": "יו\"ר הציונות הדתית",
       "party": "religious_zionism",
-      "mention_count": 29,
+      "mention_count": 30,
       "headlines": [
         {
           "title": "ראש הממשלה שר הבינוי והשיכון ושר האוצר הציגו את התוכנית \"ממילואים למפתח\" להרחבת הטבות הדיור למשרתי המילואים",
