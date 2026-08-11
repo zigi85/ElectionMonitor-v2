@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T21:40:30Z",
+  "generated_at": "2026-08-11T01:41:54Z",
   "period": "3d",
   "period_label": "3 ימים אחרונים",
   "source": "Google News",
@@ -45,14 +45,14 @@
           "fallback": true
         },
         {
-          "title": "לאחר שהציגה את איזנקוט כטיפש, מכונת הרעל החלה להכחיש את מוצאו המרוקאי",
+          "title": "סקר חדשות 12: לגוש איזנקוט חסר מנדט כדי לזכות ברוב בלא המפלגות הערביות",
           "source": "הארץ",
-          "published_at": "Mon, 10 Aug 2026 17:02:00 GMT"
+          "published_at": "Mon, 10 Aug 2026 18:46:00 GMT"
         },
         {
-          "title": "היזם והפעיל החברתי שיראל חוגג מצטרף למפלגת \"ישר!\" של גדי איזנקוט",
-          "source": "i24NEWS",
-          "published_at": "Mon, 10 Aug 2026 09:03:09 GMT"
+          "title": "גדי איזנקוט: \"זה חייב לטלטל את אמות הסיפים\"",
+          "source": "סרוגים",
+          "published_at": "Sun, 09 Aug 2026 07:19:30 GMT"
         }
       ]
     },
@@ -61,7 +61,7 @@
       "name_he": "נפתלי בנט",
       "role": "יו\"ר ביחד",
       "party": "together",
-      "mention_count": 58,
+      "mention_count": 57,
       "headlines": [
         {
           "title": "הליכוד בשפל בבייס שלא ראה מאז ההתנתקות; בנט משנה כיוון",
@@ -76,9 +76,9 @@
           "published_at": "Mon, 10 Aug 2026 18:19:27 GMT"
         },
         {
-          "title": "סקר מנדטים: איזנקוט פתח פער רציני בצמרת מהליכוד - בנט מתחזק",
+          "title": "הקמפיין קורס, אז ממציאים עלילה: האמת מאחורי הספין של נפתלי בנט",
           "source": "מעריב",
-          "published_at": "Mon, 10 Aug 2026 20:03:27 GMT"
+          "published_at": "Mon, 10 Aug 2026 06:46:24 GMT"
         }
       ]
     },
@@ -87,7 +87,7 @@
       "name_he": "אביגדור ליברמן",
       "role": "יו\"ר ישראל ביתנו",
       "party": "yisrael_beiteinu",
-      "mention_count": 35,
+      "mention_count": 33,
       "headlines": [
         {
           "title": "ליברמן עוקף לראשונה את בנט: המהמרים בעולם מכריעים את הבחירות",
@@ -111,7 +111,7 @@
       "name_he": "יאיר גולן",
       "role": "יו\"ר הדמוקרטים",
       "party": "democrats",
-      "mention_count": 62,
+      "mention_count": 67,
       "headlines": [
         {
           "title": "עינב צנגאוקר נגד יאיר גולן: התחייב לשריין אותי - והפר את ההבטחה",
@@ -135,7 +135,7 @@
       "name_he": "איתמר בן גביר",
       "role": "יו\"ר עוצמה יהודית",
       "party": "otzma_yehudit",
-      "mention_count": 43,
+      "mention_count": 42,
       "headlines": [
         {
           "title": "התחזה ליריבו ואיים על בן גביר וסוכות: כתב אישום נגד תושב שועפט",
@@ -143,14 +143,14 @@
           "published_at": "Mon, 10 Aug 2026 14:24:00 GMT"
         },
         {
-          "title": "בן גביר בעקבות החשיפה: רק כוח יביא ביטחון",
-          "source": "אמס",
-          "published_at": "Mon, 10 Aug 2026 07:13:26 GMT"
-        },
-        {
           "title": "רגע לפני הבחירות: בן גביר \"נזכר\" להצהיר על הונו האישי",
           "source": "13tv.co.il",
           "published_at": "Mon, 10 Aug 2026 05:18:32 GMT"
+        },
+        {
+          "title": "איתמר בן גביר חוטף מלוחם ה-MMA: \"האיש ליצן\"",
+          "source": "היום",
+          "published_at": "Sun, 09 Aug 2026 09:22:40 GMT"
         }
       ]
     },
@@ -159,7 +159,7 @@
       "name_he": "בצלאל סמוטריץ'",
       "role": "יו\"ר הציונות הדתית",
       "party": "religious_zionism",
-      "mention_count": 35,
+      "mention_count": 33,
       "headlines": [
         {
           "title": "ההכנסות ממסים עלו, והגירעון בחודש יולי ירד ל-3.3%",
@@ -173,7 +173,7 @@
         },
         {
           "title": "נתניהו, סמוטריץ וכ\"ץ הודיעו על הטבות למילואמניקים - שבכלל לא אושרו",
-          "source": "i24NEWS",
+          "source": "i24news.tv",
           "published_at": "Mon, 10 Aug 2026 16:10:10 GMT"
         }
       ]
