@@ -1,34 +1,27 @@
 {
-  "generated_at": "2026-08-11T08:26:49Z",
-  "headline_count": 165,
+  "generated_at": "2026-08-11T09:58:43Z",
+  "headline_count": 166,
   "hot_topics": [
     {
       "id": "elections",
       "label": "בחירות וסקרים",
-      "mention_count": 45,
+      "mention_count": 48,
       "sample_headline": "סקר מנדטים עדכני - המידע העדכני ביותר לבחירות 2026 | מרכז הסקרים",
       "sample_source": "כאן 11"
     },
     {
       "id": "coalition",
       "label": "קואליציה וכנסת",
-      "mention_count": 29,
+      "mention_count": 33,
       "sample_headline": "ברקע הקרב על ראשות הממשלה: ליברמן קורא להפסקת האש באופוזיציה",
       "sample_source": "News1 מחלקה ראשונה"
     },
     {
       "id": "judiciary",
       "label": "מערכת המשפט",
-      "mention_count": 12,
-      "sample_headline": "בג\"ץ דן בעתירות נגד החלטת הכנסת לבטל הצבת קלפיות מיוחדות בבתי אבות ובמוסדות דיור מוגן",
-      "sample_source": "הארץ"
-    },
-    {
-      "id": "security",
-      "label": "ביטחון",
-      "mention_count": 4,
-      "sample_headline": "איראן: ברית מכה אינה נגדנו ועשויה לחזק את הביטחון נגד ישראל",
-      "sample_source": "זמן ישראל"
+      "mention_count": 11,
+      "sample_headline": "מכה לנתניהו: בית המשפט פסל את שינוי התקנון - שרים וח\"כים לא יתמודדו במחוזות",
+      "sample_source": "כיכר השבת"
     },
     {
       "id": "haredim",
@@ -38,18 +31,18 @@
       "sample_source": "זמן ישראל"
     },
     {
+      "id": "security",
+      "label": "ביטחון",
+      "mention_count": 3,
+      "sample_headline": "איראן: ברית מכה אינה נגדנו ועשויה לחזק את הביטחון נגד ישראל",
+      "sample_source": "זמן ישראל"
+    },
+    {
       "id": "negotiations",
       "label": "דיפלומטיה",
       "mention_count": 3,
       "sample_headline": "הבלוג של יוני בן מנחם - מצרים מאשימה את ישראל בעיכוב תוכנית מועצת השלום משיקולי בחירות",
       "sample_source": "המזרח התיכון לאן? | הבלוג של יוני בן מנחם"
-    },
-    {
-      "id": "economy",
-      "label": "כלכלה ויוקר המחיה",
-      "mention_count": 2,
-      "sample_headline": "בג\"ץ דן בעתירות נגד החלטת הכנסת לבטל הצבת קלפיות מיוחדות בבתי אבות ובמוסדות דיור מוגן",
-      "sample_source": "הארץ"
     }
   ],
   "leader_buzz": [
@@ -115,8 +108,8 @@
       "video_id": "9BP0iMeQNBA",
       "title": "במהלך סיור בבית הכלא, מחבל התלונן בפני השר בן גביר על תנאי הכליאה. השר השיב לו: ״זה לא מלון״",
       "channel": "ערוץ 7",
-      "views": 99997,
-      "views_str": "100.0K",
+      "views": 100305,
+      "views_str": "100.3K",
       "duration": "0:38",
       "published_text": "לפני יומיים (2)",
       "thumbnail": "https://i.ytimg.com/vi/9BP0iMeQNBA/hq720_2.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARg0IEwocjAP&rs=AOn4CLDTXfsMAYgsiFyWAuPb86i-etS1wA",
@@ -126,18 +119,40 @@
       "video_id": "nfnP9SO1YeI",
       "title": "דברי ראש הממשלה בנימין נתניהו בפתח ישיבת הממשלה - 09/08/2026",
       "channel": "IsraeliPM",
-      "views": 21241,
-      "views_str": "21.2K",
+      "views": 21395,
+      "views_str": "21.4K",
       "duration": "3:53",
       "published_text": "לפני יום אחד (1)",
       "thumbnail": "https://i.ytimg.com/vi/nfnP9SO1YeI/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhyIFEoOzAP&rs=AOn4CLCbyaW_iHPFVYm1rVf-4NbnObe68g",
       "url": "https://www.youtube.com/watch?v=nfnP9SO1YeI"
     },
     {
+      "video_id": "JMYdmEhovj4",
+      "title": "בנט מפתיע: “לא רוצה לראות את נתניהו במדים כתומים נכנס לכלא, הוא כבר מזמן מעבר לראש ממשלה - הוא סמל”!",
+      "channel": "כיכר השבת",
+      "views": 15577,
+      "views_str": "15.6K",
+      "duration": "1:13",
+      "published_text": "לפני יומיים (2)",
+      "thumbnail": "https://i.ytimg.com/vi/JMYdmEhovj4/hq720_2.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARhlIGAoTDAP&rs=AOn4CLDMIFL2G87MrxtS75lHisQAQHMj4Q",
+      "url": "https://www.youtube.com/watch?v=JMYdmEhovj4"
+    },
+    {
+      "video_id": "BaTPRUrwpMI",
+      "title": "ראש הממשלה נתניהו וראש המטה הלאומי לבינה מלאכותית אסקל בהשקת התכנית הלאומית לבינה מלאכותית",
+      "channel": "IsraeliPM",
+      "views": 12001,
+      "views_str": "12.0K",
+      "duration": "4:47",
+      "published_text": "לפני 19 שעות",
+      "thumbnail": "https://i.ytimg.com/vi/BaTPRUrwpMI/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARg8IEMofzAP&rs=AOn4CLDAhDmd7lC86iVbnkarR2pWdu8btQ",
+      "url": "https://www.youtube.com/watch?v=BaTPRUrwpMI"
+    },
+    {
       "video_id": "sqWOvSPp-zg",
       "title": "היד שמנענעת את הגוש: עד כמה יקשה ליברמן על חבריו בשמאל?",
       "channel": "i24NEWS עברית",
-      "views": 9585,
+      "views": 9596,
       "views_str": "9.6K",
       "duration": "12:29",
       "published_text": "לפני 3 ימים",
@@ -145,59 +160,37 @@
       "url": "https://www.youtube.com/watch?v=sqWOvSPp-zg"
     },
     {
-      "video_id": "zcck8y4dGm0",
-      "title": "יכריעו את הבחירות? המפלגות הקטנות לא עוברות את אחוז החסימה",
+      "video_id": "lwsze0DV6GI",
+      "title": "מזל מועלם: ליברמן יסחט ראשות ממשלה",
+      "channel": "John Smith",
+      "views": 8873,
+      "views_str": "8.9K",
+      "duration": "1:45",
+      "published_text": "לפני 22 שעות",
+      "thumbnail": "https://i.ytimg.com/vi/lwsze0DV6GI/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARgkIEgofzAP&rs=AOn4CLAZk1A6VIzxz_Wi0aiQGDNklFOMaw",
+      "url": "https://www.youtube.com/watch?v=lwsze0DV6GI"
+    },
+    {
+      "video_id": "cshxW2KcTVY",
+      "title": "פוליטיקאים מפחדים מזה. אני לא. ביחד נפרק את המונופולים.",
+      "channel": "נפתלי בנט | Naftali Bennett",
+      "views": 8654,
+      "views_str": "8.7K",
+      "duration": "1:08",
+      "published_text": "לפני 23 שעות",
+      "thumbnail": "https://i.ytimg.com/vi/cshxW2KcTVY/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARhlIFIoQTAP&rs=AOn4CLBTNv6AL3qyh5szbUolIPMEB4F8vw",
+      "url": "https://www.youtube.com/watch?v=cshxW2KcTVY"
+    },
+    {
+      "video_id": "X6UQj9kzg6w",
+      "title": "שולפים ציפורניים: אחרי הראיונות של אדלשטיין וארדן - חברי הליכוד מגיבים",
       "channel": "כאן | חדשות - תאגיד השידור הישראלי",
-      "views": 8243,
-      "views_str": "8.2K",
-      "duration": "5:57",
-      "published_text": "לפני 13 שעות",
-      "thumbnail": "https://i.ytimg.com/vi/zcck8y4dGm0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDyWJRc_f7dGugCnDJX_TIADWPMNA",
-      "url": "https://www.youtube.com/watch?v=zcck8y4dGm0"
-    },
-    {
-      "video_id": "FdDQuP3yMBA",
-      "title": "ראש הממשלה לשעבר ויו\"ר ביחד נפתלי בנט בריאיון מיוחד לקרן מרציאנו",
-      "channel": "נפתלי בנט | Naftali Bennett",
-      "views": 6681,
-      "views_str": "6.7K",
-      "duration": "10:23",
+      "views": 7172,
+      "views_str": "7.2K",
+      "duration": "2:29",
       "published_text": "לפני יום אחד (1)",
-      "thumbnail": "https://i.ytimg.com/vi/FdDQuP3yMBA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDojWgGV-lUjsddpso6m2TRBW-HRA",
-      "url": "https://www.youtube.com/watch?v=FdDQuP3yMBA"
-    },
-    {
-      "video_id": "VqRghIjij_E",
-      "title": "כל האמת, בלי פילטרים.פרלמנט חולון, נתתם פייט!❤️",
-      "channel": "נפתלי בנט | Naftali Bennett",
-      "views": 3955,
-      "views_str": "4.0K",
-      "duration": "4:02",
-      "published_text": "לפני 5 ימים",
-      "thumbnail": "https://i.ytimg.com/vi/VqRghIjij_E/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBzgWAAoAKigIMCAAQARhlIFkoUjAP&rs=AOn4CLAoPb_iAQztoe_bqC4XBNdiKiG2_g",
-      "url": "https://www.youtube.com/watch?v=VqRghIjij_E"
-    },
-    {
-      "video_id": "FEgVpQfmeCQ",
-      "title": "\"ליברמן - קומוניסט\": התיעוד החריג מבית האדמו\"ר מגור | בלעדי",
-      "channel": "i24NEWS עברית",
-      "views": 3249,
-      "views_str": "3.2K",
-      "duration": "3:46",
-      "published_text": "לפני יום אחד (1)",
-      "thumbnail": "https://i.ytimg.com/vi/FEgVpQfmeCQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCubdtnm6vahsKWjWYgu0aW9aLMNw",
-      "url": "https://www.youtube.com/watch?v=FEgVpQfmeCQ"
-    },
-    {
-      "video_id": "5ZhqmlsnyAk",
-      "title": "האם נתניהו יכול להבטיח קדנציה שביעית? קרב הבחירות הגדול של ישראל | #מכנסיים קצרים | N18S",
-      "channel": "‫CNN-News18 ו-Griha Atul",
-      "views": 2523,
-      "views_str": "2.5K",
-      "duration": "2:59",
-      "published_text": "לפני יומיים (2)",
-      "thumbnail": "https://i.ytimg.com/vi/5ZhqmlsnyAk/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARgTID0ofzAP&rs=AOn4CLBX0eLZ_zbUHExDDlb93XDMrAtsUQ",
-      "url": "https://www.youtube.com/watch?v=5ZhqmlsnyAk"
+      "thumbnail": "https://i.ytimg.com/vi/X6UQj9kzg6w/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDXzFC_T-oP-IpbHuLhHPgdCmpPMA",
+      "url": "https://www.youtube.com/watch?v=X6UQj9kzg6w"
     }
   ],
   "telegram_channels": [
@@ -207,8 +200,8 @@
       "username": "bnetanyahu",
       "type": "politician",
       "post_count": 20,
-      "avg_views": 24131,
-      "avg_views_str": "24.1K",
+      "avg_views": 24153,
+      "avg_views_str": "24.2K",
       "top_post": {
         "text": "בסוף השבוע האחרון, מחבל פלסטיני נתעב רצח את רס״ן יובל עזרא ואת רס״ר (במיל׳) בניהו מלט ז״ל. זמן קצר לאחר הפיגוע הנפשע, מו",
         "views": 50700,
@@ -237,28 +230,13 @@
       "username": "bengvir",
       "type": "politician",
       "post_count": 16,
-      "avg_views": 4792,
-      "avg_views_str": "4.8K",
+      "avg_views": 4747,
+      "avg_views_str": "4.7K",
       "top_post": {
         "text": "השר לביטחון לאומי, איתמר בן גביר: ככל שהעדויות הקשות המגיעות מבית החולים רמב״ם נכונות, מדובר בשערורייה חמורה שצריכה להטר",
         "views": 17400,
         "views_str": "17.4K",
         "date": "2026-08-09T07:59:50+00:00"
-      }
-    },
-    {
-      "key": "ynet",
-      "name_he": "ynet",
-      "username": "ynetalerts",
-      "type": "news",
-      "post_count": 20,
-      "avg_views": 4735,
-      "avg_views_str": "4.7K",
-      "top_post": {
-        "text": "🔴 דיווח: סבא\"א תפנה בקרוב חומר גרעיני מאתר חשאי בסוריה למבזק המלא ב-ynet >",
-        "views": 7320,
-        "views_str": "7.32K",
-        "date": "2026-08-10T19:46:35+00:00"
       }
     },
     {
@@ -277,13 +255,28 @@
       }
     },
     {
+      "key": "ynet",
+      "name_he": "ynet",
+      "username": "ynetalerts",
+      "type": "news",
+      "post_count": 20,
+      "avg_views": 3616,
+      "avg_views_str": "3.6K",
+      "top_post": {
+        "text": "🔴 דיווח: בשל איום איראני, טראמפ הוטס בחשאי - ואייר פורס 1 שימש כפיתיון למבזק המלא ב-ynet >",
+        "views": 6510,
+        "views_str": "6.51K",
+        "date": "2026-08-11T00:35:01+00:00"
+      }
+    },
+    {
       "key": "israelhayom",
       "name_he": "ישראל היום",
       "username": "israelhayomofficial",
       "type": "news",
       "post_count": 20,
-      "avg_views": 3244,
-      "avg_views_str": "3.2K",
+      "avg_views": 3303,
+      "avg_views_str": "3.3K",
       "top_post": {
         "text": "דיווח: טראמפ נערך להכריז על ניצחון באיראן - גם ללא הסכם",
         "views": 4070,
@@ -297,7 +290,7 @@
       "username": "naftalibennett1",
       "type": "politician",
       "post_count": 20,
-      "avg_views": 2514,
+      "avg_views": 2532,
       "avg_views_str": "2.5K",
       "top_post": {
         "text": "עכשיו בכותל, כמו בכל שנה בערב תשעה באב, ביחד עם כל גווני עם ישראל האהוב שלנו. פעמיים היתה לנו מדינה יהודית על האדמה הזו,",
@@ -311,9 +304,9 @@
       "name_he": "בצלאל סמוטריץ'",
       "username": "smutrich",
       "type": "politician",
-      "post_count": 10,
-      "avg_views": 820,
-      "avg_views_str": "820",
+      "post_count": 11,
+      "avg_views": 784,
+      "avg_views_str": "784",
       "top_post": {
         "text": "אין על האווירה של השוק בראש העין בשישי. התמיכה שלכם מרגשת אותי ❤️ אוהב אתכם!",
         "views": 1070,
@@ -327,12 +320,12 @@
       "username": "N12_News",
       "type": "news",
       "post_count": 20,
-      "avg_views": 59,
-      "avg_views_str": "59",
+      "avg_views": 50,
+      "avg_views_str": "50",
       "top_post": {
         "text": "\"העוגה הצהובה\", האיום הצבאי הישראלי ומה היה ב\"אתר 99\" הסודי - פרטים נוספים מהחשיפה של ברק רביד קישור לכתבה",
-        "views": 99,
-        "views_str": "99",
+        "views": 101,
+        "views_str": "101",
         "date": "2026-08-10T20:26:44+00:00"
       }
     },
@@ -342,13 +335,13 @@
       "username": "now14tv",
       "type": "news",
       "post_count": 20,
-      "avg_views": 2,
-      "avg_views_str": "2",
+      "avg_views": 1,
+      "avg_views_str": "1",
       "top_post": {
-        "text": "בתוך משאית קייטרינג המבצע הלילי שהבריח את טראמפ מתחת לאף של האיראנים | דיווח קישור לכתבה",
+        "text": "הארכיון זוכר הציטוטים מהעבר שמסבכים את המצטרף החדש של איזנקוט קישור לכתבה",
         "views": 4,
         "views_str": "4",
-        "date": "2026-08-11T03:18:40+00:00"
+        "date": "2026-08-11T05:29:27+00:00"
       }
     }
   ]
