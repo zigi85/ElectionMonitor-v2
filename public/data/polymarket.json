@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-09T07:30:03Z",
+  "generated_at": "2026-08-11T08:26:26Z",
   "markets": [
     {
       "key": "next_pm",
       "title": "Who will be the next Prime Minister of Israel after the next election?",
       "slug": "who-will-be-the-next-prime-minister-of-israel-after-the-next-election",
       "url": "https://polymarket.com/event/who-will-be-the-next-prime-minister-of-israel-after-the-next-election",
-      "updated_at": "2026-08-09T07:27:56.136011Z",
+      "updated_at": "2026-08-11T08:20:23.365543Z",
       "outcomes": [
         {
           "name": "Gadi Eizenkot",
-          "probability": 0.5115
+          "probability": 0.519
         },
         {
           "name": "Benjamin Netanyahu",
@@ -18,27 +18,23 @@
         },
         {
           "name": "Avigdor Lieberman",
-          "probability": 0.061
+          "probability": 0.06
         },
         {
           "name": "Naftali Bennett",
-          "probability": 0.055
-        },
-        {
-          "name": "Yair Golan",
-          "probability": 0.0065
+          "probability": 0.05
         },
         {
           "name": "Gilad Erdan",
-          "probability": 0.006
+          "probability": 0.0065
+        },
+        {
+          "name": "Yair Golan",
+          "probability": 0.004
         },
         {
           "name": "Itamar Ben Gvir",
-          "probability": 0.0035
-        },
-        {
-          "name": "Yoaz Hendel",
-          "probability": 0.003
+          "probability": 0.0025
         },
         {
           "name": "Gideon Sa’ar",
@@ -46,6 +42,10 @@
         },
         {
           "name": "Yariv Levin",
+          "probability": 0.0025
+        },
+        {
+          "name": "Yoaz Hendel",
           "probability": 0.0025
         },
         {
@@ -87,27 +87,27 @@
       "title": "Israel Election: Likud # of seats?",
       "slug": "israel-election-likud-of-seats",
       "url": "https://polymarket.com/event/israel-election-likud-of-seats",
-      "updated_at": "2026-08-09T07:25:54.306975Z",
+      "updated_at": "2026-08-11T08:20:23.365543Z",
       "outcomes": [
+        {
+          "name": "25-29",
+          "probability": 0.32
+        },
         {
           "name": "20-24",
           "probability": 0.315
         },
         {
-          "name": "25-29",
-          "probability": 0.315
-        },
-        {
           "name": "<20",
-          "probability": 0.1765
+          "probability": 0.1755
         },
         {
           "name": "30-34",
-          "probability": 0.155
+          "probability": 0.165
         },
         {
           "name": "35+",
-          "probability": 0.061
+          "probability": 0.012
         }
       ]
     },
@@ -116,15 +116,15 @@
       "title": "Israeli election results in a hung parliament?",
       "slug": "israeli-election-results-in-a-hung-parliament",
       "url": "https://polymarket.com/event/israeli-election-results-in-a-hung-parliament",
-      "updated_at": "2026-08-09T07:27:56.136011Z",
+      "updated_at": "2026-08-11T08:20:23.365543Z",
       "outcomes": [
         {
           "name": "No",
-          "probability": 0.67
+          "probability": 0.69
         },
         {
           "name": "Yes",
-          "probability": 0.33
+          "probability": 0.31
         }
       ]
     }

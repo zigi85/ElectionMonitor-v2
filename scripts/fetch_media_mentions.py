@@ -47,7 +47,7 @@ LEADERS = [
 ]
 
 IHY_DISPLAY = "ישראל היום"
-IHY_RSS_NAMES = {"israelhayom.co.il", "ישראל היום", "Israel Hayom"}
+IHY_RSS_NAMES = {"israelhayom.co.il", "ישראל היום", "Israel Hayom", "היום"}
 IHY_TAG_URL = "https://www.israelhayom.co.il/tag/election-2026"
 IHY_BASE = "https://www.israelhayom.co.il"
 MAX_HEADLINES = 3
