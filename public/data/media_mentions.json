@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T16:00:30Z",
+  "generated_at": "2026-08-11T19:01:30Z",
   "period": "3d",
   "period_label": "3 ימים אחרונים",
   "source": "Google News",
@@ -12,11 +12,10 @@
       "mention_count": 100,
       "headlines": [
         {
-          "title": "מגנץ לאיזנקוט: האם הפעם רמטכ\"ל לשעבר יביא לסיום שלטון נתניהו?",
+          "title": "הנימוקים של נתניהו לשריונים של השרים כ\"ץ וסער",
           "source": "ישראל היום",
-          "published_at": "",
-          "url": "https://www.israelhayom.co.il/opinions/article/21176531",
-          "fallback": true
+          "published_at": "Tue, 11 Aug 2026 16:44:52 GMT",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBpT1BFdkx4aXVwclJkbHFkNHExR2JJUmJTb3h6SnQxYnFYbEdvNWFBajM5b2VtQXF5RWsxRlVuei1IbHE4WEJ5TEZBUGJqdXI0b09nVDBKUDVQbjRvVWNvWnBZR0VncWNiS2VledIBdEFVX3lxTE16NUNpRGxhR0dNNnMxUHZUcHhmMUpwWkFIX2xfODRQWjFzOGwwajdrLTVWM2VZWWRLajRTTXdHMnNFbEg4bHFncXJwM3FsS09haDFRMm42U3cxU2UyRmxtQjdITUpMVkhMTUNnTWFOaFRJdHBB?oc=5"
         },
         {
           "title": "\"נתניהו נסחט\": בליכוד זועמים על השריונים של ראש הממשלה",
@@ -24,9 +23,9 @@
           "published_at": "Tue, 11 Aug 2026 05:44:22 GMT"
         },
         {
-          "title": "המחטף של נתניהו, הבקשה שנשמרה בסוד - והזעם בליכוד: \"שריון כ\"ץ? צעד מחפיר\"",
-          "source": "ynet.co.il",
-          "published_at": "Tue, 11 Aug 2026 05:55:53 GMT"
+          "title": "תגובת הליכוד למען כץ, ומתקפת דוברו של נתניהו לשעבר: \"תחתית שאני לא זוכר\"",
+          "source": "ynet",
+          "published_at": "Tue, 11 Aug 2026 16:43:39 GMT"
         }
       ]
     },
@@ -44,14 +43,14 @@
           "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5ON01KdEUxcnVILWowd29mNGxGVVNTZ2tvZGJvSy1FdVF0ekk1bEIzMzNMRjlMWnpSR3hOa1c5NWRPb05yWF9FbmwtaExMMTZkYjQtTmM0c090amdHa1pNaWJUelJCQdIBbkFVX3lxTFBMeVJjaF83NTJ5QS1KZV9jLVdRZ1lDckd0cHN3QnowUnUyak5kYVl0OFl4dGJVVlpVR0t4akJSQU5mQWJVMnJZY2o2Wk5zdGhqemtIRWFobTJJeW53XzVCb21HTDk3M19FU25famJn?oc=5"
         },
         {
-          "title": "גדי איזנקוט: \"זה חייב לטלטל את אמות הסיפים\"",
-          "source": "סרוגים",
-          "published_at": "Mon, 10 Aug 2026 20:04:53 GMT"
+          "title": "יורם כהן: שב\"כ חייב לאבטח את איזנקוט. זה חלק מהשמירה על מוסדות המשטר הדמוקרטי",
+          "source": "כאן 11",
+          "published_at": "Tue, 11 Aug 2026 15:15:09 GMT"
         },
         {
-          "title": "\"המשכנו לחיל הים והוא המשיך לגולני - זה קינן בו\"",
-          "source": "103FM",
-          "published_at": "Tue, 11 Aug 2026 11:12:58 GMT"
+          "title": "הסלוגן של הליכוד הקפיץ את בן גביר - שספג עקיצה בחזרה: \"הוא בקמפיין, בסדר\"",
+          "source": "ynet",
+          "published_at": "Tue, 11 Aug 2026 17:08:34 GMT"
         }
       ]
     },
@@ -60,7 +59,7 @@
       "name_he": "נפתלי בנט",
       "role": "יו\"ר ביחד",
       "party": "together",
-      "mention_count": 67,
+      "mention_count": 65,
       "headlines": [
         {
           "title": "טבעת נתקעה על אצבע של אישה - נפתלי בנט נחלץ לעזרתה",
@@ -70,7 +69,7 @@
         },
         {
           "title": "יזם הביומד מתי גיל מצטרף למפלגת \"ביחד\" של נפתלי בנט",
-          "source": "calcalist.co.il",
+          "source": "Calcalist",
           "published_at": "Tue, 11 Aug 2026 14:18:00 GMT"
         },
         {
@@ -85,14 +84,8 @@
       "name_he": "אביגדור ליברמן",
       "role": "יו\"ר ישראל ביתנו",
       "party": "yisrael_beiteinu",
-      "mention_count": 43,
+      "mention_count": 44,
       "headlines": [
-        {
-          "title": "רגע לפני סגירת הרשימות: מה מציעה לכם כל מפלגה?",
-          "source": "ישראל היום",
-          "published_at": "Sat, 08 Aug 2026 18:53:20 GMT",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE43WVRldUtRV0Nsd0dQQ2pxTld1ekt0LXJLczVoa3pkdDVveGFrM3NOcUc1MGVOZ0VubUdieUl4TWRPYjhIVGZFUkJEM1VpZmZEb3hubXBzRVlCOTFfVGk2S3d0T0xxNl9idm13Y9IBdEFVX3lxTE5CUTl1TUYwcEtFZ21lSzlGVDlKdFBrMWNPalF0d0ZxeGstMXJzc2JjMlBJWnJHUEVUanlldkNzX2VBTWtoYkxhcjVMU2h0b3RqcFRJeVNhRkwtbkE2bXRYQURwMFdvdUhyZnBBSlBGd2pNQjE3?oc=5"
-        },
         {
           "title": "ח''כ אביגדור ליברמן נגד שר הביטחון ישראל כ''ץ: צריך לתת לו בום בום בראש",
           "source": "103FM",
@@ -102,6 +95,11 @@
           "title": "ליברמן בהתראה חריפה נגד בנימין נתניהו",
           "source": "סרוגים",
           "published_at": "Tue, 11 Aug 2026 15:43:43 GMT"
+        },
+        {
+          "title": "איזנקוט, בנט, גנץ ליברמן וגולן: אל תמסרו את הניצחון לליכוד | דעה",
+          "source": "הארץ",
+          "published_at": "Tue, 11 Aug 2026 17:00:00 GMT"
         }
       ]
     },
@@ -110,23 +108,23 @@
       "name_he": "יאיר גולן",
       "role": "יו\"ר הדמוקרטים",
       "party": "democrats",
-      "mention_count": 75,
+      "mention_count": 77,
       "headlines": [
         {
-          "title": "יעקב בוזגלו זועם: ''יש גבול לביקורת''",
+          "title": "ליעקב בוזגלו נמאס: ''צביעות''",
           "source": "ישראל היום",
           "published_at": "Tue, 11 Aug 2026 12:29:15 GMT",
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE54b1BzSHdCcmdiSmVfMmxwZ2FpR05iWHVxMHNqcXBfUDRMMFBJSkZORkVyUm5jQ1otdkNIR3RDZVNaUkNuOXpMSGxKaXZXSjFBTndWcm5NbjVNQlcza19uX1A0Y1Z3RE96c1RHa0dUOVFVaV9BRHphanhEWdIBgwFBVV95cUxNMWF3MW1mdjdnU0VnMloyT2lwMVAxRjVFbDRUdFlFMmR3VFNlM3FiOVJYZkZQR0l0bGJMcW9UUjlmNUdFSnEwdFZmalNITkhlaHZPc1BhR1c0WldyRDdZb0tOejNhY0Fnem5zaDNRalhQcUtsc1hpYTRYaHlwZXVGaC1hZw?oc=5"
         },
         {
+          "title": "עינב צנגאוקר הייתה גיבורת השמאל. עד שהתהילה התחלפה בתוצאות הפריימריז",
+          "source": "הארץ",
+          "published_at": "Tue, 11 Aug 2026 10:20:00 GMT"
+        },
+        {
           "title": "עינב צנגאוקר נגד יאיר גולן: התחייב לשריין אותי - והפר את ההבטחה",
           "source": "כאן 11",
           "published_at": "Mon, 10 Aug 2026 13:58:06 GMT"
-        },
-        {
-          "title": "עינב צנגאוקר: יאיר גולן לא עמד בהבטחת השריון שנתן לי",
-          "source": "ynet.co.il",
-          "published_at": "Mon, 10 Aug 2026 13:26:20 GMT"
         }
       ]
     },
@@ -138,14 +136,14 @@
       "mention_count": 67,
       "headlines": [
         {
-          "title": "התנינים יהיו בתוך הכלא, יש קורס האכלה: תוכנית בן גביר נחשפת",
+          "title": "הליכוד חשף את הסלוגן, בן גביר: \"נתניהו מתכוון להקים ממשלה עם איזנקוט\"",
           "source": "ישראל היום",
-          "published_at": "Tue, 11 Aug 2026 11:20:55 GMT",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1WV0dBTFVZLWtjVXFJTllIRmRiejBKLTRGZFoydzB2d01nXzJtTWdwVTZQUjc1S1BLelRNc19HTkJXLW9VSmpFVGNkT0ZkQlBRbkZBSXNnWU9MbGt5QkswMlhwb3V0YmVOUy1pNTF5T1VnckXSAXtBVV95cUxPR3VwQ0ZuTzNvWnFJZU82dmFFYVRLMExHOVJialhPMDctTC1MSjFkWC03enhvWlAtT2hBNWVSWWFubnplR29TZGVzNEFpYVlwWlFFUUI4bm1WMXBRYjJrUkRnclVoUGJsSElFNE80SnhtX1A3eV9ZVG9wZVk?oc=5"
+          "published_at": "Tue, 11 Aug 2026 16:12:27 GMT",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBVeFdFeGpMdHF3cmUxN19mZmh5OXRzU0VQaGloUEdGcWJMOEZYel9nLXFOTnBJUEQ5cmJNU1M0WkVsSUpGcEJ1ZldCRGE0czlhSGtEYlgxYk5yUDhBaFFKVUJsWjdkYTJJWlUxSGJzYk8zM1Ny0gF0QVVfeXFMUFV4V0V4akx0cXdyZTE3X2ZmaHk5dHNTRVBoaWhQR0ZxYkw4Rlh6X2ctcU5OcElQRDlyYk1TUzRaRWxJSkZwQnVmV0JEYTRzOWFIa0RiWDFiTnJQOEFoUUpVQmxaN2RhMklaVTFIYnNiTzMzU3I?oc=5"
         },
         {
           "title": "בן גביר רוצה לבטל את הורדת סף האכיפה במצלמות: \"אדבר עם המפכ\"ל\"",
-          "source": "ynet.co.il",
+          "source": "ynet",
           "published_at": "Tue, 11 Aug 2026 13:00:22 GMT"
         },
         {
@@ -160,7 +158,7 @@
       "name_he": "בצלאל סמוטריץ'",
       "role": "יו\"ר הציונות הדתית",
       "party": "religious_zionism",
-      "mention_count": 35,
+      "mention_count": 31,
       "headlines": [
         {
           "title": "סמוטריץ' מברך על דחיית מסמך 15 הנקודות: \"מטרת המלחמה ברורה\"",
@@ -175,7 +173,7 @@
         },
         {
           "title": "ימין מלא-מלא חורים: המשוואה הביטחונית השתנתה במחיר דמים",
-          "source": "ynet.co.il",
+          "source": "ynet",
           "published_at": "Tue, 11 Aug 2026 09:53:58 GMT"
         }
       ]
