@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T13:02:58Z",
+  "generated_at": "2026-08-11T16:00:30Z",
   "period": "3d",
   "period_label": "3 ימים אחרונים",
   "source": "Google News",
@@ -12,21 +12,21 @@
       "mention_count": 100,
       "headlines": [
         {
-          "title": "רוצים לשריין את יוסף חדאד ועמית סגל - ומי יירש את נתניהו? סקר תומכי הליכוד",
+          "title": "מגנץ לאיזנקוט: האם הפעם רמטכ\"ל לשעבר יביא לסיום שלטון נתניהו?",
           "source": "ישראל היום",
           "published_at": "",
-          "url": "https://www.israelhayom.co.il/news/politics/article/21172822",
+          "url": "https://www.israelhayom.co.il/opinions/article/21176531",
           "fallback": true
-        },
-        {
-          "title": "המחטף של נתניהו, הבקשה שנשמרה בסוד - והזעם בליכוד: \"שריון כ\"ץ? צעד מחפיר\"",
-          "source": "ynet",
-          "published_at": "Tue, 11 Aug 2026 05:55:53 GMT"
         },
         {
           "title": "\"נתניהו נסחט\": בליכוד זועמים על השריונים של ראש הממשלה",
           "source": "כאן 11",
           "published_at": "Tue, 11 Aug 2026 05:44:22 GMT"
+        },
+        {
+          "title": "המחטף של נתניהו, הבקשה שנשמרה בסוד - והזעם בליכוד: \"שריון כ\"ץ? צעד מחפיר\"",
+          "source": "ynet.co.il",
+          "published_at": "Tue, 11 Aug 2026 05:55:53 GMT"
         }
       ]
     },
@@ -38,10 +38,10 @@
       "mention_count": 100,
       "headlines": [
         {
-          "title": "מנכ\"ל רשת AM:PM לשעבר מצטרף לגדי איזנקוט",
+          "title": "מגנץ לאיזנקוט: האם הפעם רמטכ\"ל לשעבר יביא לסיום שלטון נתניהו?",
           "source": "ישראל היום",
-          "published_at": "Mon, 10 Aug 2026 08:21:33 GMT",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE91UXZIZktGVGJ4aHl6MTY4R1dVN016QlFhaXVBNmw5YVpMams3cnZtd281M01pUU96NHNVMWwwX211ZnhtNWFiRkw0cG0xQkl4ME0zVTMxb09YdHVHc1doM0ZWWVpicWFFNmxUUtIBdEFVX3lxTE5QS251Wk94WEpqX1N6M2tobHY5TXNQZTB6eVRyOEQ1S0pCLXQyZmQ5NkVLeEFqa0FrM09WU1ZBamxKbngyUzNLSktSVXp2TjFleFhIWUZzZEZBdkdtcnlZaDlGakx4aDZRdkkzNnFTaEk3UUFJ?oc=5"
+          "published_at": "Tue, 11 Aug 2026 14:27:10 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5ON01KdEUxcnVILWowd29mNGxGVVNTZ2tvZGJvSy1FdVF0ekk1bEIzMzNMRjlMWnpSR3hOa1c5NWRPb05yWF9FbmwtaExMMTZkYjQtTmM0c090amdHa1pNaWJUelJCQdIBbkFVX3lxTFBMeVJjaF83NTJ5QS1KZV9jLVdRZ1lDckd0cHN3QnowUnUyak5kYVl0OFl4dGJVVlpVR0t4akJSQU5mQWJVMnJZY2o2Wk5zdGhqemtIRWFobTJJeW53XzVCb21HTDk3M19FU25famJn?oc=5"
         },
         {
           "title": "גדי איזנקוט: \"זה חייב לטלטל את אמות הסיפים\"",
@@ -49,9 +49,9 @@
           "published_at": "Mon, 10 Aug 2026 20:04:53 GMT"
         },
         {
-          "title": "\"היינו בהלם\": הרגע שבו גדי איזנקוט נעלם בבקו\"ם וחזר עם מדים של גולני",
-          "source": "מעריב",
-          "published_at": "Tue, 11 Aug 2026 08:54:55 GMT"
+          "title": "\"המשכנו לחיל הים והוא המשיך לגולני - זה קינן בו\"",
+          "source": "103FM",
+          "published_at": "Tue, 11 Aug 2026 11:12:58 GMT"
         }
       ]
     },
@@ -60,7 +60,7 @@
       "name_he": "נפתלי בנט",
       "role": "יו\"ר ביחד",
       "party": "together",
-      "mention_count": 66,
+      "mention_count": 67,
       "headlines": [
         {
           "title": "טבעת נתקעה על אצבע של אישה - נפתלי בנט נחלץ לעזרתה",
@@ -69,14 +69,14 @@
           "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9WZUV1V2tyUjlFQ0hfbGNhTzhUVmtYb2ZVZzBtV2J4OXRlczdRendfWDBSVkxaRmxwaXpFS0VOaTFiYUVPREZsUFljMG9ZSGc2ZmRlOVBRWngxSjNlSFhQd1dyRzNNNWtWSENZQjZn?oc=5"
         },
         {
+          "title": "יזם הביומד מתי גיל מצטרף למפלגת \"ביחד\" של נפתלי בנט",
+          "source": "calcalist.co.il",
+          "published_at": "Tue, 11 Aug 2026 14:18:00 GMT"
+        },
+        {
           "title": "\"בנט ייכנס לתפקיד ותוך יום יוכל להעביר החלטות ממשלה\"",
           "source": "103FM",
           "published_at": "Tue, 11 Aug 2026 11:12:58 GMT"
-        },
-        {
-          "title": "נפתלי בנט יוצא למלחמה בתנובה: \"החגיגה נגמרת, לא תוכלו לעשוק יותר\"",
-          "source": "ice (אייס)",
-          "published_at": "Tue, 11 Aug 2026 08:52:06 GMT"
         }
       ]
     },
@@ -85,7 +85,7 @@
       "name_he": "אביגדור ליברמן",
       "role": "יו\"ר ישראל ביתנו",
       "party": "yisrael_beiteinu",
-      "mention_count": 38,
+      "mention_count": 43,
       "headlines": [
         {
           "title": "רגע לפני סגירת הרשימות: מה מציעה לכם כל מפלגה?",
@@ -99,9 +99,9 @@
           "published_at": "Tue, 11 Aug 2026 07:56:10 GMT"
         },
         {
-          "title": "ליברמן נגד שר הביטחון כ\"ץ: \"צריך לתת לו בום בום בראש\"",
-          "source": "mako",
-          "published_at": "Tue, 11 Aug 2026 07:00:00 GMT"
+          "title": "ליברמן בהתראה חריפה נגד בנימין נתניהו",
+          "source": "סרוגים",
+          "published_at": "Tue, 11 Aug 2026 15:43:43 GMT"
         }
       ]
     },
@@ -110,7 +110,7 @@
       "name_he": "יאיר גולן",
       "role": "יו\"ר הדמוקרטים",
       "party": "democrats",
-      "mention_count": 71,
+      "mention_count": 75,
       "headlines": [
         {
           "title": "יעקב בוזגלו זועם: ''יש גבול לביקורת''",
@@ -125,7 +125,7 @@
         },
         {
           "title": "עינב צנגאוקר: יאיר גולן לא עמד בהבטחת השריון שנתן לי",
-          "source": "ynet",
+          "source": "ynet.co.il",
           "published_at": "Mon, 10 Aug 2026 13:26:20 GMT"
         }
       ]
@@ -135,7 +135,7 @@
       "name_he": "איתמר בן גביר",
       "role": "יו\"ר עוצמה יהודית",
       "party": "otzma_yehudit",
-      "mention_count": 55,
+      "mention_count": 67,
       "headlines": [
         {
           "title": "התנינים יהיו בתוך הכלא, יש קורס האכלה: תוכנית בן גביר נחשפת",
@@ -144,9 +144,9 @@
           "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1WV0dBTFVZLWtjVXFJTllIRmRiejBKLTRGZFoydzB2d01nXzJtTWdwVTZQUjc1S1BLelRNc19HTkJXLW9VSmpFVGNkT0ZkQlBRbkZBSXNnWU9MbGt5QkswMlhwb3V0YmVOUy1pNTF5T1VnckXSAXtBVV95cUxPR3VwQ0ZuTzNvWnFJZU82dmFFYVRLMExHOVJialhPMDctTC1MSjFkWC03enhvWlAtT2hBNWVSWWFubnplR29TZGVzNEFpYVlwWlFFUUI4bm1WMXBRYjJrUkRnclVoUGJsSElFNE80SnhtX1A3eV9ZVG9wZVk?oc=5"
         },
         {
-          "title": "השר איתמר בן גביר על מועצת השלום בעזה: הצבעתי נגד - רה''מ נושא באחריות",
-          "source": "103FM",
-          "published_at": "Tue, 11 Aug 2026 07:52:58 GMT"
+          "title": "בן גביר רוצה לבטל את הורדת סף האכיפה במצלמות: \"אדבר עם המפכ\"ל\"",
+          "source": "ynet.co.il",
+          "published_at": "Tue, 11 Aug 2026 13:00:22 GMT"
         },
         {
           "title": "איתמר בן גביר בהתבטאות חריגה: \"נתניהו הוא האחראי\"",
@@ -169,14 +169,14 @@
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1fU2VKTWd4TkJweWNnYXFhclhnRnE3OUl3MGFmVFFxd0YwLUhqRm9EY2JQcGN6ZkFWV0phSHN1c3l0ZWFLdmNyTEJ5aFpOaEJCYzhadFNfM05SckR0VlRxOHZHWTBTQTTSAW9BVV95cUxOSFFWZlFXZFJPSnU5QjJxMGFCa0V4OXQ2cnY2X0VSRTJJNlVMLS1iTUhPbEJfdlVGMnM4eEY2RklnUUpnMXU0YV9Da292cW9ENzI0M2lwbUNlTlN6U3EwcTRpRFdDMTJMbWpRT2RmWjQ?oc=5"
         },
         {
-          "title": "ימין מלא-מלא חורים: המשוואה הביטחונית השתנתה במחיר דמים",
-          "source": "ynet",
-          "published_at": "Tue, 11 Aug 2026 09:53:58 GMT"
-        },
-        {
           "title": "מה בעצם ההבדל ביני לבין סמוטריץ'",
           "source": "מקור ראשון",
           "published_at": "Tue, 11 Aug 2026 07:56:35 GMT"
+        },
+        {
+          "title": "ימין מלא-מלא חורים: המשוואה הביטחונית השתנתה במחיר דמים",
+          "source": "ynet.co.il",
+          "published_at": "Tue, 11 Aug 2026 09:53:58 GMT"
         }
       ]
     }
