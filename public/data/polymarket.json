@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-11T21:23:41Z",
+  "generated_at": "2026-08-12T03:05:53Z",
   "markets": [
     {
       "key": "next_pm",
       "title": "Who will be the next Prime Minister of Israel after the next election?",
       "slug": "who-will-be-the-next-prime-minister-of-israel-after-the-next-election",
       "url": "https://polymarket.com/event/who-will-be-the-next-prime-minister-of-israel-after-the-next-election",
-      "updated_at": "2026-08-11T21:18:18.590998Z",
+      "updated_at": "2026-08-12T03:00:21.982576Z",
       "outcomes": [
         {
           "name": "Gadi Eizenkot",
-          "probability": 0.5185
+          "probability": 0.518
         },
         {
           "name": "Benjamin Netanyahu",
@@ -26,14 +26,10 @@
         },
         {
           "name": "Gilad Erdan",
-          "probability": 0.0065
+          "probability": 0.0055
         },
         {
           "name": "Yair Golan",
-          "probability": 0.0035
-        },
-        {
-          "name": "Moshe Feiglin",
           "probability": 0.0035
         },
         {
@@ -46,6 +42,10 @@
         },
         {
           "name": "Yariv Levin",
+          "probability": 0.0025
+        },
+        {
+          "name": "Moshe Feiglin",
           "probability": 0.0025
         },
         {
@@ -87,7 +87,7 @@
       "title": "Israel Election: Likud # of seats?",
       "slug": "israel-election-likud-of-seats",
       "url": "https://polymarket.com/event/israel-election-likud-of-seats",
-      "updated_at": "2026-08-11T21:20:22.024108Z",
+      "updated_at": "2026-08-12T03:02:21.35198Z",
       "outcomes": [
         {
           "name": "25-29",
@@ -116,15 +116,15 @@
       "title": "Israeli election results in a hung parliament?",
       "slug": "israeli-election-results-in-a-hung-parliament",
       "url": "https://polymarket.com/event/israeli-election-results-in-a-hung-parliament",
-      "updated_at": "2026-08-11T21:22:21.605824Z",
+      "updated_at": "2026-08-12T03:00:21.982576Z",
       "outcomes": [
         {
           "name": "No",
-          "probability": 0.685
+          "probability": 0.69
         },
         {
           "name": "Yes",
-          "probability": 0.315
+          "probability": 0.31
         }
       ]
     }
