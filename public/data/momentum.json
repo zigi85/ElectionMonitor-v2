@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T05:51:48Z",
+  "generated_at": "2026-08-12T06:11:33Z",
   "weights": {
     "polls": 0.45,
     "polymarket": 0.3,
@@ -10,32 +10,32 @@
     {
       "party": "likud",
       "direction": "stable",
-      "score": 0.25,
+      "score": 0.0,
       "label": "הליכוד",
       "signals": {
         "polls": 0,
         "polymarket": 0,
-        "google_trends": 1
+        "google_trends": 0
       }
     },
     {
       "party": "together",
       "direction": "stable",
-      "score": -0.2,
+      "score": 0.25,
       "label": "יחד",
       "signals": {
-        "polls": -1,
+        "polls": 0,
         "polymarket": 0,
         "google_trends": 1
       }
     },
     {
       "party": "shas",
-      "direction": "stable",
-      "score": 0.0,
+      "direction": "gaining",
+      "score": 1.0,
       "label": "ש״ס",
       "signals": {
-        "polls": 0,
+        "polls": 1,
         "polymarket": null,
         "google_trends": null
       }
@@ -98,8 +98,8 @@
   ],
   "blocs": {
     "coalition": {
-      "seats": 47.5,
-      "delta": 2.5,
+      "seats": 47.0,
+      "delta": 2.0,
       "direction": "gaining"
     },
     "opposition": {
@@ -108,8 +108,8 @@
       "direction": "stable"
     },
     "unaligned": {
-      "seats": 10.0,
-      "delta": 0.3,
+      "seats": 9.0,
+      "delta": -0.7,
       "direction": "stable"
     }
   }
