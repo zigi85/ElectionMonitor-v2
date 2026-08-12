@@ -1,41 +1,48 @@
 {
-  "generated_at": "2026-08-12T10:01:06Z",
-  "headline_count": 167,
+  "generated_at": "2026-08-12T15:57:25Z",
+  "headline_count": 168,
   "hot_topics": [
     {
       "id": "elections",
       "label": "בחירות וסקרים",
-      "mention_count": 57,
+      "mention_count": 55,
       "sample_headline": "בחירות 2026 סקר כאן 11: גוש איזנקוט מתחזק ומוביל על מפלגות הקואליציה בשלושה מנדטים",
       "sample_source": "הארץ"
     },
     {
       "id": "coalition",
       "label": "קואליציה וכנסת",
-      "mention_count": 29,
+      "mention_count": 26,
       "sample_headline": "עם הבטחה שהיא סיסמה, טרופר והנדל מנסים לגייס את מאוכזבי הקואליציה. האם יש לזה קונים?",
       "sample_source": "הארץ"
     },
     {
       "id": "judiciary",
       "label": "מערכת המשפט",
-      "mention_count": 16,
+      "mention_count": 14,
       "sample_headline": "בג\"ץ הקלפיות: המדינה תצטרך להציג מתווה מספק להחלפת הקלפיות שיוסרו מבתי אבות",
-      "sample_source": "ynet.co.il"
-    },
-    {
-      "id": "security",
-      "label": "ביטחון",
-      "mention_count": 2,
-      "sample_headline": "קטאר דורשת להפעיל לחץ על ישראל ומאשימה אותה ב\"גרירת רגליים\" בעזה",
-      "sample_source": "זמן ישראל"
+      "sample_source": "ynet"
     },
     {
       "id": "haredim",
       "label": "חרדים וגיוס",
-      "mention_count": 1,
+      "mention_count": 2,
       "sample_headline": "סערת חוק הגיוס והזעם ברחוב: האם הציבור החרדי יאתגר את ההנהגה? | פרויקט מיוחד",
       "sample_source": "i24NEWS"
+    },
+    {
+      "id": "security",
+      "label": "ביטחון",
+      "mention_count": 1,
+      "sample_headline": "קטאר דורשת להפעיל לחץ על ישראל ומאשימה אותה ב\"גרירת רגליים\" בעזה",
+      "sample_source": "זמן ישראל"
+    },
+    {
+      "id": "economy",
+      "label": "כלכלה ויוקר המחיה",
+      "mention_count": 1,
+      "sample_headline": "ח\"כ מישראל ביתנו: \"אנחנו מקום 2 בעולם ביוקר המחיה\". ח\"כ מהליכוד: \"הכלכלה צומחת\"",
+      "sample_source": "ynet"
     },
     {
       "id": "negotiations",
@@ -81,9 +88,9 @@
       "key": "bennett",
       "name_he": "נפתלי בנט",
       "views_7d": 2617,
-      "prev_views_7d": 3231,
-      "change_pct": -19.0,
-      "direction": "falling"
+      "prev_views_7d": 0,
+      "change_pct": 0.0,
+      "direction": "stable"
     },
     {
       "key": "lieberman",
@@ -112,35 +119,35 @@
   ],
   "viral_videos": [
     {
-      "video_id": "9BP0iMeQNBA",
-      "title": "במהלך סיור בבית הכלא, מחבל התלונן בפני השר בן גביר על תנאי הכליאה. השר השיב לו: ״זה לא מלון״",
-      "channel": "ערוץ 7",
-      "views": 103937,
-      "views_str": "103.9K",
-      "duration": "0:38",
-      "published_text": "לפני 3 ימים",
-      "thumbnail": "https://i.ytimg.com/vi/9BP0iMeQNBA/hq720_2.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARg0IEwocjAP&rs=AOn4CLDTXfsMAYgsiFyWAuPb86i-etS1wA",
-      "url": "https://www.youtube.com/watch?v=9BP0iMeQNBA"
+      "video_id": "BaTPRUrwpMI",
+      "title": "ראש הממשלה נתניהו וראש המטה הלאומי לבינה מלאכותית אסקל בהשקת התכנית הלאומית לבינה מלאכותית",
+      "channel": "IsraeliPM",
+      "views": 16638,
+      "views_str": "16.6K",
+      "duration": "4:47",
+      "published_text": "לפני יומיים (2)",
+      "thumbnail": "https://i.ytimg.com/vi/BaTPRUrwpMI/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARg8IEMofzAP&rs=AOn4CLDAhDmd7lC86iVbnkarR2pWdu8btQ",
+      "url": "https://www.youtube.com/watch?v=BaTPRUrwpMI"
     },
     {
-      "video_id": "nfnP9SO1YeI",
-      "title": "דברי ראש הממשלה בנימין נתניהו בפתח ישיבת הממשלה - 09/08/2026",
-      "channel": "IsraeliPM",
-      "views": 22719,
-      "views_str": "22.7K",
-      "duration": "3:53",
-      "published_text": "לפני יומיים (2)",
-      "thumbnail": "https://i.ytimg.com/vi/nfnP9SO1YeI/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhyIFEoOzAP&rs=AOn4CLCbyaW_iHPFVYm1rVf-4NbnObe68g",
-      "url": "https://www.youtube.com/watch?v=nfnP9SO1YeI"
+      "video_id": "zcck8y4dGm0",
+      "title": "יכריעו את הבחירות? המפלגות הקטנות לא עוברות את אחוז החסימה",
+      "channel": "כאן | חדשות - תאגיד השידור הישראלי",
+      "views": 14828,
+      "views_str": "14.8K",
+      "duration": "5:57",
+      "published_text": "לפני יום אחד (1)",
+      "thumbnail": "https://i.ytimg.com/vi/zcck8y4dGm0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDyWJRc_f7dGugCnDJX_TIADWPMNA",
+      "url": "https://www.youtube.com/watch?v=zcck8y4dGm0"
     },
     {
       "video_id": "uCgpmpOSubk",
       "title": "הברכה הזאת עשתה לי את היום. אבי בנאי מרמת גן, אוהב אותך💙🇮🇱",
       "channel": "נפתלי בנט | Naftali Bennett",
-      "views": 11454,
-      "views_str": "11.5K",
+      "views": 13340,
+      "views_str": "13.3K",
       "duration": "0:21",
-      "published_text": "לפני 19 שעות",
+      "published_text": "לפני יום אחד (1)",
       "thumbnail": "https://i.ytimg.com/vi/uCgpmpOSubk/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARhlIEcoPjAP&rs=AOn4CLBiUVoacW-rzeVWCp2gKbfps9_c1w",
       "url": "https://www.youtube.com/watch?v=uCgpmpOSubk"
     },
@@ -148,56 +155,56 @@
       "video_id": "lwsze0DV6GI",
       "title": "מזל מועלם: ליברמן יסחט ראשות ממשלה",
       "channel": "John Smith",
-      "views": 11339,
-      "views_str": "11.3K",
+      "views": 11531,
+      "views_str": "11.5K",
       "duration": "1:45",
-      "published_text": "לפני יום אחד (1)",
-      "thumbnail": "https://i.ytimg.com/vi/lwsze0DV6GI/hq720.jpg?sqp=-oaymwE6CNAFEJQDSFXyq4qpAywIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARgkIEgofzAPuALzGA==&rs=AOn4CLBDRrdcAQO7m5yT_zQfOXSDlv_b5A",
-      "url": "https://www.youtube.com/watch?v=lwsze0DV6GI"
-    },
-    {
-      "video_id": "X6UQj9kzg6w",
-      "title": "שולפים ציפורניים: אחרי הראיונות של אדלשטיין וארדן - חברי הליכוד מגיבים",
-      "channel": "כאן | חדשות - תאגיד השידור הישראלי",
-      "views": 8426,
-      "views_str": "8.4K",
-      "duration": "2:29",
       "published_text": "לפני יומיים (2)",
-      "thumbnail": "https://i.ytimg.com/vi/X6UQj9kzg6w/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDXzFC_T-oP-IpbHuLhHPgdCmpPMA",
-      "url": "https://www.youtube.com/watch?v=X6UQj9kzg6w"
+      "thumbnail": "https://i.ytimg.com/vi/lwsze0DV6GI/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARgkIEgofzAP&rs=AOn4CLAZk1A6VIzxz_Wi0aiQGDNklFOMaw",
+      "url": "https://www.youtube.com/watch?v=lwsze0DV6GI"
     },
     {
       "video_id": "XqoZ5QWxODU",
       "title": "ינון מגל: כל מערכת בחירות מגיע התורן עם הקול הדרמטי ומספר לנו על קץ הדמוקרטיה בלשכת נתניהו.",
       "channel": "ינון מגל Yinon Magal",
-      "views": 8070,
-      "views_str": "8.1K",
+      "views": 8995,
+      "views_str": "9.0K",
       "duration": "1:05",
       "published_text": "לפני יום אחד (1)",
       "thumbnail": "https://i.ytimg.com/vi/XqoZ5QWxODU/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARgXIC8ofzAP&rs=AOn4CLClyKDSIN-r3ivMGKHjt8ZER_7q-g",
       "url": "https://www.youtube.com/watch?v=XqoZ5QWxODU"
     },
     {
+      "video_id": "Bg5CtnywvQ8",
+      "title": "גדי איזנקוט חושף: מי באמת החליש את צה\"ל? (הריאיון ב-103FM)",
+      "channel": "ביבי השקרן",
+      "views": 8624,
+      "views_str": "8.6K",
+      "duration": "1:07",
+      "published_text": "לפני יום אחד (1)",
+      "thumbnail": "https://i.ytimg.com/vi/Bg5CtnywvQ8/hq720.jpg?sqp=-oaymwE6CNAFEJQDSFXyq4qpAywIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARhKIEMoZTAPuAL3GA==&rs=AOn4CLDsN9LSP2zBJmVNlxKxjLVmvwUoVw",
+      "url": "https://www.youtube.com/watch?v=Bg5CtnywvQ8"
+    },
+    {
       "video_id": "_Sdnb-uZ29U",
       "title": "בנט נכנס בדרעי: “הוא שולח את הבן שלי לשדה הקרב, ומתגאה בזה שהנכדים שלו עריקים -  הוא לא שותף שלי”!",
       "channel": "כיכר השבת",
-      "views": 8033,
-      "views_str": "8.0K",
+      "views": 8293,
+      "views_str": "8.3K",
       "duration": "0:41",
-      "published_text": "לפני יום אחד (1)",
+      "published_text": "לפני יומיים (2)",
       "thumbnail": "https://i.ytimg.com/vi/_Sdnb-uZ29U/hq720_2.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARhLIGMoZTAP&rs=AOn4CLDZ2m1rfnDEVJ46XuS3Wo7GnJ8vOQ",
       "url": "https://www.youtube.com/watch?v=_Sdnb-uZ29U"
     },
     {
-      "video_id": "Bg5CtnywvQ8",
-      "title": "גדי איזנקוט חושף: מי באמת החליש את צה\"ל? (הריאיון ב-103FM)",
-      "channel": "ביבי השקרן",
-      "views": 7593,
-      "views_str": "7.6K",
-      "duration": "1:07",
-      "published_text": "לפני יום אחד (1)",
-      "thumbnail": "https://i.ytimg.com/vi/Bg5CtnywvQ8/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARhKIEMoZTAP&rs=AOn4CLAeEKOs1l21CHDIjwN734q1yAPAEQ",
-      "url": "https://www.youtube.com/watch?v=Bg5CtnywvQ8"
+      "video_id": "FdDQuP3yMBA",
+      "title": "ראש הממשלה לשעבר ויו\"ר ביחד נפתלי בנט בריאיון מיוחד לקרן מרציאנו",
+      "channel": "נפתלי בנט | Naftali Bennett",
+      "views": 8123,
+      "views_str": "8.1K",
+      "duration": "10:23",
+      "published_text": "לפני יומיים (2)",
+      "thumbnail": "https://i.ytimg.com/vi/FdDQuP3yMBA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDojWgGV-lUjsddpso6m2TRBW-HRA",
+      "url": "https://www.youtube.com/watch?v=FdDQuP3yMBA"
     }
   ],
   "telegram_channels": [
@@ -207,12 +214,12 @@
       "username": "bnetanyahu",
       "type": "politician",
       "post_count": 20,
-      "avg_views": 21092,
-      "avg_views_str": "21.1K",
+      "avg_views": 21253,
+      "avg_views_str": "21.3K",
       "top_post": {
         "text": "אף אחד לא יעצור אותי מלהילחם על האמת של ישראל 🇮🇱",
-        "views": 36900,
-        "views_str": "36.9K",
+        "views": 37000,
+        "views_str": "37K",
         "date": "2026-07-29T18:19:38+00:00"
       }
     },
@@ -237,13 +244,13 @@
       "username": "bengvir",
       "type": "politician",
       "post_count": 16,
-      "avg_views": 6050,
-      "avg_views_str": "6.0K",
+      "avg_views": 5091,
+      "avg_views_str": "5.1K",
       "top_post": {
-        "text": "השר לביטחון לאומי, איתמר בן גביר: ככל שהעדויות הקשות המגיעות מבית החולים רמב״ם נכונות, מדובר בשערורייה חמורה שצריכה להטר",
-        "views": 17700,
-        "views_str": "17.7K",
-        "date": "2026-08-09T07:59:50+00:00"
+        "text": "עשרות שנים פחדו לגעת בפרוטקשן. מכניסתי לתפקיד הובלתי מדיניות מלחמה בתופעה - פתחנו מחלקי פרוטקשן בצפון ובדרום, העברנו את ",
+        "views": 14800,
+        "views_str": "14.8K",
+        "date": "2026-08-11T05:58:51+00:00"
       }
     },
     {
@@ -252,7 +259,7 @@
       "username": "newsisrael13_il",
       "type": "news",
       "post_count": 20,
-      "avg_views": 4151,
+      "avg_views": 4152,
       "avg_views_str": "4.2K",
       "top_post": {
         "text": "חדשות 13 (Twitter) מופע חייו של ליאור אשכנזי, מהתיאטרון לכיכר החטופים: \"עד שלא יקרה משהו רדיקלי - כלום לא יעזור\" bit.ly/",
@@ -267,13 +274,13 @@
       "username": "ynetalerts",
       "type": "news",
       "post_count": 20,
-      "avg_views": 2714,
-      "avg_views_str": "2.7K",
+      "avg_views": 2979,
+      "avg_views_str": "3.0K",
       "top_post": {
-        "text": "🔴 דיווח בלבנון: פצועים בתקיפת כטב\"ם ישראלי בדרום המדינה למבזק המלא ב-ynet >",
-        "views": 3800,
-        "views_str": "3.8K",
-        "date": "2026-08-12T06:38:08+00:00"
+        "text": "🔴 חשד: עורך דין ניסה להבריח הרואין ואקסטזי באמצעות בקבוק להסרת ריסים למבזק המלא ב-ynet >",
+        "views": 4380,
+        "views_str": "4.38K",
+        "date": "2026-08-12T12:07:25+00:00"
       }
     },
     {
@@ -282,7 +289,7 @@
       "username": "naftalibennett1",
       "type": "politician",
       "post_count": 20,
-      "avg_views": 2502,
+      "avg_views": 2517,
       "avg_views_str": "2.5K",
       "top_post": {
         "text": "עכשיו בכותל, כמו בכל שנה בערב תשעה באב, ביחד עם כל גווני עם ישראל האהוב שלנו. פעמיים היתה לנו מדינה יהודית על האדמה הזו,",
@@ -297,13 +304,13 @@
       "username": "israelhayomofficial",
       "type": "news",
       "post_count": 20,
-      "avg_views": 2220,
-      "avg_views_str": "2.2K",
+      "avg_views": 1343,
+      "avg_views_str": "1.3K",
       "top_post": {
-        "text": "מה קרה לאלדר דיין? גרסת חבריו החשודים ברצח נחשפת >> bit.ly/4wGjJr3",
-        "views": 2590,
-        "views_str": "2.59K",
-        "date": "2026-08-11T18:00:16+00:00"
+        "text": "5 המניות שאם השקעתם בהן בתחילת השנה - הפכתם למיליונרים >> bit.ly/4qfOmlw",
+        "views": 3040,
+        "views_str": "3.04K",
+        "date": "2026-08-11T18:52:53+00:00"
       }
     },
     {
@@ -311,14 +318,14 @@
       "name_he": "בצלאל סמוטריץ'",
       "username": "smutrich",
       "type": "politician",
-      "post_count": 13,
-      "avg_views": 817,
-      "avg_views_str": "817",
+      "post_count": 14,
+      "avg_views": 804,
+      "avg_views_str": "804",
       "top_post": {
-        "text": "אין על האווירה של השוק בראש העין בשישי. התמיכה שלכם מרגשת אותי ❤️ אוהב אתכם!",
-        "views": 1120,
-        "views_str": "1.12K",
-        "date": "2026-08-07T14:34:24+00:00"
+        "text": "אני מברך את ראש הממשלה שנענה לדרישה שלנו והבהיר באופן חד משמעי: מדינת ישראל לא תקבל את ״מסמך 15 הנקודות״ ברצועת עזה.",
+        "views": 999,
+        "views_str": "999",
+        "date": "2026-08-09T12:07:12+00:00"
       }
     },
     {
@@ -327,13 +334,13 @@
       "username": "N12_News",
       "type": "news",
       "post_count": 20,
-      "avg_views": 83,
-      "avg_views_str": "83",
+      "avg_views": 81,
+      "avg_views_str": "81",
       "top_post": {
-        "text": "בן גולדפריינד @ צ'אט כתבים הישג ענק: הפועל באר שבע ניצחה את הכוכב האדום בלגרד - רחוקה 2 משחקים מהעפלה לליגת האלופות קישו",
-        "views": 104,
-        "views_str": "104",
-        "date": "2026-08-11T19:59:00+00:00"
+        "text": "ניצן שפירא @ צ'אט כתבים מיירט שוגר לעבר מטרה שזוהתה לאחר מכן כירי של כוחות צה\"ל בדרום לבנון, אין נפגעים והאירוע מתוחקר ק",
+        "views": 121,
+        "views_str": "121",
+        "date": "2026-08-11T22:31:56+00:00"
       }
     },
     {
@@ -345,10 +352,10 @@
       "avg_views": 4,
       "avg_views_str": "4",
       "top_post": {
-        "text": "מיד בחדשות 14 פרסום ראשון: מחבלים חדרו לתחומי הקו הצהוב בעזה וגנבו ציוד צבאי, וגם - כל העדכונים על סערת השריונים בליכוד ",
-        "views": 5,
-        "views_str": "5",
-        "date": "2026-08-11T16:51:45+00:00"
+        "text": "מחדל נוסף הדרג הצבאי לא דיווח בזמן אמת על החדירה - רה\"מ ושר הביטחון עודכנו מהפרסום בחדשות 14 | הלל ביטון רוזן קישור לכתב",
+        "views": 6,
+        "views_str": "6",
+        "date": "2026-08-11T19:38:10+00:00"
       }
     }
   ]
