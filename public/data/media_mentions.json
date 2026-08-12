@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T07:23:32Z",
+  "generated_at": "2026-08-12T10:03:45Z",
   "period": "3d",
   "period_label": "3 ימים אחרונים",
   "source": "Google News",
@@ -12,20 +12,20 @@
       "mention_count": 100,
       "headlines": [
         {
-          "title": "לא לניצחון בבחירות: המטרה האמיתית של השריונים של נתניהו",
+          "title": "הדחה לפני הבחירות? התסריט שמלחיץ את נתניהו וסביבתו",
           "source": "ישראל היום",
-          "published_at": "Tue, 11 Aug 2026 19:45:38 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE04TFh6SzI2RXVBRkx2UWFIMk9EVGliYVc2TXJQT01xcDhrcXIydkwwcm44MFNaUDJ5Tlpva2pPUkMzT1dyV1dtMTJKVTJacHpvZmZ3SjFsNUVhXzFyYWllUHBCMGNWQdIBbkFVX3lxTE1SNFJxejJvZTM5X0VNMlBkYWNTbW5YR0JiNjZlOGRrT01sb3V3SktXbkVwREUxaUJLZ1l4ZUh3VGx5ZGlQcDh5S1VLM2NVXzhQQmxiSmd5TWJLSXZicnotNGRkeG9rMVdSdko1eXNB?oc=5"
+          "published_at": "Wed, 12 Aug 2026 08:34:09 GMT",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBwVFNpSkw3WWxhSEdHbE40Tlp5WWhYOWxfalRJU0NsbWxTdktSVDlpTkVtMEI4ZEZqN0F4V1RiNUpodVFCYno0Rl9wajhYNzlYM1I3MS0xelZtaVdqeEdqcTJSUEVUcFNpdU1LYtIBdEFVX3lxTE9NY1ZyT0VuY0Jkd19ELXBFX1FZYU13a2hHOXpYU2RaOEppVVhqXzBLOG9qSUxjWnlSMHJvYzNsQ0FXNXVjckhzYjBsYzlFTFFKMDZ1RG1WT1VQVTZoM1N6OF9hY01KVXp1N0RFanI1b0xmTjJr?oc=5"
         },
         {
           "title": "בנימין נתניהו מציג: שריין וסע",
-          "source": "ynet.co.il",
+          "source": "ynet",
           "published_at": "Tue, 11 Aug 2026 21:04:00 GMT"
         },
         {
-          "title": "\"נתניהו נסחט\": בליכוד זועמים על השריונים של ראש הממשלה",
-          "source": "כאן 11",
-          "published_at": "Tue, 11 Aug 2026 05:44:22 GMT"
+          "title": "בחירות 2026 נתניהו התערב לטובת אלמוג כהן ואפשר לו להתמודד בפריימריז בליכוד",
+          "source": "הארץ",
+          "published_at": "Wed, 12 Aug 2026 06:44:00 GMT"
         }
       ]
     },
@@ -34,7 +34,7 @@
       "name_he": "גדי איזנקוט",
       "role": "יו\"ר ישר",
       "party": "yashar",
-      "mention_count": 92,
+      "mention_count": 90,
       "headlines": [
         {
           "title": "מגנץ לאיזנקוט: האם הפעם רמטכ\"ל לשעבר יביא לסיום שלטון נתניהו?",
@@ -43,13 +43,13 @@
           "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5ON01KdEUxcnVILWowd29mNGxGVVNTZ2tvZGJvSy1FdVF0ekk1bEIzMzNMRjlMWnpSR3hOa1c5NWRPb05yWF9FbmwtaExMMTZkYjQtTmM0c090amdHa1pNaWJUelJCQdIBbkFVX3lxTFBMeVJjaF83NTJ5QS1KZV9jLVdRZ1lDckd0cHN3QnowUnUyak5kYVl0OFl4dGJVVlpVR0t4akJSQU5mQWJVMnJZY2o2Wk5zdGhqemtIRWFobTJJeW53XzVCb21HTDk3M19FU25famJn?oc=5"
         },
         {
-          "title": "יורם כהן: שב\"כ חייב לאבטח את איזנקוט. זה חלק מהשמירה על מוסדות המשטר הדמוקרטי",
-          "source": "כאן 11",
-          "published_at": "Tue, 11 Aug 2026 15:15:09 GMT"
+          "title": "\"ראש הממשלה הביא אותנו מבירא עמיקתא לאיגרא רמא\"",
+          "source": "103FM",
+          "published_at": "Wed, 12 Aug 2026 09:32:42 GMT"
         },
         {
           "title": "הסלוגן של הליכוד הקפיץ את בן גביר - שספג עקיצה בחזרה: \"הוא בקמפיין, בסדר\"",
-          "source": "ynet.co.il",
+          "source": "ynet",
           "published_at": "Tue, 11 Aug 2026 17:08:34 GMT"
         }
       ]
@@ -59,7 +59,7 @@
       "name_he": "נפתלי בנט",
       "role": "יו\"ר ביחד",
       "party": "together",
-      "mention_count": 70,
+      "mention_count": 72,
       "headlines": [
         {
           "title": "טבעת נתקעה על אצבע של אישה - נפתלי בנט נחלץ לעזרתה",
@@ -68,14 +68,14 @@
           "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBESEhxZnRQcHItd3dRXzJNeFRVNmtkZVR3WWZFOFRGXzRtdnZwQTM1V2h6S0ZBUUpwRHlIRGUwZ0lBODZNZzZlOUJzREh6U19iSVQ3R240cVRwSFlMWkZiNk9EUXVjYlBm0gFwQVVfeXFMT3ZkVm5fcURjZ2VBYmZITGdNeTJsODlSLVI2UldxejVfNkdCRmU5VE43SjI3aXVQdVNnc3ZtOEdHRjFrTHRINmlYYWk2bzNmaVVzaFlQcDNhYnhLVGVOSm50MV9tOXFCNERWNWZnV2Q5Sw?oc=5"
         },
         {
-          "title": "בנט סוגר חשבון עם דרעי וגפני: \"לא יכולים להיות חלק מהממשלה\" | האזינו",
+          "title": "נפתלי בנט עולה להתקפה: \"הוא מתגאה שהנכדים שלו עריקים\" | האזינו",
           "source": "מעריב",
           "published_at": "Wed, 12 Aug 2026 05:12:59 GMT"
         },
         {
-          "title": "בנט על השיחה עם נתניהו: \"ביקש שאסכים לממשלה עם מנסור עבאס\"",
-          "source": "ice (אייס)",
-          "published_at": "Wed, 12 Aug 2026 04:04:32 GMT"
+          "title": "בנט ולפיד מקווים שנשכח שהם היו שרי ביטחון ואוצר",
+          "source": "מקור ראשון",
+          "published_at": "Wed, 12 Aug 2026 07:46:51 GMT"
         }
       ]
     },
@@ -84,23 +84,23 @@
       "name_he": "אביגדור ליברמן",
       "role": "יו\"ר ישראל ביתנו",
       "party": "yisrael_beiteinu",
-      "mention_count": 42,
+      "mention_count": 44,
       "headlines": [
         {
-          "title": "ליברמן תקף את הממשלה: \"כובלת את ידי הלוחמים מול המחבלים\"",
+          "title": "\"מה שאנחנו רואים מאחורינו זו חזרה לשבעה באוקטובר 2023\"",
           "source": "ישראל היום",
-          "published_at": "Tue, 11 Aug 2026 18:11:03 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB5b2R5Ukp3cmtybWVEd0JiS1VWck5TemVyTWpDdWo2aFRPNE8xSTlFVzV3QTR0enZtX0xYZWxqQkEtS1U4NWZjSFlIdlAyOWNxZHR4UkE1VkZxcDFzdmFtcjRRTG9qZVHSAW9BVV95cUxNNXBLbXI0c0dWSWt2WXpxVTJDU0dnYmlWV2RtdmI2ai15WXV3LXQ5QXI1Y19KcUZhaFFDSDhYaGVZT1YtS2VQYXhIZlVqNDVVRnNpbW82MEtsQnJ5S1o5WlhPaFNkN3F4czhZdldkbTQ?oc=5"
+          "published_at": "Wed, 12 Aug 2026 09:02:23 GMT",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9OMk9uYmVNeG1GTVVXUGN5aDhTME91RUw2SmpuSDd1cDJCMFhIQ0p0ZXpWajhRWHNYeklWeDdpS2xJYWdFVVA4SE93d3IycmVOZUM3NFdMZkxGLTFDZGZ5RHljeVJ5eDJCaHIzTNIBdEFVX3lxTE1NVXNOX205bVl0V09QTDFNdDAxTVQ0eE9xSnpQT3QzRUdiZ29JOW1qQUZYd3IxTnBvYWNHczBCR0VJYlRDOUtneE10cC02WXUtMVNQeEhXNG5kSlBlaE5RZ0lxVENkbmlqcHJmNnJBMUhjUkZT?oc=5"
+        },
+        {
+          "title": "ליברמן מזהיר: \"אנחנו חוזרים לאותה קונספציה שהביאה ל-7.10\"",
+          "source": "סרוגים",
+          "published_at": "Wed, 12 Aug 2026 09:36:02 GMT"
         },
         {
           "title": "ח''כ אביגדור ליברמן נגד שר הביטחון ישראל כ''ץ: צריך לתת לו בום בום בראש",
           "source": "103FM",
           "published_at": "Tue, 11 Aug 2026 07:56:10 GMT"
-        },
-        {
-          "title": "ליברמן בהתראה חריפה נגד בנימין נתניהו",
-          "source": "סרוגים",
-          "published_at": "Tue, 11 Aug 2026 15:43:43 GMT"
         }
       ]
     },
@@ -109,23 +109,23 @@
       "name_he": "יאיר גולן",
       "role": "יו\"ר הדמוקרטים",
       "party": "democrats",
-      "mention_count": 76,
+      "mention_count": 77,
       "headlines": [
         {
-          "title": "\"מילה זו מילה\": עינב צנגאוקר חושפת את הסיכום עם יאיר גולן שלא יצא לפועל",
+          "title": "\"זה הסיפור\": גרסת יאיר גולן לפארסת עינב צנגאוקר",
           "source": "ישראל היום",
-          "published_at": "Mon, 10 Aug 2026 13:19:07 GMT",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5OZGhUOHlpdXNKQTktVm1LVkRBRjR3R1Q1emtLcUpJR295VW9IR1lLZWFvVTU2ejVxTVlLT2NfRHdCTTF3aGk0VWwxRDk4U0RIRjVTaHA2RmxmdnowejJYdzdDMnVxRmZ3RnRNbtIBdEFVX3lxTE9Wc19hRkhzbWxubnpYTGtBc2d6M29PVVN6SklLeFVpQjFDekZsdlVkSks0WTVlcTJTRnZ4LUdGZF9BVTBHaWVJWmVycFk3NG1wc01YTGtYTTZZWVZ1OWdZSGhBNnpGUkthSVZNQ1A5OS11RGpI?oc=5"
+          "published_at": "Wed, 12 Aug 2026 08:36:01 GMT",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE96ZThFeUpHWF9kamd1WjNLV3BheEU5Y0ZKYUo3TlZfQkJJRXZYVlFCMENacC02T2d0b3Bpenoxb0tJaXAweXl4UVJGVzdxcWx4RVk0RFJvQjZia3czME1HUmYya3dKU185QzlWdg?oc=5"
         },
         {
           "title": "הפספוס של יאיר גולן",
-          "source": "ynet.co.il",
+          "source": "ynet",
           "published_at": "Tue, 11 Aug 2026 21:04:00 GMT"
         },
         {
-          "title": "עינב צנגאוקר נגד יאיר גולן: התחייב לשריין אותי - והפר את ההבטחה",
-          "source": "כאן 11",
-          "published_at": "Mon, 10 Aug 2026 13:58:06 GMT"
+          "title": "יאיר גולן הציע שריון לעינב צנגאוקר בדמוקרטים ולא עמד בהתחייבות",
+          "source": "הארץ",
+          "published_at": "Mon, 10 Aug 2026 13:20:00 GMT"
         }
       ]
     },
@@ -134,7 +134,7 @@
       "name_he": "איתמר בן גביר",
       "role": "יו\"ר עוצמה יהודית",
       "party": "otzma_yehudit",
-      "mention_count": 69,
+      "mention_count": 68,
       "headlines": [
         {
           "title": "הליכוד חשף את הסלוגן, בן גביר: \"נתניהו מתכוון להקים ממשלה עם איזנקוט\"",
@@ -144,13 +144,13 @@
         },
         {
           "title": "בן גביר רוצה לבטל את הורדת סף האכיפה במצלמות: \"אדבר עם המפכ\"ל\"",
-          "source": "ynet.co.il",
+          "source": "ynet",
           "published_at": "Tue, 11 Aug 2026 13:00:22 GMT"
         },
         {
-          "title": "בן גביר נדהם בשידור: \"על מה את מדברת? היה פיגוע כל יום, גדעון אתה חי בסרט\" | האזינו",
-          "source": "מעריב",
-          "published_at": "Tue, 11 Aug 2026 06:18:57 GMT"
+          "title": "איתמר בן גביר בהתבטאות חריגה: \"נתניהו הוא האחראי\"",
+          "source": "סרוגים",
+          "published_at": "Tue, 11 Aug 2026 06:17:42 GMT"
         }
       ]
     },
@@ -159,7 +159,7 @@
       "name_he": "בצלאל סמוטריץ'",
       "role": "יו\"ר הציונות הדתית",
       "party": "religious_zionism",
-      "mention_count": 24,
+      "mention_count": 27,
       "headlines": [
         {
           "title": "סמוטריץ' מברך על דחיית מסמך 15 הנקודות: \"מטרת המלחמה ברורה\"",
