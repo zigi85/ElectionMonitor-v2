@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T15:58:41Z",
+  "generated_at": "2026-08-13T19:02:19Z",
   "period": "3d",
   "period_label": "3 ימים אחרונים",
   "source": "Google News",
@@ -18,14 +18,14 @@
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9tZmhpR1Z0SDhNQS1hOGN2M0RfQmpRSG00NWluYXBCQmttem5FWlVteTNoUmZsUGRyajVEVWJ3dndQaFFlY3l6NnY5RzFuLWNOQWh5UTRfUXZYTkJPSHRiMGJZbnNmLVppOGZJVdIBdEFVX3lxTFBxemNpaktfTVMwNnhSeEZPcmxJS0FqVDh0ZXlrc2JST2JqTTlrSVd1bHBhd3pjbXRzcjhvZnhzRkVodTN6VTB1ZG84X3h0NzZmNUpOdlh1RG9iSnVWc1JBU3JYbTd6czkyQ3VDSWNYekVUdk9U?oc=5"
         },
         {
-          "title": "מדוע מערכת הביטחון משתפת פעולה עם תעמולת הבחירות של נתניהו?",
-          "source": "TheMarker",
-          "published_at": "Thu, 13 Aug 2026 03:16:00 GMT"
-        },
-        {
           "title": "דיווח: יועצו הבכיר של נתניהו התפטר מתפקידו",
           "source": "סרוגים",
           "published_at": "Thu, 13 Aug 2026 06:17:23 GMT"
+        },
+        {
+          "title": "מדוע מערכת הביטחון משתפת פעולה עם תעמולת הבחירות של נתניהו?",
+          "source": "TheMarker",
+          "published_at": "Thu, 13 Aug 2026 03:16:00 GMT"
         }
       ]
     },
@@ -34,23 +34,23 @@
       "name_he": "גדי איזנקוט",
       "role": "יו\"ר ישר",
       "party": "yashar",
-      "mention_count": 88,
+      "mention_count": 82,
       "headlines": [
         {
-          "title": "גדי איזנקוט: \"אני לא ממליץ לנתניהו להביא למבחן את הילדים שלנו\"",
+          "title": "\"מרוקאי שאפשר לרוץ איתו\": כך הפך איזנקוט ל\"דיאלנה\" של האליטות",
           "source": "ישראל היום",
-          "published_at": "Wed, 12 Aug 2026 17:57:48 GMT",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBmeEFEU09rdTZ1QzlHdzBadTQ1Ui1OVnhFcFpfbGJMWG5qVzdWZGhFbFZudlpOaGJRRDNoSnJlUmdkU1IzNjk1QkRzMjNCbElIS1A4VVZuSjV0QUhKYWV1VURscG52aXB0ZHhFYdIBdEFVX3lxTE05QnhOVlRyVUxlRVJieE1Pejh5bVN6MENvR3ZaLWpwNXpvTWpBYmhCakQ0M2xPZ0RON2pzOG53cEtkUGZQZG05eEFKOGNpM0hFUkdRZlc2eXBKMjZEZ0MycEtjY0wzekdRclBHem5JeFpTN2l4?oc=5"
+          "published_at": "Thu, 13 Aug 2026 16:59:28 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1MM3FESDFZTjROejFIM3dfcG1QUTZvamtremNLOHJQS0FoY2cxV21LU1RXUnQxUlAwSHR4ZVZvQ1FRMkxEYWJ4VV9jV2hiaU1PZlJrWDkyS1VDREpYclVHaGItWlJNUdIBbkFVX3lxTE9FMHR3Vk9TRU5wakFqMXhHMnNiU1FvQ0IxMDluS1BVam9oTEhqRFFCRHpHdXI0RmdZMEtfSm5FYTdJZjFtZ0pvUVI0QkFyaWRCd25ROWZ0c281S0M3aTVxNkJQVUJhSUJ0TFFuQnVB?oc=5"
         },
         {
-          "title": "\"איזנקוט לא מבטיח צ'ק בלי כיסוי\"",
-          "source": "103FM",
-          "published_at": "Thu, 13 Aug 2026 08:48:52 GMT"
+          "title": "נתניהו צריך לדאוג: איזנקוט פותח פער עצום, בנט מתרסק",
+          "source": "סרוגים",
+          "published_at": "Thu, 13 Aug 2026 13:21:08 GMT"
         },
         {
-          "title": "איזנקוט ממשיך להתחזק ופותח פער בצמרת",
+          "title": "איזנקוט: אירועי קוסרה משקפים את כישלון הממשלה וחולשתה",
           "source": "זמן ישראל",
-          "published_at": "Thu, 13 Aug 2026 14:00:43 GMT"
+          "published_at": "Thu, 13 Aug 2026 11:03:20 GMT"
         }
       ]
     },
@@ -59,7 +59,7 @@
       "name_he": "נפתלי בנט",
       "role": "יו\"ר ביחד",
       "party": "together",
-      "mention_count": 68,
+      "mention_count": 61,
       "headlines": [
         {
           "title": "\"ראש ממשלה עם שישה מנדטים - ניסיון רע\": ח\"כ שטרן עוקץ את בנט",
@@ -68,14 +68,14 @@
           "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBNdVZZQnBoalZaSlgwSGY5OVJza1Y4Y2tnZGhtQXk1b1VfcVhFQ084NDloOHVlVEJJRDg1U2w2TTMxMVk3VHRWYjhqS25ZTnBvbEZWNlZmcTUtRXZrb1BOS2F6bnQ5QzlRa1pRWE1B0gF2QVVfeXFMTnBGV0hnU1p1ZnZjN1VTdWZsVVRhQ3g3eExSOUd6RF9sRmVZNlprS25GZHhTcGRqaVVUTGJrQzFoTC1kdUNsTmFlY1ByNkpvOXpBWXNjZnZ2VnMzMGpTX3phdGVvYm9hUXZzeEY0dm9PRFRKYkRhdw?oc=5"
         },
         {
-          "title": "בנט ולפיד לא התייחסו למצור על משפחות בכפר קוסרה",
-          "source": "הארץ",
-          "published_at": "Thu, 13 Aug 2026 15:40:00 GMT"
+          "title": "נפתלי בנט: 30 שנה החרדים מסובבים פוליטיקאים, אסגור להם את הכסף",
+          "source": "mako",
+          "published_at": "Thu, 13 Aug 2026 13:30:00 GMT"
         },
         {
-          "title": "איזנקוט ממשיך להתחזק ופותח פער בצמרת",
-          "source": "זמן ישראל",
-          "published_at": "Thu, 13 Aug 2026 14:00:43 GMT"
+          "title": "חודשיים וחצי לבחירות: זה מספר המנדטים שנותרו לבנט ולפיד",
+          "source": "סרוגים",
+          "published_at": "Thu, 13 Aug 2026 17:24:59 GMT"
         }
       ]
     },
@@ -84,7 +84,7 @@
       "name_he": "אביגדור ליברמן",
       "role": "יו\"ר ישראל ביתנו",
       "party": "yisrael_beiteinu",
-      "mention_count": 58,
+      "mention_count": 56,
       "headlines": [
         {
           "title": "ליברמן התייצב לצד בעל המועדון החרדי: \"אל תגדעו את פרנסתו\"",
@@ -93,14 +93,14 @@
           "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBPbzN0RlN6SE9FVTI2T0c5VlNrdkxGQkFQNjdlSHRQTm5HZEtXZXY3RE9HTG9vN0ZCQk84RHBlUUF3cUNnWVYxUGhEZjB0ZWRIT3JlNnFKVmZrdUcwRXY4RE50dVY2V2I3SEFfb1psRmI2TFlkeUHSAX5BVV95cUxNQmRsc2xXM3ZQWHNlcVJ6QjdWUGdYTzBCQXpoaGc1TGJyenhSV2xObXItaDJOVUJNSndjSDZRalp5ZGd2SU5LQUdXd3JYZ3l5alJWdy1mb0t1cEhLVE1nTURYQ0Iya3VIbW50WjlDRGVZaEpvOHJnQXh4RGkwSWc?oc=5"
         },
         {
-          "title": "ליברמן מזהיר: \"אנחנו חוזרים לאותה קונספציה שהביאה ל-7.10\"",
-          "source": "srugim.co.il",
-          "published_at": "Thu, 13 Aug 2026 01:06:40 GMT"
-        },
-        {
           "title": "ח''כ אביגדור ליברמן נגד שר הביטחון ישראל כ''ץ: צריך לתת לו בום בום בראש",
           "source": "103FM",
           "published_at": "Tue, 11 Aug 2026 07:56:10 GMT"
+        },
+        {
+          "title": "ליברמן מזהיר: \"אנחנו חוזרים לאותה קונספציה שהביאה ל-7.10\"",
+          "source": "סרוגים",
+          "published_at": "Thu, 13 Aug 2026 01:06:40 GMT"
         }
       ]
     },
@@ -109,23 +109,23 @@
       "name_he": "יאיר גולן",
       "role": "יו\"ר הדמוקרטים",
       "party": "democrats",
-      "mention_count": 50,
+      "mention_count": 42,
       "headlines": [
         {
           "title": "\"יאיר גולן עשה בחירה שמצערת אותי. אבל יש אצלו ח\"כים מדהימים\"",
           "source": "ישראל היום",
-          "published_at": "Thu, 13 Aug 2026 13:56:33 GMT",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1jcUdwTmxIWkxwNkhhV1pmNUs1QVVLNkxDbW9MMjVCcy1HZnlMbkl5TFQtSkVoRVNZWWdlZFZuMUhLWGVjeVBRVS1ndHNjSnVwNlRHYi1mTXRra1RjQmdocmc5Q0VHNWgxamdJVVZOdGFxd9IBekFVX3lxTE5MVF9CVXoxQUdLcUMxR2N0UUV2ZkxYcjN1SVZyZkZ0WTl1LUlLSDluSkNLU3dxWXR4NS1oand5blBfS19rUnNhYlFCYXc2X3Ata2NJZGplR2wyNnRCTkc2ZVNaeENVcXJMeEZWckRmWVl3UktSdWRMa1hR?oc=5"
+          "published_at": "Thu, 13 Aug 2026 14:12:01 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5MVF9CVXoxQUdLcUMxR2N0UUV2ZkxYcjN1SVZyZkZ0WTl1LUlLSDluSkNLU3dxWXR4NS1oand5blBfS19rUnNhYlFCYXc2X3Ata2NJZGplR2wyNnRCTkc2ZVNaeENVcXJMeEZWckRmWVl3UktSdWRMa1hR0gF6QVVfeXFMTkxUX0JVejFBR0txQzFHY3RRRXZmTFhyM3VJVnJmRnRZOXUtSUtIOW5KQ0tTd3FZdHg1LWhqd3luUF9LX2tSc2FiUUJhdzZfcC1rY0lkamVHbDI2dEJORzZlU1p4Q1Vxckx4RlZyRGZZWXdSS1J1ZExrWFE?oc=5"
+        },
+        {
+          "title": "הפרת ההבטחה לצנגאוגר היא טעות של יאיר גולן. הוא יכול לתקן אותה",
+          "source": "הארץ",
+          "published_at": "Thu, 13 Aug 2026 17:00:00 GMT"
         },
         {
           "title": "מבחן צנגאוקר: יאיר גולן, קח אחריות",
           "source": "ynet",
           "published_at": "Thu, 13 Aug 2026 03:52:32 GMT"
-        },
-        {
-          "title": "התוכנית של יאיר גולן: פירוק מאחזים ומלחמה בטרור יהודי",
-          "source": "srugim.co.il",
-          "published_at": "Thu, 13 Aug 2026 15:12:40 GMT"
         }
       ]
     },
@@ -134,7 +134,7 @@
       "name_he": "איתמר בן גביר",
       "role": "יו\"ר עוצמה יהודית",
       "party": "otzma_yehudit",
-      "mention_count": 67,
+      "mention_count": 68,
       "headlines": [
         {
           "title": "בתוך \"כלא התנינים\" של בן גביר: \"זה ייגמר באסון\"",
@@ -148,9 +148,9 @@
           "published_at": "Thu, 13 Aug 2026 10:27:00 GMT"
         },
         {
-          "title": "הגינוי החריף בהתנחלות למצור בקוסרה - נגד בן גביר: \"המשטרה מבינה את רוח המפקד\"",
+          "title": "טלטלה בצמרת מח\"ש: הממונה על חקירת מקורבי בן גביר ביקשה לעבור תפקיד",
           "source": "ynet",
-          "published_at": "Thu, 13 Aug 2026 08:35:46 GMT"
+          "published_at": "Thu, 13 Aug 2026 06:30:41 GMT"
         }
       ]
     },
@@ -159,18 +159,18 @@
       "name_he": "בצלאל סמוטריץ'",
       "role": "יו\"ר הציונות הדתית",
       "party": "religious_zionism",
-      "mention_count": 27,
+      "mention_count": 30,
       "headlines": [
         {
-          "title": "21 שנים אחרי שפונה: היישוב גנים עלה לקרקע",
+          "title": "יותר אנשים, פחות זמן: סמוטריץ' הציג את תוכנית \"מילואימניקים הביתה\"",
           "source": "ישראל היום",
-          "published_at": "Thu, 13 Aug 2026 07:04:56 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5yRVhhcWRhTzRSMnRpSXFsUG40UmUtSUxUTGVxcTlLNFhQOVpfN2hOYmlsMzJRZTdpejY0d21iZUZ5bExRQnl5Y1NfZXpZbFA2dVlpdVVEYlp3ejIyT1BrcGdZRUZZYzRO0gFwQVVfeXFMTjNmMDhfWmNOZ043cEgwajJkU1VhZEVjSEpCUkVXcDFnYWJWeG1zQmU1MXdGeVlQR2NMZ004V2Y1bEJYOE9qeFpSRXpNakZkM2s1bC01S0VQQ3BmbFZlem9kWE03SFJscWZuYXJaREFWUg?oc=5"
+          "published_at": "Thu, 13 Aug 2026 17:41:05 GMT",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5HZ0kxZHZmSDJRNFA3di1nUlEycFUzMjVZOXBCTG9PekJ5Y29TbTRxdVJkU0c2YkxqckduMzl3dl9Xa2l4MkdWQlNibmdiQmg5cHlRQWVfWjI1S1VWVVFWUlhsQWllMk1CWGxQUtIBdEFVX3lxTE9zZ3FraVl5QkRBaDFLekpqaDExeFBSSjBvdWZFZ2hXWTBrUGNUSnZWbDh4cUp0UV96X0pKTWlicTE1cXlrSGJxanJjU1JxWWVON0Y0dUhTY1lWRFRZdFBNLVpPTzNmNDJnMFpZZkFSTFplLXpK?oc=5"
         },
         {
-          "title": "השר בצלאל סמוטריץ' מזהיר: שאננות בימין - תחזיר אותנו לימי אוסלו",
+          "title": "50 אלף חיילים וגיוס חרדים: התוכנית של סמוטריץ' להפחתת ימי המילואים",
           "source": "ערוץ 7",
-          "published_at": "Thu, 13 Aug 2026 12:07:00 GMT"
+          "published_at": "Thu, 13 Aug 2026 17:13:00 GMT"
         },
         {
           "title": "21 שנים אחרי הגירוש: 30 משפחות הקימו מחדש את היישוב גנים בצפון השומרון",
