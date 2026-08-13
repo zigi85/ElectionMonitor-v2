@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T06:11:33Z",
+  "generated_at": "2026-08-13T06:14:48Z",
   "weights": {
     "polls": 0.45,
     "polymarket": 0.3,
@@ -10,12 +10,12 @@
     {
       "party": "likud",
       "direction": "stable",
-      "score": 0.0,
+      "score": 0.25,
       "label": "הליכוד",
       "signals": {
         "polls": 0,
         "polymarket": 0,
-        "google_trends": 0
+        "google_trends": 1
       }
     },
     {

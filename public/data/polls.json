@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T06:11:33Z",
+  "generated_at": "2026-08-13T06:14:48Z",
   "source_urls": [
     "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
     "https://en.wikipedia.org/wiki/2025_opinion_polling_for_the_2026_Israeli_legislative_election"
@@ -346,6 +346,27 @@
         "yisrael_beiteinu": 21,
         "joint_list": 6,
         "democrats": 9
+      }
+    },
+    {
+      "id": "midgam-2026-08-12",
+      "date": "2026-08-12",
+      "iso_week": "2026-W33",
+      "firm": "Midgam",
+      "publisher": "",
+      "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
+      "excluded_from_avg": false,
+      "seats": {
+        "likud": 21,
+        "together": 12,
+        "otzma_yehudit": 8,
+        "shas": 7,
+        "utj": 8,
+        "yisrael_beiteinu": 10,
+        "raam": 5,
+        "joint_list": 6,
+        "democrats": 11,
+        "yashar": 23
       }
     },
     {
@@ -8066,23 +8087,23 @@
         "Midgam"
       ],
       "seats": {
-        "likud": 25.0,
-        "together": 15.0,
+        "likud": 24.5,
+        "together": 12.0,
         "otzma_yehudit": 6.0,
         "shas": 8.0,
         "utj": 7.5,
         "yisrael_beiteinu": 8.0,
         "raam": 5.0,
-        "joint_list": 5.0,
+        "joint_list": 6.0,
         "democrats": 11.0,
-        "yashar": 24.0,
+        "yashar": 23.0,
         "yesh_atid": 16.0,
         "balad": 0.0
       },
       "blocs": {
-        "coalition": 46.5,
-        "opposition": 74.0,
-        "unaligned": 10.0
+        "coalition": 46.0,
+        "opposition": 70.0,
+        "unaligned": 11.0
       }
     },
     {
