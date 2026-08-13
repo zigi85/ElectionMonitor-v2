@@ -1,32 +1,32 @@
 {
-  "generated_at": "2026-08-13T10:02:32Z",
-  "headline_count": 169,
+  "generated_at": "2026-08-13T15:57:25Z",
+  "headline_count": 170,
   "hot_topics": [
     {
       "id": "elections",
       "label": "בחירות וסקרים",
-      "mention_count": 50,
-      "sample_headline": "אמצעי ריגול וזיוף סקרים: המערב הפרוע של קמפיין הבחירות",
-      "sample_source": "הארץ"
+      "mention_count": 62,
+      "sample_headline": "סקר חדשות 12: 60 מנדטים למחנה הליברלי, 50 למחנה השמרני ו־10 לחד\"ש־תע\"ל ורע\"ם",
+      "sample_source": "זמן ישראל"
     },
     {
       "id": "coalition",
       "label": "קואליציה וכנסת",
-      "mention_count": 27,
+      "mention_count": 29,
       "sample_headline": "דרמה לילית בליכוד: ראש הממשלה נתניהו הודיע שישריין את השרים ישראל כ\"ץ, גדעון סער וחיים כ\"ץ",
       "sample_source": "כיכר השבת"
     },
     {
       "id": "judiciary",
       "label": "מערכת המשפט",
-      "mention_count": 14,
+      "mention_count": 12,
       "sample_headline": "בג\"ץ הקלפיות: המדינה תצטרך להציג מתווה מספק להחלפת הקלפיות שיוסרו מבתי אבות",
       "sample_source": "ynet.co.il"
     },
     {
       "id": "security",
       "label": "ביטחון",
-      "mention_count": 5,
+      "mention_count": 8,
       "sample_headline": "השיחות בין ישראל ללבנון יתחדשו בספטמבר בצל מחלוקת על מנגנון שיאמת פירוק חזבאללה מנשקו",
       "sample_source": "זמן ישראל"
     },
@@ -40,7 +40,7 @@
     {
       "id": "negotiations",
       "label": "דיפלומטיה",
-      "mention_count": 2,
+      "mention_count": 1,
       "sample_headline": "הבלוג של יוני בן מנחם - מצרים מאשימה את ישראל בעיכוב תוכנית מועצת השלום משיקולי בחירות",
       "sample_source": "המזרח התיכון לאן? | הבלוג של יוני בן מנחם"
     },
@@ -115,52 +115,52 @@
       "video_id": "_6_hwwJOGkM",
       "title": "עמית סגל לקראת הבחירות ב-60 שניות עם ליאל אלי: האם נתניהו יישאר ראש הממשלה? מה הסיכוי שגנץ יפרוש?",
       "channel": "V1",
-      "views": 41760,
-      "views_str": "41.8K",
+      "views": 58727,
+      "views_str": "58.7K",
       "duration": "1:26",
-      "published_text": "לפני 17 שעות",
-      "thumbnail": "https://i.ytimg.com/vi/_6_hwwJOGkM/hq720_2.jpg?sqp=-oaymwE6CNAFEJQDSFXyq4qpAywIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARhyID8oPDAPuAL3GA==&rs=AOn4CLD7GyvfzCf2bGjUzlSG8zufPiH2FA",
+      "published_text": "לפני 23 שעות",
+      "thumbnail": "https://i.ytimg.com/vi/_6_hwwJOGkM/hq720_2.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARhyID8oPDAP&rs=AOn4CLCS4Yz7QdLABdGTiXf9TRHTfgiyaQ",
       "url": "https://www.youtube.com/watch?v=_6_hwwJOGkM"
     },
     {
-      "video_id": "BaTPRUrwpMI",
-      "title": "ראש הממשלה נתניהו וראש המטה הלאומי לבינה מלאכותית אסקל בהשקת התכנית הלאומית לבינה מלאכותית",
-      "channel": "IsraeliPM",
-      "views": 17889,
-      "views_str": "17.9K",
-      "duration": "4:47",
-      "published_text": "לפני יומיים (2)",
-      "thumbnail": "https://i.ytimg.com/vi/BaTPRUrwpMI/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARg8IEMofzAP&rs=AOn4CLDAhDmd7lC86iVbnkarR2pWdu8btQ",
-      "url": "https://www.youtube.com/watch?v=BaTPRUrwpMI"
+      "video_id": "vxxOpnDor8Y",
+      "title": "איך איתמר בן גביר הכיר את אשתו",
+      "channel": "פודקאסט על המשמעות - תמיר דורטל",
+      "views": 19544,
+      "views_str": "19.5K",
+      "duration": "0:50",
+      "published_text": "לפני 11 שעות",
+      "thumbnail": "https://i.ytimg.com/vi/vxxOpnDor8Y/hq720_2.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARhlIGUoZTAP&rs=AOn4CLB1HIElJCqwqmw02E0wrhewcxgdZw",
+      "url": "https://www.youtube.com/watch?v=vxxOpnDor8Y"
     },
     {
       "video_id": "uCgpmpOSubk",
       "title": "הברכה הזאת עשתה לי את היום. אבי בנאי מרמת גן, אוהב אותך💙🇮🇱",
       "channel": "נפתלי בנט | Naftali Bennett",
-      "views": 17609,
-      "views_str": "17.6K",
+      "views": 18497,
+      "views_str": "18.5K",
       "duration": "0:21",
-      "published_text": "לפני יום אחד (1)",
-      "thumbnail": "https://i.ytimg.com/vi/uCgpmpOSubk/hq720.jpg?sqp=-oaymwE6CNAFEJQDSFXyq4qpAywIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARhlIEcoPjAPuALzGA==&rs=AOn4CLBIrvWsE520XLUUFfFXCjz2mv7F8g",
+      "published_text": "לפני יומיים (2)",
+      "thumbnail": "https://i.ytimg.com/vi/uCgpmpOSubk/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARhlIEcoPjAP&rs=AOn4CLBiUVoacW-rzeVWCp2gKbfps9_c1w",
       "url": "https://www.youtube.com/watch?v=uCgpmpOSubk"
     },
     {
       "video_id": "Bg5CtnywvQ8",
       "title": "גדי איזנקוט חושף: מי באמת החליש את צה\"ל? (הריאיון ב-103FM)",
       "channel": "ביבי השקרן",
-      "views": 11027,
-      "views_str": "11.0K",
+      "views": 11745,
+      "views_str": "11.7K",
       "duration": "1:07",
       "published_text": "לפני יומיים (2)",
-      "thumbnail": "https://i.ytimg.com/vi/Bg5CtnywvQ8/hq720.jpg?sqp=-oaymwE6CNAFEJQDSFXyq4qpAywIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARhKIEMoZTAPuAL3GA==&rs=AOn4CLDsN9LSP2zBJmVNlxKxjLVmvwUoVw",
+      "thumbnail": "https://i.ytimg.com/vi/Bg5CtnywvQ8/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARhKIEMoZTAP&rs=AOn4CLAeEKOs1l21CHDIjwN734q1yAPAEQ",
       "url": "https://www.youtube.com/watch?v=Bg5CtnywvQ8"
     },
     {
       "video_id": "XqoZ5QWxODU",
       "title": "ינון מגל: כל מערכת בחירות מגיע התורן עם הקול הדרמטי ומספר לנו על קץ הדמוקרטיה בלשכת נתניהו.",
       "channel": "ינון מגל Yinon Magal",
-      "views": 10873,
-      "views_str": "10.9K",
+      "views": 11398,
+      "views_str": "11.4K",
       "duration": "1:05",
       "published_text": "לפני יומיים (2)",
       "thumbnail": "https://i.ytimg.com/vi/XqoZ5QWxODU/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARgXIC8ofzAP&rs=AOn4CLClyKDSIN-r3ivMGKHjt8ZER_7q-g",
@@ -170,8 +170,8 @@
       "video_id": "YSIpP03dMxs",
       "title": "השר בן גביר ותושבת להבים באולפן אצל ברקו; הנגב, ביטחון, בחירות ועוד - צפו בראיון מרתק",
       "channel": "עוצמה יהודית",
-      "views": 9211,
-      "views_str": "9.2K",
+      "views": 10343,
+      "views_str": "10.3K",
       "duration": "17:54",
       "published_text": "לפני יום אחד (1)",
       "thumbnail": "https://i.ytimg.com/vi/YSIpP03dMxs/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhFIFIocjAP&rs=AOn4CLDVbvx_t8Rn8HY8gxR65VCjpvArnA",
@@ -181,23 +181,23 @@
       "video_id": "FdDQuP3yMBA",
       "title": "ראש הממשלה לשעבר ויו\"ר ביחד נפתלי בנט בריאיון מיוחד לקרן מרציאנו",
       "channel": "נפתלי בנט | Naftali Bennett",
-      "views": 8562,
-      "views_str": "8.6K",
+      "views": 8655,
+      "views_str": "8.7K",
       "duration": "10:23",
       "published_text": "לפני 3 ימים",
-      "thumbnail": "https://i.ytimg.com/vi/FdDQuP3yMBA/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLBe7CkWAJP0qdrnKxcBOG33i7rVDA",
+      "thumbnail": "https://i.ytimg.com/vi/FdDQuP3yMBA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDojWgGV-lUjsddpso6m2TRBW-HRA",
       "url": "https://www.youtube.com/watch?v=FdDQuP3yMBA"
     },
     {
-      "video_id": "vxxOpnDor8Y",
-      "title": "איך איתמר בן גביר הכיר את אשתו",
-      "channel": "פודקאסט על המשמעות - תמיר דורטל",
-      "views": 8017,
-      "views_str": "8.0K",
-      "duration": "0:50",
-      "published_text": "לפני 5 שעות",
-      "thumbnail": "https://i.ytimg.com/vi/vxxOpnDor8Y/hq720_2.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARhlIGUoZTAP&rs=AOn4CLB1HIElJCqwqmw02E0wrhewcxgdZw",
-      "url": "https://www.youtube.com/watch?v=vxxOpnDor8Y"
+      "video_id": "nLuMihY1p7o",
+      "title": "נתניהו מפסיד? ד\"ר אדי כהן: כל מדינות ערב מתגייסות לטובת אייזנקוט!!",
+      "channel": "John Smith",
+      "views": 8466,
+      "views_str": "8.5K",
+      "duration": "1:40",
+      "published_text": "לפני 12 שעות",
+      "thumbnail": "https://i.ytimg.com/vi/nLuMihY1p7o/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARhyIEEoLTAP&rs=AOn4CLDC4zqtDOKco5lFjc7-iCuXuH8WuA",
+      "url": "https://www.youtube.com/watch?v=nLuMihY1p7o"
     }
   ],
   "telegram_channels": [
@@ -207,8 +207,8 @@
       "username": "bnetanyahu",
       "type": "politician",
       "post_count": 20,
-      "avg_views": 20864,
-      "avg_views_str": "20.9K",
+      "avg_views": 21250,
+      "avg_views_str": "21.2K",
       "top_post": {
         "text": "אף אחד לא יעצור אותי מלהילחם על האמת של ישראל 🇮🇱",
         "views": 37100,
@@ -237,12 +237,12 @@
       "username": "israelhayomofficial",
       "type": "news",
       "post_count": 20,
-      "avg_views": 6191,
-      "avg_views_str": "6.2K",
+      "avg_views": 6584,
+      "avg_views_str": "6.6K",
       "top_post": {
         "text": "האיש שיהיה היורש של נתניהו - ועוד לא יודע את זה | עמית סגל >> https://bit.ly/4g3gpzF",
-        "views": 84100,
-        "views_str": "84.1K",
+        "views": 89000,
+        "views_str": "89K",
         "date": "2026-08-12T17:35:32+00:00"
       }
     },
@@ -252,12 +252,12 @@
       "username": "bengvir",
       "type": "politician",
       "post_count": 16,
-      "avg_views": 5065,
-      "avg_views_str": "5.1K",
+      "avg_views": 4990,
+      "avg_views_str": "5.0K",
       "top_post": {
         "text": "עשרות שנים פחדו לגעת בפרוטקשן. מכניסתי לתפקיד הובלתי מדיניות מלחמה בתופעה - פתחנו מחלקי פרוטקשן בצפון ובדרום, העברנו את ",
-        "views": 15300,
-        "views_str": "15.3K",
+        "views": 15400,
+        "views_str": "15.4K",
         "date": "2026-08-11T05:58:51+00:00"
       }
     },
@@ -267,7 +267,7 @@
       "username": "newsisrael13_il",
       "type": "news",
       "post_count": 20,
-      "avg_views": 4154,
+      "avg_views": 4155,
       "avg_views_str": "4.2K",
       "top_post": {
         "text": "חדשות 13 (Twitter) מופע חייו של ליאור אשכנזי, מהתיאטרון לכיכר החטופים: \"עד שלא יקרה משהו רדיקלי - כלום לא יעזור\" bit.ly/",
@@ -282,13 +282,13 @@
       "username": "ynetalerts",
       "type": "news",
       "post_count": 20,
-      "avg_views": 2927,
-      "avg_views_str": "2.9K",
+      "avg_views": 3207,
+      "avg_views_str": "3.2K",
       "top_post": {
-        "text": "🔴 רוסיה: יירטנו הלילה 362 כטב\"מים אוקראיניים למבזק המלא ב-ynet >",
-        "views": 4320,
-        "views_str": "4.32K",
-        "date": "2026-08-13T05:45:11+00:00"
+        "text": "🔴 הולנד: הרוג ופצועים בפיצוץ בנמל רוטרדם, הנסיבות נחקרות למבזק המלא ב-ynet >",
+        "views": 4410,
+        "views_str": "4.41K",
+        "date": "2026-08-13T11:49:14+00:00"
       }
     },
     {
@@ -297,7 +297,7 @@
       "username": "naftalibennett1",
       "type": "politician",
       "post_count": 20,
-      "avg_views": 2552,
+      "avg_views": 2562,
       "avg_views_str": "2.6K",
       "top_post": {
         "text": "עכשיו בכותל, כמו בכל שנה בערב תשעה באב, ביחד עם כל גווני עם ישראל האהוב שלנו. פעמיים היתה לנו מדינה יהודית על האדמה הזו,",
@@ -312,12 +312,12 @@
       "username": "smutrich",
       "type": "politician",
       "post_count": 16,
-      "avg_views": 954,
-      "avg_views_str": "954",
+      "avg_views": 979,
+      "avg_views_str": "979",
       "top_post": {
         "text": "גלעד ארדן, ממשלה עם תומכי טרור זה לא אחדות. זה שמאל.",
-        "views": 1670,
-        "views_str": "1.67K",
+        "views": 1720,
+        "views_str": "1.72K",
         "date": "2026-08-12T14:53:36+00:00"
       }
     },
@@ -327,13 +327,13 @@
       "username": "N12_News",
       "type": "news",
       "post_count": 20,
-      "avg_views": 92,
-      "avg_views_str": "92",
+      "avg_views": 55,
+      "avg_views_str": "55",
       "top_post": {
-        "text": "ניצן שפירא @ צ'אט כתבים מיירט שוגר לעבר מטרה שזוהתה לאחר מכן כירי של כוחות צה\"ל בדרום לבנון, אין נפגעים והאירוע מתוחקר ק",
-        "views": 128,
-        "views_str": "128",
-        "date": "2026-08-11T22:31:56+00:00"
+        "text": "אלי הירשמן: המפגינים בכביש גהה בדרכם חזרה לבני ברק",
+        "views": 108,
+        "views_str": "108",
+        "date": "2026-08-12T16:36:23+00:00"
       }
     },
     {
@@ -345,10 +345,10 @@
       "avg_views": 4,
       "avg_views_str": "4",
       "top_post": {
-        "text": "מחדל נוסף הדרג הצבאי לא דיווח בזמן אמת על החדירה - רה\"מ ושר הביטחון עודכנו מהפרסום בחדשות 14 | הלל ביטון רוזן קישור לכתב",
+        "text": "באמצעות צו ארעי ועדת הבחירות הורתה לנתניהו להסיר מכלל הרשתות את הסרטון שפרסם קישור לכתבה",
         "views": 6,
         "views_str": "6",
-        "date": "2026-08-11T19:38:10+00:00"
+        "date": "2026-08-13T13:02:04+00:00"
       }
     }
   ]
