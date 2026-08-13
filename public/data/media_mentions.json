@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T10:05:13Z",
+  "generated_at": "2026-08-13T13:08:22Z",
   "period": "3d",
   "period_label": "3 ימים אחרונים",
   "source": "Google News",
@@ -18,7 +18,7 @@
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBLbndlc0F6RXdnU3pxWElSb1FsRnU2dFNHajNmcWpMZXFfdUFpR1o2U2V4emZlMjJVWWQ0U3JNQlVMRkhkaU84UTRmWU9jUUZSal9vV184STZPckloTFdNX0lyTGpVZ0tHallQatIBdEFVX3lxTE50cjB0Y2o2Q3dGbXlzQVZKcXRueU9tNUpzSUpLanJMbVhnbXhveEhfTXY4dFJYUkFwTjZlOWw2b1ZjYkJzazI0aGMwZ3RUVFdodE9VY05KUlRjVk0wWWpaRjdodU5WaTc4S25PU011TUhPb1dl?oc=5"
         },
         {
-          "title": "זו כלכלת הבחירות ההרסנית אי פעם. מי משתף פעולה, ומי מנסה לרסן?",
+          "title": "מדוע מערכת הביטחון משתפת פעולה עם תעמולת הבחירות של נתניהו?",
           "source": "themarker.com",
           "published_at": "Thu, 13 Aug 2026 03:16:00 GMT"
         },
@@ -34,7 +34,7 @@
       "name_he": "גדי איזנקוט",
       "role": "יו\"ר ישר",
       "party": "yashar",
-      "mention_count": 80,
+      "mention_count": 86,
       "headlines": [
         {
           "title": "גדי איזנקוט: \"אני לא ממליץ לנתניהו להביא למבחן את הילדים שלנו\"",
@@ -43,14 +43,14 @@
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBmeEFEU09rdTZ1QzlHdzBadTQ1Ui1OVnhFcFpfbGJMWG5qVzdWZGhFbFZudlpOaGJRRDNoSnJlUmdkU1IzNjk1QkRzMjNCbElIS1A4VVZuSjV0QUhKYWV1VURscG52aXB0ZHhFYdIBdEFVX3lxTE05QnhOVlRyVUxlRVJieE1Pejh5bVN6MENvR3ZaLWpwNXpvTWpBYmhCakQ0M2xPZ0RON2pzOG53cEtkUGZQZG05eEFKOGNpM0hFUkdRZlc2eXBKMjZEZ0MycEtjY0wzekdRclBHem5JeFpTN2l4?oc=5"
         },
         {
+          "title": "מכה לנתניהו: גדי איזנקוט פותח פער עצום",
+          "source": "סרוגים",
+          "published_at": "Thu, 13 Aug 2026 11:54:08 GMT"
+        },
+        {
           "title": "גדי איזנקוט בריאיון מיוחד ל\"שבע\" עם קרן מרציאנו",
           "source": "mako",
           "published_at": "Wed, 12 Aug 2026 17:08:00 GMT"
-        },
-        {
-          "title": "גדי איזנקוט הוא הנסיך המרוקאי שלו חיכתה ההגמוניה האשכנזית",
-          "source": "שיחה מקומית",
-          "published_at": "Wed, 12 Aug 2026 14:34:12 GMT"
         }
       ]
     },
@@ -62,10 +62,10 @@
       "mention_count": 59,
       "headlines": [
         {
-          "title": "גדי איזנקוט: \"אני לא ממליץ לנתניהו להביא למבחן את הילדים שלנו\"",
+          "title": "\"ראש ממשלה עם שישה מנדטים - ניסיון רע\": ח\"כ שטרן עוקץ את בנט",
           "source": "ישראל היום",
-          "published_at": "Wed, 12 Aug 2026 18:14:40 GMT",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE05QnhOVlRyVUxlRVJieE1Pejh5bVN6MENvR3ZaLWpwNXpvTWpBYmhCakQ0M2xPZ0RON2pzOG53cEtkUGZQZG05eEFKOGNpM0hFUkdRZlc2eXBKMjZEZ0MycEtjY0wzekdRclBHem5JeFpTN2l40gF0QVVfeXFMTTlCeE5WVHJVTGVFUmJ4TU96OHltU3owQ29HdlotanA1em9NakFiaEJqRDQzbE9nRE43anM4bndwS2RQZlBkbTl4QUo4Y2kzSEVSR1FmVzZ5cEoyNkRnQzJwS2NjTDN6R1FyUEd6bkl4WlM3aXg?oc=5"
+          "published_at": "Thu, 13 Aug 2026 12:20:04 GMT",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBNdVZZQnBoalZaSlgwSGY5OVJza1Y4Y2tnZGhtQXk1b1VfcVhFQ084NDloOHVlVEJJRDg1U2w2TTMxMVk3VHRWYjhqS25ZTnBvbEZWNlZmcTUtRXZrb1BOS2F6bnQ5QzlRa1pRWE1B0gF2QVVfeXFMTnBGV0hnU1p1ZnZjN1VTdWZsVVRhQ3g3eExSOUd6RF9sRmVZNlprS25GZHhTcGRqaVVUTGJrQzFoTC1kdUNsTmFlY1ByNkpvOXpBWXNjZnZ2VnMzMGpTX3phdGVvYm9hUXZzeEY0dm9PRFRKYkRhdw?oc=5"
         },
         {
           "title": "יזם הביוטכנולוגיה מתי גיל מצטרף למפלגת \"ביחד\" של נפתלי בנט",
@@ -73,9 +73,9 @@
           "published_at": "Wed, 12 Aug 2026 11:27:25 GMT"
         },
         {
-          "title": "\"דרעי, גפני וגולדקנופף לא יכולים להיות חלק מהממשלה\"",
-          "source": "103FM",
-          "published_at": "Wed, 12 Aug 2026 07:48:55 GMT"
+          "title": "יזם הביוטכנולוגיה מתי גיל הצטרף לרשימת מפלגת ביחד בראשות נפתלי בנט",
+          "source": "davar1.co.il",
+          "published_at": "Wed, 12 Aug 2026 11:19:00 GMT"
         }
       ]
     },
@@ -84,7 +84,7 @@
       "name_he": "אביגדור ליברמן",
       "role": "יו\"ר ישראל ביתנו",
       "party": "yisrael_beiteinu",
-      "mention_count": 56,
+      "mention_count": 55,
       "headlines": [
         {
           "title": "ליברמן התייצב לצד בעל המועדון החרדי: \"אל תגדעו את פרנסתו\"",
@@ -109,7 +109,7 @@
       "name_he": "יאיר גולן",
       "role": "יו\"ר הדמוקרטים",
       "party": "democrats",
-      "mention_count": 77,
+      "mention_count": 81,
       "headlines": [
         {
           "title": "\"זה הסיפור\": גרסת יאיר גולן לפארסת עינב צנגאוקר",
@@ -134,23 +134,23 @@
       "name_he": "איתמר בן גביר",
       "role": "יו\"ר עוצמה יהודית",
       "party": "otzma_yehudit",
-      "mention_count": 63,
+      "mention_count": 67,
       "headlines": [
         {
           "title": "בתוך \"כלא התנינים\" של בן גביר: \"זה ייגמר באסון\"",
           "source": "ישראל היום",
-          "published_at": "Thu, 13 Aug 2026 08:22:40 GMT",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1EV1lfRHBNT29YNEJZWW9odXlzZ1JITHFwRVJTV254QkFkN2hsb0txMWFDZHZrNHZ2WjFtdTBnQVM3dVJrOXB0TkVGMFJQMkFIeGdPOU93cDZWaTUwcWdaSzNLMXpMR3UzQUJnQXRyWDRPU2d4QzNwRjRzVdIBe0FVX3lxTE1EV1lfRHBNT29YNEJZWW9odXlzZ1JITHFwRVJTV254QkFkN2hsb0txMWFDZHZrNHZ2WjFtdTBnQVM3dVJrOXB0TkVGMFJQMkFIeGdPOU93cDZWaTUwcWdaSzNLMXpMR3UzQUJnQXRyWDRPU2d4QzNwRjRzVQ?oc=5"
+          "published_at": "Thu, 13 Aug 2026 08:14:03 GMT",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB0bmRJVWNULW9sd1RwME5HbTdqU2JKemdSSXp6QnFSSzQxNDVMWUZVaE41YXNEbGdESU1oTTRjaGNWZmRINFdFSTlBRHV6RG9LMzhRZmhFVXRPM2x2eU8ybEZYcU5SaVVfZFpDbnM2ZmhlTDTSAXtBVV95cUxNRFdZX0RwTU9vWDRCWVlvaHV5c2dSSExxcEVSU1dueEJBZDdobG9LcTFhQ2R2azR2dloxbXUwZ0FTN3VSazlwdE5FRjBSUDJBSHhnTzlPd3A2Vmk1MHFnWkszSzF6TEd1M0FCZ0F0clg0T1NneEMzcEY0c1U?oc=5"
+        },
+        {
+          "title": "בקשות לפסילת בן גביר יוגשו לוועדת הבחירות בטענה שפגע בדמוקרטיה",
+          "source": "haaretz.co.il",
+          "published_at": "Thu, 13 Aug 2026 10:27:00 GMT"
         },
         {
           "title": "טלטלה בצמרת מח\"ש: הממונה על חקירת מקורבי בן גביר ביקשה לעבור תפקיד",
           "source": "ynet.co.il",
           "published_at": "Thu, 13 Aug 2026 06:30:41 GMT"
-        },
-        {
-          "title": "בן גביר התנגד, כניסת הפלסטינים נמנעה",
-          "source": "ערוץ 7",
-          "published_at": "Thu, 13 Aug 2026 06:49:00 GMT"
         }
       ]
     },
@@ -159,7 +159,7 @@
       "name_he": "בצלאל סמוטריץ'",
       "role": "יו\"ר הציונות הדתית",
       "party": "religious_zionism",
-      "mention_count": 27,
+      "mention_count": 25,
       "headlines": [
         {
           "title": "ברשות הפלסטינית מגיבים לאיומי סמוטריץ': \"תעמולת הבחירות\"",
@@ -168,14 +168,14 @@
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1ZMjNROGxRRjN4OVREd2RHR3FzTjhvWUhhYWd5ajFFOEg0Wlc2OXpYaHBqVDl4SXU0R0NIc19vSUZTN2s1YWNubzFmZkh5b3VwbDREdW8tSDh6Rkk3S21LNDlvdVcxMHJadEQ5T0R3OUJONk9CNWJEVVBmQVBtNVHSAYcBQVVfeXFMT1lyUHVwZlpVenZNdWxCNGc0T3hGZ1Q0REk4WlMyOWxvODg2TDJWMGh3Q2ZrTW55UHJIbURtRDZYbUZkZW1xWDJmOWF5UXFzU2U0Mi1rX3JENVJEb2JpcE9JaERBZVY4RXI3NkQyUkoxczBPUGhORGd1NjdQN1pxbV9JeFR2dG13?oc=5"
         },
         {
+          "title": "השר בצלאל סמוטריץ' מזהיר: שאננות בימין - תחזיר אותנו לימי אוסלו",
+          "source": "ערוץ 7",
+          "published_at": "Thu, 13 Aug 2026 12:07:00 GMT"
+        },
+        {
           "title": "21 שנים אחרי הגירוש: 30 משפחות הקימו מחדש את היישוב גנים בצפון השומרון",
           "source": "מקור ראשון",
           "published_at": "Thu, 13 Aug 2026 06:05:07 GMT"
-        },
-        {
-          "title": "להחליף את המנהל, לא את הדרך",
-          "source": "הארץ",
-          "published_at": "Wed, 12 Aug 2026 17:00:00 GMT"
         }
       ]
     }
