@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T04:47:33Z",
+  "generated_at": "2026-08-14T07:23:50Z",
   "period": "3d",
   "period_label": "3 ימים אחרונים",
   "source": "Google News",
@@ -23,9 +23,9 @@
           "published_at": "Fri, 14 Aug 2026 03:52:14 GMT"
         },
         {
-          "title": "\"מר ביטחון\" מנפח את תקציב צה\"ל בלי שום חשבון. את המחיר כולנו נשלם | דעה",
-          "source": "הארץ",
-          "published_at": "Fri, 14 Aug 2026 03:00:00 GMT"
+          "title": "ההשתלחות של נתניהו במדינה החשובה: \"הרפובליקה האיסלאמית של בריטניה\"",
+          "source": "ynet",
+          "published_at": "Thu, 13 Aug 2026 17:30:43 GMT"
         }
       ]
     },
@@ -34,7 +34,7 @@
       "name_he": "גדי איזנקוט",
       "role": "יו\"ר ישר",
       "party": "yashar",
-      "mention_count": 82,
+      "mention_count": 86,
       "headlines": [
         {
           "title": "\"מרוקאי שאפשר לרוץ איתו\": כך הפך איזנקוט ל\"דיאלנה\" של האליטות",
@@ -59,7 +59,7 @@
       "name_he": "נפתלי בנט",
       "role": "יו\"ר ביחד",
       "party": "together",
-      "mention_count": 64,
+      "mention_count": 62,
       "headlines": [
         {
           "title": "שינוי הכיוון של בנט, והמלכודת שמחכה לאיזנקוט",
@@ -73,9 +73,9 @@
           "published_at": "Fri, 14 Aug 2026 03:00:00 GMT"
         },
         {
-          "title": "נפתלי בנט: 30 שנה החרדים מסובבים פוליטיקאים, אסגור להם את הכסף",
-          "source": "mako",
-          "published_at": "Thu, 13 Aug 2026 13:30:00 GMT"
+          "title": "בנט תוקף: \"אתם תברחו ממדינת ישראל; אני לא מפחד מכם\"",
+          "source": "סרוגים",
+          "published_at": "Fri, 14 Aug 2026 05:59:17 GMT"
         }
       ]
     },
@@ -84,7 +84,7 @@
       "name_he": "אביגדור ליברמן",
       "role": "יו\"ר ישראל ביתנו",
       "party": "yisrael_beiteinu",
-      "mention_count": 53,
+      "mention_count": 48,
       "headlines": [
         {
           "title": "ליברמן התייצב לצד בעל המועדון החרדי: \"אל תגדעו את פרנסתו\"",
@@ -98,9 +98,9 @@
           "published_at": "Fri, 14 Aug 2026 03:00:00 GMT"
         },
         {
-          "title": "ח''כ אביגדור ליברמן נגד שר הביטחון ישראל כ''ץ: צריך לתת לו בום בום בראש",
-          "source": "103FM",
-          "published_at": "Tue, 11 Aug 2026 07:56:10 GMT"
+          "title": "ליברמן מזהיר: \"אנחנו חוזרים לאותה קונספציה שהביאה ל-7.10\"",
+          "source": "סרוגים",
+          "published_at": "Thu, 13 Aug 2026 18:14:04 GMT"
         }
       ]
     },
@@ -109,7 +109,7 @@
       "name_he": "יאיר גולן",
       "role": "יו\"ר הדמוקרטים",
       "party": "democrats",
-      "mention_count": 39,
+      "mention_count": 36,
       "headlines": [
         {
           "title": "\"יאיר גולן עשה בחירה שמצערת אותי. אבל יש אצלו ח\"כים מדהימים\"",
@@ -134,13 +134,13 @@
       "name_he": "איתמר בן גביר",
       "role": "יו\"ר עוצמה יהודית",
       "party": "otzma_yehudit",
-      "mention_count": 78,
+      "mention_count": 73,
       "headlines": [
         {
-          "title": "בתוך \"כלא התנינים\" של בן גביר: \"זה ייגמר באסון\"",
+          "title": "השר שהודיע לנתניהו: \"בכירים בליכוד מנסים להדיח אותך\"",
           "source": "ישראל היום",
-          "published_at": "Thu, 13 Aug 2026 08:14:03 GMT",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB0bmRJVWNULW9sd1RwME5HbTdqU2JKemdSSXp6QnFSSzQxNDVMWUZVaE41YXNEbGdESU1oTTRjaGNWZmRINFdFSTlBRHV6RG9LMzhRZmhFVXRPM2x2eU8ybEZYcU5SaVVfZFpDbnM2ZmhlTDTSAXtBVV95cUxNRFdZX0RwTU9vWDRCWVlvaHV5c2dSSExxcEVSU1dueEJBZDdobG9LcTFhQ2R2azR2dloxbXUwZ0FTN3VSazlwdE5FRjBSUDJBSHhnTzlPd3A2Vmk1MHFnWkszSzF6TEd1M0FCZ0F0clg0T1NneEMzcEY0c1U?oc=5"
+          "published_at": "Thu, 13 Aug 2026 18:42:10 GMT",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9NcENfSWwzVXVHRG81dHQtT0JhWnRQRkN2Q3NEV1QtN2Z3OWFQM1dIS2EtS1B2ODFMUkQ2cFozRS1qWlRNcWZ2WnlCX0lLOEpGRUUwT0ZWemtFTHpWTHJSMnpTZ2hNY25COHFvbNIBdEFVX3lxTFBMY1gyUU9IRy1hT3VrekptNkxyMVlPdFFtOTBWTm9MWnc2clJfQ3VZVmJSSnE1TGhGbWNmTlB2RDRqQkdDZDV4eFBOTklpMUM1Q2pkV1pydG5yWFk5cmhudl80Z0RmX0s0bHFRVXNCd3huOXZU?oc=5"
         },
         {
           "title": "בקשות לפסילת בן גביר יוגשו לוועדת הבחירות בטענה שפגע בדמוקרטיה",
