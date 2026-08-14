@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T01:53:22Z",
+  "generated_at": "2026-08-14T04:47:33Z",
   "period": "3d",
   "period_label": "3 ימים אחרונים",
   "source": "Google News",
@@ -18,14 +18,14 @@
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9tZmhpR1Z0SDhNQS1hOGN2M0RfQmpRSG00NWluYXBCQmttem5FWlVteTNoUmZsUGRyajVEVWJ3dndQaFFlY3l6NnY5RzFuLWNOQWh5UTRfUXZYTkJPSHRiMGJZbnNmLVppOGZJVdIBdEFVX3lxTFBxemNpaktfTVMwNnhSeEZPcmxJS0FqVDh0ZXlrc2JST2JqTTlrSVd1bHBhd3pjbXRzcjhvZnhzRkVodTN6VTB1ZG84X3h0NzZmNUpOdlh1RG9iSnVWc1JBU3JYbTd6czkyQ3VDSWNYekVUdk9U?oc=5"
         },
         {
-          "title": "יו\"ר ועדת הבחירות המרכזית: נתניהו הצטלם עם ילדים לסרטון תעמולה בניגוד לחוק",
-          "source": "the7eye.org.il",
-          "published_at": "Thu, 13 Aug 2026 15:00:47 GMT"
+          "title": "נתניהו כינה את בריטניה \"רפובליקה אסלאמית\"",
+          "source": "זמן ישראל",
+          "published_at": "Fri, 14 Aug 2026 03:52:14 GMT"
         },
         {
-          "title": "הגיעו לישראל הלימוזינות המשוריינות לרה\"מ, הנשיא ושב\"כ; נתניהו כבר תועד באחת מהן",
-          "source": "ynet",
-          "published_at": "Thu, 13 Aug 2026 16:37:32 GMT"
+          "title": "\"מר ביטחון\" מנפח את תקציב צה\"ל בלי שום חשבון. את המחיר כולנו נשלם | דעה",
+          "source": "הארץ",
+          "published_at": "Fri, 14 Aug 2026 03:00:00 GMT"
         }
       ]
     },
@@ -34,7 +34,7 @@
       "name_he": "גדי איזנקוט",
       "role": "יו\"ר ישר",
       "party": "yashar",
-      "mention_count": 76,
+      "mention_count": 82,
       "headlines": [
         {
           "title": "\"מרוקאי שאפשר לרוץ איתו\": כך הפך איזנקוט ל\"דיאלנה\" של האליטות",
@@ -43,14 +43,14 @@
           "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9FMHR3Vk9TRU5wakFqMXhHMnNiU1FvQ0IxMDluS1BVam9oTEhqRFFCRHpHdXI0RmdZMEtfSm5FYTdJZjFtZ0pvUVI0QkFyaWRCd25ROWZ0c281S0M3aTVxNkJQVUJhSUJ0TFFuQnVB0gFuQVVfeXFMT0UwdHdWT1NFTnBqQWoxeEcyc2JTUW9DQjEwOW5LUFVqb2hMSGpEUUJEekd1cjRGZ1kwS19KbkVhN0lmMW1nSm9RUjRCQXJpZEJ3blE5ZnRzbzVLQzdpNXE2QlBVQmFJQnRMUW5CdUE?oc=5"
         },
         {
-          "title": "גדי איזנקוט הוא הנסיך המרוקאי שלו חיכתה ההגמוניה האשכנזית",
-          "source": "שיחה מקומית",
-          "published_at": "Wed, 12 Aug 2026 14:34:12 GMT"
+          "title": "פרשנות איזנקוט נערך להקים ממשלת מיעוט ומקווה להרחיבה אחרי ההשבעה",
+          "source": "הארץ",
+          "published_at": "Fri, 14 Aug 2026 03:00:00 GMT"
         },
         {
-          "title": "גדי איזנקוט בריאיון מיוחד ל\"שבע\" עם קרן מרציאנו",
-          "source": "mako",
-          "published_at": "Wed, 12 Aug 2026 17:08:00 GMT"
+          "title": "שאול מרידור חושף כמה רחוק ילך איזנקוט לקראת החרדים",
+          "source": "TheMarker",
+          "published_at": "Fri, 14 Aug 2026 03:05:00 GMT"
         }
       ]
     },
@@ -59,7 +59,7 @@
       "name_he": "נפתלי בנט",
       "role": "יו\"ר ביחד",
       "party": "together",
-      "mention_count": 60,
+      "mention_count": 64,
       "headlines": [
         {
           "title": "שינוי הכיוון של בנט, והמלכודת שמחכה לאיזנקוט",
@@ -68,14 +68,14 @@
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBlakkydE43cVhiVnJ6Y2l4VHhCbzc5NW9PLXphb0dvZmpNMHhqVUgySWdyRGF5bmE5TUlZYnJ4N3BWOEdNcnBsbHlOMjcxSm9HMjRiQnE5QXdSVGNGNzBqTks2eUhhZnVnclB3MtIBdEFVX3lxTE5zak85S2Zhekw0UXQtbXdhZ1VuelY5dHhXQUtfYmlkaUxJVTF1eEFUSHplOWZOdjZtTVNIYkQ4UEI4c1JPb1FteU5aZHItWEhDWjh5V19BQzFFZ2pGaWt2NTlqMC0tN0E5UlItOXQ5UlRDRzNr?oc=5"
         },
         {
+          "title": "עיניו של לפיד קודחות ממחשבות על \"הפיכת שולחנות\" במשרדים ממשלתיים",
+          "source": "הארץ",
+          "published_at": "Fri, 14 Aug 2026 03:00:00 GMT"
+        },
+        {
           "title": "נפתלי בנט: 30 שנה החרדים מסובבים פוליטיקאים, אסגור להם את הכסף",
           "source": "mako",
           "published_at": "Thu, 13 Aug 2026 13:30:00 GMT"
-        },
-        {
-          "title": "יזם הביוטכנולוגיה מתי גיל הצטרף לרשימת מפלגת ביחד בראשות נפתלי בנט",
-          "source": "davar1.co.il",
-          "published_at": "Wed, 12 Aug 2026 11:19:00 GMT"
         }
       ]
     },
@@ -93,14 +93,14 @@
           "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBPbzN0RlN6SE9FVTI2T0c5VlNrdkxGQkFQNjdlSHRQTm5HZEtXZXY3RE9HTG9vN0ZCQk84RHBlUUF3cUNnWVYxUGhEZjB0ZWRIT3JlNnFKVmZrdUcwRXY4RE50dVY2V2I3SEFfb1psRmI2TFlkeUHSAX5BVV95cUxNQmRsc2xXM3ZQWHNlcVJ6QjdWUGdYTzBCQXpoaGc1TGJyenhSV2xObXItaDJOVUJNSndjSDZRalp5ZGd2SU5LQUdXd3JYZ3l5alJWdy1mb0t1cEhLVE1nTURYQ0Iya3VIbW50WjlDRGVZaEpvOHJnQXh4RGkwSWc?oc=5"
         },
         {
-          "title": "ח''כ אביגדור ליברמן נגד שר הביטחון ישראל כ''ץ: צריך לתת לו בום בום בראש",
-          "source": "103fm.maariv.co.il",
-          "published_at": "Tue, 11 Aug 2026 07:56:10 GMT"
+          "title": "בנט, ובעיקר ליברמן, נמנעים מלהכתיר את איזנקוט כמנהיג הגוש — ולא בכדי | דעה",
+          "source": "הארץ",
+          "published_at": "Fri, 14 Aug 2026 03:00:00 GMT"
         },
         {
-          "title": "ליברמן מזהיר: \"אנחנו חוזרים לאותה קונספציה שהביאה ל-7.10\"",
-          "source": "srugim.co.il",
-          "published_at": "Thu, 13 Aug 2026 01:06:40 GMT"
+          "title": "ח''כ אביגדור ליברמן נגד שר הביטחון ישראל כ''ץ: צריך לתת לו בום בום בראש",
+          "source": "103FM",
+          "published_at": "Tue, 11 Aug 2026 07:56:10 GMT"
         }
       ]
     },
@@ -109,7 +109,7 @@
       "name_he": "יאיר גולן",
       "role": "יו\"ר הדמוקרטים",
       "party": "democrats",
-      "mention_count": 41,
+      "mention_count": 39,
       "headlines": [
         {
           "title": "\"יאיר גולן עשה בחירה שמצערת אותי. אבל יש אצלו ח\"כים מדהימים\"",
@@ -123,9 +123,9 @@
           "published_at": "Thu, 13 Aug 2026 17:00:00 GMT"
         },
         {
-          "title": "התוכנית של יאיר גולן: פירוק מאחזים ומלחמה בטרור יהודי",
-          "source": "srugim.co.il",
-          "published_at": "Thu, 13 Aug 2026 15:12:40 GMT"
+          "title": "כך הגיבו המפלגות החרדיות לתכנית של יאיר גולן",
+          "source": "סרוגים",
+          "published_at": "Thu, 13 Aug 2026 15:52:40 GMT"
         }
       ]
     },
@@ -137,10 +137,10 @@
       "mention_count": 78,
       "headlines": [
         {
-          "title": "השר שהודיע לנתניהו: \"בכירים בליכוד מנסים להדיח אותך\"",
+          "title": "בתוך \"כלא התנינים\" של בן גביר: \"זה ייגמר באסון\"",
           "source": "ישראל היום",
-          "published_at": "Thu, 13 Aug 2026 18:42:10 GMT",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9NcENfSWwzVXVHRG81dHQtT0JhWnRQRkN2Q3NEV1QtN2Z3OWFQM1dIS2EtS1B2ODFMUkQ2cFozRS1qWlRNcWZ2WnlCX0lLOEpGRUUwT0ZWemtFTHpWTHJSMnpTZ2hNY25COHFvbNIBdEFVX3lxTFBMY1gyUU9IRy1hT3VrekptNkxyMVlPdFFtOTBWTm9MWnc2clJfQ3VZVmJSSnE1TGhGbWNmTlB2RDRqQkdDZDV4eFBOTklpMUM1Q2pkV1pydG5yWFk5cmhudl80Z0RmX0s0bHFRVXNCd3huOXZU?oc=5"
+          "published_at": "Thu, 13 Aug 2026 08:14:03 GMT",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB0bmRJVWNULW9sd1RwME5HbTdqU2JKemdSSXp6QnFSSzQxNDVMWUZVaE41YXNEbGdESU1oTTRjaGNWZmRINFdFSTlBRHV6RG9LMzhRZmhFVXRPM2x2eU8ybEZYcU5SaVVfZFpDbnM2ZmhlTDTSAXtBVV95cUxNRFdZX0RwTU9vWDRCWVlvaHV5c2dSSExxcEVSU1dueEJBZDdobG9LcTFhQ2R2azR2dloxbXUwZ0FTN3VSazlwdE5FRjBSUDJBSHhnTzlPd3A2Vmk1MHFnWkszSzF6TEd1M0FCZ0F0clg0T1NneEMzcEY0c1U?oc=5"
         },
         {
           "title": "בקשות לפסילת בן גביר יוגשו לוועדת הבחירות בטענה שפגע בדמוקרטיה",
