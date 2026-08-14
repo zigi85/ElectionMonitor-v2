@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T15:51:01Z",
+  "generated_at": "2026-08-14T18:52:50Z",
   "period": "3d",
   "period_label": "3 ימים אחרונים",
   "source": "Google News",
@@ -12,21 +12,20 @@
       "mention_count": 100,
       "headlines": [
         {
-          "title": "האיש שיהיה היורש של נתניהו - ועוד לא יודע את זה",
+          "title": "נתניהו הודיע על תמיכתו בשלמה לרנר בפריימריז בליכוד",
           "source": "ישראל היום",
-          "published_at": "",
-          "url": "https://www.israelhayom.co.il/magazine/hashavua/article/21185588",
-          "fallback": true
-        },
-        {
-          "title": "גלי צה\"ל ריאיינה את נתניהו לפודקאסט באולפני חברה שהליכוד מעסיק בקמפיין",
-          "source": "הארץ",
-          "published_at": "Thu, 13 Aug 2026 17:14:00 GMT"
+          "published_at": "Fri, 14 Aug 2026 14:30:04 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1iU1AtRml4MndFN3dRdlhzMF81bjR4cWIxQllrZ3Z4ZGhVcFhKeTJrMkdwRTB3ZXJ2czBhVktzZjRoSDhhNEMtU1V5U2xkdXNkczRlZXFDaGRnZlZtNW9kVzU3MTMxaG_SAW9BVV95cUxPS1BJVHRlc1pfbWNOU0ZwSVh1Rk1DZF9SeWhqbWRPUUFtRmdZN2NsdVR1a2Uwb0xmX0tBeXN6MUlZM3phcW5WOG4zSzZzNXZqQW1FeThNcDk3VEtTdFo2SmVuYmRYVGRiMEt1aXBBcWs?oc=5"
         },
         {
           "title": "נתניהו נערך לתרחיש האימים: \"עשוי לבצע לאחר הפריימריז מהלך מפתיע\"",
           "source": "מעריב",
           "published_at": "Fri, 14 Aug 2026 03:01:00 GMT"
+        },
+        {
+          "title": "גלי צה\"ל ריאיינה את נתניהו לפודקאסט באולפני חברה שהליכוד מעסיק בקמפיין",
+          "source": "הארץ",
+          "published_at": "Thu, 13 Aug 2026 17:14:00 GMT"
         }
       ]
     },
@@ -38,10 +37,10 @@
       "mention_count": 89,
       "headlines": [
         {
-          "title": "לאחר פרישתו מיש עתיד: שטרן עשוי להצטרף למפלגתו של איזנקוט",
+          "title": "הליכוד נגד איזנקוט: \"חלש, נתניהו חזק\"",
           "source": "ישראל היום",
-          "published_at": "Fri, 14 Aug 2026 10:09:04 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ORjFpWWxoM1FEeVNxNzBfNkNITmdLQTZnekhYZHJKdFp1ME0xQl9rQTU4SGp1Qnh6am80UFF5c0Q1R3NRM1hCYk9ZYkdOR0s5THNRdTFlTWNocnBBTWJFRTRkWjQyRHPSAW9BVV95cUxPUHpDRmtwb24xRFBad3R5aDhVcHNGeFhfX0t6LUJYbzZBMWxRV2k3UlVzaDJQSk9ROFlrMUF0djRTVmk5dFctNjRzUU9TOVl0ZzQ4NDdIUzc1WlVjaktjejNCQjVtd056VnpIamphblE?oc=5"
+          "published_at": "Fri, 14 Aug 2026 11:38:18 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE10YXRQdzJSMENMeHpGZDNtMjY3QjgzNmt0RXFQQm1LdUdCeVQ3UHFuLWZWaThnQnlPZW84MERpTDZ0cTNTeFJMbDhqa1J3UEpJR2lGd003MDNEZEp1aThXazUyZGJEMWPSAW9BVV95cUxPbkEwVDFTbngzcTk3MHByRDdlWGtrMVViNUJDeHBDeGU2Wi1WZ2pvTF8yWTRpd2NDemNVcXN5MC1pTGJsNHdVSWNQY05oSWZobkVWUWhORk1ST0w2LVFkcTE1NHVrVlZmaTVKWnhnYTQ?oc=5"
         },
         {
           "title": "פרשנות איזנקוט נערך להקים ממשלת מיעוט ומקווה להרחיבה אחרי ההשבעה",
@@ -60,13 +59,13 @@
       "name_he": "נפתלי בנט",
       "role": "יו\"ר ביחד",
       "party": "together",
-      "mention_count": 65,
+      "mention_count": 67,
       "headlines": [
         {
-          "title": "שינוי הכיוון של בנט, והמלכודת שמחכה לאיזנקוט",
+          "title": "הליכוד מאיים לעתור נגד בנט: ״השתמש בתינוק לצורך תעמולת בחירות״",
           "source": "ישראל היום",
-          "published_at": "Thu, 13 Aug 2026 19:29:24 GMT",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBlakkydE43cVhiVnJ6Y2l4VHhCbzc5NW9PLXphb0dvZmpNMHhqVUgySWdyRGF5bmE5TUlZYnJ4N3BWOEdNcnBsbHlOMjcxSm9HMjRiQnE5QXdSVGNGNzBqTks2eUhhZnVnclB3MtIBdEFVX3lxTE5zak85S2Zhekw0UXQtbXdhZ1VuelY5dHhXQUtfYmlkaUxJVTF1eEFUSHplOWZOdjZtTVNIYkQ4UEI4c1JPb1FteU5aZHItWEhDWjh5V19BQzFFZ2pGaWt2NTlqMC0tN0E5UlItOXQ5UlRDRzNr?oc=5"
+          "published_at": "Fri, 14 Aug 2026 15:55:29 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9PMl9QLXBWZC05WVlVX1dHVmxHRG1CZ281M1lZUVBPX19rRzJsVDFhTW9HZGk0aEhzQks0YjJpdWw5anBkcGh6VVVTdDl1d1BFUTBocTRIVWRRMkN0bEhITnRudzUyZ9IBbkFVX3lxTFBuam0tNkVxN3dnVWNjRGZSMTBxT1JwVjZGeTJobWR5NDA4dExSczUtaHE2blpXbVNIdDFKSjMyM0kzMThyaVUwSENIdG1MMWlIUW9IVzA2SEhzbVUxamJpekNuUXN2blI1cXowenRB?oc=5"
         },
         {
           "title": "אופירה אוחנה סרי 2026 - נפתלי בנט בריאיון מיוחד | 12+",
@@ -85,7 +84,7 @@
       "name_he": "אביגדור ליברמן",
       "role": "יו\"ר ישראל ביתנו",
       "party": "yisrael_beiteinu",
-      "mention_count": 46,
+      "mention_count": 42,
       "headlines": [
         {
           "title": "ליברמן התייצב לצד בעל המועדון החרדי: \"אל תגדעו את פרנסתו\"",
@@ -110,23 +109,23 @@
       "name_he": "יאיר גולן",
       "role": "יו\"ר הדמוקרטים",
       "party": "democrats",
-      "mention_count": 32,
+      "mention_count": 31,
       "headlines": [
         {
-          "title": "\"יאיר גולן עשה בחירה שמצערת אותי. אבל יש אצלו ח\"כים מדהימים\"",
+          "title": "\"זה הסיפור\": גרסת יאיר גולן לפארסת עינב צנגאוקר",
           "source": "ישראל היום",
-          "published_at": "Thu, 13 Aug 2026 14:12:01 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5MVF9CVXoxQUdLcUMxR2N0UUV2ZkxYcjN1SVZyZkZ0WTl1LUlLSDluSkNLU3dxWXR4NS1oand5blBfS19rUnNhYlFCYXc2X3Ata2NJZGplR2wyNnRCTkc2ZVNaeENVcXJMeEZWckRmWVl3UktSdWRMa1hR0gF6QVVfeXFMTkxUX0JVejFBR0txQzFHY3RRRXZmTFhyM3VJVnJmRnRZOXUtSUtIOW5KQ0tTd3FZdHg1LWhqd3luUF9LX2tSc2FiUUJhdzZfcC1rY0lkamVHbDI2dEJORzZlU1p4Q1Vxckx4RlZyRGZZWXdSS1J1ZExrWFE?oc=5"
+          "published_at": "Wed, 12 Aug 2026 08:36:01 GMT",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE96ZThFeUpHWF9kamd1WjNLV3BheEU5Y0ZKYUo3TlZfQkJJRXZYVlFCMENacC02T2d0b3Bpenoxb0tJaXAweXl4UVJGVzdxcWx4RVk0RFJvQjZia3czME1HUmYya3dKU185QzlWdtIBdEFVX3lxTFBFY0dIQW1WVDUyUWZQM21iQ3Y5Zzh3U2Y5MlBjeW5SX1k1SXQ1OTVTcjUxR05oaU9ta0ZYWld5NXlJa3BudldrbjlqU1puSnEwYlVBQ2lVQVl6Z3g4NlBsMmx5WDRMczE0N3Z6cFRNTTVROU83?oc=5"
         },
         {
-          "title": "השריון שהיה עלול להפוך לכתם על הדמוקרטים | מיכאל קליינר",
+          "title": "יאיר גולן הפר את ההבטחה לעינב צנגאוקר - והציל את מפלגתו | מיכאל קליינר",
           "source": "מעריב",
           "published_at": "Fri, 14 Aug 2026 13:38:00 GMT"
         },
         {
-          "title": "הפרת ההבטחה לצנגאוגר היא טעות של יאיר גולן. הוא יכול לתקן אותה",
-          "source": "הארץ",
-          "published_at": "Thu, 13 Aug 2026 17:00:00 GMT"
+          "title": "מתמודד בדמוקרטים תקף אלוף בצה\"ל, גולן ביקש \"להרגיע\": \"תלמדו מהטעויות שלי\"",
+          "source": "ynet",
+          "published_at": "Thu, 13 Aug 2026 12:44:52 GMT"
         }
       ]
     },
@@ -135,7 +134,7 @@
       "name_he": "איתמר בן גביר",
       "role": "יו\"ר עוצמה יהודית",
       "party": "otzma_yehudit",
-      "mention_count": 54,
+      "mention_count": 48,
       "headlines": [
         {
           "title": "הכרזה מוקדמת? הודעת כ\"ץ לא תואמה עם צה\"ל ועם בן גביר",
@@ -175,7 +174,7 @@
         },
         {
           "title": "אחרי 4 שנים במשרד הביטחון: תוכנית סמוטריץ' למען המילואימניקים",
-          "source": "ynet.co.il",
+          "source": "ynet",
           "published_at": "Thu, 13 Aug 2026 19:39:40 GMT"
         }
       ]
