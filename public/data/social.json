@@ -1,41 +1,48 @@
 {
-  "generated_at": "2026-08-13T21:42:13Z",
-  "headline_count": 167,
+  "generated_at": "2026-08-14T04:46:25Z",
+  "headline_count": 168,
   "hot_topics": [
     {
       "id": "elections",
       "label": "בחירות וסקרים",
-      "mention_count": 59,
-      "sample_headline": "סקר חדשות 13: הקמת הרשימה המשותפת תעלה את המפלגות הערביות ל־14 מנדטים",
-      "sample_source": "הארץ"
+      "mention_count": 58,
+      "sample_headline": "סקר I24NEWS: הליכוד מתחזקת בשני מנדטים לקראת הפריימריז, עוצמה יהודית מאבדת מנדט | הנתונים המלאים",
+      "sample_source": "i24NEWS"
     },
     {
       "id": "coalition",
       "label": "קואליציה וכנסת",
-      "mention_count": 33,
+      "mention_count": 31,
       "sample_headline": "\"ממשלה בינונית\": גוטליב סיפקה מתנה לאופוזיציה",
-      "sample_source": "אמס"
+      "sample_source": "emess.co.il"
     },
     {
       "id": "judiciary",
       "label": "מערכת המשפט",
-      "mention_count": 13,
+      "mention_count": 12,
       "sample_headline": "בג\"ץ הקלפיות: המדינה תצטרך להציג מתווה מספק להחלפת הקלפיות שיוסרו מבתי אבות",
       "sample_source": "ynet"
     },
     {
       "id": "security",
       "label": "ביטחון",
-      "mention_count": 9,
-      "sample_headline": "השיחות בין ישראל ללבנון יתחדשו בספטמבר בצל מחלוקת על מנגנון שיאמת פירוק חזבאללה מנשקו",
+      "mention_count": 10,
+      "sample_headline": "ישראל ולבנון הסכימו שבריטניה, איטליה, שווייץ ואינדונזיה ישתתפו במנגנון שיפקח הפירוז",
       "sample_source": "זמן ישראל"
     },
     {
       "id": "haredim",
       "label": "חרדים וגיוס",
-      "mention_count": 3,
-      "sample_headline": "סערת חוק הגיוס והזעם ברחוב: האם הציבור החרדי יאתגר את ההנהגה? | פרויקט מיוחד",
-      "sample_source": "i24NEWS"
+      "mention_count": 2,
+      "sample_headline": "\"זו לא שותפות\": החשבון הפוליטי של המפלגות החרדיות",
+      "sample_source": "emess.co.il"
+    },
+    {
+      "id": "negotiations",
+      "label": "דיפלומטיה",
+      "mention_count": 1,
+      "sample_headline": "מועצת השלום לעזה אישרה – קושנר יבקר בישראל ובמצרים בשבוע הבא",
+      "sample_source": "זמן ישראל"
     },
     {
       "id": "social",
@@ -49,57 +56,57 @@
     {
       "key": "eisenkot",
       "name_he": "גדי איזנקוט",
-      "views_7d": 13779,
-      "prev_views_7d": 10358,
-      "change_pct": 33.0,
-      "direction": "rising"
+      "views_7d": 12747,
+      "prev_views_7d": 11394,
+      "change_pct": 11.9,
+      "direction": "stable"
     },
     {
       "key": "netanyahu",
       "name_he": "בנימין נתניהו",
-      "views_7d": 5286,
-      "prev_views_7d": 6084,
-      "change_pct": -13.1,
-      "direction": "stable"
+      "views_7d": 5170,
+      "prev_views_7d": 6153,
+      "change_pct": -16.0,
+      "direction": "falling"
     },
     {
       "key": "golan",
       "name_he": "יאיר גולן",
-      "views_7d": 4458,
-      "prev_views_7d": 8844,
-      "change_pct": -49.6,
+      "views_7d": 4166,
+      "prev_views_7d": 6910,
+      "change_pct": -39.7,
       "direction": "falling"
     },
     {
       "key": "bennett",
       "name_he": "נפתלי בנט",
-      "views_7d": 2538,
-      "prev_views_7d": 3219,
-      "change_pct": -21.2,
+      "views_7d": 2493,
+      "prev_views_7d": 3221,
+      "change_pct": -22.6,
       "direction": "falling"
+    },
+    {
+      "key": "lieberman",
+      "name_he": "אביגדור ליברמן",
+      "views_7d": 2246,
+      "prev_views_7d": 2613,
+      "change_pct": -14.0,
+      "direction": "stable"
     },
     {
       "key": "ben_gvir",
       "name_he": "איתמר בן גביר",
-      "views_7d": 1752,
-      "prev_views_7d": 1599,
-      "change_pct": 9.6,
+      "views_7d": 1772,
+      "prev_views_7d": 1597,
+      "change_pct": 11.0,
       "direction": "stable"
     },
     {
       "key": "smotrich",
       "name_he": "בצלאל סמוטריץ'",
-      "views_7d": 1158,
-      "prev_views_7d": 1304,
-      "change_pct": -11.2,
-      "direction": "stable"
-    },
-    {
-      "key": "lieberman",
-      "name_he": "אביגדור ליברמן",
-      "views_7d": 0,
-      "prev_views_7d": 2414,
-      "change_pct": 0.0,
+      "views_7d": 1131,
+      "prev_views_7d": 1292,
+      "change_pct": -12.5,
       "direction": "stable"
     }
   ],
@@ -108,21 +115,21 @@
       "video_id": "_6_hwwJOGkM",
       "title": "עמית סגל לקראת הבחירות ב-60 שניות עם ליאל אלי: האם נתניהו יישאר ראש הממשלה? מה הסיכוי שגנץ יפרוש?",
       "channel": "V1",
-      "views": 73749,
-      "views_str": "73.7K",
+      "views": 85160,
+      "views_str": "85.2K",
       "duration": "1:26",
       "published_text": "לפני יום אחד (1)",
-      "thumbnail": "https://i.ytimg.com/vi/_6_hwwJOGkM/hq720_2.jpg?sqp=-oaymwE6CNAFEJQDSFXyq4qpAywIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARhyID8oPDAPuAL3GA==&rs=AOn4CLD7GyvfzCf2bGjUzlSG8zufPiH2FA",
+      "thumbnail": "https://i.ytimg.com/vi/_6_hwwJOGkM/hq720_2.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARhyID8oPDAP&rs=AOn4CLCS4Yz7QdLABdGTiXf9TRHTfgiyaQ",
       "url": "https://www.youtube.com/watch?v=_6_hwwJOGkM"
     },
     {
       "video_id": "vxxOpnDor8Y",
       "title": "איך איתמר בן גביר הכיר את אשתו",
       "channel": "פודקאסט על המשמעות - תמיר דורטל",
-      "views": 28961,
-      "views_str": "29.0K",
+      "views": 35641,
+      "views_str": "35.6K",
       "duration": "0:50",
-      "published_text": "לפני 17 שעות",
+      "published_text": "לפני יום אחד (1)",
       "thumbnail": "https://i.ytimg.com/vi/vxxOpnDor8Y/hq720_2.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARhlIGUoZTAP&rs=AOn4CLB1HIElJCqwqmw02E0wrhewcxgdZw",
       "url": "https://www.youtube.com/watch?v=vxxOpnDor8Y"
     },
@@ -130,54 +137,32 @@
       "video_id": "uCgpmpOSubk",
       "title": "הברכה הזאת עשתה לי את היום. אבי בנאי מרמת גן, אוהב אותך💙🇮🇱",
       "channel": "נפתלי בנט | Naftali Bennett",
-      "views": 19283,
-      "views_str": "19.3K",
+      "views": 20236,
+      "views_str": "20.2K",
       "duration": "0:21",
       "published_text": "לפני יומיים (2)",
-      "thumbnail": "https://i.ytimg.com/vi/uCgpmpOSubk/hq720.jpg?sqp=-oaymwE6CNAFEJQDSFXyq4qpAywIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARhlIEcoPjAPuAL3GA==&rs=AOn4CLBxYZO3rgoTgHutdG32W78E1ySnSA",
+      "thumbnail": "https://i.ytimg.com/vi/uCgpmpOSubk/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARhlIEcoPjAP&rs=AOn4CLBiUVoacW-rzeVWCp2gKbfps9_c1w",
       "url": "https://www.youtube.com/watch?v=uCgpmpOSubk"
     },
     {
-      "video_id": "Bg5CtnywvQ8",
-      "title": "גדי איזנקוט חושף: מי באמת החליש את צה\"ל? (הריאיון ב-103FM)",
-      "channel": "ביבי השקרן",
-      "views": 12412,
-      "views_str": "12.4K",
-      "duration": "1:07",
-      "published_text": "לפני יומיים (2)",
-      "thumbnail": "https://i.ytimg.com/vi/Bg5CtnywvQ8/hq720.jpg?sqp=-oaymwE6CNAFEJQDSFXyq4qpAywIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARhKIEMoZTAPuAL3GA==&rs=AOn4CLDsN9LSP2zBJmVNlxKxjLVmvwUoVw",
-      "url": "https://www.youtube.com/watch?v=Bg5CtnywvQ8"
-    },
-    {
-      "video_id": "XZWkP7P7cwk",
-      "title": "משתמט לא יישב בקבינט! זה מה שעניתי לישי כהן כששאל אותי על דרעי",
-      "channel": "נפתלי בנט | Naftali Bennett",
-      "views": 11977,
-      "views_str": "12.0K",
-      "duration": "1:06",
-      "published_text": "לפני 5 ימים",
-      "thumbnail": "https://i.ytimg.com/vi/XZWkP7P7cwk/hq720_2.jpg?sqp=-oaymwE6CNAFEJQDSFXyq4qpAywIARUAAIhCGABwAcABBvABAfgBvgSAAoAIigIMCAAQARhyIEwoOzAPuAL3GA==&rs=AOn4CLBDkMd3dDeEAK5pRBE5xZliCCeauQ",
-      "url": "https://www.youtube.com/watch?v=XZWkP7P7cwk"
-    },
-    {
-      "video_id": "XqoZ5QWxODU",
-      "title": "ינון מגל: כל מערכת בחירות מגיע התורן עם הקול הדרמטי ומספר לנו על קץ הדמוקרטיה בלשכת נתניהו.",
-      "channel": "ינון מגל Yinon Magal",
-      "views": 11707,
-      "views_str": "11.7K",
-      "duration": "1:05",
-      "published_text": "לפני יומיים (2)",
-      "thumbnail": "https://i.ytimg.com/vi/XqoZ5QWxODU/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARgXIC8ofzAP&rs=AOn4CLClyKDSIN-r3ivMGKHjt8ZER_7q-g",
-      "url": "https://www.youtube.com/watch?v=XqoZ5QWxODU"
+      "video_id": "zcck8y4dGm0",
+      "title": "יכריעו את הבחירות? המפלגות הקטנות לא עוברות את אחוז החסימה",
+      "channel": "כאן | חדשות - תאגיד השידור הישראלי",
+      "views": 16543,
+      "views_str": "16.5K",
+      "duration": "5:57",
+      "published_text": "לפני 3 ימים",
+      "thumbnail": "https://i.ytimg.com/vi/zcck8y4dGm0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDyWJRc_f7dGugCnDJX_TIADWPMNA",
+      "url": "https://www.youtube.com/watch?v=zcck8y4dGm0"
     },
     {
       "video_id": "YSIpP03dMxs",
       "title": "השר בן גביר ותושבת להבים באולפן אצל ברקו; הנגב, ביטחון, בחירות ועוד - צפו בראיון מרתק",
       "channel": "עוצמה יהודית",
-      "views": 11623,
-      "views_str": "11.6K",
+      "views": 12598,
+      "views_str": "12.6K",
       "duration": "17:54",
-      "published_text": "לפני יום אחד (1)",
+      "published_text": "לפני יומיים (2)",
       "thumbnail": "https://i.ytimg.com/vi/YSIpP03dMxs/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhFIFIocjAP&rs=AOn4CLDVbvx_t8Rn8HY8gxR65VCjpvArnA",
       "url": "https://www.youtube.com/watch?v=YSIpP03dMxs"
     },
@@ -185,12 +170,34 @@
       "video_id": "nLuMihY1p7o",
       "title": "נתניהו מפסיד? ד\"ר אדי כהן: כל מדינות ערב מתגייסות לטובת אייזנקוט!!",
       "channel": "John Smith",
-      "views": 10663,
-      "views_str": "10.7K",
+      "views": 12240,
+      "views_str": "12.2K",
       "duration": "1:40",
-      "published_text": "לפני 18 שעות",
+      "published_text": "לפני יום אחד (1)",
       "thumbnail": "https://i.ytimg.com/vi/nLuMihY1p7o/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARhyIEEoLTAP&rs=AOn4CLDC4zqtDOKco5lFjc7-iCuXuH8WuA",
       "url": "https://www.youtube.com/watch?v=nLuMihY1p7o"
+    },
+    {
+      "video_id": "XqoZ5QWxODU",
+      "title": "ינון מגל: כל מערכת בחירות מגיע התורן עם הקול הדרמטי ומספר לנו על קץ הדמוקרטיה בלשכת נתניהו.",
+      "channel": "ינון מגל Yinon Magal",
+      "views": 12000,
+      "views_str": "12.0K",
+      "duration": "1:05",
+      "published_text": "לפני יומיים (2)",
+      "thumbnail": "https://i.ytimg.com/vi/XqoZ5QWxODU/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARgXIC8ofzAP&rs=AOn4CLClyKDSIN-r3ivMGKHjt8ZER_7q-g",
+      "url": "https://www.youtube.com/watch?v=XqoZ5QWxODU"
+    },
+    {
+      "video_id": "tHcJ3IyXF7g",
+      "title": "סקר i24NEWS: הליכוד מתחזקת בשני מנדטים לקראת הפריימריז, עוצמה יהודית מאבדת מנדט",
+      "channel": "i24NEWS עברית",
+      "views": 11713,
+      "views_str": "11.7K",
+      "duration": "0:05",
+      "published_text": "לפני 11 שעות",
+      "thumbnail": "https://i.ytimg.com/vi/tHcJ3IyXF7g/hq720_2.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAsYKigIMCAAQARhXIF4oZTAP&rs=AOn4CLCbf9LfGDXxbcuZShrFXI_FBUeLrA",
+      "url": "https://www.youtube.com/watch?v=tHcJ3IyXF7g"
     }
   ],
   "telegram_channels": [
@@ -200,8 +207,8 @@
       "username": "bnetanyahu",
       "type": "politician",
       "post_count": 20,
-      "avg_views": 21437,
-      "avg_views_str": "21.4K",
+      "avg_views": 21546,
+      "avg_views_str": "21.5K",
       "top_post": {
         "text": "אף אחד לא יעצור אותי מלהילחם על האמת של ישראל 🇮🇱",
         "views": 37200,
@@ -215,12 +222,12 @@
       "username": "israelhayomofficial",
       "type": "news",
       "post_count": 20,
-      "avg_views": 9745,
-      "avg_views_str": "9.7K",
+      "avg_views": 10298,
+      "avg_views_str": "10.3K",
       "top_post": {
         "text": "האיש שיהיה היורש של נתניהו - ועוד לא יודע את זה | עמית סגל >> https://bit.ly/4g3gpzF",
-        "views": 91200,
-        "views_str": "91.2K",
+        "views": 91700,
+        "views_str": "91.7K",
         "date": "2026-08-12T17:35:32+00:00"
       }
     },
@@ -245,12 +252,12 @@
       "username": "bengvir",
       "type": "politician",
       "post_count": 16,
-      "avg_views": 4321,
-      "avg_views_str": "4.3K",
+      "avg_views": 4560,
+      "avg_views_str": "4.6K",
       "top_post": {
         "text": "עוצמה יהודית בתגובה לסלוגן הליכוד: סלוגן הליכוד מטריד מאוד ומשקף את כוונת ראש הממשלה להקים ממשלה עם אייזנקוט. ממשלת אחדו",
-        "views": 15500,
-        "views_str": "15.5K",
+        "views": 15600,
+        "views_str": "15.6K",
         "date": "2026-08-11T15:14:42+00:00"
       }
     },
@@ -275,13 +282,13 @@
       "username": "ynetalerts",
       "type": "news",
       "post_count": 20,
-      "avg_views": 3571,
-      "avg_views_str": "3.6K",
+      "avg_views": 3969,
+      "avg_views_str": "4.0K",
       "top_post": {
-        "text": "🔴 בזמן בחירות: סמוטריץ' הציג תוכנית לצמצום ימי מילואים החל מ-2027 למבזק המלא ב-ynet >",
-        "views": 4870,
-        "views_str": "4.87K",
-        "date": "2026-08-13T17:25:05+00:00"
+        "text": "🔴 שגריר ארה\"ב האקבי, אחרי סערת דבריו: \"מתנחלים\" אינם הבעיה ביו\"ש. המיעוט הקיצוני - כן למבזק המלא ב-ynet >",
+        "views": 5900,
+        "views_str": "5.9K",
+        "date": "2026-08-13T19:06:44+00:00"
       }
     },
     {
@@ -290,7 +297,7 @@
       "username": "naftalibennett1",
       "type": "politician",
       "post_count": 20,
-      "avg_views": 2572,
+      "avg_views": 2577,
       "avg_views_str": "2.6K",
       "top_post": {
         "text": "עכשיו בכותל, כמו בכל שנה בערב תשעה באב, ביחד עם כל גווני עם ישראל האהוב שלנו. פעמיים היתה לנו מדינה יהודית על האדמה הזו,",
@@ -305,12 +312,12 @@
       "username": "smutrich",
       "type": "politician",
       "post_count": 17,
-      "avg_views": 989,
-      "avg_views_str": "989",
+      "avg_views": 1004,
+      "avg_views_str": "1.0K",
       "top_post": {
         "text": "גלעד ארדן, ממשלה עם תומכי טרור זה לא אחדות. זה שמאל.",
-        "views": 1790,
-        "views_str": "1.79K",
+        "views": 1810,
+        "views_str": "1.81K",
         "date": "2026-08-12T14:53:36+00:00"
       }
     },
@@ -320,13 +327,13 @@
       "username": "N12_News",
       "type": "news",
       "post_count": 20,
-      "avg_views": 74,
-      "avg_views_str": "74",
+      "avg_views": 81,
+      "avg_views_str": "81",
       "top_post": {
-        "text": "אסף רוזנצוייג: כטב\"מים של אוקראינה פגעו במתחם של חברת המשלוחים הרוסית \"וויילדבריז\" במחוז בשקיריה ברוסיה. רוסיה הודיעה שה",
-        "views": 97,
-        "views_str": "97",
-        "date": "2026-08-13T07:03:12+00:00"
+        "text": "מבזקן 12: ילד בן 13 הובהל הלילה ליחידה לטיפול נמרץ ילדים במרכז הרפואי לגליל, כשהוא סובל מפגיעת ראש קשה בעקבות תאונת קורק",
+        "views": 100,
+        "views_str": "100",
+        "date": "2026-08-13T16:18:18+00:00"
       }
     },
     {
