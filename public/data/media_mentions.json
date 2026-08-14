@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T07:23:50Z",
+  "generated_at": "2026-08-14T10:00:57Z",
   "period": "3d",
   "period_label": "3 ימים אחרונים",
   "source": "Google News",
@@ -12,10 +12,11 @@
       "mention_count": 100,
       "headlines": [
         {
-          "title": "נתניהו: \"אם הייתה אפשרות - הייתי עושה את זה עם יוני\"",
+          "title": "השר שהודיע לנתניהו: \"בכירים בליכוד מנסים להדיח אותך\"",
           "source": "ישראל היום",
-          "published_at": "Thu, 13 Aug 2026 12:32:48 GMT",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9tZmhpR1Z0SDhNQS1hOGN2M0RfQmpRSG00NWluYXBCQmttem5FWlVteTNoUmZsUGRyajVEVWJ3dndQaFFlY3l6NnY5RzFuLWNOQWh5UTRfUXZYTkJPSHRiMGJZbnNmLVppOGZJVdIBdEFVX3lxTFBxemNpaktfTVMwNnhSeEZPcmxJS0FqVDh0ZXlrc2JST2JqTTlrSVd1bHBhd3pjbXRzcjhvZnhzRkVodTN6VTB1ZG84X3h0NzZmNUpOdlh1RG9iSnVWc1JBU3JYbTd6czkyQ3VDSWNYekVUdk9U?oc=5"
+          "published_at": "",
+          "url": "https://www.israelhayom.co.il/news/politics/article/21195644",
+          "fallback": true
         },
         {
           "title": "נתניהו כינה את בריטניה \"רפובליקה אסלאמית\"",
@@ -23,9 +24,9 @@
           "published_at": "Fri, 14 Aug 2026 03:52:14 GMT"
         },
         {
-          "title": "ההשתלחות של נתניהו במדינה החשובה: \"הרפובליקה האיסלאמית של בריטניה\"",
-          "source": "ynet",
-          "published_at": "Thu, 13 Aug 2026 17:30:43 GMT"
+          "title": "גלי צה\"ל ריאיינה את נתניהו לפודקאסט באולפני חברה שהליכוד מעסיק בקמפיין",
+          "source": "הארץ",
+          "published_at": "Thu, 13 Aug 2026 17:14:00 GMT"
         }
       ]
     },
@@ -34,7 +35,7 @@
       "name_he": "גדי איזנקוט",
       "role": "יו\"ר ישר",
       "party": "yashar",
-      "mention_count": 86,
+      "mention_count": 89,
       "headlines": [
         {
           "title": "\"מרוקאי שאפשר לרוץ איתו\": כך הפך איזנקוט ל\"דיאלנה\" של האליטות",
@@ -48,9 +49,9 @@
           "published_at": "Fri, 14 Aug 2026 03:00:00 GMT"
         },
         {
-          "title": "שאול מרידור חושף כמה רחוק ילך איזנקוט לקראת החרדים",
-          "source": "TheMarker",
-          "published_at": "Fri, 14 Aug 2026 03:05:00 GMT"
+          "title": "סקר מנדטים: איזנקוט ממשיך להוביל, הליכוד נחלש במנדט",
+          "source": "זמן ישראל",
+          "published_at": "Fri, 14 Aug 2026 05:02:45 GMT"
         }
       ]
     },
@@ -68,14 +69,14 @@
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBlakkydE43cVhiVnJ6Y2l4VHhCbzc5NW9PLXphb0dvZmpNMHhqVUgySWdyRGF5bmE5TUlZYnJ4N3BWOEdNcnBsbHlOMjcxSm9HMjRiQnE5QXdSVGNGNzBqTks2eUhhZnVnclB3MtIBdEFVX3lxTE5zak85S2Zhekw0UXQtbXdhZ1VuelY5dHhXQUtfYmlkaUxJVTF1eEFUSHplOWZOdjZtTVNIYkQ4UEI4c1JPb1FteU5aZHItWEhDWjh5V19BQzFFZ2pGaWt2NTlqMC0tN0E5UlItOXQ5UlRDRzNr?oc=5"
         },
         {
+          "title": "גלגל הצלה פוליטי? הצעד הנואש של נפתלי בנט מול הצניחה בסקרים",
+          "source": "כיכר השבת",
+          "published_at": "Fri, 14 Aug 2026 07:57:30 GMT"
+        },
+        {
           "title": "עיניו של לפיד קודחות ממחשבות על \"הפיכת שולחנות\" במשרדים ממשלתיים",
           "source": "הארץ",
           "published_at": "Fri, 14 Aug 2026 03:00:00 GMT"
-        },
-        {
-          "title": "בנט תוקף: \"אתם תברחו ממדינת ישראל; אני לא מפחד מכם\"",
-          "source": "סרוגים",
-          "published_at": "Fri, 14 Aug 2026 05:59:17 GMT"
         }
       ]
     },
@@ -84,7 +85,7 @@
       "name_he": "אביגדור ליברמן",
       "role": "יו\"ר ישראל ביתנו",
       "party": "yisrael_beiteinu",
-      "mention_count": 48,
+      "mention_count": 49,
       "headlines": [
         {
           "title": "ליברמן התייצב לצד בעל המועדון החרדי: \"אל תגדעו את פרנסתו\"",
@@ -93,14 +94,14 @@
           "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBPbzN0RlN6SE9FVTI2T0c5VlNrdkxGQkFQNjdlSHRQTm5HZEtXZXY3RE9HTG9vN0ZCQk84RHBlUUF3cUNnWVYxUGhEZjB0ZWRIT3JlNnFKVmZrdUcwRXY4RE50dVY2V2I3SEFfb1psRmI2TFlkeUHSAX5BVV95cUxNQmRsc2xXM3ZQWHNlcVJ6QjdWUGdYTzBCQXpoaGc1TGJyenhSV2xObXItaDJOVUJNSndjSDZRalp5ZGd2SU5LQUdXd3JYZ3l5alJWdy1mb0t1cEhLVE1nTURYQ0Iya3VIbW50WjlDRGVZaEpvOHJnQXh4RGkwSWc?oc=5"
         },
         {
+          "title": "ליברמן בהצהרה שתכריע את הבחירות: \"לא אשב איתו\"",
+          "source": "סרוגים",
+          "published_at": "Fri, 14 Aug 2026 06:11:18 GMT"
+        },
+        {
           "title": "בנט, ובעיקר ליברמן, נמנעים מלהכתיר את איזנקוט כמנהיג הגוש — ולא בכדי | דעה",
           "source": "הארץ",
           "published_at": "Fri, 14 Aug 2026 03:00:00 GMT"
-        },
-        {
-          "title": "ליברמן מזהיר: \"אנחנו חוזרים לאותה קונספציה שהביאה ל-7.10\"",
-          "source": "סרוגים",
-          "published_at": "Thu, 13 Aug 2026 18:14:04 GMT"
         }
       ]
     },
@@ -109,7 +110,7 @@
       "name_he": "יאיר גולן",
       "role": "יו\"ר הדמוקרטים",
       "party": "democrats",
-      "mention_count": 36,
+      "mention_count": 35,
       "headlines": [
         {
           "title": "\"יאיר גולן עשה בחירה שמצערת אותי. אבל יש אצלו ח\"כים מדהימים\"",
@@ -137,20 +138,20 @@
       "mention_count": 73,
       "headlines": [
         {
-          "title": "השר שהודיע לנתניהו: \"בכירים בליכוד מנסים להדיח אותך\"",
+          "title": "הכרזה מוקדמת? הודעת כ\"ץ לא תואמה עם צה\"ל ועם בן גביר",
           "source": "ישראל היום",
-          "published_at": "Thu, 13 Aug 2026 18:42:10 GMT",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9NcENfSWwzVXVHRG81dHQtT0JhWnRQRkN2Q3NEV1QtN2Z3OWFQM1dIS2EtS1B2ODFMUkQ2cFozRS1qWlRNcWZ2WnlCX0lLOEpGRUUwT0ZWemtFTHpWTHJSMnpTZ2hNY25COHFvbNIBdEFVX3lxTFBMY1gyUU9IRy1hT3VrekptNkxyMVlPdFFtOTBWTm9MWnc2clJfQ3VZVmJSSnE1TGhGbWNmTlB2RDRqQkdDZDV4eFBOTklpMUM1Q2pkV1pydG5yWFk5cmhudl80Z0RmX0s0bHFRVXNCd3huOXZU?oc=5"
+          "published_at": "Fri, 14 Aug 2026 07:27:37 GMT",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4tU1lwZVJzYWowZGIzT3ZYZHVZNFRraTV0RmEydGtOYnNyd3FIcEJSd21tNklRV2JBUmM1dGY0MTRUSWxWc1ZINUNLVVliQVBWZFZZbmhsTGhBODBSSmtuQ1h2cV8xZ1lxR0xKQi16azXSAXhBVV95cUxOY0VWb2xCWHhvVjRSS3JGWExwcEp6N0h5OXNlN0ZaN1JzSXdjRzgxd21NaFRQcXRndTFDWk14dmFJNW9pNnAyNTBZNkVXNUhZbU9hVy02dTZFdC1ocElWNzA3VHAzSjNzZWstY3Y1SkJwYnV4Y3Ztbkg?oc=5"
         },
         {
-          "title": "בקשות לפסילת בן גביר יוגשו לוועדת הבחירות בטענה שפגע בדמוקרטיה",
-          "source": "הארץ",
-          "published_at": "Thu, 13 Aug 2026 10:27:00 GMT"
+          "title": "צפו: איתמר בן גביר הצטרף ל\"היוצרים\" על הבמה והלהיב את הסוהרים",
+          "source": "ערוץ 7",
+          "published_at": "Fri, 14 Aug 2026 07:35:00 GMT"
         },
         {
-          "title": "בן גביר רוצה לבטל את הורדת סף האכיפה במצלמות: \"אדבר עם המפכ\"ל\"",
-          "source": "ynet",
-          "published_at": "Tue, 11 Aug 2026 13:00:22 GMT"
+          "title": "שנתיים של חקירה הסתיימו: התיקים נגד לשכת בן גביר נסגרים",
+          "source": "emess.co.il",
+          "published_at": "Fri, 14 Aug 2026 08:10:06 GMT"
         }
       ]
     },
@@ -159,23 +160,23 @@
       "name_he": "בצלאל סמוטריץ'",
       "role": "יו\"ר הציונות הדתית",
       "party": "religious_zionism",
-      "mention_count": 33,
+      "mention_count": 34,
       "headlines": [
         {
-          "title": "יותר אנשים, פחות זמן: סמוטריץ' הציג את תוכנית \"מילואימניקים הביתה\"",
+          "title": "\"התורה לא פוטרת מגיוס\": סמוטריץ' במתקפה על הפוליטיקאים החרדים",
           "source": "ישראל היום",
-          "published_at": "Thu, 13 Aug 2026 17:41:05 GMT",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5HZ0kxZHZmSDJRNFA3di1nUlEycFUzMjVZOXBCTG9PekJ5Y29TbTRxdVJkU0c2YkxqckduMzl3dl9Xa2l4MkdWQlNibmdiQmg5cHlRQWVfWjI1S1VWVVFWUlhsQWllMk1CWGxQUtIBdEFVX3lxTE9zZ3FraVl5QkRBaDFLekpqaDExeFBSSjBvdWZFZ2hXWTBrUGNUSnZWbDh4cUp0UV96X0pKTWlicTE1cXlrSGJxanJjU1JxWWVON0Y0dUhTY1lWRFRZdFBNLVpPTzNmNDJnMFpZZkFSTFplLXpK?oc=5"
+          "published_at": "Fri, 14 Aug 2026 08:29:08 GMT",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5fdlpRSXJrVVFNcm5vckR5YldBMXhfWGZOcXNCTU1lUnBUU1Z3eGdvQ2c5QlYxQjB2LWx1S2dkV2lXOUEydWFkT0xQTUxTZlIxYlhPelFWM25HQWM1YjEwQVY5ZVNKb3NpQzNtVtIBdEFVX3lxTE9hbFdrOFFUd0lnejd5ckc4WGFEVEF0Y2djRzNlQjFHQ21OdVJWZzRtbzNiUlpXdDk4Um9hRVZSY05UMFVFS3dZU0hCUzlvZGJtYVBNVng4QUVHb0tNQXZ6LVRYWld1ZnFBOWswX2FXOUMtX1hL?oc=5"
+        },
+        {
+          "title": "הבלוף והסכנה מאחורי הטבות הנדל\"ן החדשות למילואימניקים",
+          "source": "גלובס",
+          "published_at": "Fri, 14 Aug 2026 09:02:29 GMT"
         },
         {
           "title": "אחרי 4 שנים במשרד הביטחון: תוכנית סמוטריץ' למען המילואימניקים",
           "source": "ynet",
           "published_at": "Thu, 13 Aug 2026 19:39:40 GMT"
-        },
-        {
-          "title": "סמוטריץ' רוצה להחזיר את המילואימניקים הביתה - היריבים פתחו באש: \"עכשיו התעוררת?\"",
-          "source": "מעריב",
-          "published_at": "Thu, 13 Aug 2026 20:25:57 GMT"
         }
       ]
     }
