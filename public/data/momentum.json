@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T06:14:48Z",
+  "generated_at": "2026-08-14T06:11:04Z",
   "weights": {
     "polls": 0.45,
     "polymarket": 0.3,
@@ -9,33 +9,33 @@
   "parties": [
     {
       "party": "likud",
-      "direction": "stable",
-      "score": 0.25,
+      "direction": "gaining",
+      "score": 0.4,
       "label": "הליכוד",
       "signals": {
-        "polls": 0,
-        "polymarket": 0,
+        "polls": 1,
+        "polymarket": -1,
         "google_trends": 1
       }
     },
     {
       "party": "together",
       "direction": "stable",
-      "score": 0.25,
+      "score": -0.25,
       "label": "יחד",
       "signals": {
         "polls": 0,
         "polymarket": 0,
-        "google_trends": 1
+        "google_trends": -1
       }
     },
     {
       "party": "shas",
-      "direction": "gaining",
-      "score": 1.0,
+      "direction": "stable",
+      "score": 0.0,
       "label": "ש״ס",
       "signals": {
-        "polls": 1,
+        "polls": 0,
         "polymarket": null,
         "google_trends": null
       }
@@ -64,11 +64,11 @@
     },
     {
       "party": "otzma_yehudit",
-      "direction": "stable",
-      "score": 0.0,
+      "direction": "losing",
+      "score": -1.0,
       "label": "עוצמה יהודית",
       "signals": {
-        "polls": 0,
+        "polls": -1,
         "polymarket": null,
         "google_trends": null
       }
@@ -98,19 +98,19 @@
   ],
   "blocs": {
     "coalition": {
-      "seats": 47.0,
-      "delta": 2.0,
-      "direction": "gaining"
+      "seats": 46.7,
+      "delta": -0.3,
+      "direction": "stable"
     },
     "opposition": {
-      "seats": 56.0,
-      "delta": -0.6,
+      "seats": 72.3,
+      "delta": 0.0,
       "direction": "stable"
     },
     "unaligned": {
-      "seats": 9.0,
-      "delta": -0.7,
-      "direction": "stable"
+      "seats": 10.2,
+      "delta": 1.2,
+      "direction": "gaining"
     }
   }
 }

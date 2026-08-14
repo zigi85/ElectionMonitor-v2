@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T06:14:48Z",
+  "generated_at": "2026-08-14T06:11:04Z",
   "source_urls": [
     "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
     "https://en.wikipedia.org/wiki/2025_opinion_polling_for_the_2026_Israeli_legislative_election"
@@ -367,6 +367,27 @@
         "joint_list": 6,
         "democrats": 11,
         "yashar": 23
+      }
+    },
+    {
+      "id": "maagar_mochot-2026-08-10",
+      "date": "2026-08-10",
+      "iso_week": "2026-W33",
+      "firm": "Maagar Mochot",
+      "publisher": "",
+      "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
+      "excluded_from_avg": false,
+      "seats": {
+        "likud": 22,
+        "together": 16,
+        "otzma_yehudit": 9,
+        "shas": 10,
+        "utj": 7,
+        "yisrael_beiteinu": 9,
+        "raam": 4,
+        "joint_list": 5,
+        "democrats": 12,
+        "yashar": 22
       }
     },
     {
@@ -8081,29 +8102,30 @@
       "iso_week": "2026-W33",
       "week_start": "2026-08-10",
       "week_end": "2026-08-16",
-      "sparse": true,
+      "sparse": false,
       "included_firms": [
         "Lazar",
+        "Maagar Mochot",
         "Midgam"
       ],
       "seats": {
-        "likud": 24.5,
-        "together": 12.0,
-        "otzma_yehudit": 6.0,
-        "shas": 8.0,
-        "utj": 7.5,
-        "yisrael_beiteinu": 8.0,
-        "raam": 5.0,
-        "joint_list": 6.0,
-        "democrats": 11.0,
-        "yashar": 23.0,
+        "likud": 23.7,
+        "together": 14.0,
+        "otzma_yehudit": 7.0,
+        "shas": 8.7,
+        "utj": 7.3,
+        "yisrael_beiteinu": 8.3,
+        "raam": 4.7,
+        "joint_list": 5.5,
+        "democrats": 11.5,
+        "yashar": 22.5,
         "yesh_atid": 16.0,
         "balad": 0.0
       },
       "blocs": {
-        "coalition": 46.0,
-        "opposition": 70.0,
-        "unaligned": 11.0
+        "coalition": 46.7,
+        "opposition": 72.3,
+        "unaligned": 10.2
       }
     },
     {
