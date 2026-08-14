@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T18:52:50Z",
+  "generated_at": "2026-08-14T21:23:44Z",
   "period": "3d",
   "period_label": "3 ימים אחרונים",
   "source": "Google News",
@@ -12,20 +12,20 @@
       "mention_count": 100,
       "headlines": [
         {
-          "title": "נתניהו הודיע על תמיכתו בשלמה לרנר בפריימריז בליכוד",
+          "title": "דיווח: ארה\"ב לוחצת על נתניהו לגנות את האירועים בקוסרה",
           "source": "ישראל היום",
-          "published_at": "Fri, 14 Aug 2026 14:30:04 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1iU1AtRml4MndFN3dRdlhzMF81bjR4cWIxQllrZ3Z4ZGhVcFhKeTJrMkdwRTB3ZXJ2czBhVktzZjRoSDhhNEMtU1V5U2xkdXNkczRlZXFDaGRnZlZtNW9kVzU3MTMxaG_SAW9BVV95cUxPS1BJVHRlc1pfbWNOU0ZwSVh1Rk1DZF9SeWhqbWRPUUFtRmdZN2NsdVR1a2Uwb0xmX0tBeXN6MUlZM3phcW5WOG4zSzZzNXZqQW1FeThNcDk3VEtTdFo2SmVuYmRYVGRiMEt1aXBBcWs?oc=5"
-        },
-        {
-          "title": "נתניהו נערך לתרחיש האימים: \"עשוי לבצע לאחר הפריימריז מהלך מפתיע\"",
-          "source": "מעריב",
-          "published_at": "Fri, 14 Aug 2026 03:01:00 GMT"
+          "published_at": "Fri, 14 Aug 2026 17:18:57 GMT",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9HdFhsaEkxNVpvQmYzV0ZfQ29QR3NHME15d2JUWmtJdTlVaXV0X2VzM3ROX3lRcXVqVGU3Q3BHM1Rya2JxSDBCblpIemNXTWRrSGdaenQtbUNWMzNzSWhYdmF3dkQ1cXZMekFINU5naXIzcG5HakROVdIBeEFVX3lxTE9HdFhsaEkxNVpvQmYzV0ZfQ29QR3NHME15d2JUWmtJdTlVaXV0X2VzM3ROX3lRcXVqVGU3Q3BHM1Rya2JxSDBCblpIemNXTWRrSGdaenQtbUNWMzNzSWhYdmF3dkQ1cXZMekFINU5naXIzcG5HakROVQ?oc=5"
         },
         {
           "title": "גלי צה\"ל ריאיינה את נתניהו לפודקאסט באולפני חברה שהליכוד מעסיק בקמפיין",
           "source": "הארץ",
           "published_at": "Thu, 13 Aug 2026 17:14:00 GMT"
+        },
+        {
+          "title": "נתניהו נערך לתרחיש האימים: \"עשוי לבצע לאחר הפריימריז מהלך מפתיע\"",
+          "source": "מעריב",
+          "published_at": "Fri, 14 Aug 2026 03:01:00 GMT"
         }
       ]
     },
@@ -59,7 +59,7 @@
       "name_he": "נפתלי בנט",
       "role": "יו\"ר ביחד",
       "party": "together",
-      "mention_count": 67,
+      "mention_count": 63,
       "headlines": [
         {
           "title": "הליכוד מאיים לעתור נגד בנט: ״השתמש בתינוק לצורך תעמולת בחירות״",
@@ -84,7 +84,7 @@
       "name_he": "אביגדור ליברמן",
       "role": "יו\"ר ישראל ביתנו",
       "party": "yisrael_beiteinu",
-      "mention_count": 42,
+      "mention_count": 43,
       "headlines": [
         {
           "title": "ליברמן התייצב לצד בעל המועדון החרדי: \"אל תגדעו את פרנסתו\"",
@@ -109,7 +109,7 @@
       "name_he": "יאיר גולן",
       "role": "יו\"ר הדמוקרטים",
       "party": "democrats",
-      "mention_count": 31,
+      "mention_count": 29,
       "headlines": [
         {
           "title": "\"זה הסיפור\": גרסת יאיר גולן לפארסת עינב צנגאוקר",
@@ -118,14 +118,14 @@
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE96ZThFeUpHWF9kamd1WjNLV3BheEU5Y0ZKYUo3TlZfQkJJRXZYVlFCMENacC02T2d0b3Bpenoxb0tJaXAweXl4UVJGVzdxcWx4RVk0RFJvQjZia3czME1HUmYya3dKU185QzlWdtIBdEFVX3lxTFBFY0dIQW1WVDUyUWZQM21iQ3Y5Zzh3U2Y5MlBjeW5SX1k1SXQ1OTVTcjUxR05oaU9ta0ZYWld5NXlJa3BudldrbjlqU1puSnEwYlVBQ2lVQVl6Z3g4NlBsMmx5WDRMczE0N3Z6cFRNTTVROU83?oc=5"
         },
         {
-          "title": "יאיר גולן הפר את ההבטחה לעינב צנגאוקר - והציל את מפלגתו | מיכאל קליינר",
-          "source": "מעריב",
-          "published_at": "Fri, 14 Aug 2026 13:38:00 GMT"
-        },
-        {
           "title": "מתמודד בדמוקרטים תקף אלוף בצה\"ל, גולן ביקש \"להרגיע\": \"תלמדו מהטעויות שלי\"",
           "source": "ynet",
           "published_at": "Thu, 13 Aug 2026 12:44:52 GMT"
+        },
+        {
+          "title": "יאיר גולן הפר את ההבטחה לעינב צנגאוקר - והציל את מפלגתו | מיכאל קליינר",
+          "source": "מעריב",
+          "published_at": "Fri, 14 Aug 2026 13:38:00 GMT"
         }
       ]
     },
@@ -159,7 +159,7 @@
       "name_he": "בצלאל סמוטריץ'",
       "role": "יו\"ר הציונות הדתית",
       "party": "religious_zionism",
-      "mention_count": 36,
+      "mention_count": 35,
       "headlines": [
         {
           "title": "\"התורה לא פוטרת מגיוס\": סמוטריץ' במתקפה על הפוליטיקאים החרדים",
@@ -170,7 +170,7 @@
         {
           "title": "הבלוף והסכנה מאחורי הטבות הנדל\"ן החדשות למילואימניקים",
           "source": "גלובס",
-          "published_at": "Fri, 14 Aug 2026 09:02:29 GMT"
+          "published_at": "Fri, 14 Aug 2026 09:01:42 GMT"
         },
         {
           "title": "אחרי 4 שנים במשרד הביטחון: תוכנית סמוטריץ' למען המילואימניקים",
