@@ -1,34 +1,34 @@
 {
-  "generated_at": "2026-08-15T09:23:47Z",
-  "headline_count": 161,
+  "generated_at": "2026-08-15T15:17:46Z",
+  "headline_count": 154,
   "hot_topics": [
     {
       "id": "elections",
       "label": "בחירות וסקרים",
-      "mention_count": 56,
-      "sample_headline": "סיסמת הבחירות שחושפת: גם בליכוד כבר לא מאמינים ל-62 מנדטים | סופי רון-מוריה",
-      "sample_source": "מעריב"
+      "mention_count": 57,
+      "sample_headline": "סקר מנדטים עדכני - המידע העדכני ביותר לבחירות 2026 | מרכז הסקרים",
+      "sample_source": "כאן 11"
     },
     {
       "id": "coalition",
       "label": "קואליציה וכנסת",
-      "mention_count": 29,
+      "mention_count": 28,
       "sample_headline": "המפתח של האופוזיציה ללשכת ראש הממשלה נמצא במקום מפתיע",
       "sample_source": "News1 מחלקה ראשונה"
     },
     {
       "id": "security",
       "label": "ביטחון",
-      "mention_count": 13,
+      "mention_count": 12,
       "sample_headline": "ישראל ולבנון הסכימו שבריטניה, איטליה, שווייץ ואינדונזיה ישתתפו במנגנון שיפקח הפירוז",
       "sample_source": "זמן ישראל"
     },
     {
       "id": "haredim",
       "label": "חרדים וגיוס",
-      "mention_count": 7,
-      "sample_headline": "חבר מפלגת איזנקוט אמר ששליש מהחרדים יקבלו פטור - וספג אש מהגוש",
-      "sample_source": "היום"
+      "mention_count": 4,
+      "sample_headline": "איזנקוט מתכנן: ממשלה גם בלי 61 - ואחר כך הרחבה עם ש\"ס והליכוד",
+      "sample_source": "News1 מחלקה ראשונה"
     },
     {
       "id": "judiciary",
@@ -40,16 +40,9 @@
     {
       "id": "negotiations",
       "label": "דיפלומטיה",
-      "mention_count": 2,
-      "sample_headline": "תיעוד: מתנחל יורה באוויר ומכוון נשק לעבר פלסטינים ופעילים ישראלים",
-      "sample_source": "זמן ישראל"
-    },
-    {
-      "id": "economy",
-      "label": "כלכלה ויוקר המחיה",
-      "mention_count": 1,
-      "sample_headline": "ח\"כ מישראל ביתנו: \"אנחנו מקום 2 בעולם ביוקר המחיה\". ח\"כ מהליכוד: \"הכלכלה צומחת\"",
-      "sample_source": "ynet"
+      "mention_count": 3,
+      "sample_headline": "50 שנה ממתינים במחנה השלום לחיל פרשים דוברי צרפתית שישימו קץ לכיבוש",
+      "sample_source": "הארץ"
     }
   ],
   "leader_buzz": [
@@ -81,9 +74,9 @@
       "key": "bennett",
       "name_he": "נפתלי בנט",
       "views_7d": 2074,
-      "prev_views_7d": 3296,
-      "change_pct": -37.1,
-      "direction": "falling"
+      "prev_views_7d": 0,
+      "change_pct": 0.0,
+      "direction": "stable"
     },
     {
       "key": "lieberman",
@@ -105,9 +98,9 @@
       "key": "smotrich",
       "name_he": "בצלאל סמוטריץ'",
       "views_7d": 964,
-      "prev_views_7d": 1310,
-      "change_pct": -26.4,
-      "direction": "falling"
+      "prev_views_7d": 0,
+      "change_pct": 0.0,
+      "direction": "stable"
     }
   ],
   "viral_videos": [
@@ -115,8 +108,8 @@
       "video_id": "_6_hwwJOGkM",
       "title": "עמית סגל לקראת הבחירות ב-60 שניות עם ליאל אלי: האם נתניהו יישאר ראש הממשלה? מה הסיכוי שגנץ יפרוש?",
       "channel": "V1",
-      "views": 109934,
-      "views_str": "109.9K",
+      "views": 111256,
+      "views_str": "111.3K",
       "duration": "1:26",
       "published_text": "לפני יומיים (2)",
       "thumbnail": "https://i.ytimg.com/vi/_6_hwwJOGkM/hq720_2.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARhyID8oPDAP&rs=AOn4CLCS4Yz7QdLABdGTiXf9TRHTfgiyaQ",
@@ -126,8 +119,8 @@
       "video_id": "vxxOpnDor8Y",
       "title": "איך איתמר בן גביר הכיר את אשתו",
       "channel": "פודקאסט על המשמעות - תמיר דורטל",
-      "views": 44704,
-      "views_str": "44.7K",
+      "views": 45700,
+      "views_str": "45.7K",
       "duration": "0:50",
       "published_text": "לפני יומיים (2)",
       "thumbnail": "https://i.ytimg.com/vi/vxxOpnDor8Y/hq720_2.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARhlIGUoZTAP&rs=AOn4CLB1HIElJCqwqmw02E0wrhewcxgdZw",
@@ -137,8 +130,8 @@
       "video_id": "tHcJ3IyXF7g",
       "title": "סקר i24NEWS: הליכוד מתחזקת בשני מנדטים לקראת הפריימריז, עוצמה יהודית מאבדת מנדט",
       "channel": "i24NEWS עברית",
-      "views": 29075,
-      "views_str": "29.1K",
+      "views": 30384,
+      "views_str": "30.4K",
       "duration": "0:05",
       "published_text": "לפני יום אחד (1)",
       "thumbnail": "https://i.ytimg.com/vi/tHcJ3IyXF7g/hq720_2.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAsYKigIMCAAQARhXIF4oZTAP&rs=AOn4CLCbf9LfGDXxbcuZShrFXI_FBUeLrA",
@@ -148,8 +141,8 @@
       "video_id": "nLuMihY1p7o",
       "title": "נתניהו מפסיד? ד\"ר אדי כהן: כל מדינות ערב מתגייסות לטובת אייזנקוט!!",
       "channel": "John Smith",
-      "views": 16894,
-      "views_str": "16.9K",
+      "views": 17191,
+      "views_str": "17.2K",
       "duration": "1:40",
       "published_text": "לפני יומיים (2)",
       "thumbnail": "https://i.ytimg.com/vi/nLuMihY1p7o/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARhyIEEoLTAP&rs=AOn4CLDC4zqtDOKco5lFjc7-iCuXuH8WuA",
@@ -159,30 +152,19 @@
       "video_id": "FdDQuP3yMBA",
       "title": "ראש הממשלה לשעבר ויו\"ר ביחד נפתלי בנט בריאיון מיוחד לקרן מרציאנו",
       "channel": "נפתלי בנט | Naftali Bennett",
-      "views": 9115,
-      "views_str": "9.1K",
+      "views": 9226,
+      "views_str": "9.2K",
       "duration": "10:23",
       "published_text": "לפני 5 ימים",
       "thumbnail": "https://i.ytimg.com/vi/FdDQuP3yMBA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDojWgGV-lUjsddpso6m2TRBW-HRA",
       "url": "https://www.youtube.com/watch?v=FdDQuP3yMBA"
     },
     {
-      "video_id": "1PSHszRtm98",
-      "title": "הזעם בליכוד סביב השריונים של נתניהו: \"מקשה על הח\"כים לקבל מקום ריאלי\"",
-      "channel": "כאן | חדשות - תאגיד השידור הישראלי",
-      "views": 8256,
-      "views_str": "8.3K",
-      "duration": "1:55",
-      "published_text": "לפני יום אחד (1)",
-      "thumbnail": "https://i.ytimg.com/vi/1PSHszRtm98/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLCFVURQNJSmQ2k0KuBS2m6OZ7FQ3w",
-      "url": "https://www.youtube.com/watch?v=1PSHszRtm98"
-    },
-    {
       "video_id": "fROu-acENSY",
       "title": "בן גביר ו\"היוצרים\" הרימו את הקהל",
       "channel": "ערוץ 7",
-      "views": 6832,
-      "views_str": "6.8K",
+      "views": 7057,
+      "views_str": "7.1K",
       "duration": "0:44",
       "published_text": "לפני יום אחד (1)",
       "thumbnail": "https://i.ytimg.com/vi/fROu-acENSY/hq720_2.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBvgSAAoAIigIMCAAQARhlIFIoRDAP&rs=AOn4CLCwKYtMAcO8wr3h91NZ1V9iyiYl4g",
@@ -192,12 +174,23 @@
       "video_id": "g7EIndseISM",
       "title": "גדי איזנקוט בראיון לקרן מרציאנו בחדשות 12",
       "channel": "ישר! עם איזנקוט",
-      "views": 6299,
-      "views_str": "6.3K",
+      "views": 6544,
+      "views_str": "6.5K",
       "duration": "15:28",
       "published_text": "לפני יומיים (2)",
       "thumbnail": "https://i.ytimg.com/vi/g7EIndseISM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBeoucl7jwMtI3ethffOBmzgXnJ9Q",
       "url": "https://www.youtube.com/watch?v=g7EIndseISM"
+    },
+    {
+      "video_id": "37cywMSQg8U",
+      "title": "\"לא מנצחים...\": טראמפ מתכנן נגד נתניהו, מהלך סודי נחשף במהלך הבחירות בישראל?",
+      "channel": "Times Of India",
+      "views": 5783,
+      "views_str": "5.8K",
+      "duration": "10:16",
+      "published_text": "לפני 8 שעות",
+      "thumbnail": "https://i.ytimg.com/vi/37cywMSQg8U/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCQuP2i9XwKdax4Qi1lv9VclnIfjw",
+      "url": "https://www.youtube.com/watch?v=37cywMSQg8U"
     }
   ],
   "telegram_channels": [
@@ -207,8 +200,8 @@
       "username": "bnetanyahu",
       "type": "politician",
       "post_count": 20,
-      "avg_views": 21623,
-      "avg_views_str": "21.6K",
+      "avg_views": 21754,
+      "avg_views_str": "21.8K",
       "top_post": {
         "text": "אף אחד לא יעצור אותי מלהילחם על האמת של ישראל 🇮🇱",
         "views": 37500,
@@ -217,27 +210,12 @@
       }
     },
     {
-      "key": "israelhayom",
-      "name_he": "ישראל היום",
-      "username": "israelhayomofficial",
-      "type": "news",
-      "post_count": 20,
-      "avg_views": 7566,
-      "avg_views_str": "7.6K",
-      "top_post": {
-        "text": "המתקפה באיראן שטראמפ בלם: \"עמדנו להשמיד את שאריות המשטר\" | הטור של עמית סגל >> bit.ly/4gt979Q",
-        "views": 84000,
-        "views_str": "84K",
-        "date": "2026-08-13T17:02:58+00:00"
-      }
-    },
-    {
       "key": "walla",
       "name_he": "וואלה",
       "username": "walla_newschannel",
       "type": "news",
       "post_count": 20,
-      "avg_views": 6819,
+      "avg_views": 6820,
       "avg_views_str": "6.8K",
       "top_post": {
         "text": "הכלכלן של פורום קהלת נגד המהפכה המשפטית: \"תכרסם בעקרונות הדמוקרטיה\" https://news.walla.co.il/item/3563967 חדשות וואלה בט",
@@ -252,12 +230,12 @@
       "username": "bengvir",
       "type": "politician",
       "post_count": 20,
-      "avg_views": 4700,
-      "avg_views_str": "4.7K",
+      "avg_views": 4765,
+      "avg_views_str": "4.8K",
       "top_post": {
         "text": "עוצמה יהודית בתגובה לסלוגן הליכוד: סלוגן הליכוד מטריד מאוד ומשקף את כוונת ראש הממשלה להקים ממשלה עם אייזנקוט. ממשלת אחדו",
-        "views": 15800,
-        "views_str": "15.8K",
+        "views": 15900,
+        "views_str": "15.9K",
         "date": "2026-08-11T15:14:42+00:00"
       }
     },
@@ -267,7 +245,7 @@
       "username": "newsisrael13_il",
       "type": "news",
       "post_count": 20,
-      "avg_views": 4157,
+      "avg_views": 4164,
       "avg_views_str": "4.2K",
       "top_post": {
         "text": "חדשות 13 (Twitter) מופע חייו של ליאור אשכנזי, מהתיאטרון לכיכר החטופים: \"עד שלא יקרה משהו רדיקלי - כלום לא יעזור\" bit.ly/",
@@ -282,13 +260,28 @@
       "username": "ynetalerts",
       "type": "news",
       "post_count": 20,
-      "avg_views": 4066,
-      "avg_views_str": "4.1K",
+      "avg_views": 3506,
+      "avg_views_str": "3.5K",
       "top_post": {
-        "text": "🔴 ממשל טראמפ דוחק באפל לא לרכוש שבבים מסין למבזק המלא ב-ynet >",
-        "views": 6680,
-        "views_str": "6.68K",
-        "date": "2026-08-15T01:37:01+00:00"
+        "text": "🔴 השירות המטאורולוגי: אזהרה צהובה על סופות רעמים מהצפון ועד הנגב למבזק המלא ב-ynet >",
+        "views": 5170,
+        "views_str": "5.17K",
+        "date": "2026-08-15T12:05:45+00:00"
+      }
+    },
+    {
+      "key": "israelhayom",
+      "name_he": "ישראל היום",
+      "username": "israelhayomofficial",
+      "type": "news",
+      "post_count": 20,
+      "avg_views": 3429,
+      "avg_views_str": "3.4K",
+      "top_post": {
+        "text": "מלי וליאל עזבו מרצונן לבואנוס איירס בארגנטינה, אין שום דבר חריג שעלה בתשאול שלהן, והן שוחררו לדרכן (אבי כהן)",
+        "views": 4260,
+        "views_str": "4.26K",
+        "date": "2026-08-14T20:24:12+00:00"
       }
     },
     {
@@ -297,7 +290,7 @@
       "username": "naftalibennett1",
       "type": "politician",
       "post_count": 20,
-      "avg_views": 2607,
+      "avg_views": 2613,
       "avg_views_str": "2.6K",
       "top_post": {
         "text": "עכשיו בכותל, כמו בכל שנה בערב תשעה באב, ביחד עם כל גווני עם ישראל האהוב שלנו. פעמיים היתה לנו מדינה יהודית על האדמה הזו,",
@@ -312,12 +305,12 @@
       "username": "smutrich",
       "type": "politician",
       "post_count": 17,
-      "avg_views": 1052,
+      "avg_views": 1056,
       "avg_views_str": "1.1K",
       "top_post": {
         "text": "גלעד ארדן, ממשלה עם תומכי טרור זה לא אחדות. זה שמאל.",
-        "views": 1900,
-        "views_str": "1.9K",
+        "views": 1910,
+        "views_str": "1.91K",
         "date": "2026-08-12T14:53:36+00:00"
       }
     },
@@ -327,13 +320,13 @@
       "username": "N12_News",
       "type": "news",
       "post_count": 20,
-      "avg_views": 101,
-      "avg_views_str": "101",
+      "avg_views": 58,
+      "avg_views_str": "58",
       "top_post": {
-        "text": "פרסום ראשון: מלי וליאל הופיעו ברשימת שמות נוסעים של טיסה מגרמניה לארגנטינה קישור לכתבה",
-        "views": 152,
-        "views_str": "152",
-        "date": "2026-08-14T18:39:52+00:00"
+        "text": "אסף רוזנצוייג: מבצע הצלה דרמטי אתמול: אישה נאלצה לקפוץ מחלון ביתה הבוער בקומה ה-11 מכיוון שסל החילוץ של כוחות ההצלה הגיע",
+        "views": 120,
+        "views_str": "120",
+        "date": "2026-08-15T08:19:00+00:00"
       }
     },
     {
