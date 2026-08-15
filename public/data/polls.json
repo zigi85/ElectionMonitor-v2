@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T06:11:04Z",
+  "generated_at": "2026-08-15T05:22:03Z",
   "source_urls": [
     "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
     "https://en.wikipedia.org/wiki/2025_opinion_polling_for_the_2026_Israeli_legislative_election"
@@ -117,18 +117,7 @@
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
-      "seats": {
-        "likud": 23,
-        "bennett_2026": 19,
-        "yashar": 6,
-        "yesh_atid": 9,
-        "otzma_yehudit": 9,
-        "shas": 10,
-        "utj": 6,
-        "yisrael_beiteinu": 10,
-        "joint_list": 4,
-        "democrats": 10
-      }
+      "seats": {}
     },
     {
       "id": "midgam-2026-11-18",
@@ -349,6 +338,27 @@
       }
     },
     {
+      "id": "direct_polls-2026-08-13",
+      "date": "2026-08-13",
+      "iso_week": "2026-W33",
+      "firm": "Direct Polls",
+      "publisher": "",
+      "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
+      "excluded_from_avg": true,
+      "seats": {
+        "likud": 30,
+        "together": 8,
+        "otzma_yehudit": 7,
+        "shas": 8,
+        "utj": 9,
+        "yisrael_beiteinu": 9,
+        "raam": 5,
+        "joint_list": 6,
+        "democrats": 10,
+        "yashar": 23
+      }
+    },
+    {
       "id": "midgam-2026-08-12",
       "date": "2026-08-12",
       "iso_week": "2026-W33",
@@ -356,18 +366,7 @@
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
-      "seats": {
-        "likud": 21,
-        "together": 12,
-        "otzma_yehudit": 8,
-        "shas": 7,
-        "utj": 8,
-        "yisrael_beiteinu": 10,
-        "raam": 5,
-        "joint_list": 6,
-        "democrats": 11,
-        "yashar": 23
-      }
+      "seats": {}
     },
     {
       "id": "maagar_mochot-2026-08-10",
@@ -398,18 +397,7 @@
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
-      "seats": {
-        "likud": 22,
-        "together": 15,
-        "otzma_yehudit": 8,
-        "shas": 7,
-        "utj": 8,
-        "yisrael_beiteinu": 10,
-        "raam": 5,
-        "joint_list": 5,
-        "democrats": 11,
-        "yashar": 24
-      }
+      "seats": {}
     },
     {
       "id": "direct_polls-2026-08-10",
@@ -570,18 +558,7 @@
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
-      "seats": {
-        "likud": 23,
-        "together": 14,
-        "otzma_yehudit": 7,
-        "shas": 7,
-        "utj": 8,
-        "yisrael_beiteinu": 9,
-        "raam": 5,
-        "joint_list": 5,
-        "democrats": 10,
-        "yashar": 23
-      }
+      "seats": {}
     },
     {
       "id": "kantar-2026-08-02",
@@ -591,17 +568,7 @@
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
-      "seats": {
-        "likud": 23,
-        "together": 13,
-        "otzma_yehudit": 9,
-        "shas": 8,
-        "utj": 8,
-        "yisrael_beiteinu": 9,
-        "joint_list": 5,
-        "democrats": 8,
-        "yashar": 23
-      }
+      "seats": {}
     },
     {
       "id": "midgam-2026-07-29",
@@ -653,18 +620,7 @@
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
-      "seats": {
-        "likud": 22,
-        "together": 14,
-        "otzma_yehudit": 8,
-        "shas": 8,
-        "utj": 8,
-        "yisrael_beiteinu": 9,
-        "raam": 5,
-        "joint_list": 5,
-        "democrats": 10,
-        "yashar": 23
-      }
+      "seats": {}
     },
     {
       "id": "direct_polls-2026-07-27",
@@ -1658,17 +1614,7 @@
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
-      "seats": {
-        "likud": 24,
-        "together": 22,
-        "otzma_yehudit": 6,
-        "shas": 10,
-        "utj": 8,
-        "yisrael_beiteinu": 10,
-        "joint_list": 5,
-        "democrats": 8,
-        "yashar": 18
-      }
+      "seats": {}
     },
     {
       "id": "filber-2026-05-28",
@@ -1718,17 +1664,7 @@
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
-      "seats": {
-        "likud": 25,
-        "together": 23,
-        "otzma_yehudit": 10,
-        "shas": 10,
-        "utj": 7,
-        "yisrael_beiteinu": 8,
-        "joint_list": 4,
-        "democrats": 9,
-        "yashar": 14
-      }
+      "seats": {}
     },
     {
       "id": "camil_fuchs-2026-05-24",
@@ -1797,17 +1733,7 @@
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
-      "seats": {
-        "likud": 27,
-        "together": 23,
-        "otzma_yehudit": 9,
-        "shas": 9,
-        "utj": 8,
-        "yisrael_beiteinu": 8,
-        "joint_list": 5,
-        "democrats": 10,
-        "yashar": 16
-      }
+      "seats": {}
     },
     {
       "id": "yossi_tatika-2026-05-20",
@@ -2936,18 +2862,7 @@
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
-      "seats": {
-        "likud": 26,
-        "yesh_atid": 7,
-        "otzma_yehudit": 10,
-        "shas": 9,
-        "utj": 7,
-        "yisrael_beiteinu": 9,
-        "joint_list": 13,
-        "democrats": 9,
-        "bennett_2026": 20,
-        "yashar": 10
-      }
+      "seats": {}
     },
     {
       "id": "camil_fuchs-2026-02-11",
@@ -7371,22 +7286,18 @@
         "Midgam"
       ],
       "seats": {
-        "likud": 22.0,
-        "yesh_atid": 10.0,
-        "otzma_yehudit": 9.0,
+        "likud": 18.0,
+        "yesh_atid": 13.0,
+        "otzma_yehudit": 8.0,
         "shas": 9.0,
         "utj": 7.0,
-        "yisrael_beiteinu": 9.5,
-        "joint_list": 13.0,
-        "democrats": 9.0,
-        "bennett_2026": 20.0,
-        "yashar": 10.0,
+        "yisrael_beiteinu": 10.0,
         "raam": 4.0
       },
       "blocs": {
-        "coalition": 47.0,
-        "opposition": 58.5,
-        "unaligned": 17.0
+        "coalition": 42.0,
+        "opposition": 23.0,
+        "unaligned": 4.0
       }
     },
     {
@@ -7765,22 +7676,22 @@
         "Yossi Tatika"
       ],
       "seats": {
-        "likud": 25.0,
+        "likud": 24.5,
         "yesh_atid": 18.0,
-        "otzma_yehudit": 6.8,
+        "otzma_yehudit": 6.2,
         "shas": 8.8,
-        "utj": 7.6,
-        "yisrael_beiteinu": 7.6,
+        "utj": 7.5,
+        "yisrael_beiteinu": 7.5,
         "raam": 6.0,
         "balad": 4.0,
-        "together": 23.5,
+        "together": 23.7,
         "joint_list": 5.0,
-        "democrats": 9.5,
-        "yashar": 15.8
+        "democrats": 9.3,
+        "yashar": 15.7
       },
       "blocs": {
-        "coalition": 48.2,
-        "opposition": 74.4,
+        "coalition": 47.0,
+        "opposition": 74.2,
         "unaligned": 15.0
       }
     },
@@ -7797,23 +7708,23 @@
         "Yossi Tatika"
       ],
       "seats": {
-        "likud": 23.4,
-        "otzma_yehudit": 8.6,
+        "likud": 22.7,
+        "otzma_yehudit": 9.0,
         "yesh_atid": 13.5,
-        "yisrael_beiteinu": 9.4,
-        "shas": 9.2,
-        "utj": 7.8,
+        "yisrael_beiteinu": 9.7,
+        "shas": 8.7,
+        "utj": 8.0,
         "raam": 4.5,
         "balad": 0.0,
-        "together": 22.3,
-        "joint_list": 4.7,
-        "democrats": 8.7,
-        "yashar": 16.3
+        "together": 22.0,
+        "joint_list": 5.0,
+        "democrats": 9.0,
+        "yashar": 17.0
       },
       "blocs": {
-        "coalition": 49.0,
-        "opposition": 70.2,
-        "unaligned": 9.2
+        "coalition": 48.4,
+        "opposition": 71.2,
+        "unaligned": 9.5
       }
     },
     {
@@ -8055,19 +7966,19 @@
       "seats": {
         "likud": 23.0,
         "together": 13.0,
-        "otzma_yehudit": 8.5,
-        "shas": 7.5,
-        "utj": 8.5,
-        "yisrael_beiteinu": 9.5,
-        "joint_list": 4.5,
-        "democrats": 8.5,
-        "yashar": 23.0,
-        "raam": 5.0
+        "otzma_yehudit": 8.0,
+        "shas": 7.0,
+        "utj": 9.0,
+        "yisrael_beiteinu": 10.0,
+        "raam": 5.0,
+        "joint_list": 4.0,
+        "democrats": 9.0,
+        "yashar": 23.0
       },
       "blocs": {
-        "coalition": 47.5,
-        "opposition": 54.0,
-        "unaligned": 9.5
+        "coalition": 47.0,
+        "opposition": 55.0,
+        "unaligned": 9.0
       }
     },
     {
@@ -8109,23 +8020,23 @@
         "Midgam"
       ],
       "seats": {
-        "likud": 23.7,
-        "together": 14.0,
-        "otzma_yehudit": 7.0,
-        "shas": 8.7,
-        "utj": 7.3,
-        "yisrael_beiteinu": 8.3,
-        "raam": 4.7,
-        "joint_list": 5.5,
-        "democrats": 11.5,
-        "yashar": 22.5,
+        "likud": 25.0,
+        "together": 16.0,
+        "otzma_yehudit": 6.5,
+        "shas": 9.5,
+        "utj": 7.0,
+        "yisrael_beiteinu": 7.5,
+        "raam": 4.5,
+        "joint_list": 5.0,
+        "democrats": 12.0,
+        "yashar": 22.0,
         "yesh_atid": 16.0,
         "balad": 0.0
       },
       "blocs": {
-        "coalition": 46.7,
-        "opposition": 72.3,
-        "unaligned": 10.2
+        "coalition": 48.0,
+        "opposition": 73.5,
+        "unaligned": 9.5
       }
     },
     {
@@ -8320,22 +8231,11 @@
       "included_firms": [
         "Maagar Mochot"
       ],
-      "seats": {
-        "likud": 23.0,
-        "bennett_2026": 19.0,
-        "yashar": 6.0,
-        "yesh_atid": 9.0,
-        "otzma_yehudit": 9.0,
-        "shas": 10.0,
-        "utj": 6.0,
-        "yisrael_beiteinu": 10.0,
-        "joint_list": 4.0,
-        "democrats": 10.0
-      },
+      "seats": {},
       "blocs": {
-        "coalition": 48.0,
-        "opposition": 54.0,
-        "unaligned": 4.0
+        "coalition": 0,
+        "opposition": 0,
+        "unaligned": 0
       }
     },
     {

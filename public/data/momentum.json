@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T06:11:04Z",
+  "generated_at": "2026-08-15T05:22:03Z",
   "weights": {
     "polls": 0.45,
     "polymarket": 0.3,
@@ -20,13 +20,13 @@
     },
     {
       "party": "together",
-      "direction": "stable",
-      "score": -0.25,
+      "direction": "gaining",
+      "score": 0.45,
       "label": "יחד",
       "signals": {
-        "polls": 0,
+        "polls": 1,
         "polymarket": 0,
-        "google_trends": -1
+        "google_trends": 0
       }
     },
     {
@@ -75,12 +75,12 @@
     },
     {
       "party": "yashar",
-      "direction": "stable",
-      "score": 0.0,
+      "direction": "gaining",
+      "score": 0.4,
       "label": "ישר",
       "signals": {
         "polls": 0,
-        "polymarket": 0,
+        "polymarket": 1,
         "google_trends": null
       }
     },
@@ -98,19 +98,19 @@
   ],
   "blocs": {
     "coalition": {
-      "seats": 46.7,
-      "delta": -0.3,
+      "seats": 48.0,
+      "delta": 1.0,
       "direction": "stable"
     },
     "opposition": {
-      "seats": 72.3,
+      "seats": 73.5,
       "delta": 0.0,
       "direction": "stable"
     },
     "unaligned": {
-      "seats": 10.2,
-      "delta": 1.2,
-      "direction": "gaining"
+      "seats": 9.5,
+      "delta": 0.5,
+      "direction": "stable"
     }
   }
 }
