@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T09:25:26Z",
+  "generated_at": "2026-08-15T12:35:33Z",
   "period": "3d",
   "period_label": "3 ימים אחרונים",
   "source": "Google News",
@@ -12,21 +12,20 @@
       "mention_count": 100,
       "headlines": [
         {
-          "title": "המועמדים שקיבלו סרטון תמיכה מנתניהו, אלה שלא - והתמונה הערוכה ב-AI של השרה",
+          "title": "דעה | החיים בלה-לה-לנד ורשימות החיסול: הליכוד נערך לפריימריז אכזריים",
           "source": "ישראל היום",
-          "published_at": "",
-          "url": "https://www.israelhayom.co.il/news/politics/article/21201650",
-          "fallback": true
+          "published_at": "Sat, 15 Aug 2026 11:48:14 GMT",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB1WHZsWGZvZ1FoYWdRSnR5TDF2bHpCRktqVUZyYXFMTFRTVFF1MEZtR1Zvbk8tUGdYVEhKbFVmbS1iSHFVa3BFdDNhajg0TFk5bjk2WDQ3cEZXaFJWN1NuYjVXMkhqbEx2SG9LVA?oc=5"
         },
         {
           "title": "גלי צה\"ל ריאיינה את נתניהו לפודקאסט באולפני חברה שהליכוד מעסיק בקמפיין",
-          "source": "הארץ",
+          "source": "haaretz.co.il",
           "published_at": "Thu, 13 Aug 2026 17:14:00 GMT"
         },
         {
-          "title": "תשכחו מכל מה שחשבתם על שרה נתניהו: חוקרת התנהגות חושפת מה באמת עובר לה בראש | ד\"ר לירז מרגלית",
-          "source": "מעריב",
-          "published_at": "Sat, 15 Aug 2026 03:01:00 GMT"
+          "title": "מדוע מערכת הביטחון משתפת פעולה עם תעמולת הבחירות של נתניהו?",
+          "source": "TheMarker",
+          "published_at": "Thu, 13 Aug 2026 03:16:00 GMT"
         }
       ]
     },
@@ -35,7 +34,7 @@
       "name_he": "גדי איזנקוט",
       "role": "יו\"ר ישר",
       "party": "yashar",
-      "mention_count": 88,
+      "mention_count": 82,
       "headlines": [
         {
           "title": "גדי איזנקוט: \"אני לא ממליץ לנתניהו להביא למבחן את הילדים שלנו\"",
@@ -50,7 +49,7 @@
         },
         {
           "title": "גדי איזנקוט בריאיון מיוחד ל\"שבע\" עם קרן מרציאנו",
-          "source": "mako",
+          "source": "mako.co.il",
           "published_at": "Wed, 12 Aug 2026 17:08:00 GMT"
         }
       ]
@@ -60,7 +59,7 @@
       "name_he": "נפתלי בנט",
       "role": "יו\"ר ביחד",
       "party": "together",
-      "mention_count": 51,
+      "mention_count": 40,
       "headlines": [
         {
           "title": "הליכוד מאיים לעתור נגד בנט: ״השתמש בתינוק לצורך תעמולת בחירות״",
@@ -69,9 +68,9 @@
           "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9PMl9QLXBWZC05WVlVX1dHVmxHRG1CZ281M1lZUVBPX19rRzJsVDFhTW9HZGk0aEhzQks0YjJpdWw5anBkcGh6VVVTdDl1d1BFUTBocTRIVWRRMkN0bEhITnRudzUyZ9IBbkFVX3lxTFBuam0tNkVxN3dnVWNjRGZSMTBxT1JwVjZGeTJobWR5NDA4dExSczUtaHE2blpXbVNIdDFKSjMyM0kzMThyaVUwSENIdG1MMWlIUW9IVzA2SEhzbVUxamJpekNuUXN2blI1cXowenRB?oc=5"
         },
         {
-          "title": "אופירה אוחנה סרי 2026 - נפתלי בנט בריאיון מיוחד | 12+",
-          "source": "mako",
-          "published_at": "Fri, 14 Aug 2026 15:19:38 GMT"
+          "title": "נפתלי בנט: 30 שנה החרדים מסובבים פוליטיקאים, אסגור להם את הכסף",
+          "source": "mako.co.il",
+          "published_at": "Thu, 13 Aug 2026 13:30:00 GMT"
         },
         {
           "title": "בן כספית חושף: ליברמן, בנט או איזנקוט - הדילמה שלי בקלפי",
@@ -85,12 +84,12 @@
       "name_he": "אביגדור ליברמן",
       "role": "יו\"ר ישראל ביתנו",
       "party": "yisrael_beiteinu",
-      "mention_count": 39,
+      "mention_count": 28,
       "headlines": [
         {
           "title": "ליברמן התייצב לצד בעל המועדון החרדי: \"אל תגדעו את פרנסתו\"",
           "source": "ישראל היום",
-          "published_at": "Wed, 12 Aug 2026 13:35:47 GMT",
+          "published_at": "Thu, 13 Aug 2026 16:05:39 GMT",
           "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBPbzN0RlN6SE9FVTI2T0c5VlNrdkxGQkFQNjdlSHRQTm5HZEtXZXY3RE9HTG9vN0ZCQk84RHBlUUF3cUNnWVYxUGhEZjB0ZWRIT3JlNnFKVmZrdUcwRXY4RE50dVY2V2I3SEFfb1psRmI2TFlkeUHSAX5BVV95cUxNQmRsc2xXM3ZQWHNlcVJ6QjdWUGdYTzBCQXpoaGc1TGJyenhSV2xObXItaDJOVUJNSndjSDZRalp5ZGd2SU5LQUdXd3JYZ3l5alJWdy1mb0t1cEhLVE1nTURYQ0Iya3VIbW50WjlDRGVZaEpvOHJnQXh4RGkwSWc?oc=5"
         },
         {
@@ -125,7 +124,7 @@
         },
         {
           "title": "הפרת ההבטחה לצנגאוגר היא טעות של יאיר גולן. הוא יכול לתקן אותה",
-          "source": "הארץ",
+          "source": "haaretz.co.il",
           "published_at": "Thu, 13 Aug 2026 17:00:00 GMT"
         }
       ]
@@ -150,7 +149,7 @@
         },
         {
           "title": "בקשות לפסילת בן גביר יוגשו לוועדת הבחירות בטענה שפגע בדמוקרטיה",
-          "source": "הארץ",
+          "source": "haaretz.co.il",
           "published_at": "Thu, 13 Aug 2026 10:27:00 GMT"
         }
       ]
@@ -160,7 +159,7 @@
       "name_he": "בצלאל סמוטריץ'",
       "role": "יו\"ר הציונות הדתית",
       "party": "religious_zionism",
-      "mention_count": 30,
+      "mention_count": 29,
       "headlines": [
         {
           "title": "\"התורה לא פוטרת מגיוס\": סמוטריץ' במתקפה על הפוליטיקאים החרדים",
@@ -175,7 +174,7 @@
         },
         {
           "title": "הבלוף והסכנה מאחורי הטבות הנדל\"ן החדשות למילואימניקים",
-          "source": "גלובס",
+          "source": "globes.co.il",
           "published_at": "Fri, 14 Aug 2026 09:01:42 GMT"
         }
       ]
