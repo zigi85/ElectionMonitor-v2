@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T21:23:44Z",
+  "generated_at": "2026-08-15T01:11:22Z",
   "period": "3d",
   "period_label": "3 ימים אחרונים",
   "source": "Google News",
@@ -12,10 +12,11 @@
       "mention_count": 100,
       "headlines": [
         {
-          "title": "דיווח: ארה\"ב לוחצת על נתניהו לגנות את האירועים בקוסרה",
+          "title": "האיש שיהיה היורש של נתניהו - ועוד לא יודע את זה",
           "source": "ישראל היום",
-          "published_at": "Fri, 14 Aug 2026 17:18:57 GMT",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9HdFhsaEkxNVpvQmYzV0ZfQ29QR3NHME15d2JUWmtJdTlVaXV0X2VzM3ROX3lRcXVqVGU3Q3BHM1Rya2JxSDBCblpIemNXTWRrSGdaenQtbUNWMzNzSWhYdmF3dkQ1cXZMekFINU5naXIzcG5HakROVdIBeEFVX3lxTE9HdFhsaEkxNVpvQmYzV0ZfQ29QR3NHME15d2JUWmtJdTlVaXV0X2VzM3ROX3lRcXVqVGU3Q3BHM1Rya2JxSDBCblpIemNXTWRrSGdaenQtbUNWMzNzSWhYdmF3dkQ1cXZMekFINU5naXIzcG5HakROVQ?oc=5"
+          "published_at": "",
+          "url": "https://www.israelhayom.co.il/magazine/hashavua/article/21185588",
+          "fallback": true
         },
         {
           "title": "גלי צה\"ל ריאיינה את נתניהו לפודקאסט באולפני חברה שהליכוד מעסיק בקמפיין",
@@ -23,9 +24,9 @@
           "published_at": "Thu, 13 Aug 2026 17:14:00 GMT"
         },
         {
-          "title": "נתניהו נערך לתרחיש האימים: \"עשוי לבצע לאחר הפריימריז מהלך מפתיע\"",
-          "source": "מעריב",
-          "published_at": "Fri, 14 Aug 2026 03:01:00 GMT"
+          "title": "השליחים שיגיעו להציל את התוכנית לעזה: \"מה שחשוב - שנסכים על התוצאה הרצויה\"",
+          "source": "ynet.co.il",
+          "published_at": "Fri, 14 Aug 2026 16:58:35 GMT"
         }
       ]
     },
@@ -34,7 +35,7 @@
       "name_he": "גדי איזנקוט",
       "role": "יו\"ר ישר",
       "party": "yashar",
-      "mention_count": 89,
+      "mention_count": 91,
       "headlines": [
         {
           "title": "הליכוד נגד איזנקוט: \"חלש, נתניהו חזק\"",
@@ -43,14 +44,14 @@
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE10YXRQdzJSMENMeHpGZDNtMjY3QjgzNmt0RXFQQm1LdUdCeVQ3UHFuLWZWaThnQnlPZW84MERpTDZ0cTNTeFJMbDhqa1J3UEpJR2lGd003MDNEZEp1aThXazUyZGJEMWPSAW9BVV95cUxPbkEwVDFTbngzcTk3MHByRDdlWGtrMVViNUJDeHBDeGU2Wi1WZ2pvTF8yWTRpd2NDemNVcXN5MC1pTGJsNHdVSWNQY05oSWZobkVWUWhORk1ST0w2LVFkcTE1NHVrVlZmaTVKWnhnYTQ?oc=5"
         },
         {
-          "title": "פרשנות איזנקוט נערך להקים ממשלת מיעוט ומקווה להרחיבה אחרי ההשבעה",
-          "source": "הארץ",
-          "published_at": "Fri, 14 Aug 2026 03:00:00 GMT"
-        },
-        {
           "title": "גדי איזנקוט הוא הנסיך המרוקאי שלו חיכתה ההגמוניה האשכנזית",
           "source": "שיחה מקומית",
           "published_at": "Wed, 12 Aug 2026 14:34:12 GMT"
+        },
+        {
+          "title": "פרשנות איזנקוט נערך להקים ממשלת מיעוט ומקווה להרחיבה אחרי ההשבעה",
+          "source": "הארץ",
+          "published_at": "Fri, 14 Aug 2026 03:00:00 GMT"
         }
       ]
     },
@@ -73,9 +74,9 @@
           "published_at": "Fri, 14 Aug 2026 15:19:38 GMT"
         },
         {
-          "title": "עיניו של לפיד קודחות ממחשבות על \"הפיכת שולחנות\" במשרדים ממשלתיים",
-          "source": "הארץ",
-          "published_at": "Fri, 14 Aug 2026 03:00:00 GMT"
+          "title": "בן כספית חושף: ליברמן, בנט או איזנקוט - הדילמה שלי בקלפי",
+          "source": "מעריב",
+          "published_at": "Fri, 14 Aug 2026 21:31:42 GMT"
         }
       ]
     },
@@ -84,7 +85,7 @@
       "name_he": "אביגדור ליברמן",
       "role": "יו\"ר ישראל ביתנו",
       "party": "yisrael_beiteinu",
-      "mention_count": 43,
+      "mention_count": 42,
       "headlines": [
         {
           "title": "ליברמן התייצב לצד בעל המועדון החרדי: \"אל תגדעו את פרנסתו\"",
@@ -119,7 +120,7 @@
         },
         {
           "title": "מתמודד בדמוקרטים תקף אלוף בצה\"ל, גולן ביקש \"להרגיע\": \"תלמדו מהטעויות שלי\"",
-          "source": "ynet",
+          "source": "ynet.co.il",
           "published_at": "Thu, 13 Aug 2026 12:44:52 GMT"
         },
         {
@@ -134,7 +135,7 @@
       "name_he": "איתמר בן גביר",
       "role": "יו\"ר עוצמה יהודית",
       "party": "otzma_yehudit",
-      "mention_count": 48,
+      "mention_count": 49,
       "headlines": [
         {
           "title": "הכרזה מוקדמת? הודעת כ\"ץ לא תואמה עם צה\"ל ועם בן גביר",
@@ -174,7 +175,7 @@
         },
         {
           "title": "אחרי 4 שנים במשרד הביטחון: תוכנית סמוטריץ' למען המילואימניקים",
-          "source": "ynet",
+          "source": "ynet.co.il",
           "published_at": "Thu, 13 Aug 2026 19:39:40 GMT"
         }
       ]
