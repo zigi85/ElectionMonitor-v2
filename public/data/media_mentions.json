@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T03:38:04Z",
+  "generated_at": "2026-08-15T06:36:18Z",
   "period": "3d",
   "period_label": "3 ימים אחרונים",
   "source": "Google News",
@@ -12,10 +12,11 @@
       "mention_count": 100,
       "headlines": [
         {
-          "title": "נתניהו הודיע על תמיכתו בשלמה לרנר בפריימריז בליכוד",
+          "title": "האיש שיהיה היורש של נתניהו - ועוד לא יודע את זה",
           "source": "ישראל היום",
-          "published_at": "Fri, 14 Aug 2026 14:30:04 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1iU1AtRml4MndFN3dRdlhzMF81bjR4cWIxQllrZ3Z4ZGhVcFhKeTJrMkdwRTB3ZXJ2czBhVktzZjRoSDhhNEMtU1V5U2xkdXNkczRlZXFDaGRnZlZtNW9kVzU3MTMxaG_SAW9BVV95cUxPS1BJVHRlc1pfbWNOU0ZwSVh1Rk1DZF9SeWhqbWRPUUFtRmdZN2NsdVR1a2Uwb0xmX0tBeXN6MUlZM3phcW5WOG4zSzZzNXZqQW1FeThNcDk3VEtTdFo2SmVuYmRYVGRiMEt1aXBBcWs?oc=5"
+          "published_at": "",
+          "url": "https://www.israelhayom.co.il/magazine/hashavua/article/21185588",
+          "fallback": true
         },
         {
           "title": "השליחים שיגיעו להציל את התוכנית לעזה: \"מה שחשוב - שנסכים על התוצאה הרצויה\"",
@@ -23,9 +24,9 @@
           "published_at": "Fri, 14 Aug 2026 16:58:35 GMT"
         },
         {
-          "title": "גלי צה\"ל ריאיינה את נתניהו לפודקאסט באולפני חברה שהליכוד מעסיק בקמפיין",
-          "source": "הארץ",
-          "published_at": "Thu, 13 Aug 2026 17:14:00 GMT"
+          "title": "תשכחו מכל מה שחשבתם על שרה נתניהו: חוקרת התנהגות חושפת מה באמת עובר לה בראש | ד\"ר לירז מרגלית",
+          "source": "מעריב",
+          "published_at": "Sat, 15 Aug 2026 03:01:00 GMT"
         }
       ]
     },
@@ -34,7 +35,7 @@
       "name_he": "גדי איזנקוט",
       "role": "יו\"ר ישר",
       "party": "yashar",
-      "mention_count": 92,
+      "mention_count": 90,
       "headlines": [
         {
           "title": "גדי איזנקוט: \"אני לא ממליץ לנתניהו להביא למבחן את הילדים שלנו\"",
@@ -44,13 +45,13 @@
         },
         {
           "title": "גדי איזנקוט הוא הנסיך המרוקאי שלו חיכתה ההגמוניה האשכנזית",
-          "source": "שיחה מקומית",
+          "source": "mekomit.co.il",
           "published_at": "Wed, 12 Aug 2026 14:34:12 GMT"
         },
         {
-          "title": "פרשנות איזנקוט נערך להקים ממשלת מיעוט ומקווה להרחיבה אחרי ההשבעה",
-          "source": "הארץ",
-          "published_at": "Fri, 14 Aug 2026 03:00:00 GMT"
+          "title": "דיווח: בשבועות הקרובים יצטרפו לרשימה המתגבשת של איזנקוט שרים וחברי כנסת לשעבר",
+          "source": "זמן ישראל",
+          "published_at": "Fri, 14 Aug 2026 14:28:06 GMT"
         }
       ]
     },
@@ -59,7 +60,7 @@
       "name_he": "נפתלי בנט",
       "role": "יו\"ר ביחד",
       "party": "together",
-      "mention_count": 62,
+      "mention_count": 57,
       "headlines": [
         {
           "title": "הליכוד מאיים לעתור נגד בנט: ״השתמש בתינוק לצורך תעמולת בחירות״",
@@ -84,7 +85,7 @@
       "name_he": "אביגדור ליברמן",
       "role": "יו\"ר ישראל ביתנו",
       "party": "yisrael_beiteinu",
-      "mention_count": 44,
+      "mention_count": 42,
       "headlines": [
         {
           "title": "ליברמן התייצב לצד בעל המועדון החרדי: \"אל תגדעו את פרנסתו\"",
@@ -109,13 +110,13 @@
       "name_he": "יאיר גולן",
       "role": "יו\"ר הדמוקרטים",
       "party": "democrats",
-      "mention_count": 29,
+      "mention_count": 27,
       "headlines": [
         {
-          "title": "למה באמת יאיר גולן הפר את הבטחתו לעינב צנגאוקר?",
+          "title": "\"זה הסיפור\": גרסת יאיר גולן לפארסת עינב צנגאוקר",
           "source": "ישראל היום",
-          "published_at": "Wed, 12 Aug 2026 14:58:16 GMT",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE83Tm9iUndCSndZel8waUlIbnJRUDZ5TWFCcW80eHJVVXBzRHV1Z3A1dXR1N2M0cUZOUi1QbWdyVVhxbVhmLWF1QnlmUkY2bDVPLUZUb2dsSDE1TUdnOWhvT1pWZl9qdjJYclNieTdWZ2NzQdIBekFVX3lxTE9fLVY4S1h4dEttUDFqOXgtSlpaWF9jRzdqbEpBUGhvN2lrR19mcTFVZ2Q3YWUyUE15YVkwSnRUNlVwWVF6SndTQnI2cnl4T1M2Q0pCNUNEU3h3SHdxdW5HTk83MWx1ZkgtZS14TnVoam8wSW1ya3hoY0NB?oc=5"
+          "published_at": "Wed, 12 Aug 2026 08:36:01 GMT",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE96ZThFeUpHWF9kamd1WjNLV3BheEU5Y0ZKYUo3TlZfQkJJRXZYVlFCMENacC02T2d0b3Bpenoxb0tJaXAweXl4UVJGVzdxcWx4RVk0RFJvQjZia3czME1HUmYya3dKU185QzlWdtIBdEFVX3lxTFBFY0dIQW1WVDUyUWZQM21iQ3Y5Zzh3U2Y5MlBjeW5SX1k1SXQ1OTVTcjUxR05oaU9ta0ZYWld5NXlJa3BudldrbjlqU1puSnEwYlVBQ2lVQVl6Z3g4NlBsMmx5WDRMczE0N3Z6cFRNTTVROU83?oc=5"
         },
         {
           "title": "מתמודד בדמוקרטים תקף אלוף בצה\"ל, גולן ביקש \"להרגיע\": \"תלמדו מהטעויות שלי\"",
@@ -159,7 +160,7 @@
       "name_he": "בצלאל סמוטריץ'",
       "role": "יו\"ר הציונות הדתית",
       "party": "religious_zionism",
-      "mention_count": 34,
+      "mention_count": 35,
       "headlines": [
         {
           "title": "\"התורה לא פוטרת מגיוס\": סמוטריץ' במתקפה על הפוליטיקאים החרדים",
@@ -168,14 +169,14 @@
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5fdlpRSXJrVVFNcm5vckR5YldBMXhfWGZOcXNCTU1lUnBUU1Z3eGdvQ2c5QlYxQjB2LWx1S2dkV2lXOUEydWFkT0xQTUxTZlIxYlhPelFWM25HQWM1YjEwQVY5ZVNKb3NpQzNtVtIBdEFVX3lxTE9hbFdrOFFUd0lnejd5ckc4WGFEVEF0Y2djRzNlQjFHQ21OdVJWZzRtbzNiUlpXdDk4Um9hRVZSY05UMFVFS3dZU0hCUzlvZGJtYVBNVng4QUVHb0tNQXZ6LVRYWld1ZnFBOWswX2FXOUMtX1hL?oc=5"
         },
         {
+          "title": "סמוטריץ' אישר שוב ושוב רשת הצלה לבנקים הפלסטינים, וקיבל בתמורה ויתורים להקמת התנחלויות",
+          "source": "ynet",
+          "published_at": "Sat, 15 Aug 2026 05:28:21 GMT"
+        },
+        {
           "title": "הבלוף והסכנה מאחורי הטבות הנדל\"ן החדשות למילואימניקים",
           "source": "גלובס",
           "published_at": "Fri, 14 Aug 2026 09:01:42 GMT"
-        },
-        {
-          "title": "אחרי 4 שנים במשרד הביטחון: תוכנית סמוטריץ' למען המילואימניקים",
-          "source": "ynet",
-          "published_at": "Thu, 13 Aug 2026 19:39:40 GMT"
         }
       ]
     }
