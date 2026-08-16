@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T06:38:18Z",
+  "generated_at": "2026-08-16T09:26:09Z",
   "period": "3d",
   "period_label": "3 ימים אחרונים",
   "source": "Google News",
@@ -23,9 +23,9 @@
           "published_at": "Sun, 16 Aug 2026 03:01:00 GMT"
         },
         {
-          "title": "מה הפרשנים לא מבינים ביחס לבליץ החקיקה של נתניהו",
-          "source": "העין השביעית",
-          "published_at": "Sat, 15 Aug 2026 20:06:50 GMT"
+          "title": "\"הבחירות האלה מרתקות כי הן בין נתניהו לנאמניו\"",
+          "source": "103FM",
+          "published_at": "Sun, 16 Aug 2026 05:40:27 GMT"
         }
       ]
     },
@@ -34,7 +34,7 @@
       "name_he": "גדי איזנקוט",
       "role": "יו\"ר ישר",
       "party": "yashar",
-      "mention_count": 65,
+      "mention_count": 60,
       "headlines": [
         {
           "title": "\"מרוקאי שאפשר לרוץ איתו\": כך הפך איזנקוט ל\"דיאלנה\" של האליטות",
@@ -43,14 +43,14 @@
           "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1MM3FESDFZTjROejFIM3dfcG1QUTZvamtremNLOHJQS0FoY2cxV21LU1RXUnQxUlAwSHR4ZVZvQ1FRMkxEYWJ4VV9jV2hiaU1PZlJrWDkyS1VDREpYclVHaGItWlJNUdIBbkFVX3lxTE9FMHR3Vk9TRU5wakFqMXhHMnNiU1FvQ0IxMDluS1BVam9oTEhqRFFCRHpHdXI0RmdZMEtfSm5FYTdJZjFtZ0pvUVI0QkFyaWRCd25ROWZ0c281S0M3aTVxNkJQVUJhSUJ0TFFuQnVB?oc=5"
         },
         {
-          "title": "ה\"צ'חצ'חים\" של דודו טופז כבר לא שין־גימלים",
-          "source": "הארץ",
-          "published_at": "Sun, 16 Aug 2026 03:01:00 GMT"
-        },
-        {
           "title": "שטרן חושף: \"ניסיתי להביא את איזנקוט ליש עתיד\"",
           "source": "אמס",
           "published_at": "Sun, 16 Aug 2026 05:16:25 GMT"
+        },
+        {
+          "title": "ה\"צ'חצ'חים\" של דודו טופז כבר לא שין־גימלים",
+          "source": "הארץ",
+          "published_at": "Sun, 16 Aug 2026 03:01:00 GMT"
         }
       ]
     },
@@ -59,7 +59,7 @@
       "name_he": "נפתלי בנט",
       "role": "יו\"ר ביחד",
       "party": "together",
-      "mention_count": 34,
+      "mention_count": 37,
       "headlines": [
         {
           "title": "\"ראש ממשלה עם שישה מנדטים - ניסיון רע\": ח\"כ שטרן עוקץ את בנט",
@@ -68,14 +68,14 @@
           "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBNdVZZQnBoalZaSlgwSGY5OVJza1Y4Y2tnZGhtQXk1b1VfcVhFQ084NDloOHVlVEJJRDg1U2w2TTMxMVk3VHRWYjhqS25ZTnBvbEZWNlZmcTUtRXZrb1BOS2F6bnQ5QzlRa1pRWE1B0gF2QVVfeXFMTnBGV0hnU1p1ZnZjN1VTdWZsVVRhQ3g3eExSOUd6RF9sRmVZNlprS25GZHhTcGRqaVVUTGJrQzFoTC1kdUNsTmFlY1ByNkpvOXpBWXNjZnZ2VnMzMGpTX3phdGVvYm9hUXZzeEY0dm9PRFRKYkRhdw?oc=5"
         },
         {
+          "title": "למרות ההון האישי הלא קטן: כך נפתלי בנט בוחר לגדל את ילדיו",
+          "source": "מעריב",
+          "published_at": "Sun, 16 Aug 2026 08:40:53 GMT"
+        },
+        {
           "title": "אופירה אוחנה סרי 2026 - נפתלי בנט בריאיון מיוחד | 12+",
           "source": "mako",
           "published_at": "Fri, 14 Aug 2026 15:19:38 GMT"
-        },
-        {
-          "title": "בנט, איזנקוט ונתניהו קיבלו את אותה בשורה - והיא לא חיובית | סוקר \"מעריב\" מנתח",
-          "source": "מעריב",
-          "published_at": "Sat, 15 Aug 2026 13:07:49 GMT"
         }
       ]
     },
@@ -84,7 +84,7 @@
       "name_he": "אביגדור ליברמן",
       "role": "יו\"ר ישראל ביתנו",
       "party": "yisrael_beiteinu",
-      "mention_count": 20,
+      "mention_count": 16,
       "headlines": [
         {
           "title": "ליברמן התייצב לצד בעל המועדון החרדי: \"אל תגדעו את פרנסתו\"",
@@ -98,9 +98,9 @@
           "published_at": "Fri, 14 Aug 2026 10:29:32 GMT"
         },
         {
-          "title": "ליברמן בהצהרה שתכריע את הבחירות: \"לא אשב איתו\"",
+          "title": "הצפיפות בישראל ביתנו: \"לאיש לא הובטח מקום ריאלי\"",
           "source": "סרוגים",
-          "published_at": "Fri, 14 Aug 2026 06:11:18 GMT"
+          "published_at": "Sun, 16 Aug 2026 06:47:14 GMT"
         }
       ]
     },
@@ -109,13 +109,13 @@
       "name_he": "יאיר גולן",
       "role": "יו\"ר הדמוקרטים",
       "party": "democrats",
-      "mention_count": 18,
+      "mention_count": 20,
       "headlines": [
         {
-          "title": "\"יאיר גולן עשה בחירה שמצערת אותי. אבל יש אצלו ח\"כים מדהימים\"",
+          "title": "יעקב בוזגלו תופס צד בסערת עינב צנגאוקר: \"בואו נסגור סיפור\"",
           "source": "ישראל היום",
-          "published_at": "Thu, 13 Aug 2026 14:12:01 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5MVF9CVXoxQUdLcUMxR2N0UUV2ZkxYcjN1SVZyZkZ0WTl1LUlLSDluSkNLU3dxWXR4NS1oand5blBfS19rUnNhYlFCYXc2X3Ata2NJZGplR2wyNnRCTkc2ZVNaeENVcXJMeEZWckRmWVl3UktSdWRMa1hR0gF6QVVfeXFMTkxUX0JVejFBR0txQzFHY3RRRXZmTFhyM3VJVnJmRnRZOXUtSUtIOW5KQ0tTd3FZdHg1LWhqd3luUF9LX2tSc2FiUUJhdzZfcC1rY0lkamVHbDI2dEJORzZlU1p4Q1Vxckx4RlZyRGZZWXdSS1J1ZExrWFE?oc=5"
+          "published_at": "Sun, 16 Aug 2026 08:08:49 GMT",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5CUXlkbTJXRElYMElHSkowcWdCMUlMSDd5bnJRWmc2elVXR0VXZHhwMG1DWVJodkFzd2FTOFJqWUlMbDJTWjN4enRDNlM5UGtSVjdVV0ljNXZUTHROcWppeXJ4SlRJRFdPWlpPcNIBdEFVX3lxTE85WDZvb21EUGRhc0FOckNEZmdXYXZCSk8zTG0xaDBDbHlNRVB5T2hxbTZva3RmczUzWVFUQlhlcU5idEptbkt1NEszNjB3NkIyWmplWWYtNlplYndBZHczdnMtU3A3WXlNN210ckpuYVljc3du?oc=5"
         },
         {
           "title": "מתמודד בדמוקרטים תקף אלוף בצה\"ל, גולן ביקש \"להרגיע\": \"תלמדו מהטעויות שלי\"",
@@ -134,23 +134,23 @@
       "name_he": "איתמר בן גביר",
       "role": "יו\"ר עוצמה יהודית",
       "party": "otzma_yehudit",
-      "mention_count": 34,
+      "mention_count": 42,
       "headlines": [
         {
-          "title": "הכרזה מוקדמת? הודעת כ\"ץ לא תואמה עם צה\"ל ועם בן גביר",
+          "title": "חששו למקומם? בן גביר טוען: שמונה בכירים בליכוד ביקשו להצטרף לעוצמה יהודית",
           "source": "ישראל היום",
-          "published_at": "Fri, 14 Aug 2026 07:27:37 GMT",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4tU1lwZVJzYWowZGIzT3ZYZHVZNFRraTV0RmEydGtOYnNyd3FIcEJSd21tNklRV2JBUmM1dGY0MTRUSWxWc1ZINUNLVVliQVBWZFZZbmhsTGhBODBSSmtuQ1h2cV8xZ1lxR0xKQi16azXSAXhBVV95cUxOY0VWb2xCWHhvVjRSS3JGWExwcEp6N0h5OXNlN0ZaN1JzSXdjRzgxd21NaFRQcXRndTFDWk14dmFJNW9pNnAyNTBZNkVXNUhZbU9hVy02dTZFdC1ocElWNzA3VHAzSjNzZWstY3Y1SkJwYnV4Y3Ztbkg?oc=5"
+          "published_at": "Sun, 16 Aug 2026 07:06:17 GMT",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5ZLS16ejVKdjdITWV6b2d1MzJITnhfcU9pQ3hVam8wank4S0VpRXMtN3NwaGNZR2Y1SlJiTjY4NU5RVU8zOEp0TlVzZ1lHVkV3amFkcVgtcDE4ZDJMVVg3Q3ZhZk1GN0p0N1VjeXJzZkdMTXNH0gF0QVVfeXFMTlktLXp6NUp2N0hNZXpvZ3UzMkhOeF9xT2lDeFVqbzBqeThLRWlFcy03c3BoY1lHZjVKUmJONjg1TlFVTzM4SnROVXNnWUdWRXdqYWRxWC1wMThkMkxVWDdDdmFmTUY3SnQ3VWN5cnNmR0xNc0c?oc=5"
+        },
+        {
+          "title": "איתמר בן גביר מטיל פצצה: \"ארבעה שרים וארבעה ח\"כים בליכוד ביקשו להצטרף אליי\"",
+          "source": "מעריב",
+          "published_at": "Sun, 16 Aug 2026 07:37:55 GMT"
         },
         {
           "title": "בן גביר עורך פגישות עבודה בדירה לא מאובטחת בבעלות יזם נדל\"ן בירושלים",
           "source": "הארץ",
           "published_at": "Sun, 16 Aug 2026 03:01:00 GMT"
-        },
-        {
-          "title": "שורד השבי לשר בן גביר: \"תן לי להיות זה שתולה אותם\"",
-          "source": "אמס",
-          "published_at": "Sat, 15 Aug 2026 22:00:01 GMT"
         }
       ]
     },
@@ -159,7 +159,7 @@
       "name_he": "בצלאל סמוטריץ'",
       "role": "יו\"ר הציונות הדתית",
       "party": "religious_zionism",
-      "mention_count": 26,
+      "mention_count": 23,
       "headlines": [
         {
           "title": "\"התורה לא פוטרת מגיוס\": סמוטריץ' במתקפה על הפוליטיקאים החרדים",
@@ -168,14 +168,14 @@
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5fdlpRSXJrVVFNcm5vckR5YldBMXhfWGZOcXNCTU1lUnBUU1Z3eGdvQ2c5QlYxQjB2LWx1S2dkV2lXOUEydWFkT0xQTUxTZlIxYlhPelFWM25HQWM1YjEwQVY5ZVNKb3NpQzNtVtIBdEFVX3lxTE9hbFdrOFFUd0lnejd5ckc4WGFEVEF0Y2djRzNlQjFHQ21OdVJWZzRtbzNiUlpXdDk4Um9hRVZSY05UMFVFS3dZU0hCUzlvZGJtYVBNVng4QUVHb0tNQXZ6LVRYWld1ZnFBOWswX2FXOUMtX1hL?oc=5"
         },
         {
-          "title": "סמוטריץ' מזהיר: כך איבדנו את הגליל",
-          "source": "ערוץ 7",
-          "published_at": "Sat, 15 Aug 2026 19:02:00 GMT"
+          "title": "נשיא התאחדות התעשיינים לסמוטריץ': קבע כי אין בסיס חוקי להעלאות הארנונה החריגות",
+          "source": "themarker.com",
+          "published_at": "Sun, 16 Aug 2026 08:48:00 GMT"
         },
         {
-          "title": "סמוטריץ' אישר שוב ושוב רשת הצלה לבנקים הפלסטיניים, וקיבל בתמורה ויתורים להקמת התנחלויות",
-          "source": "ynet",
-          "published_at": "Sat, 15 Aug 2026 05:28:21 GMT"
+          "title": "\"לא יקום ולא יהיה\": בן גביר חושף את העימות שהכמעט פוצץ את האיחוד",
+          "source": "מעריב",
+          "published_at": "Sun, 16 Aug 2026 08:13:52 GMT"
         }
       ]
     }
