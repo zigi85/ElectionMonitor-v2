@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T03:47:19Z",
+  "generated_at": "2026-08-16T06:11:34Z",
   "period": "3d",
   "period_label": "3 ימים אחרונים",
   "source": "Google News",
@@ -18,14 +18,14 @@
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5iaHZjclpxeUp1NUZQdUEyc1JwNnJ0QVlXcVVfVDYtSmVzNW5sTkJOYnprYmdtVGQ1WVRzSHcyVnF2czRjeVljYTJpWUluNzJ1bWJQR1VXRDlKeUZ2Y2pnSEVLRUQ2N2NPd1Q00gFzQVVfeXFMUDZJM3Z1WEdSeFkwNHg5SXJtYWYwaVRFSnMxam9FTVR4c0ZhYTZpX0VTcWoyano2TnRaaXBJQjRCM1VMMTlfSTVhRC1oS2FTYnZhNWRxZnZvNmhOMktkQXRsRm5GUDIwUWl4TllHbzdfcjVaZw?oc=5"
         },
         {
+          "title": "בפריימריז בליכוד מחר, נתניהו יקווה למפלת הח\"כים הביביסטים שטיפח בהתמדה",
+          "source": "הארץ",
+          "published_at": "Sun, 16 Aug 2026 03:01:00 GMT"
+        },
+        {
           "title": "מה הפרשנים לא מבינים ביחס לבליץ החקיקה של נתניהו",
           "source": "העין השביעית",
           "published_at": "Sat, 15 Aug 2026 20:06:50 GMT"
-        },
-        {
-          "title": "ארה\"ב קיבלה את ההסבר לתקיפות בלבנון, וצפויה לדרוש ריסון בחזיתות אחרות",
-          "source": "הארץ",
-          "published_at": "Sun, 16 Aug 2026 03:01:00 GMT"
         }
       ]
     },
@@ -34,7 +34,7 @@
       "name_he": "גדי איזנקוט",
       "role": "יו\"ר ישר",
       "party": "yashar",
-      "mention_count": 68,
+      "mention_count": 64,
       "headlines": [
         {
           "title": "\"מרוקאי שאפשר לרוץ איתו\": כך הפך איזנקוט ל\"דיאלנה\" של האליטות",
@@ -48,9 +48,9 @@
           "published_at": "Sun, 16 Aug 2026 03:01:00 GMT"
         },
         {
-          "title": "בנט, איזנקוט ונתניהו קיבלו את אותה בשורה - והיא לא חיובית | סוקר \"מעריב\" מנתח",
-          "source": "מעריב",
-          "published_at": "Sat, 15 Aug 2026 13:07:49 GMT"
+          "title": "שטרן חושף: \"ניסיתי להביא את איזנקוט ליש עתיד\"",
+          "source": "אמס",
+          "published_at": "Sun, 16 Aug 2026 05:16:25 GMT"
         }
       ]
     },
@@ -59,7 +59,7 @@
       "name_he": "נפתלי בנט",
       "role": "יו\"ר ביחד",
       "party": "together",
-      "mention_count": 32,
+      "mention_count": 33,
       "headlines": [
         {
           "title": "\"ראש ממשלה עם שישה מנדטים - ניסיון רע\": ח\"כ שטרן עוקץ את בנט",
@@ -84,7 +84,7 @@
       "name_he": "אביגדור ליברמן",
       "role": "יו\"ר ישראל ביתנו",
       "party": "yisrael_beiteinu",
-      "mention_count": 19,
+      "mention_count": 20,
       "headlines": [
         {
           "title": "ליברמן התייצב לצד בעל המועדון החרדי: \"אל תגדעו את פרנסתו\"",
@@ -109,7 +109,7 @@
       "name_he": "יאיר גולן",
       "role": "יו\"ר הדמוקרטים",
       "party": "democrats",
-      "mention_count": 19,
+      "mention_count": 18,
       "headlines": [
         {
           "title": "\"יאיר גולן עשה בחירה שמצערת אותי. אבל יש אצלו ח\"כים מדהימים\"",
@@ -123,9 +123,9 @@
           "published_at": "Thu, 13 Aug 2026 12:44:52 GMT"
         },
         {
-          "title": "בני גנץ חוטף מיאיר גולן: \"זו שגיאה שלא תסולח. לך הביתה\"",
-          "source": "ice (אייס)",
-          "published_at": "Sat, 15 Aug 2026 17:41:03 GMT"
+          "title": "הפרת ההבטחה לצנגאוגר היא טעות של יאיר גולן. הוא יכול לתקן אותה",
+          "source": "הארץ",
+          "published_at": "Thu, 13 Aug 2026 17:00:00 GMT"
         }
       ]
     },
@@ -134,7 +134,7 @@
       "name_he": "איתמר בן גביר",
       "role": "יו\"ר עוצמה יהודית",
       "party": "otzma_yehudit",
-      "mention_count": 37,
+      "mention_count": 36,
       "headlines": [
         {
           "title": "הכרזה מוקדמת? הודעת כ\"ץ לא תואמה עם צה\"ל ועם בן גביר",

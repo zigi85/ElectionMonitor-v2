@@ -25,7 +25,7 @@ export default function QuickSignals({ polymarket, polls, daysLeft }: QuickSigna
       <div className="signals-grid">
         {/* Polls */}
         <div className="signal-chip">
-          <div className="signal-icon-circle" style={{ background: "#dbeafe" }}>📊</div>
+          <div className="signal-icon-circle" style={{ background: "rgba(66,171,255,0.2)" }}>📊</div>
           <span className="signal-chip-label">סקרים</span>
           <span className="signal-chip-desc">ממוצע אחרון</span>
           <span className="signal-status green">✓ {pollsLabel}</span>
@@ -33,7 +33,7 @@ export default function QuickSignals({ polymarket, polls, daysLeft }: QuickSigna
 
         {/* Knesset */}
         <div className="signal-chip">
-          <div className="signal-icon-circle" style={{ background: "#fef3c7" }}>🏛</div>
+          <div className="signal-icon-circle" style={{ background: "rgba(251,191,36,0.2)" }}>🏛</div>
           <span className="signal-chip-label">כנסת</span>
           <span className="signal-chip-desc">הצבעות היום</span>
           <span className="signal-status live">● עדכונים חיים</span>
@@ -41,7 +41,7 @@ export default function QuickSignals({ polymarket, polls, daysLeft }: QuickSigna
 
         {/* Social */}
         <div className="signal-chip">
-          <div className="signal-icon-circle" style={{ background: "#ede9fe" }}>📱</div>
+          <div className="signal-icon-circle" style={{ background: "rgba(167,139,250,0.2)" }}>📱</div>
           <span className="signal-chip-label">רשתות</span>
           <span className="signal-chip-desc">מדד שיח</span>
           <span className="signal-status amber">↑ בעלייה</span>
@@ -49,7 +49,7 @@ export default function QuickSignals({ polymarket, polls, daysLeft }: QuickSigna
 
         {/* Forecast */}
         <div className="signal-chip">
-          <div className="signal-icon-circle" style={{ background: "#fee2e2" }}>🎯</div>
+          <div className="signal-icon-circle" style={{ background: "rgba(254,105,105,0.2)" }}>🎯</div>
           <span className="signal-chip-label">תחזית</span>
           <span className="signal-chip-desc">הכרעת תוצאה</span>
           <span className="signal-status gray">→ יציבה</span>

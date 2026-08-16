@@ -9,13 +9,13 @@ interface AppHeaderProps {
 function IHLogo() {
   return (
     <svg width="44" height="44" viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg" aria-label="ישראל היום">
-      <rect width="44" height="44" rx="8" fill="#0d1b55"/>
+      <rect width="44" height="44" rx="8" fill="#093170"/>
       <clipPath id="logo-clip"><rect width="44" height="44" rx="8"/></clipPath>
       <g clipPath="url(#logo-clip)">
         <line x1="-2" y1="36" x2="32" y2="-4" stroke="white" strokeWidth="7" opacity="0.9"/>
         <line x1="10" y1="48" x2="46" y2="4"  stroke="white" strokeWidth="7" opacity="0.9"/>
         <line x1="22" y1="54" x2="58" y2="10" stroke="white" strokeWidth="7" opacity="0.9"/>
-        <rect x="26" y="28" width="20" height="18" fill="#cc1e2b"/>
+        <rect x="26" y="28" width="20" height="18" fill="#fe6969"/>
       </g>
     </svg>
   );
