@@ -50,6 +50,16 @@ const MARKET_CONFIGS: Array<{
     title: "ליכוד — כמה מנדטים?",
     slugs: ["israel-election-likud-of-seats"],
   },
+  {
+    key: "likud_lose_seats",
+    title: "הליכוד יאבד מנדטים?",
+    slugs: ["israel-election-will-likud-lose-seats"],
+  },
+  {
+    key: "election_winner",
+    title: "איזו מפלגה תהיה הגדולה?",
+    slugs: ["israeli-legislative-election-winner"],
+  },
 ];
 
 async function fetchEvent(slug: string): Promise<unknown[] | null> {
@@ -105,6 +115,53 @@ function parseNextPmOutcomes(event: any): MarketOutcome[] {
   }
 }
 
+const PARTY_NAMES: Record<string, string> = {
+  "Likud": "הליכוד",
+  "Yashar": "ישר",
+  "Together": "יחד",
+  "Yisrael Beiteinu": "ישראל ביתנו",
+  "Yesh Atid": "יש עתיד",
+  "Democrats": "הדמוקרטים",
+  "National Unity": "מחנה ממלכתי",
+  "Shas": "ש״ס",
+  "United Torah Judaism": "יהדות התורה",
+  "Religious Zionism": "ציונות דתית",
+  "Otzma Yehudit": "עוצמה יהודית",
+  "Ra'am": "רע״ם",
+  "Hadash-Ta'al": "חד״ש-תע״ל",
+  "Labor": "העבודה",
+  "New Hope": "תקווה חדשה",
+  "Meretz": "מרצ",
+};
+
+function extractPartyName(question: string): string {
+  for (const [en, he] of Object.entries(PARTY_NAMES)) {
+    if (question.includes(en)) return he;
+  }
+  const m = question.match(/Will\s+(.+?)\s+win/);
+  return m ? m[1] : question;
+}
+
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+function parseElectionWinnerOutcomes(event: any): MarketOutcome[] {
+  try {
+    const markets = event.markets;
+    if (!Array.isArray(markets) || markets.length === 0) return [];
+    const outcomes: MarketOutcome[] = [];
+    for (const m of markets) {
+      const prices: string[] = JSON.parse(m.outcomePrices ?? "[]");
+      const yesP = parseFloat(prices[0] ?? "0");
+      if (yesP > 0.01) {
+        const question: string = m.question ?? m.title ?? "";
+        outcomes.push({ name: extractPartyName(question), probability: yesP });
+      }
+    }
+    return outcomes.sort((a, b) => b.probability - a.probability);
+  } catch {
+    return [];
+  }
+}
+
 const LIKUD_RANGE_LABELS: Record<string, string> = {
   "fewer than 20": "פחות מ-20",
   "20-24": "20-24",
@@ -152,6 +209,8 @@ export async function GET() {
         ? parseNextPmOutcomes(events[0])
         : config.key === "likud_seats"
         ? parseLikudSeatsOutcomes(events[0])
+        : config.key === "election_winner"
+        ? parseElectionWinnerOutcomes(events[0])
         : parseOutcomes(events[0]);
       if (outcomes.length === 0) continue;
       markets.push({

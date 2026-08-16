@@ -121,7 +121,7 @@ export interface MarketOutcome {
 }
 
 export interface PolymarketMarket {
-  key: "next_pm" | "hung_parliament" | "likud_seats";
+  key: "next_pm" | "hung_parliament" | "likud_seats" | "likud_lose_seats" | "election_winner" | string;
   title: string;
   slug: string;
   url?: string;

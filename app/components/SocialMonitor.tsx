@@ -3,14 +3,6 @@
 import { useRef } from "react";
 import type { SocialData, SocialLeaderBuzz, ViralVideo } from "@/lib/types";
 
-const X_HASHTAGS = [
-  "בחירות2026",
-  "נתניהו",
-  "החלפת_השלטון",
-  "בנט_ראש_ממשלה",
-  "גוש_השינוי",
-];
-
 function fmtViews(n: number): string {
   if (n >= 1_000_000) return `${(n / 1_000_000).toFixed(1)}M`;
   if (n >= 1_000) return `${(n / 1_000).toFixed(1)}K`;
@@ -133,7 +125,7 @@ export default function SocialMonitor({ socialData }: Props) {
         <span className="card-subtitle">מגמות ועניין ציבורי</span>
       </div>
 
-      {/* ── Hot Topics ────────────────────────────── */}
+      {/* ── Hot Topics (disabled — uncomment to restore) ──
       {hasTopics && (
         <div className="hot-topics-section">
           <div className="social-section-header">
@@ -160,6 +152,7 @@ export default function SocialMonitor({ socialData }: Props) {
           </div>
         </div>
       )}
+      ── */}
 
       {/* ── Viral Videos Carousel ─────────────── */}
       {hasViral && <ViralCarousel videos={socialData.viral_videos!} />}
@@ -182,26 +175,6 @@ export default function SocialMonitor({ socialData }: Props) {
           </p>
         </div>
       )}
-
-      {/* ── X Search Links ────────────────────────── */}
-      <div className="x-links-section">
-        <div className="social-section-header">
-          <span className="social-section-title">חפש ב-X</span>
-        </div>
-        <div className="x-links-row">
-          {X_HASHTAGS.map(tag => (
-            <a
-              key={tag}
-              className="x-link-chip"
-              href={`https://x.com/search?q=%23${encodeURIComponent(tag)}`}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              #{tag}
-            </a>
-          ))}
-        </div>
-      </div>
 
       <p className="social-disclaimer">
         הנתונים מבוססים על ניתוח כותרות Google News, צפיות בוויקיפדיה העברית ו-YouTube.

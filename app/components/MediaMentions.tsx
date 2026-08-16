@@ -64,7 +64,7 @@ function buildIhyOnlyHeadlines(
   return result;
 }
 
-function MentionBar({ leader, maxCount }: { leader: MediaLeader; maxCount: number }) {
+function MentionBar({ leader, maxCount, expanded }: { leader: MediaLeader; maxCount: number; expanded: boolean }) {
   const pct = maxCount > 0 ? (leader.mention_count / maxCount) * 100 : 0;
 
   return (
@@ -72,7 +72,7 @@ function MentionBar({ leader, maxCount }: { leader: MediaLeader; maxCount: numbe
       <div className="mm-bar-header">
         <span className="mm-leader-name">{leader.name_he}</span>
         <span className="mm-leader-role">{leader.role}</span>
-        <span className="mm-count">{leader.mention_count}</span>
+        <span className={`mm-chevron${expanded ? " mm-chevron-open" : ""}`}>&#x25BC;</span>
       </div>
       <div className="mm-bar-track">
         <div className="mm-bar-fill" style={{ width: `${pct}%` }} />
@@ -134,7 +134,7 @@ export default function MediaMentions({ mediaMentions }: Props) {
                 onClick={() => setExpandedLeader(expandedLeader === leader.key ? null : leader.key)}
                 aria-expanded={expandedLeader === leader.key}
               >
-                <MentionBar leader={leader} maxCount={maxCount} />
+                <MentionBar leader={leader} maxCount={maxCount} expanded={expandedLeader === leader.key} />
               </button>
               {expandedLeader === leader.key && headlines.length > 0 && (
                 <div className="mm-headlines-expand">

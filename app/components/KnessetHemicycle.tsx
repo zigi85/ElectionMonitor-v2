@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, Fragment } from "react";
 import type { ManualPollsData, ManualTimestamp, ManualPartyMeta, ManualOutletMeta } from "@/lib/types";
 
 const ARAB_PARTIES = new Set(["raam", "hadash_taal", "joint_list", "balad"]);
@@ -15,10 +15,10 @@ const BLOC_COLORS: Record<DisplayBloc, string> = {
 };
 
 const BLOC_LABELS: Record<DisplayBloc, string> = {
-  netanyahu: "תומכי נתניהו",
+  netanyahu: "קואליציה",
   zionist: "בית ציוני",
   arab: "מפלגות ערביות",
-  opposition: "מתנגדי נתניהו",
+  opposition: "אופוזיציה",
 };
 
 const BLOC_ORDER: DisplayBloc[] = ["netanyahu", "zionist", "arab", "opposition"];
@@ -173,6 +173,8 @@ export default function KnessetHemicycle({ manualPolls }: Props) {
 
   const [dateId, setDateId] = useState(timestamps[timestamps.length - 1]?.id ?? "");
   const [outlet, setOutlet] = useState<string>("average");
+  const [showAll, setShowAll] = useState(false);
+  const MOBILE_LIMIT = 4;
 
   const dateIdx = timestamps.findIndex(t => t.id === dateId);
   const currentTs = timestamps[dateIdx] ?? timestamps[timestamps.length - 1];
@@ -187,6 +189,14 @@ export default function KnessetHemicycle({ manualPolls }: Props) {
     () => buildSplitBarData(seats, partyMeta),
     [seats, partyMeta]
   );
+
+  const allBars = useMemo(() => {
+    const merged = [...coalitionBars, ...oppositionBars];
+    merged.sort((a, b) => b.seats - a.seats);
+    const max = Math.max(...merged.map(r => r.seats), 1);
+    merged.forEach(r => { r.pct = (r.seats / max) * 100; });
+    return merged;
+  }, [coalitionBars, oppositionBars]);
 
   function goTo(idx: number) {
     setDateId(timestamps[idx].id);
@@ -209,22 +219,55 @@ export default function KnessetHemicycle({ manualPolls }: Props) {
         </div>
 
         <div className="outlet-pills-wrap" role="group" aria-label="בחר מקור סקר">
-          <button className={`outlet-pill outlet-pill-avg${outlet === "average" ? " active" : ""}`} onClick={() => setOutlet("average")}>ממוצע</button>
-          {availableOutlets.map(o => (
-            <button key={o.id} className={`outlet-pill${outlet === o.id ? " active" : ""}`} onClick={() => setOutlet(o.id)} aria-label={o.name}>
-              <img src={`/images/outlets/${o.id}.png`} className="outlet-pill-icon" alt={o.name} onError={(e) => { (e.currentTarget as HTMLImageElement).style.display = "none"; (e.currentTarget.parentElement as HTMLElement).insertAdjacentText("afterbegin", o.name); }} />
-            </button>
-          ))}
+          <button
+            className={`outlet-pill outlet-pill-avg${outlet === "average" ? " active" : ""}`}
+            onClick={() => setOutlet("average")}
+            style={outlet === "average"
+              ? { background: "#69C5FE", borderColor: "#69C5FE", color: "#fff" }
+              : { background: "transparent", border: "1px solid rgba(255,255,255,0.3)", color: "rgba(255,255,255,0.7)" }
+            }
+          >ממוצע</button>
+          {availableOutlets.filter(o => o.id !== "walla").map(o => {
+            const isActive = outlet === o.id;
+            return (
+              <button
+                key={o.id}
+                className={`outlet-pill${isActive ? " active" : ""}`}
+                onClick={() => setOutlet(o.id)}
+                aria-label={o.name}
+                style={isActive ? { background: "#fff", borderColor: "transparent" } : undefined}
+              >
+                <img
+                  src={isActive ? `/images/outlets/${o.id}-color.png` : `/images/outlets/${o.id}.png`}
+                  className="outlet-pill-icon"
+                  alt={o.name}
+                  onError={(e) => {
+                    const img = e.currentTarget as HTMLImageElement;
+                    const fallback = `/images/outlets/${o.id}.png`;
+                    if (!img.src.endsWith(`/${o.id}.png`)) {
+                      img.src = fallback;
+                    } else {
+                      img.style.display = "none";
+                      (img.parentElement as HTMLElement).insertAdjacentText("afterbegin", o.name);
+                    }
+                  }}
+                />
+              </button>
+            );
+          })}
         </div>
       </div>
 
       <div className="card hemicycle-card" role="region" aria-label="קרב הקואליציה">
         <div className="cb-blocs-row">
-          {BLOC_ORDER.map((bloc) => (
-            <div key={bloc} className="cb-bloc-item">
-              <span className="cb-bloc-label">{BLOC_LABELS[bloc]}</span>
-              <span className="cb-bloc-num" style={{ color: BLOC_COLORS[bloc] }}>{blocs[bloc]}</span>
-            </div>
+          {BLOC_ORDER.map((bloc, i) => (
+            <Fragment key={bloc}>
+              {i > 0 && <div className="cb-bloc-divider" />}
+              <div className="cb-bloc-item">
+                <span className="cb-bloc-label" style={{ color: BLOC_COLORS[bloc] }}>{BLOC_LABELS[bloc]}</span>
+                <span className="cb-bloc-num">{blocs[bloc]}</span>
+              </div>
+            </Fragment>
           ))}
         </div>
 
@@ -244,6 +287,31 @@ export default function KnessetHemicycle({ manualPolls }: Props) {
           </div>
         </div>
 
+        {/* Mobile: single merged list */}
+        <div className="cb-bars-mobile">
+          <div className="cb-bars-col">
+            {(showAll ? allBars : allBars.slice(0, MOBILE_LIMIT)).map(row => (
+              <div key={row.key} className="cb-bar-row" role="listitem">
+                <span className="cb-bar-num">{row.seats}</span>
+                <div className="cb-bar-track">
+                  <div className="cb-bar-fill" style={{ width: `${row.pct}%` }} />
+                </div>
+                <span className="cb-bar-name">{row.shortName}</span>
+              </div>
+            ))}
+          </div>
+
+          {allBars.length > MOBILE_LIMIT && (
+            <div className="cb-see-more-wrap">
+              <button className="cb-see-more-btn" onClick={() => setShowAll(prev => !prev)}>
+                {showAll ? "ראה פחות" : "ראה עוד"}
+                <span className={`cb-see-more-chevron${showAll ? " expanded" : ""}`}>▼</span>
+              </button>
+            </div>
+          )}
+        </div>
+
+        {/* Desktop: two-column split */}
         <div className="cb-bars-split">
           <div className="cb-bars-col cb-bars-coalition">
             {coalitionBars.map(row => (

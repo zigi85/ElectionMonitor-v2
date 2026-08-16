@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, Fragment } from "react";
 
 const ELECTION_DATE = new Date("2026-10-27T07:00:00+03:00");
 
@@ -31,7 +31,7 @@ function getTimeLeft(now: Date) {
 
 function formatDate(dateStr: string): string {
   const d = new Date(dateStr);
-  return d.toLocaleDateString("he-IL", { day: "numeric", month: "short" });
+  return `${d.getDate()}.${d.getMonth() + 1}`;
 }
 
 function daysUntil(dateStr: string, now: Date): number {
@@ -119,16 +119,26 @@ export default function ElectionCountdown() {
           const isElection = m.date === "2026-10-27";
 
           return (
-            <div
-              key={m.date}
-              className={`cd-stop${isPast ? " cd-done" : ""}${isNext ? " cd-active" : ""}${isElection ? " cd-final" : ""}`}
-            >
-              <div className="cd-stop-dot" />
-              <span className="cd-stop-date">{formatDate(m.date)}</span>
-              <span className="cd-stop-label">{m.label}</span>
-            </div>
+            <Fragment key={m.date}>
+              {isNext && (
+                <div className="cd-stop cd-today">
+                  <span className="cd-stop-date">{`${now.getDate()}.${now.getMonth() + 1}`}</span>
+                  <span className="cd-stop-label">היום</span>
+                </div>
+              )}
+              <div className={`cd-stop${isPast ? " cd-done" : ""}${isElection ? " cd-final" : ""}`}>
+                <span className="cd-stop-date">{formatDate(m.date)}</span>
+                <span className="cd-stop-label">{m.label}</span>
+              </div>
+            </Fragment>
           );
         })}
+        {nextIdx < 0 && (
+          <div className="cd-stop cd-today">
+            <span className="cd-stop-date">{`${now.getDate()}.${now.getMonth() + 1}`}</span>
+            <span className="cd-stop-label">היום</span>
+          </div>
+        )}
         <div className="cd-track-line" />
       </div>
     </div>
