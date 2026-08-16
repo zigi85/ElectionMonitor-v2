@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T05:22:03Z",
+  "generated_at": "2026-08-16T05:24:55Z",
   "weights": {
     "polls": 0.45,
     "polymarket": 0.3,
@@ -21,12 +21,12 @@
     {
       "party": "together",
       "direction": "gaining",
-      "score": 0.45,
+      "score": 0.7,
       "label": "יחד",
       "signals": {
         "polls": 1,
         "polymarket": 0,
-        "google_trends": 0
+        "google_trends": 1
       }
     },
     {
@@ -75,12 +75,12 @@
     },
     {
       "party": "yashar",
-      "direction": "gaining",
-      "score": 0.4,
+      "direction": "stable",
+      "score": 0.0,
       "label": "ישר",
       "signals": {
         "polls": 0,
-        "polymarket": 1,
+        "polymarket": 0,
         "google_trends": null
       }
     },
