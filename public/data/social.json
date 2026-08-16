@@ -1,41 +1,41 @@
 {
-  "generated_at": "2026-08-15T21:18:31Z",
-  "headline_count": 152,
+  "generated_at": "2026-08-16T03:45:52Z",
+  "headline_count": 156,
   "hot_topics": [
     {
       "id": "elections",
       "label": "בחירות וסקרים",
-      "mention_count": 49,
+      "mention_count": 50,
       "sample_headline": "סקר מנדטים עדכני - המידע העדכני ביותר לבחירות 2026 | מרכז הסקרים",
-      "sample_source": "כאן 11"
+      "sample_source": "kan.org.il"
     },
     {
       "id": "coalition",
       "label": "קואליציה וכנסת",
-      "mention_count": 31,
+      "mention_count": 30,
       "sample_headline": "המפתח של האופוזיציה ללשכת ראש הממשלה נמצא במקום מפתיע",
       "sample_source": "News1 מחלקה ראשונה"
     },
     {
       "id": "security",
       "label": "ביטחון",
-      "mention_count": 12,
+      "mention_count": 11,
       "sample_headline": "ישראל ולבנון הסכימו שבריטניה, איטליה, שווייץ ואינדונזיה ישתתפו במנגנון שיפקח הפירוז",
       "sample_source": "זמן ישראל"
     },
     {
       "id": "haredim",
       "label": "חרדים וגיוס",
-      "mention_count": 4,
-      "sample_headline": "איזנקוט מתכנן: ממשלה גם בלי 61 - ואחר כך הרחבה עם ש\"ס והליכוד",
-      "sample_source": "News1 מחלקה ראשונה"
+      "mention_count": 6,
+      "sample_headline": "גפני במתקפה על בהרב מיארה: 'היא תחליט מה ילדים חרדים ילמדו? אני דורש שכל ילדי ישראל ילמדו גמרא!'",
+      "sample_source": "חרדים10"
     },
     {
       "id": "judiciary",
       "label": "מערכת המשפט",
       "mention_count": 4,
       "sample_headline": "\"אני גאה להיות יו\"ר הכנסת הראשון שאמר לבג\"ץ 'עד כאן, לא נציית לכל פסיקה'\"",
-      "sample_source": "israelhayom.co.il"
+      "sample_source": "היום"
     },
     {
       "id": "negotiations",
@@ -49,67 +49,78 @@
     {
       "key": "eisenkot",
       "name_he": "גדי איזנקוט",
-      "views_7d": 9641,
-      "prev_views_7d": 13149,
-      "change_pct": -26.7,
+      "views_7d": 7130,
+      "prev_views_7d": 14355,
+      "change_pct": -50.3,
       "direction": "falling"
     },
     {
       "key": "netanyahu",
       "name_he": "בנימין נתניהו",
-      "views_7d": 4276,
-      "prev_views_7d": 5720,
-      "change_pct": -25.2,
+      "views_7d": 3452,
+      "prev_views_7d": 5435,
+      "change_pct": -36.5,
       "direction": "falling"
     },
     {
       "key": "golan",
       "name_he": "יאיר גולן",
-      "views_7d": 3498,
-      "prev_views_7d": 5848,
-      "change_pct": -40.2,
+      "views_7d": 2823,
+      "prev_views_7d": 5310,
+      "change_pct": -46.8,
       "direction": "falling"
     },
     {
       "key": "bennett",
       "name_he": "נפתלי בנט",
-      "views_7d": 2074,
-      "prev_views_7d": 3296,
-      "change_pct": -37.1,
+      "views_7d": 1741,
+      "prev_views_7d": 3058,
+      "change_pct": -43.1,
       "direction": "falling"
     },
     {
       "key": "lieberman",
       "name_he": "אביגדור ליברמן",
-      "views_7d": 1830,
-      "prev_views_7d": 2799,
-      "change_pct": -34.6,
+      "views_7d": 1413,
+      "prev_views_7d": 2727,
+      "change_pct": -48.2,
       "direction": "falling"
     },
     {
       "key": "ben_gvir",
       "name_he": "איתמר בן גביר",
-      "views_7d": 1560,
-      "prev_views_7d": 1527,
-      "change_pct": 2.2,
-      "direction": "stable"
+      "views_7d": 1268,
+      "prev_views_7d": 1602,
+      "change_pct": -20.8,
+      "direction": "falling"
     },
     {
       "key": "smotrich",
       "name_he": "בצלאל סמוטריץ'",
-      "views_7d": 964,
-      "prev_views_7d": 1310,
-      "change_pct": -26.4,
+      "views_7d": 819,
+      "prev_views_7d": 1285,
+      "change_pct": -36.3,
       "direction": "falling"
     }
   ],
   "viral_videos": [
     {
+      "video_id": "vxxOpnDor8Y",
+      "title": "איך איתמר בן גביר הכיר את אשתו",
+      "channel": "פודקאסט על המשמעות - תמיר דורטל",
+      "views": 53184,
+      "views_str": "53.2K",
+      "duration": "0:50",
+      "published_text": "לפני יומיים (2)",
+      "thumbnail": "https://i.ytimg.com/vi/vxxOpnDor8Y/hq720_2.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARhlIGUoZTAP&rs=AOn4CLB1HIElJCqwqmw02E0wrhewcxgdZw",
+      "url": "https://www.youtube.com/watch?v=vxxOpnDor8Y"
+    },
+    {
       "video_id": "tHcJ3IyXF7g",
       "title": "סקר i24NEWS: הליכוד מתחזקת בשני מנדטים לקראת הפריימריז, עוצמה יהודית מאבדת מנדט",
       "channel": "i24NEWS עברית",
-      "views": 32298,
-      "views_str": "32.3K",
+      "views": 36719,
+      "views_str": "36.7K",
       "duration": "0:05",
       "published_text": "לפני יומיים (2)",
       "thumbnail": "https://i.ytimg.com/vi/tHcJ3IyXF7g/hq720_2.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAsYKigIMCAAQARhXIF4oZTAP&rs=AOn4CLCbf9LfGDXxbcuZShrFXI_FBUeLrA",
@@ -119,10 +130,10 @@
       "video_id": "nLuMihY1p7o",
       "title": "נתניהו מפסיד? ד\"ר אדי כהן: כל מדינות ערב מתגייסות לטובת אייזנקוט!!",
       "channel": "John Smith",
-      "views": 17789,
-      "views_str": "17.8K",
+      "views": 18313,
+      "views_str": "18.3K",
       "duration": "1:40",
-      "published_text": "לפני יומיים (2)",
+      "published_text": "לפני 3 ימים",
       "thumbnail": "https://i.ytimg.com/vi/nLuMihY1p7o/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARhyIEEoLTAP&rs=AOn4CLDC4zqtDOKco5lFjc7-iCuXuH8WuA",
       "url": "https://www.youtube.com/watch?v=nLuMihY1p7o"
     },
@@ -130,67 +141,56 @@
       "video_id": "1PSHszRtm98",
       "title": "הזעם בליכוד סביב השריונים של נתניהו: \"מקשה על הח\"כים לקבל מקום ריאלי\"",
       "channel": "כאן | חדשות - תאגיד השידור הישראלי",
-      "views": 9194,
-      "views_str": "9.2K",
+      "views": 9499,
+      "views_str": "9.5K",
       "duration": "1:55",
       "published_text": "לפני יומיים (2)",
       "thumbnail": "https://i.ytimg.com/vi/1PSHszRtm98/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAvUjSfz47_B60r4VEqcE3PXpw_iQ",
       "url": "https://www.youtube.com/watch?v=1PSHszRtm98"
     },
     {
-      "video_id": "g7EIndseISM",
-      "title": "גדי איזנקוט בראיון לקרן מרציאנו בחדשות 12",
-      "channel": "ישר! עם איזנקוט",
-      "views": 6968,
-      "views_str": "7.0K",
-      "duration": "15:28",
-      "published_text": "לפני יומיים (2)",
-      "thumbnail": "https://i.ytimg.com/vi/g7EIndseISM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBeoucl7jwMtI3ethffOBmzgXnJ9Q",
-      "url": "https://www.youtube.com/watch?v=g7EIndseISM"
+      "video_id": "fROu-acENSY",
+      "title": "בן גביר ו\"היוצרים\" הרימו את הקהל",
+      "channel": "ערוץ 7",
+      "views": 9163,
+      "views_str": "9.2K",
+      "duration": "0:44",
+      "published_text": "לפני יום אחד (1)",
+      "thumbnail": "https://i.ytimg.com/vi/fROu-acENSY/hq720_2.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBvgSAAoAIigIMCAAQARhlIFIoRDAP&rs=AOn4CLCwKYtMAcO8wr3h91NZ1V9iyiYl4g",
+      "url": "https://www.youtube.com/watch?v=fROu-acENSY"
     },
     {
       "video_id": "glUl6AwlSeg",
       "title": "הם רוצים לסכסך!! נתניהו רוצה בגוטליב!! ברדוגו קובר את שקר התרעלות כאילו נתניהו לא מעוניין בה",
       "channel": "John Smith",
-      "views": 5129,
-      "views_str": "5.1K",
+      "views": 8558,
+      "views_str": "8.6K",
       "duration": "0:59",
-      "published_text": "לפני 10 שעות",
+      "published_text": "לפני 16 שעות",
       "thumbnail": "https://i.ytimg.com/vi/glUl6AwlSeg/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARhFIEcoZTAP&rs=AOn4CLBBbxJs1RVK61BAYU39Ev4Kuv4NtA",
       "url": "https://www.youtube.com/watch?v=glUl6AwlSeg"
     },
     {
-      "video_id": "uEMrJZlcZ-4",
-      "title": "ההשפעה של המפלגות החדשות והשינוי של בנט - מה קורה בסקרים?",
-      "channel": "i24NEWS עברית",
-      "views": 2954,
-      "views_str": "3.0K",
-      "duration": "1:33",
-      "published_text": "לפני יומיים (2)",
-      "thumbnail": "https://i.ytimg.com/vi/uEMrJZlcZ-4/hq720_2.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARggIDQofzAP&rs=AOn4CLDgml6QjhGLgtytmgwrcswKobjezQ",
-      "url": "https://www.youtube.com/watch?v=uEMrJZlcZ-4"
+      "video_id": "37cywMSQg8U",
+      "title": "\"לא מנצחים...\": טראמפ מתכנן נגד נתניהו, מהלך סודי נחשף במהלך הבחירות בישראל?",
+      "channel": "Times Of India",
+      "views": 7827,
+      "views_str": "7.8K",
+      "duration": "10:16",
+      "published_text": "לפני 20 שעות",
+      "thumbnail": "https://i.ytimg.com/vi/37cywMSQg8U/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCQuP2i9XwKdax4Qi1lv9VclnIfjw",
+      "url": "https://www.youtube.com/watch?v=37cywMSQg8U"
     },
     {
-      "video_id": "5sHwfIfcVHo",
-      "title": "עושות טובה עם תקוה גדעון ואדיר מזרחי | פרק 22 | עושות בחירות - בנט",
-      "channel": "24 שבע",
-      "views": 1618,
-      "views_str": "1.6K",
-      "duration": "45:26",
+      "video_id": "g7EIndseISM",
+      "title": "גדי איזנקוט בראיון לקרן מרציאנו בחדשות 12",
+      "channel": "ישר! עם איזנקוט",
+      "views": 7357,
+      "views_str": "7.4K",
+      "duration": "15:28",
       "published_text": "לפני יומיים (2)",
-      "thumbnail": "https://i.ytimg.com/vi/5sHwfIfcVHo/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCi-44Y1n0sSDrsRt53H22AnAQjbA",
-      "url": "https://www.youtube.com/watch?v=5sHwfIfcVHo"
-    },
-    {
-      "video_id": "UM9UTGlsLHM",
-      "title": "איזנקוט לשלטון? | 10 באוגוסט 2026",
-      "channel": "103fm",
-      "views": 1324,
-      "views_str": "1.3K",
-      "duration": "1:02:27",
-      "published_text": "לפני 5 ימים",
-      "thumbnail": "https://i.ytimg.com/vi/UM9UTGlsLHM/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAArgIigIMCAAQARgeIGUoYjAP&rs=AOn4CLCFdG4YPODfg1a4myZysbiPsbW9Tg",
-      "url": "https://www.youtube.com/watch?v=UM9UTGlsLHM"
+      "thumbnail": "https://i.ytimg.com/vi/g7EIndseISM/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLAPk7jmOTSgeem3ftRrabWyPRgNkA",
+      "url": "https://www.youtube.com/watch?v=g7EIndseISM"
     }
   ],
   "telegram_channels": [
@@ -200,8 +200,8 @@
       "username": "bnetanyahu",
       "type": "politician",
       "post_count": 20,
-      "avg_views": 21606,
-      "avg_views_str": "21.6K",
+      "avg_views": 21910,
+      "avg_views_str": "21.9K",
       "top_post": {
         "text": "אף אחד לא יעצור אותי מלהילחם על האמת של ישראל 🇮🇱",
         "views": 37600,
@@ -225,33 +225,33 @@
       }
     },
     {
-      "key": "ynet",
-      "name_he": "ynet",
-      "username": "ynetalerts",
-      "type": "news",
-      "post_count": 20,
-      "avg_views": 5453,
-      "avg_views_str": "5.5K",
-      "top_post": {
-        "text": "🔴 נשיא קולומביה שוחח עם נתניהו: \"יחסים חדשים בין המדינות - תמיד בעלות ברית\" למבזק המלא ב-ynet >",
-        "views": 6270,
-        "views_str": "6.27K",
-        "date": "2026-08-15T15:52:02+00:00"
-      }
-    },
-    {
       "key": "ben_gvir",
       "name_he": "איתמר בן גביר",
       "username": "bengvir",
       "type": "politician",
       "post_count": 20,
-      "avg_views": 4980,
-      "avg_views_str": "5.0K",
+      "avg_views": 5783,
+      "avg_views_str": "5.8K",
       "top_post": {
-        "text": "עוצמה יהודית בתגובה לחיבור של סגלוביץ׳ ומנסור עבאס: לנגד עינינו מתרחשת תכנית מכירת החיסול של המדינה היהודית בשיתוף השמאל",
-        "views": 12900,
-        "views_str": "12.9K",
-        "date": "2026-08-13T10:44:53+00:00"
+        "text": "עכשיו זה קורה!!! השר לביטחון לאומי ויו״ר עוצמה יהודית איתמר בן גביר עונה לכם על כל השאלות הבוערות 🔴 בלייב פייסבוק מיוחד ",
+        "views": 16600,
+        "views_str": "16.6K",
+        "date": "2026-08-15T19:06:59+00:00"
+      }
+    },
+    {
+      "key": "ynet",
+      "name_he": "ynet",
+      "username": "ynetalerts",
+      "type": "news",
+      "post_count": 20,
+      "avg_views": 5703,
+      "avg_views_str": "5.7K",
+      "top_post": {
+        "text": "🔴 איל אשל בהפגנה בהבימה: \"מה לעזאזל עוד צריך לקרות כדי שיקשיבו לתצפיתניות?\" למבזק המלא ב-ynet >",
+        "views": 7420,
+        "views_str": "7.42K",
+        "date": "2026-08-15T18:06:15+00:00"
       }
     },
     {
@@ -260,7 +260,7 @@
       "username": "newsisrael13_il",
       "type": "news",
       "post_count": 20,
-      "avg_views": 4164,
+      "avg_views": 4168,
       "avg_views_str": "4.2K",
       "top_post": {
         "text": "חדשות 13 (Twitter) מופע חייו של ליאור אשכנזי, מהתיאטרון לכיכר החטופים: \"עד שלא יקרה משהו רדיקלי - כלום לא יעזור\" bit.ly/",
@@ -275,12 +275,12 @@
       "username": "israelhayomofficial",
       "type": "news",
       "post_count": 20,
-      "avg_views": 3658,
-      "avg_views_str": "3.7K",
+      "avg_views": 3828,
+      "avg_views_str": "3.8K",
       "top_post": {
         "text": "מלי וליאל עזבו מרצונן לבואנוס איירס בארגנטינה, אין שום דבר חריג שעלה בתשאול שלהן, והן שוחררו לדרכן (אבי כהן)",
-        "views": 4690,
-        "views_str": "4.69K",
+        "views": 4780,
+        "views_str": "4.78K",
         "date": "2026-08-14T20:24:12+00:00"
       }
     },
@@ -290,7 +290,7 @@
       "username": "naftalibennett1",
       "type": "politician",
       "post_count": 20,
-      "avg_views": 2569,
+      "avg_views": 2606,
       "avg_views_str": "2.6K",
       "top_post": {
         "text": "\"בָּרוּךְ אַתָּה ה' אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם הַגּוֹמֵל לְחַיָּבִים טוֹבוֹת, שֶׁגְּמָלַנִי כָּל טוּב\". עכשיו באשקלון, מ",
@@ -305,12 +305,12 @@
       "username": "smutrich",
       "type": "politician",
       "post_count": 19,
-      "avg_views": 1036,
-      "avg_views_str": "1.0K",
+      "avg_views": 1056,
+      "avg_views_str": "1.1K",
       "top_post": {
         "text": "גלעד ארדן, ממשלה עם תומכי טרור זה לא אחדות. זה שמאל.",
-        "views": 1970,
-        "views_str": "1.97K",
+        "views": 2000,
+        "views_str": "2K",
         "date": "2026-08-12T14:53:36+00:00"
       }
     },
@@ -320,12 +320,12 @@
       "username": "N12_News",
       "type": "news",
       "post_count": 20,
-      "avg_views": 100,
-      "avg_views_str": "100",
+      "avg_views": 109,
+      "avg_views_str": "109",
       "top_post": {
         "text": "גיא ורון @ צ'אט כתבים תושבים בצפון עודכנו - צה\"ל יתקוף הלילה בדרום לבנון: \"יישמעו קולות נפץ\" קישור לכתבה",
-        "views": 142,
-        "views_str": "142",
+        "views": 157,
+        "views_str": "157",
         "date": "2026-08-15T17:43:39+00:00"
       }
     },
