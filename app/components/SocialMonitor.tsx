@@ -1,7 +1,7 @@
 "use client";
 
 import { useRef } from "react";
-import type { SocialData, SocialLeaderBuzz, ViralVideo, TelegramChannel } from "@/lib/types";
+import type { SocialData, SocialLeaderBuzz, ViralVideo } from "@/lib/types";
 
 const X_HASHTAGS = [
   "בחירות2026",
@@ -88,29 +88,6 @@ function ViralCard({ video }: { video: ViralVideo }) {
   );
 }
 
-function TgCard({ ch }: { ch: TelegramChannel }) {
-  return (
-    <div className="tg-channel-card">
-      <div className="tg-channel-row">
-        <a
-          className="tg-channel-name"
-          href={`https://t.me/${ch.username}`}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          {ch.name_he}
-        </a>
-        <span className="tg-channel-stats">
-          {ch.post_count} פוסטים · {ch.avg_views_str} צפיות
-        </span>
-      </div>
-      {ch.top_post?.text && (
-        <p className="tg-top-post">{ch.top_post.text}</p>
-      )}
-    </div>
-  );
-}
-
 function ViralCarousel({ videos }: { videos: ViralVideo[] }) {
   const ref = useRef<HTMLDivElement>(null);
   const scroll = (dir: number) => {
@@ -143,10 +120,6 @@ export default function SocialMonitor({ socialData }: Props) {
   const hasTopics = socialData.hot_topics.length > 0;
   const hasBuzz = socialData.leader_buzz.length > 0;
   const hasViral = (socialData.viral_videos ?? []).length > 0;
-  const hasTelegram = (socialData.telegram_channels ?? []).length > 0;
-  const tgPoliticians = (socialData.telegram_channels ?? []).filter(ch => ch.type === "politician");
-  const tgNews = (socialData.telegram_channels ?? []).filter(ch => ch.type === "news");
-
   if (!hasTopics && !hasBuzz) return null;
 
   const maxViews = hasBuzz
@@ -191,31 +164,6 @@ export default function SocialMonitor({ socialData }: Props) {
       {/* ── Viral Videos Carousel ─────────────── */}
       {hasViral && <ViralCarousel videos={socialData.viral_videos!} />}
 
-      {/* ── Telegram Channels ────────────────────── */}
-      {hasTelegram && (
-        <div className="tg-section">
-          <div className="social-section-header">
-            <span className="social-section-title">טלגרם</span>
-            <span className="social-section-source">Telegram · ערוצים ציבוריים</span>
-          </div>
-          {tgPoliticians.length > 0 && (
-            <>
-              <div className="tg-group-label">פוליטיקאים</div>
-              <div className="tg-channels">
-                {tgPoliticians.map(ch => <TgCard key={ch.key} ch={ch} />)}
-              </div>
-            </>
-          )}
-          {tgNews.length > 0 && (
-            <>
-              <div className="tg-group-label">תקשורת</div>
-              <div className="tg-channels">
-                {tgNews.map(ch => <TgCard key={ch.key} ch={ch} />)}
-              </div>
-            </>
-          )}
-        </div>
-      )}
 
       {/* ── Leader Buzz (Wikipedia) ───────────────── */}
       {hasBuzz && (
@@ -256,7 +204,7 @@ export default function SocialMonitor({ socialData }: Props) {
       </div>
 
       <p className="social-disclaimer">
-        הנתונים מבוססים על ניתוח כותרות Google News, צפיות בוויקיפדיה העברית, YouTube וטלגרם.
+        הנתונים מבוססים על ניתוח כותרות Google News, צפיות בוויקיפדיה העברית ו-YouTube.
         הם משקפים עניין ציבורי יחסי, לא עמדה פוליטית.
       </p>
     </div>
