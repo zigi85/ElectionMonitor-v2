@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T15:24:19Z",
+  "generated_at": "2026-08-17T18:38:02Z",
   "period": "3d",
   "period_label": "3 ימים אחרונים",
   "source": "Google News",
@@ -24,7 +24,7 @@
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1rZGE5WFJoUi01bWhQelRXanYzcE12VUZDWXhYQjU3Wk1EOFZyWmdRdkM5Y19tYUIzcDY5NkxCekNoS0dvRUl4S21VNnJCZDZJUlYwelpJQ2Z1Uld6ZXdCMTU4NTRNUFk?oc=5&hl=en-US&gl=US&ceid=US:en"
         },
         {
-          "title": "נתניהו וקושנר שוחחו 4 שעות: \"הוסכם שקודם עזה תפורז, ורק אחר כך צה\"ל ייסוג\"",
+          "title": "נתניהו שוחח 4 שעות עם קושנר - וביקר את הפגישה עם חמאס: \"אלו אדריכלי 7/10\"",
           "source": "ynet",
           "published_at": "Mon, 17 Aug 2026 13:49:31 GMT",
           "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE14M05rNlJVWE5jdXN5dk5hdF9HcmhFM0t2TkhTOTM4eTVNYTNFeWF1OHRDcWRubkVrMzFXYTRqMTlsUWpxY0JCZklJOVo3TmV3RGdNWmU0YjVUdw?oc=5&hl=en-US&gl=US&ceid=US:en"
@@ -36,7 +36,7 @@
       "name_he": "גדי איזנקוט",
       "role": "יו\"ר ישר",
       "party": "yashar",
-      "mention_count": 54,
+      "mention_count": 56,
       "headlines": [
         {
           "title": "ליברמן נגד איזנקוט: \"לא נשב בממשלת מיעוט\"",
@@ -63,7 +63,7 @@
       "name_he": "נפתלי בנט",
       "role": "יו\"ר ביחד",
       "party": "together",
-      "mention_count": 44,
+      "mention_count": 57,
       "headlines": [
         {
           "title": "נפתלי בנט: ''היינו תפרנים, זה על הפנים''",
@@ -117,7 +117,7 @@
       "name_he": "יאיר גולן",
       "role": "יו\"ר הדמוקרטים",
       "party": "democrats",
-      "mention_count": 15,
+      "mention_count": 14,
       "headlines": [
         {
           "title": "גולן על הפריימריז בליכוד: \"מתחרים על מקום בסיפון הטיטאניק\"",
@@ -144,13 +144,13 @@
       "name_he": "איתמר בן גביר",
       "role": "יו\"ר עוצמה יהודית",
       "party": "otzma_yehudit",
-      "mention_count": 65,
+      "mention_count": 72,
       "headlines": [
         {
-          "title": "כבר לא ימין ממלכתי: בן גביר מושך את הליכוד לזירה הכהניסטית",
+          "title": "\"להרוג 30-40 כל לילה\": בן גביר בכותרות בעולם",
           "source": "ישראל היום",
-          "published_at": "Sun, 16 Aug 2026 14:45:29 GMT",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE80aDlTTTRIak51dFZYalNKWGxuRE9UVDFxUWtYSm5fR19taUNVY0hLNlF6SEd4S1hhaVpZZU5OdVpDWUR5UjB6ZHY1RllfQ09ZbVhuSWFGNFhlRlpJQ2Q2Vnhva3h0QnRJdUpXX2VMSXbSAXhBVV95cUxQcFlTVTFMT2Z1ZG1neC1LVUJxMGdERVl2c3pLem5pZWZYcnVmelNTREkwcXZQM1AyNEtOU19qcU1Pa0tCVnZ1TnpITVJxdGZ6el9ONEVZamRIaE5ocjlPd3FFd2hHUXZsd2JKdHVIRHpIX3YyYlNzZkY?oc=5&hl=en-US&gl=US&ceid=US:en"
+          "published_at": "Mon, 17 Aug 2026 17:50:19 GMT",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1OYnNnQkJWbmZXVy1idzJxN3oxRE9qdWR3YUpCWVM2SFdXNmoxWC1OdnpvS1VBcnNFN2VRQUwwVzlFWjczVVkyZkFhVWZ6c1V6REVNdkRvTkJzeGQ4VlRPcTI0cHMxNFVYM29ob1ljZ9IBd0FVX3lxTE03Z3lYUmNlZGhyNnBQV09TNXFxdklvYm5hWThFSFlBNmJPdWFYZDdVRU9Sd0RyWk1veDJXTDZsZ0FmLTBtZTlpcmZFcGpiWkdqUFl1ZF9mT040MDRHbFJGSFhNdkdzOVBOV093eHdZXzhtdDBpdnYw?oc=5&hl=en-US&gl=US&ceid=US:en"
         },
         {
           "title": "\"כל לילה להוריד 40-30 בעזה\": האמירה של בן גביר לשורד השבי - והסערה העולמית",
@@ -171,8 +171,14 @@
       "name_he": "בצלאל סמוטריץ'",
       "role": "יו\"ר הציונות הדתית",
       "party": "religious_zionism",
-      "mention_count": 20,
+      "mention_count": 24,
       "headlines": [
+        {
+          "title": "סמוטריץ' על פגישת נתניהו-קושנר: \"צריך להבהיר לאמריקאים\"",
+          "source": "מעריב",
+          "published_at": "Mon, 17 Aug 2026 15:35:28 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1jRER5c2Y1RFRrelJVdTV4UTUwOFk2Qkw2cU5JYUROUjVYeXE4SVkwNjNzNDZjdzhWQ2hZbjlRRk1mdVZLeGM0UzVEclctcDFoU3Rib2ZXanZkWmp0b0VEc3dvSnQ?oc=5&hl=en-US&gl=US&ceid=US:en"
+        },
         {
           "title": "אלון דוידי: \"בזכות סמוטריץ' האויב רחוק מהגבול\"",
           "source": "ערוץ 7",
@@ -184,12 +190,6 @@
           "source": "ynet",
           "published_at": "Mon, 17 Aug 2026 06:40:01 GMT",
           "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1sSndJc1kzMVhxamx4SUZLejNyOV95RTZ6UksxeUt3SXQtZjFZOFM1ZzB5MmpaemdYbHlYVFFiOWFrbWMwT0psMmllNXc1SFhTUzhuOUtaODI1OFdOQlE?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "יצטרף לציונות הדתית? דוידי וסמוטריץ׳ בפרגונים הדדיים",
-          "source": "C14",
-          "published_at": "Mon, 17 Aug 2026 12:07:10 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE03LW5za0NUQ3VmT2RGbThzVDNTY1ZuczI5RHg3SEZzUTRmQlRDbDBmVS1Da3MzNjlnbmpBMVlnakZUS3RJbHVxWXNsUmtjUQ?oc=5&hl=en-US&gl=US&ceid=US:en"
         }
       ]
     }
