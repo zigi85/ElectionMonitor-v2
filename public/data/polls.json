@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T05:24:54Z",
+  "generated_at": "2026-08-17T05:32:31Z",
   "source_urls": [
     "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
     "https://en.wikipedia.org/wiki/2025_opinion_polling_for_the_2026_Israeli_legislative_election"
@@ -338,6 +338,27 @@
       }
     },
     {
+      "id": "kantar-2026-08-16",
+      "date": "2026-08-16",
+      "iso_week": "2026-W33",
+      "firm": "Kantar",
+      "publisher": "",
+      "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
+      "excluded_from_avg": false,
+      "seats": {
+        "likud": 23,
+        "together": 14,
+        "otzma_yehudit": 10,
+        "shas": 8,
+        "utj": 7,
+        "yisrael_beiteinu": 10,
+        "raam": 5,
+        "joint_list": 6,
+        "democrats": 10,
+        "yashar": 23
+      }
+    },
+    {
       "id": "direct_polls-2026-08-13",
       "date": "2026-08-13",
       "iso_week": "2026-W33",
@@ -359,10 +380,10 @@
       }
     },
     {
-      "id": "midgam-2026-08-12",
+      "id": "midgam_project-2026-08-12",
       "date": "2026-08-12",
       "iso_week": "2026-W33",
-      "firm": "Midgam",
+      "firm": "Midgam Project",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -491,10 +512,10 @@
       "seats": {}
     },
     {
-      "id": "midgam-2026-08-05",
+      "id": "midgam_project-2026-08-05",
       "date": "2026-08-05",
       "iso_week": "2026-W32",
-      "firm": "Midgam",
+      "firm": "Midgam Project",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -571,10 +592,10 @@
       "seats": {}
     },
     {
-      "id": "midgam-2026-07-29",
+      "id": "midgam_project-2026-07-29",
       "date": "2026-07-29",
       "iso_week": "2026-W31",
-      "firm": "Midgam",
+      "firm": "Midgam Project",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -696,10 +717,10 @@
       "seats": {}
     },
     {
-      "id": "midgam-2026-07-21",
+      "id": "midgam_project-2026-07-21",
       "date": "2026-07-21",
       "iso_week": "2026-W30",
-      "firm": "Midgam",
+      "firm": "Midgam Project",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -821,10 +842,10 @@
       }
     },
     {
-      "id": "midgam-2026-07-15",
+      "id": "midgam_project-2026-07-15",
       "date": "2026-07-15",
       "iso_week": "2026-W29",
-      "firm": "Midgam",
+      "firm": "Midgam Project",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -955,10 +976,10 @@
       "seats": {}
     },
     {
-      "id": "midgam-2026-07-08",
+      "id": "midgam_project-2026-07-08",
       "date": "2026-07-08",
       "iso_week": "2026-W28",
-      "firm": "Midgam",
+      "firm": "Midgam Project",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -1065,10 +1086,10 @@
       }
     },
     {
-      "id": "midgam-2026-07-01",
+      "id": "midgam_project-2026-07-01",
       "date": "2026-07-01",
       "iso_week": "2026-W27",
-      "firm": "Midgam",
+      "firm": "Midgam Project",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -1195,22 +1216,23 @@
       "seats": {}
     },
     {
-      "id": "midgam-2026-06-24",
+      "id": "midgam_project-2026-06-24",
       "date": "2026-06-24",
       "iso_week": "2026-W26",
-      "firm": "Midgam",
+      "firm": "Midgam Project",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
       "seats": {
-        "likud": 20,
+        "likud": 23,
+        "together": 15,
         "otzma_yehudit": 9,
-        "yesh_atid": 15,
-        "yisrael_beiteinu": 14,
-        "shas": 10,
+        "shas": 8,
         "utj": 8,
-        "raam": 5,
-        "balad": 0
+        "yisrael_beiteinu": 12,
+        "joint_list": 4,
+        "democrats": 10,
+        "yashar": 20
       }
     },
     {
@@ -1231,6 +1253,25 @@
         "joint_list": 4,
         "democrats": 9,
         "yashar": 22
+      }
+    },
+    {
+      "id": "midgam-2026-06-24",
+      "date": "2026-06-24",
+      "iso_week": "2026-W26",
+      "firm": "Midgam",
+      "publisher": "",
+      "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
+      "excluded_from_avg": false,
+      "seats": {
+        "likud": 20,
+        "otzma_yehudit": 9,
+        "yesh_atid": 15,
+        "yisrael_beiteinu": 14,
+        "shas": 10,
+        "utj": 8,
+        "raam": 5,
+        "balad": 0
       }
     },
     {
@@ -1293,10 +1334,10 @@
       }
     },
     {
-      "id": "midgam-2026-06-17",
+      "id": "midgam_project-2026-06-17",
       "date": "2026-06-17",
       "iso_week": "2026-W25",
-      "firm": "Midgam",
+      "firm": "Midgam Project",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -7788,26 +7829,27 @@
       "iso_week": "2026-W25",
       "week_start": "2026-06-15",
       "week_end": "2026-06-21",
-      "sparse": true,
+      "sparse": false,
       "included_firms": [
         "Kantar",
-        "Midgam"
+        "Midgam",
+        "Midgam Project"
       ],
       "seats": {
-        "likud": 22.5,
-        "together": 18.0,
-        "otzma_yehudit": 9.0,
+        "likud": 22.3,
+        "together": 17.7,
+        "otzma_yehudit": 8.7,
         "shas": 9.0,
-        "utj": 7.0,
-        "yisrael_beiteinu": 9.5,
-        "joint_list": 4.5,
-        "democrats": 9.5,
-        "yashar": 21.0
+        "utj": 7.3,
+        "yisrael_beiteinu": 10.0,
+        "joint_list": 4.3,
+        "democrats": 10.0,
+        "yashar": 20.7
       },
       "blocs": {
-        "coalition": 47.5,
-        "opposition": 58.0,
-        "unaligned": 4.5
+        "coalition": 47.3,
+        "opposition": 58.4,
+        "unaligned": 4.3
       }
     },
     {
@@ -7819,25 +7861,26 @@
         "Kantar",
         "Lazar",
         "Maagar Mochot",
-        "Midgam"
+        "Midgam",
+        "Midgam Project"
       ],
       "seats": {
-        "likud": 21.7,
+        "likud": 22.0,
         "yesh_atid": 13.5,
-        "otzma_yehudit": 9.3,
-        "shas": 9.3,
-        "utj": 7.3,
-        "yisrael_beiteinu": 11.3,
+        "otzma_yehudit": 9.2,
+        "shas": 9.0,
+        "utj": 7.5,
+        "yisrael_beiteinu": 11.5,
         "raam": 4.5,
-        "democrats": 8.0,
+        "democrats": 8.7,
         "balad": 0.0,
-        "together": 18.0,
+        "together": 16.5,
         "joint_list": 4.0,
-        "yashar": 21.0
+        "yashar": 20.5
       },
       "blocs": {
-        "coalition": 47.6,
-        "opposition": 71.8,
+        "coalition": 47.7,
+        "opposition": 70.7,
         "unaligned": 8.5
       }
     },
@@ -7849,23 +7892,24 @@
       "included_firms": [
         "Kantar",
         "Lazar",
-        "Midgam"
+        "Midgam",
+        "Midgam Project"
       ],
       "seats": {
-        "likud": 23.0,
-        "together": 16.0,
-        "otzma_yehudit": 9.0,
-        "shas": 8.0,
-        "utj": 8.0,
+        "likud": 23.5,
+        "together": 16.5,
+        "otzma_yehudit": 8.5,
+        "shas": 8.5,
+        "utj": 7.5,
         "yisrael_beiteinu": 9.0,
-        "joint_list": 4.0,
-        "democrats": 9.0,
-        "yashar": 23.0
+        "joint_list": 4.5,
+        "democrats": 9.5,
+        "yashar": 22.5
       },
       "blocs": {
         "coalition": 48.0,
-        "opposition": 57.0,
-        "unaligned": 4.0
+        "opposition": 57.5,
+        "unaligned": 4.5
       }
     },
     {
@@ -7877,26 +7921,27 @@
         "Kantar",
         "Lazar",
         "Maagar Mochot",
-        "Midgam"
+        "Midgam",
+        "Midgam Project"
       ],
       "seats": {
-        "likud": 21.5,
-        "together": 15.0,
+        "likud": 21.8,
+        "together": 15.3,
         "otzma_yehudit": 9.0,
-        "shas": 8.8,
+        "shas": 8.6,
         "utj": 7.8,
-        "yisrael_beiteinu": 11.5,
+        "yisrael_beiteinu": 11.0,
         "raam": 4.8,
-        "joint_list": 5.5,
-        "democrats": 9.3,
-        "yashar": 23.5,
+        "joint_list": 5.0,
+        "democrats": 9.5,
+        "yashar": 23.3,
         "yesh_atid": 13.0,
         "balad": 0.0
       },
       "blocs": {
-        "coalition": 47.1,
-        "opposition": 72.3,
-        "unaligned": 10.3
+        "coalition": 47.2,
+        "opposition": 72.1,
+        "unaligned": 9.8
       }
     },
     {
@@ -7907,23 +7952,24 @@
       "included_firms": [
         "Kantar",
         "Lazar",
-        "Midgam"
+        "Midgam",
+        "Midgam Project"
       ],
       "seats": {
-        "likud": 21.7,
-        "together": 15.3,
+        "likud": 21.8,
+        "together": 15.5,
         "otzma_yehudit": 8.0,
-        "shas": 7.3,
+        "shas": 7.5,
         "utj": 8.0,
-        "yisrael_beiteinu": 9.3,
+        "yisrael_beiteinu": 9.5,
         "raam": 4.7,
         "joint_list": 5.0,
-        "democrats": 10.3,
-        "yashar": 21.7
+        "democrats": 10.2,
+        "yashar": 22.0
       },
       "blocs": {
-        "coalition": 45.0,
-        "opposition": 56.6,
+        "coalition": 45.3,
+        "opposition": 57.2,
         "unaligned": 9.7
       }
     },
@@ -7931,37 +7977,39 @@
       "iso_week": "2026-W30",
       "week_start": "2026-07-20",
       "week_end": "2026-07-26",
-      "sparse": true,
+      "sparse": false,
       "included_firms": [
         "Kantar",
-        "Midgam"
+        "Midgam",
+        "Midgam Project"
       ],
       "seats": {
-        "likud": 21.5,
-        "together": 14.0,
+        "likud": 22.0,
+        "together": 14.3,
         "otzma_yehudit": 8.0,
         "shas": 8.0,
         "utj": 8.0,
-        "yisrael_beiteinu": 9.5,
+        "yisrael_beiteinu": 9.3,
         "raam": 5.0,
-        "joint_list": 5.5,
-        "democrats": 10.5,
-        "yashar": 21.0
+        "joint_list": 5.3,
+        "democrats": 10.7,
+        "yashar": 22.0
       },
       "blocs": {
-        "coalition": 45.5,
-        "opposition": 55.0,
-        "unaligned": 10.5
+        "coalition": 46.0,
+        "opposition": 56.3,
+        "unaligned": 10.3
       }
     },
     {
       "iso_week": "2026-W31",
       "week_start": "2026-07-27",
       "week_end": "2026-08-02",
-      "sparse": true,
+      "sparse": false,
       "included_firms": [
         "Kantar",
-        "Midgam"
+        "Midgam",
+        "Midgam Project"
       ],
       "seats": {
         "likud": 23.0,
@@ -7989,24 +8037,27 @@
       "included_firms": [
         "Kantar",
         "Maagar Mochot",
-        "Midgam"
+        "Midgam",
+        "Midgam Project"
       ],
       "seats": {
-        "likud": 21.0,
+        "likud": 23.5,
         "together": 14.0,
         "otzma_yehudit": 9.0,
-        "shas": 9.0,
-        "utj": 8.0,
-        "yisrael_beiteinu": 9.0,
-        "raam": 4.0,
+        "shas": 9.5,
+        "utj": 7.5,
+        "yisrael_beiteinu": 7.5,
+        "raam": 4.5,
         "joint_list": 5.0,
         "democrats": 11.0,
-        "yashar": 22.0
+        "yashar": 22.0,
+        "yesh_atid": 20.0,
+        "balad": 0.0
       },
       "blocs": {
-        "coalition": 47.0,
-        "opposition": 56.0,
-        "unaligned": 9.0
+        "coalition": 49.5,
+        "opposition": 74.5,
+        "unaligned": 9.5
       }
     },
     {
@@ -8015,28 +8066,30 @@
       "week_end": "2026-08-16",
       "sparse": false,
       "included_firms": [
+        "Kantar",
         "Lazar",
         "Maagar Mochot",
-        "Midgam"
+        "Midgam",
+        "Midgam Project"
       ],
       "seats": {
-        "likud": 25.0,
-        "together": 16.0,
-        "otzma_yehudit": 6.5,
-        "shas": 9.5,
+        "likud": 24.3,
+        "together": 15.0,
+        "otzma_yehudit": 7.7,
+        "shas": 9.0,
         "utj": 7.0,
-        "yisrael_beiteinu": 7.5,
-        "raam": 4.5,
-        "joint_list": 5.0,
-        "democrats": 12.0,
-        "yashar": 22.0,
+        "yisrael_beiteinu": 8.3,
+        "raam": 4.7,
+        "joint_list": 5.5,
+        "democrats": 11.0,
+        "yashar": 22.5,
         "yesh_atid": 16.0,
         "balad": 0.0
       },
       "blocs": {
         "coalition": 48.0,
-        "opposition": 73.5,
-        "unaligned": 9.5
+        "opposition": 72.8,
+        "unaligned": 10.2
       }
     },
     {

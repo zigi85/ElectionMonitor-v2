@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T06:12:55Z",
+  "generated_at": "2026-08-17T05:32:32Z",
   "weights": {
     "polls": 0.45,
     "polymarket": 0.3,
@@ -9,22 +9,22 @@
   "parties": [
     {
       "party": "likud",
-      "direction": "losing",
-      "score": -0.55,
+      "direction": "stable",
+      "score": 0.0,
       "label": "הליכוד",
       "signals": {
         "polls": 0,
-        "polymarket": -1,
-        "google_trends": -1
+        "polymarket": 0,
+        "google_trends": 0
       }
     },
     {
       "party": "together",
       "direction": "stable",
-      "score": -0.2,
+      "score": 0.25,
       "label": "יחד",
       "signals": {
-        "polls": -1,
+        "polls": 0,
         "polymarket": 0,
         "google_trends": 1
       }
@@ -98,18 +98,18 @@
   ],
   "blocs": {
     "coalition": {
-      "seats": 47.5,
-      "delta": 2.5,
-      "direction": "gaining"
+      "seats": 48.0,
+      "delta": -1.5,
+      "direction": "losing"
     },
     "opposition": {
-      "seats": 56.0,
-      "delta": -0.6,
-      "direction": "stable"
+      "seats": 72.8,
+      "delta": -1.7,
+      "direction": "losing"
     },
     "unaligned": {
-      "seats": 10.0,
-      "delta": 0.3,
+      "seats": 10.2,
+      "delta": 0.7,
       "direction": "stable"
     }
   }
