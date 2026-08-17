@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T01:12:35Z",
+  "generated_at": "2026-08-17T03:49:39Z",
   "period": "3d",
   "period_label": "3 ימים אחרונים",
   "source": "Google News",
@@ -34,7 +34,7 @@
       "name_he": "גדי איזנקוט",
       "role": "יו\"ר ישר",
       "party": "yashar",
-      "mention_count": 62,
+      "mention_count": 63,
       "headlines": [
         {
           "title": "\"בן אדם צ'יל ברמות\": איזנקוט - בקרוב בבתי הקולנוע?",
@@ -59,7 +59,7 @@
       "name_he": "נפתלי בנט",
       "role": "יו\"ר ביחד",
       "party": "together",
-      "mention_count": 44,
+      "mention_count": 45,
       "headlines": [
         {
           "title": "נפתלי בנט: ''היינו תפרנים, זה על הפנים''",
@@ -68,14 +68,14 @@
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5ab2d0V25vX0hoc3NaN1p0NjNmQ1BTckdWMl92bmZoYUhkMUNSVWpGaS1kS25PcS1lWE5pQ0szOFdWWXlJVjVLVURlLVpIVFRXbU55SXQzZDd1T1ZGLTBGWFlidjMzaE15YmZ4U29nRFZUdExxaThOR1hHNNIBgwFBVV95cUxPdGlIbF8zekQ5R0tyVWpHRmc0ODdMeEhmcWFsaVhIdFpNVzZ5d0ljZVJzVXcyVFBwZ3VoMGxOa2FQSjE0ZjBCZmhyOWRDcnZrdDNxeTFMcG5JczBoaVp1NmJsaG5sN05TeXhGc1BZSzloY1g4OG1abHlhc0dQVTJLVGhiUQ?oc=5"
         },
         {
+          "title": "ביחד, אבל מאחור: בנט מנסה לקרוץ למאוכזבי הליכוד ולבדל את עצמו מאיזנקוט",
+          "source": "הארץ",
+          "published_at": "Mon, 17 Aug 2026 02:50:00 GMT"
+        },
+        {
           "title": "סקר כאן חדשות: איזנקוט ונתניהו בשוויון, בנט מתחזק",
           "source": "כאן 11",
           "published_at": "Sun, 16 Aug 2026 17:30:21 GMT"
-        },
-        {
-          "title": "בנט בנגב: \"מדינה ששולטת במרחב האווירי של טהרן צריכה לדעת לאטום את גבולותיה\"",
-          "source": "ynet",
-          "published_at": "Sun, 16 Aug 2026 15:36:44 GMT"
         }
       ]
     },
@@ -84,7 +84,7 @@
       "name_he": "אביגדור ליברמן",
       "role": "יו\"ר ישראל ביתנו",
       "party": "yisrael_beiteinu",
-      "mention_count": 15,
+      "mention_count": 16,
       "headlines": [
         {
           "title": "התוכנית נחשפת: איזנקוט מועמד הגוש? בנט וליברמן שותקים - ויש סיבה",
@@ -94,14 +94,14 @@
           "fallback": true
         },
         {
+          "title": "גוש השינוי חושש ממשחקים של בנט וליברמן. אם הסקרים יתממשו אין סיבה לכך",
+          "source": "הארץ",
+          "published_at": "Mon, 17 Aug 2026 03:00:00 GMT"
+        },
+        {
           "title": "ליברמן בונה נבחרת. זה יספיק בשביל ראשות הממשלה?",
           "source": "סרוגים",
           "published_at": "Sun, 16 Aug 2026 12:02:37 GMT"
-        },
-        {
-          "title": "\"כדור בראש הבן ז**ה צריך לקבל\": גל האיומים נגד ליברמן מחריף",
-          "source": "מעריב",
-          "published_at": "Fri, 14 Aug 2026 10:29:32 GMT"
         }
       ]
     },
@@ -110,7 +110,7 @@
       "name_he": "יאיר גולן",
       "role": "יו\"ר הדמוקרטים",
       "party": "democrats",
-      "mention_count": 14,
+      "mention_count": 13,
       "headlines": [
         {
           "title": "יעקב בוזגלו תופס צד בסערת עינב צנגאוקר: \"בואו נסגור סיפור\"",
@@ -124,9 +124,9 @@
           "published_at": "Sun, 16 Aug 2026 10:40:00 GMT"
         },
         {
-          "title": "המשפחה של אהוד מנור ביקשה - וקמפיין \"הדמוקרטים\" נגנז",
-          "source": "ynet",
-          "published_at": "Sun, 16 Aug 2026 17:57:34 GMT"
+          "title": "בדקנו עם המפלגות המובילות: מה הן מבטיחות לעשות עם מערכת החינוך? | דודי פטימר",
+          "source": "מעריב",
+          "published_at": "Mon, 17 Aug 2026 03:01:07 GMT"
         }
       ]
     },
@@ -135,7 +135,7 @@
       "name_he": "איתמר בן גביר",
       "role": "יו\"ר עוצמה יהודית",
       "party": "otzma_yehudit",
-      "mention_count": 60,
+      "mention_count": 59,
       "headlines": [
         {
           "title": "כבר לא ימין ממלכתי: בן גביר מושך את הליכוד לזירה הכהניסטית",
@@ -144,14 +144,14 @@
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE80aDlTTTRIak51dFZYalNKWGxuRE9UVDFxUWtYSm5fR19taUNVY0hLNlF6SEd4S1hhaVpZZU5OdVpDWUR5UjB6ZHY1RllfQ09ZbVhuSWFGNFhlRlpJQ2Q2Vnhva3h0QnRJdUpXX2VMSXbSAXhBVV95cUxQcFlTVTFMT2Z1ZG1neC1LVUJxMGdERVl2c3pLem5pZWZYcnVmelNTREkwcXZQM1AyNEtOU19qcU1Pa0tCVnZ1TnpITVJxdGZ6el9ONEVZamRIaE5ocjlPd3FFd2hHUXZsd2JKdHVIRHpIX3YyYlNzZkY?oc=5"
         },
         {
-          "title": "איתמר בן גביר מטיל פצצה: \"ארבעה שרים וארבעה ח\"כים בליכוד ביקשו להצטרף אליי\"",
-          "source": "מעריב",
-          "published_at": "Sun, 16 Aug 2026 07:37:55 GMT"
-        },
-        {
           "title": "בן גביר עורך פגישות עבודה בדירה לא מאובטחת בבעלות יזם נדל\"ן בירושלים",
           "source": "הארץ",
           "published_at": "Sun, 16 Aug 2026 03:01:00 GMT"
+        },
+        {
+          "title": "אלמוג כהן משיב לבן גביר: \"אף אחד לא עשה לי טובה\"",
+          "source": "103FM",
+          "published_at": "Sun, 16 Aug 2026 12:26:35 GMT"
         }
       ]
     },
@@ -174,9 +174,9 @@
           "published_at": "Sun, 16 Aug 2026 14:34:00 GMT"
         },
         {
-          "title": "סמוטריץ' לנתניהו: ישראל צריכה לקחת שליטה מלאה על עזה",
-          "source": "C14",
-          "published_at": "Sun, 16 Aug 2026 18:08:06 GMT"
+          "title": "אף מילואימניק לא ישרת פחות: הבטחת הבחירות של שר האוצר",
+          "source": "finance.walla.co.il",
+          "published_at": "Sun, 16 Aug 2026 09:09:00 GMT"
         }
       ]
     }
