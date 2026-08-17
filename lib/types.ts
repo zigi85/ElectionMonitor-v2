@@ -272,6 +272,25 @@ export interface PartyMomentum {
   label: string;
 }
 
+// ─── Daily digest (daily_digest.json) ──────────────────────────────────────
+export interface DailyChange {
+  text: string;
+  type: "poll" | "market" | "media" | "trend" | "buzz";
+  direction: "up" | "down" | "neutral";
+  magnitude: "big" | "medium" | "small";
+}
+
+export interface DailyStory {
+  title: string;
+  body: string;
+}
+
+export interface DailyDigestData {
+  generated_at: string;
+  changes: DailyChange[];
+  story: DailyStory;
+}
+
 export interface MomentumData {
   generated_at: string;
   weights: {

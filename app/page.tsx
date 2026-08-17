@@ -6,11 +6,12 @@ import GoogleTrends from "./components/GoogleTrends";
 import MediaMentions from "./components/MediaMentions";
 import ElectionCountdown from "./components/ElectionCountdown";
 import SocialMonitor from "./components/SocialMonitor";
+import DailyDigest from "./components/DailyDigest";
 
 export const revalidate = 300;
 
 export default async function HomePage() {
-  const { polymarket, manualPolls, trends, mediaMentions, socialData } = await getWidgetData();
+  const { polymarket, manualPolls, trends, mediaMentions, socialData, dailyDigest } = await getWidgetData();
 
   return (
     <div className="app-shell">
@@ -18,6 +19,7 @@ export default async function HomePage() {
 
       <main className="app-content">
         <ElectionCountdown />
+        <DailyDigest dailyDigest={dailyDigest} />
         <KnessetHemicycle manualPolls={manualPolls} />
         <PredictionMarkets polymarket={polymarket} />
         <GoogleTrends trends={trends} />

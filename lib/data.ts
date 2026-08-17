@@ -1,6 +1,7 @@
 import { readFile } from "node:fs/promises";
 import path from "node:path";
-import type { EditorialData, GoogleTrendsData, MediaMentionsData, MomentumData, PollsData, PolymarketData, ManualPollsData, SocialData } from "./types";
+import type { DailyDigestData, EditorialData, GoogleTrendsData, MediaMentionsData, MomentumData, PollsData, PolymarketData, ManualPollsData, SocialData } from "./types";
+import { supabase } from "./supabase";
 
 async function readJson<T>(fileName: string): Promise<T> {
   const filePath = path.join(process.cwd(), "public", "data", fileName);
@@ -32,8 +33,30 @@ async function fetchPolymarket(): Promise<PolymarketData> {
   }
 }
 
+async function fetchDailyDigest(): Promise<DailyDigestData | null> {
+  if (supabase) {
+    try {
+      const { data, error } = await supabase
+        .from("daily_digests")
+        .select("generated_at, changes, story")
+        .order("generated_at", { ascending: false })
+        .limit(1)
+        .single();
+
+      if (!error && data) {
+        return {
+          generated_at: data.generated_at,
+          changes: data.changes,
+          story: data.story,
+        } as DailyDigestData;
+      }
+    } catch { /* fall through to JSON */ }
+  }
+  return readJson<DailyDigestData>("daily_digest.json").catch(() => null);
+}
+
 export async function getWidgetData() {
-  const [polymarket, manualPolls, trends, mediaMentions, socialData] = await Promise.all([
+  const [polymarket, manualPolls, trends, mediaMentions, socialData, dailyDigest] = await Promise.all([
     fetchPolymarket(),
     readJson<ManualPollsData>("polls_manual.json"),
     readJson<GoogleTrendsData>("google_trends.json").catch(() => ({
@@ -56,9 +79,10 @@ export async function getWidgetData() {
       hot_topics: [],
       leader_buzz: [],
     } as SocialData)),
+    fetchDailyDigest(),
   ]);
 
-  return { polymarket, manualPolls, trends, mediaMentions, socialData };
+  return { polymarket, manualPolls, trends, mediaMentions, socialData, dailyDigest };
 }
 
 // Keep legacy exports for any remaining references
