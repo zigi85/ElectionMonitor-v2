@@ -87,7 +87,7 @@ function HeadlineItem({ title, source, url, highlight }: { title: string; source
   return (
     <div className={`mm-headline${highlight ? " mm-headline-ihy" : ""}`}>
       <span className={`mm-headline-source${highlight ? " mm-source-ihy" : ""}`}>{source}</span>
-      {isIhy && url ? (
+      {url ? (
         <a href={url} target="_blank" rel="noopener noreferrer" className="mm-headline-title mm-headline-link">
           {title}
         </a>

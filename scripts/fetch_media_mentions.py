@@ -115,6 +115,33 @@ def find_ihy_fallback(leader: dict[str, Any]) -> dict[str, Any] | None:
     return None
 
 
+def resolve_google_news_url(google_url: str) -> str:
+    """Follow Google News redirect and strip AMP suffix to get canonical URL."""
+    if not google_url or "news.google.com" not in google_url:
+        return google_url
+    try:
+        req = urllib.request.Request(google_url, headers={
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+        })
+        req.method = "HEAD"
+        with urllib.request.urlopen(req, timeout=8) as resp:
+            final_url = resp.url
+    except Exception:
+        try:
+            req = urllib.request.Request(google_url, headers={
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+            })
+            with urllib.request.urlopen(req, timeout=8) as resp:
+                final_url = resp.url
+        except Exception:
+            return google_url
+
+    final_url = re.sub(r'/amp/?$', '/', final_url)
+    final_url = re.sub(r'\?amp=1$', '', final_url)
+    final_url = final_url.replace('/amp/', '/')
+    return final_url
+
+
 def fetch_rss(query: str) -> tuple[int, list[dict[str, Any]]]:
     url = RSS_URL_TEMPLATE.format(
         query=urllib.request.quote(query),
@@ -160,13 +187,17 @@ def fetch_rss(query: str) -> tuple[int, list[dict[str, Any]]]:
         if title.endswith(f" - {source}"):
             title = title[: -(len(source) + 3)]
 
+        resolved_url = None
+        if link:
+            resolved_url = resolve_google_news_url(link)
+
         headline: dict[str, Any] = {
             "title": title,
             "source": display_source,
             "published_at": pub_date or "",
         }
-        if is_ihy and link:
-            headline["url"] = link
+        if resolved_url:
+            headline["url"] = resolved_url
 
         headlines.append(headline)
 
