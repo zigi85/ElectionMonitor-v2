@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T09:30:36Z",
+  "generated_at": "2026-08-18T15:28:41Z",
   "headline_count": 168,
   "hot_topics": [
     {
@@ -20,43 +20,43 @@
       "id": "haredim",
       "label": "חרדים וגיוס",
       "mention_count": 10,
-      "sample_headline": "יועמ\"שית הכנסת נגד ביטול ההעברות התקציביות לחרדים: \"לא נפל כל פגם\"",
-      "sample_source": "חרדים10"
+      "sample_headline": "דוד חכם: שלושה מנדטים יקבעו אם החרדים יהיו בממשלה",
+      "sample_source": "אמס"
     },
     {
       "id": "judiciary",
       "label": "מערכת המשפט",
-      "mention_count": 7,
+      "mention_count": 6,
       "sample_headline": "יועמ\"שית הכנסת לבג\"ץ: לדחות את העתירה נגד העברות תקציביות שאושרו בוועדת הכספים",
       "sample_source": "davar1.co.il"
     },
     {
       "id": "security",
       "label": "ביטחון",
-      "mention_count": 4,
+      "mention_count": 3,
       "sample_headline": "בחירות 2026 מפלגת הליכוד פרסמה כרזת בחירות עם ממדאני לצד מנהיגי איראן וחיזבאללה",
       "sample_source": "הארץ"
     },
     {
       "id": "economy",
       "label": "כלכלה ויוקר המחיה",
-      "mention_count": 3,
+      "mention_count": 2,
       "sample_headline": "יועמ\"שית הכנסת לבג\"ץ: לדחות את העתירה נגד העברות תקציביות שאושרו בוועדת הכספים",
       "sample_source": "davar1.co.il"
     },
     {
-      "id": "social",
-      "label": "חברה וחינוך",
-      "mention_count": 2,
-      "sample_headline": "בדקנו עם המפלגות המובילות: מה הן מבטיחות לעשות עם מערכת החינוך? | דודי פטימר",
-      "sample_source": "מעריב"
-    },
-    {
       "id": "negotiations",
       "label": "דיפלומטיה",
-      "mention_count": 1,
+      "mention_count": 2,
       "sample_headline": "ליברמן מערים קשיים על איזנקוט, ודורש: בלי עוד \"שטחים תמורת שלום\"",
       "sample_source": "מקור ראשון"
+    },
+    {
+      "id": "social",
+      "label": "חברה וחינוך",
+      "mention_count": 1,
+      "sample_headline": "בדקנו עם המפלגות המובילות: מה הן מבטיחות לעשות עם מערכת החינוך? | דודי פטימר",
+      "sample_source": "מעריב"
     }
   ],
   "leader_buzz": [
@@ -122,52 +122,74 @@
       "video_id": "_6_hwwJOGkM",
       "title": "עמית סגל לקראת הבחירות ב-60 שניות עם ליאל אלי: האם נתניהו יישאר ראש הממשלה? מה הסיכוי שגנץ יפרוש?",
       "channel": "V1",
-      "views": 130579,
-      "views_str": "130.6K",
+      "views": 131471,
+      "views_str": "131.5K",
       "duration": "1:26",
       "published_text": "לפני 5 ימים",
       "thumbnail": "https://i.ytimg.com/vi/_6_hwwJOGkM/hq720_2.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARhyID8oPDAP&rs=AOn4CLCS4Yz7QdLABdGTiXf9TRHTfgiyaQ",
       "url": "https://www.youtube.com/watch?v=_6_hwwJOGkM"
     },
     {
-      "video_id": "tHcJ3IyXF7g",
-      "title": "סקר i24NEWS: הליכוד מתחזקת בשני מנדטים לקראת הפריימריז, עוצמה יהודית מאבדת מנדט",
-      "channel": "i24NEWS עברית",
-      "views": 47583,
-      "views_str": "47.6K",
-      "duration": "0:05",
-      "published_text": "לפני 4 ימים",
-      "thumbnail": "https://i.ytimg.com/vi/tHcJ3IyXF7g/hq720_2.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAsYKigIMCAAQARhXIF4oZTAP&rs=AOn4CLCbf9LfGDXxbcuZShrFXI_FBUeLrA",
-      "url": "https://www.youtube.com/watch?v=tHcJ3IyXF7g"
-    },
-    {
       "video_id": "rsSDi_DzmBc",
       "title": "איך בחירות אמצע הכהונה של 2026 עלולות לטרוף את הקלפים לקראת 2028",
       "channel": "The Recount",
-      "views": 46693,
-      "views_str": "46.7K",
+      "views": 48652,
+      "views_str": "48.7K",
       "duration": "13:57",
       "published_text": "לפני 5 ימים",
       "thumbnail": "https://i.ytimg.com/vi/rsSDi_DzmBc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA6dZ9BJOfOWPFg-nUC688_35N8kg",
       "url": "https://www.youtube.com/watch?v=rsSDi_DzmBc"
     },
     {
+      "video_id": "tHcJ3IyXF7g",
+      "title": "סקר i24NEWS: הליכוד מתחזקת בשני מנדטים לקראת הפריימריז, עוצמה יהודית מאבדת מנדט",
+      "channel": "i24NEWS עברית",
+      "views": 47709,
+      "views_str": "47.7K",
+      "duration": "0:05",
+      "published_text": "לפני 4 ימים",
+      "thumbnail": "https://i.ytimg.com/vi/tHcJ3IyXF7g/hq720_2.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAsYKigIMCAAQARhXIF4oZTAP&rs=AOn4CLCbf9LfGDXxbcuZShrFXI_FBUeLrA",
+      "url": "https://www.youtube.com/watch?v=tHcJ3IyXF7g"
+    },
+    {
       "video_id": "3A0kbG2svMc",
       "title": "הנסיון לשלוח את נתניהו הביתה | בן גביר לכיכר: “ניר ברקת לא פנה אליי - צריך להיות הגון”!",
       "channel": "כיכר השבת",
-      "views": 38493,
-      "views_str": "38.5K",
+      "views": 40688,
+      "views_str": "40.7K",
       "duration": "0:28",
-      "published_text": "לפני יום אחד (1)",
+      "published_text": "לפני יומיים (2)",
       "thumbnail": "https://i.ytimg.com/vi/3A0kbG2svMc/hq720_2.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARhyIEQoQDAP&rs=AOn4CLC-nm6ylG5KnKu1edPBjeEhI18Zwg",
       "url": "https://www.youtube.com/watch?v=3A0kbG2svMc"
+    },
+    {
+      "video_id": "Tl_85bcN458",
+      "title": "בדרך לעוצמה יהודית? בן גביר על יוסף חדאד: “אין לי שום בעיה איתו - הייתי מצרף אותו” | סרוגים",
+      "channel": "סרוגים",
+      "views": 39412,
+      "views_str": "39.4K",
+      "duration": "0:33",
+      "published_text": "לפני יומיים (2)",
+      "thumbnail": "https://i.ytimg.com/vi/Tl_85bcN458/hq720_2.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARhOIFIoZTAP&rs=AOn4CLA8UYxElublvxllGixVsDK2tMoLOQ",
+      "url": "https://www.youtube.com/watch?v=Tl_85bcN458"
+    },
+    {
+      "video_id": "vr6hvpu9lFM",
+      "title": "השר בן גביר: \"אם אני וסמוטריץ' רצים ביחד - אין גוש ימין. אנחנו ביחד מקבלים פחות מנדטים\"",
+      "channel": "C14",
+      "views": 14396,
+      "views_str": "14.4K",
+      "duration": "14:23",
+      "published_text": "לפני 23 שעות",
+      "thumbnail": "https://i.ytimg.com/vi/vr6hvpu9lFM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDWNkkOfS_AnVQtcn9lNyZGMi1hjg",
+      "url": "https://www.youtube.com/watch?v=vr6hvpu9lFM"
     },
     {
       "video_id": "PjvjLLWZCgI",
       "title": "הח\"כ שנלחם בנתניהו וההצלחה של טלי גוטליב: מאחורי הקלעים של הפריימריז הדרמטיים בליכוד",
       "channel": "i24NEWS עברית",
-      "views": 10500,
-      "views_str": "10.5K",
+      "views": 10968,
+      "views_str": "11.0K",
       "duration": "13:09",
       "published_text": "לפני יום אחד (1)",
       "thumbnail": "https://i.ytimg.com/vi/PjvjLLWZCgI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBpLqkqwvXw8gPMKku6aa72iwbyag",
@@ -177,34 +199,12 @@
       "video_id": "g7EIndseISM",
       "title": "גדי איזנקוט בראיון לקרן מרציאנו בחדשות 12",
       "channel": "ישר! עם איזנקוט",
-      "views": 8862,
+      "views": 8922,
       "views_str": "8.9K",
       "duration": "15:28",
       "published_text": "לפני 5 ימים",
       "thumbnail": "https://i.ytimg.com/vi/g7EIndseISM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBeoucl7jwMtI3ethffOBmzgXnJ9Q",
       "url": "https://www.youtube.com/watch?v=g7EIndseISM"
-    },
-    {
-      "video_id": "qBVIWtVar7Q",
-      "title": "תוכנית טראמפ לעזה: מה מונח על כף המאזניים עבור נתניהו? • צרפת 24 אנגלית",
-      "channel": "FRANCE 24 English",
-      "views": 6057,
-      "views_str": "6.1K",
-      "duration": "4:21",
-      "published_text": "לפני 23 שעות",
-      "thumbnail": "https://i.ytimg.com/vi/qBVIWtVar7Q/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDIQUw1gCAioqm1hCT8TvkqPpvDpQ",
-      "url": "https://www.youtube.com/watch?v=qBVIWtVar7Q"
-    },
-    {
-      "video_id": "Q0jaspfb5pk",
-      "title": "איזנקוט עובר גבולות - שיר \"הליכוד זה אסון\" | עדי שמאי הכהן - מגיש חדשות בָּעוֹלם הוירטואלי",
-      "channel": "עדי שמאי הכהן - מגיש חדשות בָּעוֹלם הוירטואלי",
-      "views": 5844,
-      "views_str": "5.8K",
-      "duration": "2:45",
-      "published_text": "לפני יום אחד (1)",
-      "thumbnail": "https://i.ytimg.com/vi/Q0jaspfb5pk/hq720_2.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARhhIGEoYTAP&rs=AOn4CLBv3mZJYa9TMceNkeEuDErt5sykcQ",
-      "url": "https://www.youtube.com/watch?v=Q0jaspfb5pk"
     }
   ],
   "telegram_channels": [
@@ -214,12 +214,12 @@
       "username": "bnetanyahu",
       "type": "politician",
       "post_count": 20,
-      "avg_views": 18735,
-      "avg_views_str": "18.7K",
+      "avg_views": 19047,
+      "avg_views_str": "19.0K",
       "top_post": {
         "text": "יחד עם כל אזרחי ישראל, רעייתי ואני דואבים את נפילתם של רס״ן (מיל׳) הראל בירנשטוק ז״ל ורס״ם (מיל׳) תמיר וקנין ז״ל, שנפלו ",
-        "views": 34600,
-        "views_str": "34.6K",
+        "views": 34700,
+        "views_str": "34.7K",
         "date": "2026-08-06T09:35:27+00:00"
       }
     },
@@ -228,13 +228,13 @@
       "name_he": "איתמר בן גביר",
       "username": "bengvir",
       "type": "politician",
-      "post_count": 20,
-      "avg_views": 7190,
-      "avg_views_str": "7.2K",
+      "post_count": 18,
+      "avg_views": 6937,
+      "avg_views_str": "6.9K",
       "top_post": {
         "text": "עכשיו זה קורה!!! השר לביטחון לאומי ויו״ר עוצמה יהודית איתמר בן גביר עונה לכם על כל השאלות הבוערות 🔴 בלייב פייסבוק מיוחד ",
-        "views": 22900,
-        "views_str": "22.9K",
+        "views": 23100,
+        "views_str": "23.1K",
         "date": "2026-08-15T19:06:59+00:00"
       }
     },
@@ -274,13 +274,13 @@
       "username": "ynetalerts",
       "type": "news",
       "post_count": 20,
-      "avg_views": 2999,
-      "avg_views_str": "3.0K",
+      "avg_views": 2895,
+      "avg_views_str": "2.9K",
       "top_post": {
-        "text": "🔴 צה\"ל: מיירט שוגר לעבר מטרת שווא בגליל המערבי למבזק המלא ב-ynet >",
-        "views": 4350,
-        "views_str": "4.35K",
-        "date": "2026-08-18T05:39:34+00:00"
+        "text": "🔴 רצח אלדר דיין: הוארך ב-3 ימים מעצר ארבעה מהחשודים במעורבות בקטטה למבזק המלא ב-ynet >",
+        "views": 4100,
+        "views_str": "4.1K",
+        "date": "2026-08-18T12:15:54+00:00"
       }
     },
     {
@@ -289,13 +289,13 @@
       "username": "naftalibennett1",
       "type": "politician",
       "post_count": 20,
-      "avg_views": 2684,
-      "avg_views_str": "2.7K",
+      "avg_views": 2591,
+      "avg_views_str": "2.6K",
       "top_post": {
-        "text": "\"בָּרוּךְ אַתָּה ה' אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם הַגּוֹמֵל לְחַיָּבִים טוֹבוֹת, שֶׁגְּמָלַנִי כָּל טוּב\". עכשיו באשקלון, מ",
-        "views": 3930,
-        "views_str": "3.93K",
-        "date": "2026-07-24T13:01:53+00:00"
+        "text": "מפרסם לבקשת המשפחה: ביום ראשון תתקיים אזכרה לקרן טנדלר ז\"ל שנפלה בלבנון לפני 20 שנה, במלחמת לבנון השנייה. חשוב על כך להג",
+        "views": 3950,
+        "views_str": "3.95K",
+        "date": "2026-07-28T10:33:03+00:00"
       }
     },
     {
@@ -304,13 +304,13 @@
       "username": "israelhayomofficial",
       "type": "news",
       "post_count": 20,
-      "avg_views": 2678,
-      "avg_views_str": "2.7K",
+      "avg_views": 1800,
+      "avg_views_str": "1.8K",
       "top_post": {
-        "text": "טרגדיה: ישראלי נדרס למוות בפינלנד לאחר שיצא לטיול אופניים",
-        "views": 3900,
-        "views_str": "3.9K",
-        "date": "2026-08-16T17:50:22+00:00"
+        "text": "אחוזי ההצבעה הגבוהים בארץ לפריימריז היו בירוחם - 63%",
+        "views": 3500,
+        "views_str": "3.5K",
+        "date": "2026-08-17T19:25:33+00:00"
       }
     },
     {
@@ -319,12 +319,12 @@
       "username": "smutrich",
       "type": "politician",
       "post_count": 20,
-      "avg_views": 1106,
+      "avg_views": 1093,
       "avg_views_str": "1.1K",
       "top_post": {
         "text": "גלעד ארדן, ממשלה עם תומכי טרור זה לא אחדות. זה שמאל.",
-        "views": 2180,
-        "views_str": "2.18K",
+        "views": 2280,
+        "views_str": "2.28K",
         "date": "2026-08-12T14:53:36+00:00"
       }
     },
@@ -334,13 +334,13 @@
       "username": "N12_News",
       "type": "news",
       "post_count": 20,
-      "avg_views": 40,
-      "avg_views_str": "40",
+      "avg_views": 64,
+      "avg_views_str": "64",
       "top_post": {
-        "text": "יולן כהן @ צ'אט כתבים פרסום ראשון: שני חשודים נוספים נעצרו הבוקר בחשד לרצח אלדר דיין, חיפושים אחר מעורבים נוספים קישור ל",
-        "views": 65,
-        "views_str": "65",
-        "date": "2026-08-18T05:03:35+00:00"
+        "text": "בזמן שמערכת הביטחון שותקת, שליח טראמפ מאשים פומבית את ישראל בתקיפה הלילה בסוריה: \"הסלמה מיותרת\"",
+        "views": 84,
+        "views_str": "84",
+        "date": "2026-08-18T11:00:01+00:00"
       }
     },
     {
@@ -352,10 +352,10 @@
       "avg_views": 3,
       "avg_views_str": "3",
       "top_post": {
-        "text": "מאות מיליונים הוקפאו בג\"ץ ידון היום בקרב על התקציבים שאושרו בפגרת הבחירות קישור לכתבה",
+        "text": "לאחר שעוררה סערה מאיה ורטהיימר מגיבה לראשונה לביקורת מהשמאל קישור לכתבה",
         "views": 5,
         "views_str": "5",
-        "date": "2026-08-18T06:31:20+00:00"
+        "date": "2026-08-18T10:32:56+00:00"
       }
     }
   ]
