@@ -64,8 +64,8 @@ export default function GoogleTrends({ trends }: Props) {
     <section className="gt-section fade-in">
       <div className="gt-inner">
         <div className="gt-header">
-          <span className="gt-label">Google Trends</span>
           <h2 className="gt-title">הלך הרוח ברשתות</h2>
+          <span className="gt-label">Google Trends</span>
         </div>
         <div className="gt-cards">
           {validKeywords.map(kw => (
