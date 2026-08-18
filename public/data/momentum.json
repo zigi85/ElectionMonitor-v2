@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T05:32:32Z",
+  "generated_at": "2026-08-18T05:25:22Z",
   "weights": {
     "polls": 0.45,
     "polymarket": 0.3,
@@ -21,12 +21,12 @@
     {
       "party": "together",
       "direction": "stable",
-      "score": 0.25,
+      "score": -0.25,
       "label": "יחד",
       "signals": {
         "polls": 0,
         "polymarket": 0,
-        "google_trends": 1
+        "google_trends": -1
       }
     },
     {
