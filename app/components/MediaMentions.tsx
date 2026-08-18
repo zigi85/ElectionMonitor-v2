@@ -142,7 +142,7 @@ export default function MediaMentions({ mediaMentions }: Props) {
           </div>
 
           <div className="mm-badge">
-            {selectedLeader.role} | {selectedLeader.mention_count} כתבות
+            {selectedLeader.role}
           </div>
 
           <div className="mm-leader-headlines">
@@ -182,6 +182,7 @@ export default function MediaMentions({ mediaMentions }: Props) {
             <div className="mm-top-headlines">
               {topHeadlines.map((h, i) => (
                 <div key={i} className="mm-top-hl-row">
+                  <span className="mm-top-hl-arrow">&#x276E;</span>
                   {h.url ? (
                     <a href={h.url} target="_blank" rel="noopener noreferrer" className="mm-top-hl-text mm-hl-link">
                       {h.title}
@@ -189,7 +190,6 @@ export default function MediaMentions({ mediaMentions }: Props) {
                   ) : (
                     <span className="mm-top-hl-text">{h.title}</span>
                   )}
-                  <span className="mm-top-hl-arrow">&#x276E;</span>
                 </div>
               ))}
             </div>
