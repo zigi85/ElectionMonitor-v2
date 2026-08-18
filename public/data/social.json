@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-08-17T21:23:33Z",
+  "generated_at": "2026-08-18T03:41:54Z",
   "headline_count": 165,
   "hot_topics": [
     {
       "id": "elections",
       "label": "בחירות וסקרים",
-      "mention_count": 65,
+      "mention_count": 62,
       "sample_headline": "בחירות 2026 סקר חדשות 12: אין שינוי בתמונת המנדטים ביחס לשבוע שעבר",
       "sample_source": "הארץ"
     },
     {
       "id": "coalition",
       "label": "קואליציה וכנסת",
-      "mention_count": 29,
+      "mention_count": 27,
       "sample_headline": "יו\"ר ועדת הבחירות המרכזית נתן צו ארעי להסרת סרטון של ראש הממשלה נתניהו בהשתתפות ילדים",
       "sample_source": "Gov.il"
     },
     {
       "id": "haredim",
       "label": "חרדים וגיוס",
-      "mention_count": 9,
+      "mention_count": 11,
       "sample_headline": "הסאגה סביב מאות המיליונים שהועברו לחרדים: בכנסת דורשים מבג\"ץ לא להתערב",
-      "sample_source": "ynet"
+      "sample_source": "ynet.co.il"
     },
     {
       "id": "judiciary",
@@ -31,18 +31,18 @@
       "sample_source": "davar1.co.il"
     },
     {
-      "id": "security",
-      "label": "ביטחון",
-      "mention_count": 5,
-      "sample_headline": "בחירות 2026 מפלגת הליכוד פרסמה כרזת בחירות עם ממדאני לצד מנהיגי איראן וחיזבאללה",
-      "sample_source": "הארץ"
-    },
-    {
       "id": "economy",
       "label": "כלכלה ויוקר המחיה",
       "mention_count": 4,
       "sample_headline": "יועמ\"שית הכנסת לבג\"ץ: לדחות את העתירה נגד העברות תקציביות שאושרו בוועדת הכספים",
       "sample_source": "davar1.co.il"
+    },
+    {
+      "id": "security",
+      "label": "ביטחון",
+      "mention_count": 3,
+      "sample_headline": "בחירות 2026 מפלגת הליכוד פרסמה כרזת בחירות עם ממדאני לצד מנהיגי איראן וחיזבאללה",
+      "sample_source": "הארץ"
     },
     {
       "id": "social",
@@ -63,57 +63,57 @@
     {
       "key": "eisenkot",
       "name_he": "גדי איזנקוט",
-      "views_7d": 9386,
-      "prev_views_7d": 14644,
-      "change_pct": -35.9,
+      "views_7d": 7717,
+      "prev_views_7d": 14781,
+      "change_pct": -47.8,
       "direction": "falling"
     },
     {
       "key": "netanyahu",
       "name_he": "בנימין נתניהו",
-      "views_7d": 4562,
-      "prev_views_7d": 5369,
-      "change_pct": -15.0,
+      "views_7d": 3919,
+      "prev_views_7d": 5238,
+      "change_pct": -25.2,
       "direction": "falling"
     },
     {
       "key": "golan",
       "name_he": "יאיר גולן",
-      "views_7d": 3863,
-      "prev_views_7d": 4855,
-      "change_pct": -20.4,
+      "views_7d": 3672,
+      "prev_views_7d": 4687,
+      "change_pct": -21.7,
       "direction": "falling"
     },
     {
       "key": "bennett",
       "name_he": "נפתלי בנט",
       "views_7d": 2517,
-      "prev_views_7d": 2690,
-      "change_pct": -6.4,
+      "prev_views_7d": 2634,
+      "change_pct": -4.4,
       "direction": "stable"
     },
     {
       "key": "lieberman",
       "name_he": "אביגדור ליברמן",
-      "views_7d": 1949,
-      "prev_views_7d": 2660,
-      "change_pct": -26.7,
+      "views_7d": 2005,
+      "prev_views_7d": 2544,
+      "change_pct": -21.2,
       "direction": "falling"
     },
     {
       "key": "ben_gvir",
       "name_he": "איתמר בן גביר",
-      "views_7d": 1735,
-      "prev_views_7d": 1679,
-      "change_pct": 3.3,
+      "views_7d": 1788,
+      "prev_views_7d": 1693,
+      "change_pct": 5.6,
       "direction": "stable"
     },
     {
       "key": "smotrich",
       "name_he": "בצלאל סמוטריץ'",
-      "views_7d": 1099,
-      "prev_views_7d": 1250,
-      "change_pct": -12.1,
+      "views_7d": 1154,
+      "prev_views_7d": 1179,
+      "change_pct": -2.1,
       "direction": "stable"
     }
   ],
@@ -122,8 +122,8 @@
       "video_id": "_6_hwwJOGkM",
       "title": "עמית סגל לקראת הבחירות ב-60 שניות עם ליאל אלי: האם נתניהו יישאר ראש הממשלה? מה הסיכוי שגנץ יפרוש?",
       "channel": "V1",
-      "views": 128968,
-      "views_str": "129.0K",
+      "views": 130069,
+      "views_str": "130.1K",
       "duration": "1:26",
       "published_text": "לפני 5 ימים",
       "thumbnail": "https://i.ytimg.com/vi/_6_hwwJOGkM/hq720_2.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARhyID8oPDAP&rs=AOn4CLCS4Yz7QdLABdGTiXf9TRHTfgiyaQ",
@@ -133,8 +133,8 @@
       "video_id": "tHcJ3IyXF7g",
       "title": "סקר i24NEWS: הליכוד מתחזקת בשני מנדטים לקראת הפריימריז, עוצמה יהודית מאבדת מנדט",
       "channel": "i24NEWS עברית",
-      "views": 46109,
-      "views_str": "46.1K",
+      "views": 46942,
+      "views_str": "46.9K",
       "duration": "0:05",
       "published_text": "לפני 4 ימים",
       "thumbnail": "https://i.ytimg.com/vi/tHcJ3IyXF7g/hq720_2.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAsYKigIMCAAQARhXIF4oZTAP&rs=AOn4CLCbf9LfGDXxbcuZShrFXI_FBUeLrA",
@@ -144,18 +144,29 @@
       "video_id": "rsSDi_DzmBc",
       "title": "איך בחירות אמצע הכהונה של 2026 עלולות לטרוף את הקלפים לקראת 2028",
       "channel": "The Recount",
-      "views": 40533,
-      "views_str": "40.5K",
+      "views": 44051,
+      "views_str": "44.1K",
       "duration": "13:57",
       "published_text": "לפני 5 ימים",
       "thumbnail": "https://i.ytimg.com/vi/rsSDi_DzmBc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA6dZ9BJOfOWPFg-nUC688_35N8kg",
       "url": "https://www.youtube.com/watch?v=rsSDi_DzmBc"
     },
     {
+      "video_id": "Tl_85bcN458",
+      "title": "בדרך לעוצמה יהודית? בן גביר על יוסף חדאד: “אין לי שום בעיה איתו - הייתי מצרף אותו” | סרוגים",
+      "channel": "סרוגים",
+      "views": 37607,
+      "views_str": "37.6K",
+      "duration": "0:33",
+      "published_text": "לפני יום אחד (1)",
+      "thumbnail": "https://i.ytimg.com/vi/Tl_85bcN458/hq720_2.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARhOIFIoZTAP&rs=AOn4CLA8UYxElublvxllGixVsDK2tMoLOQ",
+      "url": "https://www.youtube.com/watch?v=Tl_85bcN458"
+    },
+    {
       "video_id": "37cywMSQg8U",
       "title": "\"לא מנצחים...\": טראמפ מתכנן נגד נתניהו, מהלך סודי נחשף במהלך הבחירות בישראל?",
       "channel": "Times Of India",
-      "views": 9061,
+      "views": 9077,
       "views_str": "9.1K",
       "duration": "10:16",
       "published_text": "לפני יומיים (2)",
@@ -166,45 +177,34 @@
       "video_id": "g7EIndseISM",
       "title": "גדי איזנקוט בראיון לקרן מרציאנו בחדשות 12",
       "channel": "ישר! עם איזנקוט",
-      "views": 8679,
-      "views_str": "8.7K",
+      "views": 8824,
+      "views_str": "8.8K",
       "duration": "15:28",
       "published_text": "לפני 4 ימים",
-      "thumbnail": "https://i.ytimg.com/vi/g7EIndseISM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBeoucl7jwMtI3ethffOBmzgXnJ9Q",
+      "thumbnail": "https://i.ytimg.com/vi/g7EIndseISM/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLAPk7jmOTSgeem3ftRrabWyPRgNkA",
       "url": "https://www.youtube.com/watch?v=g7EIndseISM"
+    },
+    {
+      "video_id": "Q0jaspfb5pk",
+      "title": "איזנקוט עובר גבולות - שיר \"הליכוד זה אסון\" | עדי שמאי הכהן - מגיש חדשות בָּעוֹלם הוירטואלי",
+      "channel": "עדי שמאי הכהן - מגיש חדשות בָּעוֹלם הוירטואלי",
+      "views": 5494,
+      "views_str": "5.5K",
+      "duration": "2:45",
+      "published_text": "לפני יום אחד (1)",
+      "thumbnail": "https://i.ytimg.com/vi/Q0jaspfb5pk/hq720_2.jpg?sqp=-oaymwE6CNAFEJQDSFXyq4qpAywIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARhhIGEoYTAPuALzGA==&rs=AOn4CLBDxbil3driA6htbGchzQVHpkEuJQ",
+      "url": "https://www.youtube.com/watch?v=Q0jaspfb5pk"
     },
     {
       "video_id": "uEMrJZlcZ-4",
       "title": "ההשפעה של המפלגות החדשות והשינוי של בנט - מה קורה בסקרים?",
       "channel": "i24NEWS עברית",
-      "views": 4089,
+      "views": 4109,
       "views_str": "4.1K",
       "duration": "1:33",
       "published_text": "לפני 4 ימים",
       "thumbnail": "https://i.ytimg.com/vi/uEMrJZlcZ-4/hq720_2.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARggIDQofzAP&rs=AOn4CLDgml6QjhGLgtytmgwrcswKobjezQ",
       "url": "https://www.youtube.com/watch?v=uEMrJZlcZ-4"
-    },
-    {
-      "video_id": "BnHH_ilfqH4",
-      "title": "יו\"ר הקואליציה אופיר כץ: \"היינו עדינים מדי ברפורמה. אחרי הבחירות נלך עד הסוף\"",
-      "channel": "Bepo.podcast",
-      "views": 551,
-      "views_str": "551",
-      "duration": "40:05",
-      "published_text": "לפני יום אחד (1)",
-      "thumbnail": "https://i.ytimg.com/vi/BnHH_ilfqH4/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARg0IEoofzAP&rs=AOn4CLARdXg3VDfhQ0-s3pgeMS_JlqYWng",
-      "url": "https://www.youtube.com/watch?v=BnHH_ilfqH4"
-    },
-    {
-      "video_id": "CzZIUyyj_WQ",
-      "title": "\"בקמפיין הנוכחי האופוזיציה תפסיד בבחירות\" - היועץ לשעבר של בנט, גדעון סער וניר ברקת - ברק הרשקוביץ",
-      "channel": "‫הפודקאסט של גיא קצוביץ' ו-ברק הרשקוביץ | דעה לא פופולרית | Barak Herscowitz",
-      "views": 493,
-      "views_str": "493",
-      "duration": "1:02:52",
-      "published_text": "לפני 18 שעות",
-      "thumbnail": "https://i.ytimg.com/vi/CzZIUyyj_WQ/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLB9Zqu4jyFu4qf19ydvE4XjzOt3Qg",
-      "url": "https://www.youtube.com/watch?v=CzZIUyyj_WQ"
     }
   ],
   "telegram_channels": [
@@ -214,12 +214,12 @@
       "username": "bnetanyahu",
       "type": "politician",
       "post_count": 20,
-      "avg_views": 19822,
-      "avg_views_str": "19.8K",
+      "avg_views": 20011,
+      "avg_views_str": "20.0K",
       "top_post": {
         "text": "כששקר כזה מגיע מבפנים, אויבי ישראל לא צריכים להתאמץ. בפרק המלא שלי עם גדי טאוב דיברתי על האמירה המבישה של יאיר גולן ממפל",
-        "views": 36500,
-        "views_str": "36.5K",
+        "views": 36600,
+        "views_str": "36.6K",
         "date": "2026-08-04T10:00:04+00:00"
       }
     },
@@ -229,12 +229,12 @@
       "username": "bengvir",
       "type": "politician",
       "post_count": 20,
-      "avg_views": 7171,
+      "avg_views": 7213,
       "avg_views_str": "7.2K",
       "top_post": {
         "text": "עכשיו זה קורה!!! השר לביטחון לאומי ויו״ר עוצמה יהודית איתמר בן גביר עונה לכם על כל השאלות הבוערות 🔴 בלייב פייסבוק מיוחד ",
-        "views": 22700,
-        "views_str": "22.7K",
+        "views": 22800,
+        "views_str": "22.8K",
         "date": "2026-08-15T19:06:59+00:00"
       }
     },
@@ -259,13 +259,13 @@
       "username": "ynetalerts",
       "type": "news",
       "post_count": 20,
-      "avg_views": 5282,
-      "avg_views_str": "5.3K",
+      "avg_views": 4641,
+      "avg_views_str": "4.6K",
       "top_post": {
-        "text": "🔴 בכיר ישראלי: התנאי לשיקום עזה - מסירת הנשק של חמאס להשמדה, תחת פיקוח אמריקני למבזק המלא ב-ynet >",
-        "views": 6610,
-        "views_str": "6.61K",
-        "date": "2026-08-17T14:59:52+00:00"
+        "text": "🔴 טראמפ: \"המצור היה יעיל מאוד. עכשיו מוציאים מהורמוז מיליוני חביות נפט בשבוע\" למבזק המלא ב-ynet >",
+        "views": 7410,
+        "views_str": "7.41K",
+        "date": "2026-08-17T18:22:08+00:00"
       }
     },
     {
@@ -274,7 +274,7 @@
       "username": "newsisrael13_il",
       "type": "news",
       "post_count": 20,
-      "avg_views": 4180,
+      "avg_views": 4181,
       "avg_views_str": "4.2K",
       "top_post": {
         "text": "חדשות 13 (Twitter) מופע חייו של ליאור אשכנזי, מהתיאטרון לכיכר החטופים: \"עד שלא יקרה משהו רדיקלי - כלום לא יעזור\" bit.ly/",
@@ -289,12 +289,12 @@
       "username": "israelhayomofficial",
       "type": "news",
       "post_count": 20,
-      "avg_views": 3289,
-      "avg_views_str": "3.3K",
+      "avg_views": 3456,
+      "avg_views_str": "3.5K",
       "top_post": {
         "text": "משרד רה\"מ בהודעה באנגלית במהלך השבת: 3 חיילי צה\"ל נפצעו קשה בתקיפה של חיזבאללה",
-        "views": 4150,
-        "views_str": "4.15K",
+        "views": 4200,
+        "views_str": "4.2K",
         "date": "2026-08-15T14:55:00+00:00"
       }
     },
@@ -304,7 +304,7 @@
       "username": "naftalibennett1",
       "type": "politician",
       "post_count": 20,
-      "avg_views": 2669,
+      "avg_views": 2678,
       "avg_views_str": "2.7K",
       "top_post": {
         "text": "\"בָּרוּךְ אַתָּה ה' אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם הַגּוֹמֵל לְחַיָּבִים טוֹבוֹת, שֶׁגְּמָלַנִי כָּל טוּב\". עכשיו באשקלון, מ",
@@ -319,7 +319,7 @@
       "username": "smutrich",
       "type": "politician",
       "post_count": 20,
-      "avg_views": 1083,
+      "avg_views": 1095,
       "avg_views_str": "1.1K",
       "top_post": {
         "text": "גלעד ארדן, ממשלה עם תומכי טרור זה לא אחדות. זה שמאל.",
@@ -334,12 +334,12 @@
       "username": "N12_News",
       "type": "news",
       "post_count": 20,
-      "avg_views": 84,
-      "avg_views_str": "84",
+      "avg_views": 85,
+      "avg_views_str": "85",
       "top_post": {
         "text": "קשה לקריאה: פרטים חדשים על אירוע דקירת הילדים בבית שמש | תיעוד המעצר קישור לכתבה",
-        "views": 102,
-        "views_str": "102",
+        "views": 110,
+        "views_str": "110",
         "date": "2026-08-17T14:44:51+00:00"
       }
     },
