@@ -1222,82 +1222,161 @@ ul { list-style: none; }
 
 
 /* ── Google Trends ───────────────────────────────────────── */
-.trends-card { animation-delay: 0.35s; }
+.gt-section {
+  background: #011a41;
+  padding: 48px 0 40px;
+}
 
-.trends-list {
+.gt-inner {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.gt-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 28px;
+}
+
+.gt-label {
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.gt-title {
+  margin: 0;
+  font-size: 32px;
+  font-weight: 900;
+  color: var(--red);
+  line-height: 1.2;
+}
+
+.gt-cards {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin-bottom: 28px;
+}
+
+.gt-card {
   display: flex;
   flex-direction: column;
-  padding: 2px 16px 6px;
-}
-
-.trend-row {
-  display: flex;
   align-items: center;
-  gap: 12px;
-  padding: 13px 0;
-  border-bottom: 1px solid var(--border);
+  justify-content: center;
+  gap: 8px;
+  width: 228px;
+  min-height: 140px;
+  padding: 20px 12px;
+  background: rgba(30, 30, 30, 0.3);
+  border: 1px solid #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  text-align: center;
 }
-.trend-row:last-child { border-bottom: none; }
 
-.trend-keyword {
-  font-weight: 700;
-  font-size: 0.92rem;
-  color: var(--text);
-  min-width: 72px;
+.gt-name {
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
   white-space: nowrap;
 }
 
-.trends-sparkline {
-  width: 100px;
-  height: 34px;
+.gt-sparkline {
+  width: 55px;
+  height: 22px;
   flex-shrink: 0;
-  margin-inline-start: auto;
 }
 
-.trend-badge {
+.gt-pct {
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  direction: ltr;
+  unicode-bidi: isolate;
+}
+
+.gt-direction {
   display: inline-flex;
   align-items: center;
   gap: 4px;
-  padding: 3px 10px;
-  border-radius: 12px;
-  font-size: 0.78rem;
+  font-size: 14px;
   font-weight: 600;
-  white-space: nowrap;
-  flex-shrink: 0;
 }
 
-.trend-arrow { font-size: 0.8rem; line-height: 1; }
-.trend-dir-label { font-size: 0.78rem; }
-
-.trend-change {
-  font-size: 0.82rem;
-  font-weight: 700;
-  min-width: 52px;
-  text-align: left;
-  direction: ltr;
-  unicode-bidi: isolate;
-  flex-shrink: 0;
+.gt-arrow {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-inline-start: 5px solid transparent;
+  border-inline-end: 5px solid transparent;
 }
 
-.trend-rising { color: var(--green); }
-.trend-rising.trend-badge { background: rgba(74,222,128,0.15); }
-.trend-falling { color: var(--red-accent); }
-.trend-falling.trend-badge { background: rgba(254,105,105,0.15); }
-.trend-stable { color: var(--text-muted); }
-.trend-stable.trend-badge { background: rgba(255,255,255,0.08); }
+.gt-rising { color: #38c1a1; }
+.gt-rising .gt-arrow {
+  border-bottom: 6px solid #38c1a1;
+}
+.gt-falling { color: var(--red); }
+.gt-falling .gt-arrow {
+  border-top: 6px solid var(--red);
+}
+.gt-stable { color: var(--text-dim); }
+.gt-stable .gt-arrow {
+  width: 8px;
+  height: 2px;
+  background: var(--text-dim);
+  border: none;
+}
 
-.trends-disclaimer {
+.gt-disclaimer {
   margin: 0;
-  padding: 12px 16px;
-  border-top: 1px solid var(--border);
-  font-size: 0.72rem;
+  font-size: 16px;
+  font-weight: 300;
   color: var(--text-muted);
-  line-height: 1.7;
+  line-height: 1.5;
+  max-width: 900px;
 }
 
-@media (max-width: 420px) {
-  .trends-sparkline { width: 64px; height: 28px; }
-  .trend-change { font-size: 0.75rem; min-width: 44px; }
+/* Mobile */
+@media (max-width: 768px) {
+  .gt-section { padding: 32px 0 28px; }
+  .gt-inner { padding: 0 16px; }
+
+  .gt-header { margin-bottom: 20px; }
+  .gt-title { font-size: 25px; }
+  .gt-label { font-size: 18px; }
+
+  .gt-cards {
+    justify-content: flex-start;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 8px;
+    margin-inline-start: -16px;
+    margin-inline-end: -16px;
+    padding-inline-start: 16px;
+    padding-inline-end: 16px;
+  }
+
+  .gt-card {
+    width: 130px;
+    min-width: 130px;
+    min-height: 110px;
+    padding: 14px 8px;
+    scroll-snap-align: start;
+    gap: 6px;
+  }
+
+  .gt-name { font-size: 15px; }
+  .gt-pct { font-size: 15px; }
+  .gt-direction { font-size: 12px; }
+
+  .gt-disclaimer {
+    font-size: 13px;
+    line-height: 1.3;
+  }
 }
 
 /* ── Media Mentions ─────────────────────────────────────── */

@@ -4,7 +4,7 @@ Reads all data files, sends them to an LLM, and generates a daily digest.
 
 Schedule: daily at 07:00 IST (04:00 UTC)
 Output: public/data/daily_digest.json
-Requires: OPENAI_APIKEY environment variable
+Requires: ANTHROPIC_API_KEY environment variable
 """
 
 import json
@@ -13,6 +13,8 @@ import os
 import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
+
+import anthropic
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 log = logging.getLogger(__name__)
@@ -37,9 +39,8 @@ def load_dotenv() -> None:
 
 load_dotenv()
 
-OPENAI_API_KEY = os.environ.get("OPENAI_APIKEY", "")
-OPENAI_MODEL = os.environ.get("OPENAI_MODEL", "o4-mini")
-API_URL = "https://api.openai.com/v1/chat/completions"
+ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
+ANTHROPIC_MODEL = os.environ.get("ANTHROPIC_MODEL", "claude-sonnet-5")
 
 SUPABASE_URL = os.environ.get("NEXT_PUBLIC_SUPABASE_URL", "")
 SUPABASE_SERVICE_KEY = os.environ.get("SUPABASE_SERVICE_ROLE_KEY", "")
@@ -147,9 +148,9 @@ def build_data_context() -> str:
 
 
 def call_llm(data_context: str) -> dict | None:
-    """Call OpenAI API to generate the daily digest."""
-    if not OPENAI_API_KEY:
-        log.error("OPENAI_APIKEY not set")
+    """Call Anthropic API to generate the daily digest."""
+    if not ANTHROPIC_API_KEY:
+        log.error("ANTHROPIC_API_KEY not set")
         return None
 
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
@@ -213,39 +214,20 @@ def call_llm(data_context: str) -> dict | None:
 
 אל תעתיק את הדוגמה — צור ניתוח מקורי מהנתונים שקיבלת."""
 
-    payload: dict = {
-        "model": OPENAI_MODEL,
-        "messages": [
-            {"role": "system", "content": system_msg},
-            {"role": "user", "content": user_msg},
-        ],
-    }
-    is_reasoning = OPENAI_MODEL.startswith("o") and not OPENAI_MODEL.startswith("omni")
-    if is_reasoning:
-        payload["max_completion_tokens"] = 4096
-    else:
-        payload["max_tokens"] = 1024
-
-    body = json.dumps(payload).encode("utf-8")
-
-    req = urllib.request.Request(
-        API_URL,
-        data=body,
-        headers={
-            "Content-Type": "application/json",
-            "Authorization": f"Bearer {OPENAI_API_KEY}",
-        },
-    )
+    client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
 
     try:
-        with urllib.request.urlopen(req, timeout=60) as resp:
-            result = json.loads(resp.read().decode("utf-8"))
+        response = client.messages.create(
+            model=ANTHROPIC_MODEL,
+            max_tokens=1024,
+            system=system_msg,
+            messages=[{"role": "user", "content": user_msg}],
+        )
     except Exception as exc:
-        log.error("OpenAI API call failed: %s", exc)
+        log.error("Anthropic API call failed: %s", exc)
         return None
 
-    text = result.get("choices", [{}])[0].get("message", {}).get("content", "")
-    text = text.strip()
+    text = response.content[0].text.strip()
     if text.startswith("```"):
         text = text.split("\n", 1)[1] if "\n" in text else text[3:]
         if text.endswith("```"):
@@ -303,7 +285,7 @@ def save_to_supabase(output: dict) -> None:
 
 
 def main() -> None:
-    log.info("Generating daily digest (model: %s)...", OPENAI_MODEL)
+    log.info("Generating daily digest (model: %s)...", ANTHROPIC_MODEL)
 
     data_context = build_data_context()
     log.info("Data context: %d characters", len(data_context))
@@ -315,7 +297,7 @@ def main() -> None:
 
     output = {
         "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-        "model": OPENAI_MODEL,
+        "model": ANTHROPIC_MODEL,
         "changes": digest.get("changes", []),
         "story": digest.get("story", {}),
     }
