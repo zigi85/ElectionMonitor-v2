@@ -10,6 +10,16 @@ const IHY_MAX = 3;
 
 type HeadlineFilter = "all" | "ihy";
 
+const LEADER_IMAGES: Record<string, string> = {
+  netanyahu: "/images/politicians/netanyahu.png",
+  eisenkot: "/images/politicians/eisenkot.png",
+  bennett: "/images/politicians/bennett.png",
+  lieberman: "/images/politicians/lieberman.png",
+  golan: "/images/politicians/golan.png",
+  ben_gvir: "/images/politicians/ben_gvir.png",
+  smotrich: "/images/politicians/smotrich.png",
+};
+
 function buildMixedHeadlines(
   sorted: MediaLeader[],
 ): (MediaHeadline & { leader: string })[] {
@@ -64,38 +74,10 @@ function buildIhyOnlyHeadlines(
   return result;
 }
 
-function MentionBar({ leader, maxCount, expanded }: { leader: MediaLeader; maxCount: number; expanded: boolean }) {
-  const pct = maxCount > 0 ? (leader.mention_count / maxCount) * 100 : 0;
-
-  return (
-    <div className="mm-bar-row">
-      <div className="mm-bar-header">
-        <span className="mm-leader-name">{leader.name_he}</span>
-        <span className="mm-leader-role">{leader.role}</span>
-        <span className={`mm-chevron${expanded ? " mm-chevron-open" : ""}`}>&#x25BC;</span>
-      </div>
-      <div className="mm-bar-track">
-        <div className="mm-bar-fill" style={{ width: `${pct}%` }} />
-      </div>
-    </div>
-  );
-}
-
-function HeadlineItem({ title, source, url, highlight }: { title: string; source: string; url?: string; highlight?: boolean }) {
-  const isIhy = source === IHY;
-
-  return (
-    <div className={`mm-headline${highlight ? " mm-headline-ihy" : ""}`}>
-      <span className={`mm-headline-source${highlight ? " mm-source-ihy" : ""}`}>{source}</span>
-      {isIhy && url ? (
-        <a href={url} target="_blank" rel="noopener noreferrer" className="mm-headline-title mm-headline-link">
-          {title}
-        </a>
-      ) : (
-        <span className="mm-headline-title">{title}</span>
-      )}
-    </div>
-  );
+function splitName(name: string): [string, string] {
+  const parts = name.split(" ");
+  if (parts.length <= 1) return [name, ""];
+  return [parts[0], parts.slice(1).join(" ")];
 }
 
 interface Props {
@@ -103,77 +85,117 @@ interface Props {
 }
 
 export default function MediaMentions({ mediaMentions }: Props) {
-  const [expandedLeader, setExpandedLeader] = useState<string | null>(null);
+  const [selectedKey, setSelectedKey] = useState<string | null>(null);
   const [filter, setFilter] = useState<HeadlineFilter>("all");
 
   if (!mediaMentions.leaders || mediaMentions.leaders.length === 0) return null;
 
   const sorted = [...mediaMentions.leaders].sort((a, b) => b.mention_count - a.mention_count);
-  const maxCount = sorted[0]?.mention_count ?? 1;
+  const activeKey = selectedKey ?? sorted[0]?.key;
+  const selectedLeader = sorted.find(l => l.key === activeKey) ?? sorted[0];
+  const selectedHeadlines = selectedLeader.headlines.filter(h => !h.fallback).slice(0, 3);
 
   const topHeadlines = filter === "ihy"
     ? buildIhyOnlyHeadlines(sorted)
     : buildMixedHeadlines(sorted);
 
   return (
-    <div className="card mm-card fade-in">
-      <div className="card-header">
-        <span className="card-title">מי בכותרות?</span>
-        <span className="card-subtitle">{mediaMentions.period_label} · {mediaMentions.source}</span>
-      </div>
+    <section className="mm-section fade-in">
+      <div className="mm-inner">
+        <div className="mm-header">
+          <h2 className="mm-title">מי בכותרות?</h2>
+          <span className="mm-label">Google News</span>
+        </div>
 
-      <div className="mm-bars">
-        {sorted.map(leader => {
-          const headlines = filter === "ihy"
-            ? leader.headlines.filter(h => h.source === IHY)
-            : leader.headlines.filter(h => !h.fallback);
-          return (
-            <div key={leader.key}>
-              <button
-                className={`mm-bar-btn${expandedLeader === leader.key ? " mm-expanded" : ""}`}
-                onClick={() => setExpandedLeader(expandedLeader === leader.key ? null : leader.key)}
-                aria-expanded={expandedLeader === leader.key}
-              >
-                <MentionBar leader={leader} maxCount={maxCount} expanded={expandedLeader === leader.key} />
-              </button>
-              {expandedLeader === leader.key && headlines.length > 0 && (
-                <div className="mm-headlines-expand">
-                  {headlines.map((h, i) => (
-                    <HeadlineItem key={i} title={h.title} source={h.source} url={h.url} highlight={h.source === IHY} />
-                  ))}
-                </div>
-              )}
-            </div>
-          );
-        })}
-      </div>
+        <p className="mm-subtitle">
+          ספירת אזכורים ב-Google News ב{mediaMentions.period_label}. כמות האזכורים משקפת נוכחות תקשורתית, לא סנטימנט חיובי או שלילי.
+        </p>
 
-      <div className="mm-top-headlines">
-        <div className="mm-headlines-header">
-          <span className="mm-section-title">כותרות בולטות</span>
-          <div className="mm-filter-pills" role="group" aria-label="סינון מקור">
-            <button
-              className={`mm-filter-pill${filter === "all" ? " mm-filter-active" : ""}`}
-              onClick={() => setFilter("all")}
-            >
-              כל המקורות
-            </button>
-            <button
-              className={`mm-filter-pill mm-filter-ihy${filter === "ihy" ? " mm-filter-active" : ""}`}
-              onClick={() => setFilter("ihy")}
-            >
-              ישראל היום
-            </button>
+        <div className="mm-card-container">
+          <div className="mm-avatars-row">
+            {sorted.map(leader => {
+              const isActive = leader.key === activeKey;
+              const [firstName, lastName] = splitName(leader.name_he);
+              const imgSrc = LEADER_IMAGES[leader.key];
+              return (
+                <button
+                  key={leader.key}
+                  className={`mm-avatar-btn${isActive ? " mm-avatar-active" : ""}`}
+                  onClick={() => setSelectedKey(leader.key)}
+                  aria-pressed={isActive}
+                >
+                  <div className={`mm-avatar-img${isActive ? " mm-avatar-img-active" : ""}`}>
+                    {imgSrc ? (
+                      <img src={imgSrc} alt={leader.name_he} />
+                    ) : (
+                      <span className="mm-avatar-placeholder">{firstName[0]}</span>
+                    )}
+                  </div>
+                  <span className={`mm-avatar-name${isActive ? " mm-avatar-name-active" : ""}`}>
+                    {firstName}
+                    <br />
+                    {lastName}
+                  </span>
+                </button>
+              );
+            })}
+          </div>
+
+          <div className="mm-badge">
+            {selectedLeader.role} | {selectedLeader.mention_count} כתבות
+          </div>
+
+          <div className="mm-leader-headlines">
+            {selectedHeadlines.map((h, i) => (
+              <div key={i} className="mm-hl-row">
+                <span className="mm-hl-source">{h.source}</span>
+                <span className="mm-hl-divider" />
+                {h.url ? (
+                  <a href={h.url} target="_blank" rel="noopener noreferrer" className="mm-hl-text mm-hl-link">
+                    {h.title}
+                  </a>
+                ) : (
+                  <span className="mm-hl-text">{h.title}</span>
+                )}
+              </div>
+            ))}
           </div>
         </div>
-        {topHeadlines.map((h, i) => (
-          <HeadlineItem key={i} title={h.title} source={h.source} url={h.url} highlight={h.source === IHY} />
-        ))}
-      </div>
 
-      <p className="mm-disclaimer">
-        ספירת אזכורים ב-Google News ב{mediaMentions.period_label}. כמות האזכורים משקפת נוכחות תקשורתית, לא סנטימנט חיובי או שלילי.
-      </p>
-    </div>
+        <div className="mm-top-section">
+          <h3 className="mm-top-title">כותרות בולטות</h3>
+          <div className="mm-tabs-card">
+            <div className="mm-tabs">
+              <button
+                className={`mm-tab${filter === "ihy" ? " mm-tab-active" : ""}`}
+                onClick={() => setFilter("ihy")}
+              >
+                ישראל היום
+              </button>
+              <button
+                className={`mm-tab mm-tab-all${filter === "all" ? " mm-tab-active" : ""}`}
+                onClick={() => setFilter("all")}
+              >
+                כל המקורות
+              </button>
+            </div>
+            <div className="mm-top-headlines">
+              {topHeadlines.map((h, i) => (
+                <div key={i} className="mm-top-hl-row">
+                  {h.url ? (
+                    <a href={h.url} target="_blank" rel="noopener noreferrer" className="mm-top-hl-text mm-hl-link">
+                      {h.title}
+                    </a>
+                  ) : (
+                    <span className="mm-top-hl-text">{h.title}</span>
+                  )}
+                  <span className="mm-top-hl-arrow">&#x276E;</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   );
 }
