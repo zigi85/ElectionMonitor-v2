@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T09:31:35Z",
+  "generated_at": "2026-08-19T15:28:17Z",
   "headline_count": 166,
   "hot_topics": [
     {
@@ -12,23 +12,23 @@
     {
       "id": "coalition",
       "label": "קואליציה וכנסת",
-      "mention_count": 27,
-      "sample_headline": "לקראת הבחירות לכנסת ה-26: נפתחה ההרשמה למפקחי טוהר הבחירות, השכר כ-2,200 שקל",
-      "sample_source": "nws.report"
-    },
-    {
-      "id": "haredim",
-      "label": "חרדים וגיוס",
-      "mention_count": 6,
-      "sample_headline": "דוד חכם: שלושה מנדטים יקבעו אם החרדים יהיו בממשלה",
-      "sample_source": "אמס"
+      "mention_count": 33,
+      "sample_headline": "הנכס האלקטורלי והביטחוני: מדוע הליכוד זקוק לעוזי דיין ברשימה לכנסת | עודד טירה",
+      "sample_source": "maariv.co.il"
     },
     {
       "id": "judiciary",
       "label": "מערכת המשפט",
-      "mention_count": 6,
+      "mention_count": 8,
       "sample_headline": "היועמ\"שית לבג\"ץ: מציעה לדחות הכרעה על הקמת ועדת חקירה ממלכתית - לאחרי הבחירות",
       "sample_source": "וואלה חדשות"
+    },
+    {
+      "id": "haredim",
+      "label": "חרדים וגיוס",
+      "mention_count": 5,
+      "sample_headline": "דוד חכם: שלושה מנדטים יקבעו אם החרדים יהיו בממשלה",
+      "sample_source": "אמס"
     },
     {
       "id": "security",
@@ -56,7 +56,7 @@
       "label": "חברה וחינוך",
       "mention_count": 1,
       "sample_headline": "בדקנו עם המפלגות המובילות: מה הן מבטיחות לעשות עם מערכת החינוך? | דודי פטימר",
-      "sample_source": "מעריב"
+      "sample_source": "maariv.co.il"
     }
   ],
   "leader_buzz": [
@@ -122,41 +122,41 @@
       "video_id": "tHcJ3IyXF7g",
       "title": "סקר i24NEWS: הליכוד מתחזקת בשני מנדטים לקראת הפריימריז, עוצמה יהודית מאבדת מנדט",
       "channel": "i24NEWS עברית",
-      "views": 48167,
-      "views_str": "48.2K",
+      "views": 48305,
+      "views_str": "48.3K",
       "duration": "0:05",
       "published_text": "לפני 5 ימים",
       "thumbnail": "https://i.ytimg.com/vi/tHcJ3IyXF7g/hq720_2.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAsYKigIMCAAQARhXIF4oZTAP&rs=AOn4CLCbf9LfGDXxbcuZShrFXI_FBUeLrA",
       "url": "https://www.youtube.com/watch?v=tHcJ3IyXF7g"
     },
     {
-      "video_id": "3A0kbG2svMc",
-      "title": "הנסיון לשלוח את נתניהו הביתה | בן גביר לכיכר: “ניר ברקת לא פנה אליי - צריך להיות הגון”!",
-      "channel": "כיכר השבת",
-      "views": 46381,
-      "views_str": "46.4K",
-      "duration": "0:28",
-      "published_text": "לפני יומיים (2)",
-      "thumbnail": "https://i.ytimg.com/vi/3A0kbG2svMc/hq720_2.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARhyIEQoQDAP&rs=AOn4CLC-nm6ylG5KnKu1edPBjeEhI18Zwg",
-      "url": "https://www.youtube.com/watch?v=3A0kbG2svMc"
+      "video_id": "G2HpHeOAhSw",
+      "title": "מפת הכוחות החדשה בליכוד: מי זינק לצמרת המפלגה - ומי יראה את הכנסת מבחוץ?",
+      "channel": "כאן | חדשות - תאגיד השידור הישראלי",
+      "views": 48093,
+      "views_str": "48.1K",
+      "duration": "2:39",
+      "published_text": "לפני 20 שעות",
+      "thumbnail": "https://i.ytimg.com/vi/G2HpHeOAhSw/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLDYf5DvIDIyB-Bf9V3lSj8744BVzA",
+      "url": "https://www.youtube.com/watch?v=G2HpHeOAhSw"
     },
     {
-      "video_id": "Tl_85bcN458",
-      "title": "בדרך לעוצמה יהודית? בן גביר על יוסף חדאד: “אין לי שום בעיה איתו - הייתי מצרף אותו” | סרוגים",
-      "channel": "סרוגים",
-      "views": 42787,
-      "views_str": "42.8K",
-      "duration": "0:33",
-      "published_text": "לפני יומיים (2)",
-      "thumbnail": "https://i.ytimg.com/vi/Tl_85bcN458/hq720_2.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARhOIFIoZTAP&rs=AOn4CLA8UYxElublvxllGixVsDK2tMoLOQ",
-      "url": "https://www.youtube.com/watch?v=Tl_85bcN458"
+      "video_id": "BFx9D51ziLs",
+      "title": "ארטיקים ממותגים וג'ינגלים ב-AI: מאחורי הקלעים של הפריימריז בליכוד",
+      "channel": "כאן | חדשות - תאגיד השידור הישראלי",
+      "views": 31076,
+      "views_str": "31.1K",
+      "duration": "8:06",
+      "published_text": "לפני יום אחד (1)",
+      "thumbnail": "https://i.ytimg.com/vi/BFx9D51ziLs/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLBiQzJpJsjnyT_eYbbpik7V9N5EvQ",
+      "url": "https://www.youtube.com/watch?v=BFx9D51ziLs"
     },
     {
       "video_id": "kXE-VT2jOpE",
       "title": "בן גביר על קובי יעקובי: “קורא לו להישאר בתפקידו עם כתב אישום - הוא חף מפשע”!",
       "channel": "כיכר השבת",
-      "views": 17646,
-      "views_str": "17.6K",
+      "views": 19597,
+      "views_str": "19.6K",
       "duration": "0:24",
       "published_text": "לפני יום אחד (1)",
       "thumbnail": "https://i.ytimg.com/vi/kXE-VT2jOpE/hq720_2.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARhyIDkoODAP&rs=AOn4CLBeMtAkASLYn6LUym0ZxvCzLzBXgw",
@@ -166,45 +166,45 @@
       "video_id": "vr6hvpu9lFM",
       "title": "השר בן גביר: \"אם אני וסמוטריץ' רצים ביחד - אין גוש ימין. אנחנו ביחד מקבלים פחות מנדטים\"",
       "channel": "C14",
-      "views": 16874,
-      "views_str": "16.9K",
+      "views": 17710,
+      "views_str": "17.7K",
       "duration": "14:23",
       "published_text": "לפני יום אחד (1)",
       "thumbnail": "https://i.ytimg.com/vi/vr6hvpu9lFM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDWNkkOfS_AnVQtcn9lNyZGMi1hjg",
       "url": "https://www.youtube.com/watch?v=vr6hvpu9lFM"
     },
     {
+      "video_id": "KJ9vUZ07fnQ",
+      "title": "סקר המנדטים של חדשות 14 | התרסקות מפוארת: מפלגת \"ביחד\" של בנט ולפיד מתקרבת לאחוז החסימה",
+      "channel": "C14",
+      "views": 13238,
+      "views_str": "13.2K",
+      "duration": "1:49",
+      "published_text": "לפני 21 שעות",
+      "thumbnail": "https://i.ytimg.com/vi/KJ9vUZ07fnQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD_1YonX3wFGOUraew_DR3-yeqrtw",
+      "url": "https://www.youtube.com/watch?v=KJ9vUZ07fnQ"
+    },
+    {
       "video_id": "PjvjLLWZCgI",
       "title": "הח\"כ שנלחם בנתניהו וההצלחה של טלי גוטליב: מאחורי הקלעים של הפריימריז הדרמטיים בליכוד",
       "channel": "i24NEWS עברית",
-      "views": 11792,
-      "views_str": "11.8K",
+      "views": 11992,
+      "views_str": "12.0K",
       "duration": "13:09",
       "published_text": "לפני יומיים (2)",
       "thumbnail": "https://i.ytimg.com/vi/PjvjLLWZCgI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBpLqkqwvXw8gPMKku6aa72iwbyag",
       "url": "https://www.youtube.com/watch?v=PjvjLLWZCgI"
     },
     {
-      "video_id": "KJ9vUZ07fnQ",
-      "title": "סקר המנדטים של חדשות 14 | התרסקות מפוארת: מפלגת \"ביחד\" של בנט ולפיד מתקרבת לאחוז החסימה",
-      "channel": "C14",
-      "views": 11004,
-      "views_str": "11.0K",
-      "duration": "1:49",
-      "published_text": "לפני 15 שעות",
-      "thumbnail": "https://i.ytimg.com/vi/KJ9vUZ07fnQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD_1YonX3wFGOUraew_DR3-yeqrtw",
-      "url": "https://www.youtube.com/watch?v=KJ9vUZ07fnQ"
-    },
-    {
-      "video_id": "Q0jaspfb5pk",
-      "title": "איזנקוט עובר גבולות - שיר \"הליכוד זה אסון\" | עדי שמאי הכהן - מגיש חדשות בָּעוֹלם הוירטואלי",
-      "channel": "עדי שמאי הכהן - מגיש חדשות בָּעוֹלם הוירטואלי",
-      "views": 7380,
-      "views_str": "7.4K",
-      "duration": "2:45",
-      "published_text": "לפני יומיים (2)",
-      "thumbnail": "https://i.ytimg.com/vi/Q0jaspfb5pk/hq720_2.jpg?sqp=-oaymwE6CNAFEJQDSFXyq4qpAywIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARhhIGEoYTAPuALzGA==&rs=AOn4CLBDxbil3driA6htbGchzQVHpkEuJQ",
-      "url": "https://www.youtube.com/watch?v=Q0jaspfb5pk"
+      "video_id": "HlxaOA36ONY",
+      "title": "מה הסיכוי של נתניהו? @YossiElituv",
+      "channel": "עיתון משפחה",
+      "views": 1193,
+      "views_str": "1.2K",
+      "duration": "0:40",
+      "published_text": "לפני יום אחד (1)",
+      "thumbnail": "https://i.ytimg.com/vi/HlxaOA36ONY/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARg6IEoofzAP&rs=AOn4CLCSa_lNrMsykyRDgmhoLOSqZQBTcQ",
+      "url": "https://www.youtube.com/watch?v=HlxaOA36ONY"
     }
   ],
   "telegram_channels": [
@@ -214,28 +214,13 @@
       "username": "bnetanyahu",
       "type": "politician",
       "post_count": 20,
-      "avg_views": 18532,
-      "avg_views_str": "18.5K",
+      "avg_views": 18668,
+      "avg_views_str": "18.7K",
       "top_post": {
         "text": "יחד עם כל אזרחי ישראל, רעייתי ואני דואבים את נפילתם של רס״ן (מיל׳) הראל בירנשטוק ז״ל ורס״ם (מיל׳) תמיר וקנין ז״ל, שנפלו ",
         "views": 34800,
         "views_str": "34.8K",
         "date": "2026-08-06T09:35:27+00:00"
-      }
-    },
-    {
-      "key": "ben_gvir",
-      "name_he": "איתמר בן גביר",
-      "username": "bengvir",
-      "type": "politician",
-      "post_count": 18,
-      "avg_views": 7009,
-      "avg_views_str": "7.0K",
-      "top_post": {
-        "text": "עכשיו זה קורה!!! השר לביטחון לאומי ויו״ר עוצמה יהודית איתמר בן גביר עונה לכם על כל השאלות הבוערות 🔴 בלייב פייסבוק מיוחד ",
-        "views": 23400,
-        "views_str": "23.4K",
-        "date": "2026-08-15T19:06:59+00:00"
       }
     },
     {
@@ -251,6 +236,21 @@
         "views": 22200,
         "views_str": "22.2K",
         "date": "2023-03-08T08:05:13+00:00"
+      }
+    },
+    {
+      "key": "ben_gvir",
+      "name_he": "איתמר בן גביר",
+      "username": "bengvir",
+      "type": "politician",
+      "post_count": 18,
+      "avg_views": 6773,
+      "avg_views_str": "6.8K",
+      "top_post": {
+        "text": "עכשיו זה קורה!!! השר לביטחון לאומי ויו״ר עוצמה יהודית איתמר בן גביר עונה לכם על כל השאלות הבוערות 🔴 בלייב פייסבוק מיוחד ",
+        "views": 23600,
+        "views_str": "23.6K",
+        "date": "2026-08-15T19:06:59+00:00"
       }
     },
     {
@@ -274,13 +274,13 @@
       "username": "ynetalerts",
       "type": "news",
       "post_count": 20,
-      "avg_views": 3229,
-      "avg_views_str": "3.2K",
+      "avg_views": 3015,
+      "avg_views_str": "3.0K",
       "top_post": {
-        "text": "🔴 טראמפ השהה לשלושה ימים את המכסים על קנדה: \"יש לנו עסקה\" למבזק המלא ב-ynet >",
-        "views": 5760,
-        "views_str": "5.76K",
-        "date": "2026-08-19T02:33:07+00:00"
+        "text": "🔴 המשטרה: בניגוד לשמועות - אין חשד לאירוע ביטחוני באזור חיפה למבזק המלא ב-ynet >",
+        "views": 4210,
+        "views_str": "4.21K",
+        "date": "2026-08-19T11:04:20+00:00"
       }
     },
     {
@@ -289,7 +289,7 @@
       "username": "naftalibennett1",
       "type": "politician",
       "post_count": 20,
-      "avg_views": 2666,
+      "avg_views": 2681,
       "avg_views_str": "2.7K",
       "top_post": {
         "text": "מפרסם לבקשת המשפחה: ביום ראשון תתקיים אזכרה לקרן טנדלר ז\"ל שנפלה בלבנון לפני 20 שנה, במלחמת לבנון השנייה. חשוב על כך להג",
@@ -304,13 +304,13 @@
       "username": "israelhayomofficial",
       "type": "news",
       "post_count": 20,
-      "avg_views": 2523,
-      "avg_views_str": "2.5K",
+      "avg_views": 2297,
+      "avg_views_str": "2.3K",
       "top_post": {
-        "text": "הוגש כתב אישום נגד תושב משגב שלום, על פי החשד היה במגע עם סוכן חוץ, ותכנן לבצע פיגוע בסמוך למועדון הפורום בבאר שבע",
-        "views": 2810,
-        "views_str": "2.81K",
-        "date": "2026-08-18T08:05:07+00:00"
+        "text": "\"רציתי לפוצץ אנשים רוקדים\": התוכנית לפיגוע במועדון ה\"פורום\" נחשפת >> bit.ly/4qnfoaD",
+        "views": 2960,
+        "views_str": "2.96K",
+        "date": "2026-08-18T17:11:38+00:00"
       }
     },
     {
@@ -319,12 +319,12 @@
       "username": "smutrich",
       "type": "politician",
       "post_count": 20,
-      "avg_views": 1301,
+      "avg_views": 1317,
       "avg_views_str": "1.3K",
       "top_post": {
         "text": "אני מציע לגדי איזנקוט לא לזלזל באינטליגנציה של תושבי הצפון >>>",
-        "views": 4059,
-        "views_str": "4.06K",
+        "views": 4220,
+        "views_str": "4.22K",
         "date": "2026-08-18T13:55:03+00:00"
       }
     },
@@ -334,13 +334,13 @@
       "username": "N12_News",
       "type": "news",
       "post_count": 20,
-      "avg_views": 83,
-      "avg_views_str": "83",
+      "avg_views": 59,
+      "avg_views_str": "59",
       "top_post": {
-        "text": "מאגר דירות סודי בת\"א וג'ובים למקורבים: כך הפך ועד עובדי קק\"ל לאחד החזקים במדינה | תחקיר קישור לכתבה",
-        "views": 126,
-        "views_str": "126",
-        "date": "2026-08-18T20:38:51+00:00"
+        "text": "אחרי 27 שנה: המסעדה האהובה נסגרת | פרסום ראשון קישור לכתבה",
+        "views": 84,
+        "views_str": "84",
+        "date": "2026-08-19T08:55:05+00:00"
       }
     },
     {
@@ -352,10 +352,10 @@
       "avg_views": 3,
       "avg_views_str": "3",
       "top_post": {
-        "text": "\"חולני וחסר רגישות\" אמו של לוחם היס\"מ ז\"ל מגיבה בחריפות על הטעות החמורה בחדשות 12 קישור לכתבה",
-        "views": 7,
-        "views_str": "7",
-        "date": "2026-08-18T20:41:42+00:00"
+        "text": "מבלי לשלם כך גוגל תעזור לכם לרדת במשקל – בעזרת המצלמה של הטלפון בלבד קישור לכתבה",
+        "views": 5,
+        "views_str": "5",
+        "date": "2026-08-19T12:06:24+00:00"
       }
     }
   ]
