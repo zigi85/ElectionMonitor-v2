@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T01:11:44Z",
+  "generated_at": "2026-08-19T03:45:15Z",
   "period": "3d",
   "period_label": "3 ימים אחרונים",
   "source": "Google News",
@@ -25,10 +25,10 @@
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9zS1p4dzJEbS1ZMVA3WVdwTGtwR2dnMWhDcXFvSGd6clJUZHo3eEtlVGhUdmZWWlJVOUhxbnNpdHBHbjJ1SVhuZldXOXItdEt0SjhuV21kM25ZM1k?oc=5&hl=en-US&gl=US&ceid=US:en"
         },
         {
-          "title": "אחרי ש\"הודח\" ע\"י המתפקדים: נתניהו שוקל לשריין את דיכטר",
-          "source": "כאן 11",
-          "published_at": "Tue, 18 Aug 2026 17:27:35 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBjSEhzYk8xNnkyWWNRMmFsaUtMa2hYVE5qa0hZbDNDUWkyYm04Z09YNENHQ2RncGNtZlhyb1I4RjZRcWY1clNSR01QNFJDLWZZSzJwejhjdGdFODhFRnlCYm4ySVJpYjA?oc=5&hl=en-US&gl=US&ceid=US:en"
+          "title": "נתניהו וקושנר לא הגיעו להסכמה. עכשיו הם מנסים לקנות זמן",
+          "source": "גלובס",
+          "published_at": "Tue, 18 Aug 2026 20:24:37 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5scVgzUzRFdzUyeVJCMlFWVGhBMWNxN1RyZlU4SW1GNllhb1NNT0lleHpBbmQ1VThNOFJBQmFFeU5BTkJxU2c0UWdFalIxNG5TLWdyMlpaMzZUTWc2bFZlelM5eUk4MlJt?oc=5&hl=en-US&gl=US&ceid=US:en"
         }
       ]
     },
@@ -37,7 +37,7 @@
       "name_he": "גדי איזנקוט",
       "role": "יו\"ר ישר",
       "party": "yashar",
-      "mention_count": 65,
+      "mention_count": 67,
       "headlines": [
         {
           "title": "\"בן אדם צ'יל ברמות\": איזנקוט - בקרוב בבתי הקולנוע?",
@@ -52,10 +52,10 @@
           "url": "https://news.google.com/rss/articles/CBMiugJBVV95cUxORWwzeWFFMWZuV1BudmJxN3d4QmZlOWd0OXlKRkpXYmtQOGVxUmhqYWZVNkRiN1dlejNWMWZfQ1VEckhiVlQ3UVRZYzJtdVc0UVVfVUNDcnZjbHNfNWVfSExTa2V3SjdSbUo3SElaZGN3ZTlQMVNOS05xYk9ZRlpVbkxSUGRCLTNJNnVtNGZlWFJQMnQ0LXpaNFlVenp0WVVWVkdHT0xyUUZqT01sZU85YU9HdDVhbklTaDlTeDE5NHdTY0tXWmFETEp5Wm1hTG5wcDJ5cUxWdmZLcTVIYXRZQmRIWXd0SWZKcVVBRldLbVJWX3FlZkFEWUNQUEY5cXRXLVNrZGtSV0FPVzd2UHMwMUV2YVF1ODI3cXBYQ25Ja3QydzBVMzJpSGVlQ0xrSmt5clFOa2VNbzhjQQ?oc=5&hl=en-US&gl=US&ceid=US:en"
         },
         {
-          "title": "\"אני רוצה להרגיש שהאסון שעברתי לא היה לחינם\"",
-          "source": "ynet",
-          "published_at": "Tue, 18 Aug 2026 21:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1nRU56eHkyS2xaMFYwMldrX1BGaTJWbjh0NzdBUTJJU1ZLcUtva0hGZlVJTDBtaE1LVWpNYTZiWU5xd0pBd0xUWE5IbWhXME5fZWZjMW1nV1JjT2lNZm11TXd3?oc=5&hl=en-US&gl=US&ceid=US:en"
+          "title": "אחרי הפריימריז בליכוד - התגובות לא איחרו להגיע, גדי איזנקוט: \"יש לכם בית\"",
+          "source": "מעריב",
+          "published_at": "Tue, 18 Aug 2026 14:20:50 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5NdGZETUU5UnFRbmREcmF1LXppYllpXzBfcGZaYy1nQ3NyeUdSTFFDZXRFT0lZRzhnZjlUc3czRmdlVDY5eW5ET2Q0M2xSaWhyTFBZaGJwWlY5RjJvNEVuMXhVRHA?oc=5&hl=en-US&gl=US&ceid=US:en"
         }
       ]
     },
@@ -64,7 +64,7 @@
       "name_he": "נפתלי בנט",
       "role": "יו\"ר ביחד",
       "party": "together",
-      "mention_count": 78,
+      "mention_count": 76,
       "headlines": [
         {
           "title": "\"להיות הקול של תושבי הצפון\": המצטרף החדש לנבחרת של בנט",
@@ -91,7 +91,7 @@
       "name_he": "אביגדור ליברמן",
       "role": "יו\"ר ישראל ביתנו",
       "party": "yisrael_beiteinu",
-      "mention_count": 35,
+      "mention_count": 36,
       "headlines": [
         {
           "title": "ליברמן נגד איזנקוט: \"לא נשב בממשלת מיעוט\"",
@@ -118,7 +118,7 @@
       "name_he": "יאיר גולן",
       "role": "יו\"ר הדמוקרטים",
       "party": "democrats",
-      "mention_count": 28,
+      "mention_count": 26,
       "headlines": [
         {
           "title": "ביקורת על רשימת הליכוד המסתמנת: \"רק שתי נשים, הפכו למפלגה חרדית\"",
@@ -145,7 +145,7 @@
       "name_he": "איתמר בן גביר",
       "role": "יו\"ר עוצמה יהודית",
       "party": "otzma_yehudit",
-      "mention_count": 92,
+      "mention_count": 88,
       "headlines": [
         {
           "title": "כבר לא ימין ממלכתי: בן גביר מושך את הליכוד לזירה הכהניסטית",
@@ -154,16 +154,16 @@
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE80aDlTTTRIak51dFZYalNKWGxuRE9UVDFxUWtYSm5fR19taUNVY0hLNlF6SEd4S1hhaVpZZU5OdVpDWUR5UjB6ZHY1RllfQ09ZbVhuSWFGNFhlRlpJQ2Q2Vnhva3h0QnRJdUpXX2VMSXbSAXhBVV95cUxQcFlTVTFMT2Z1ZG1neC1LVUJxMGdERVl2c3pLem5pZWZYcnVmelNTREkwcXZQM1AyNEtOU19qcU1Pa0tCVnZ1TnpITVJxdGZ6el9ONEVZamRIaE5ocjlPd3FFd2hHUXZsd2JKdHVIRHpIX3YyYlNzZkY?oc=5&hl=en-US&gl=US&ceid=US:en"
         },
         {
-          "title": "בן גביר עורך פגישות עבודה בדירה לא מאובטחת בבעלות יזם נדל\"ן בירושלים",
-          "source": "הארץ",
-          "published_at": "Sun, 16 Aug 2026 03:01:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQaHRkTFl1aVhFR294NldoS1NNOElYYTFxTkJoNmxGdTF6VXNFZWc3N1hSQ29TcE5NdXlPSExJMWV5bVVDUDRQS0lycHluTEVaZHJsSnkzZXhyck0xd3Y0eHp2ZlNrWUZVME9NcHUxMndsNEY2ZVFJd0F2cEdVXzE1bXlndHp2bURERnhXWjhBSXpZWWtuaURsR0xXeVpIdkh0N2FhUGxfSjNnOEFh?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
           "title": "\"כל לילה להוריד 40-30 בעזה\": האמירה של בן גביר לשורד השבי - והסערה העולמית",
           "source": "ynet",
           "published_at": "Mon, 17 Aug 2026 13:13:48 GMT",
           "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9OSERkdmN4cTlPbi05TWkwRHBSMUlmUG9jRDFldW1JQkpOb1FXeDZsdlZSWGZJd2pUbUMzZTExUHBFRU5LUlBaYzktd1ZPQU56RUQ2eTI3RzdNUQ?oc=5&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "title": "השר בן גביר הכריז: כפר חב\"ד יישוב זכאי לנשק",
+          "source": "חב\"ד אינפו",
+          "published_at": "Tue, 18 Aug 2026 20:30:39 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5vTGdkc1U3aXB1NWZYdXdzSnlkcWdvTjNYeTl6c1Q5azR0V3QtSTFfWnRhczZ5T0JHN3MwU1BDZW5BUWJpRFBibg?oc=5&hl=en-US&gl=US&ceid=US:en"
         }
       ]
     },
@@ -172,7 +172,7 @@
       "name_he": "בצלאל סמוטריץ'",
       "role": "יו\"ר הציונות הדתית",
       "party": "religious_zionism",
-      "mention_count": 38,
+      "mention_count": 39,
       "headlines": [
         {
           "title": "מילואימניקים? זו ההטבה שתהיו זכאים לה החל מהיום",
@@ -181,16 +181,16 @@
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA0TW9mX2tySHE2MDNkOHNNa2l4ZkJOem5la0JEZ2V3eHVDaFZmUWFwU09wZEg0R2tFTms0bXVkd3FqR1czQ21KY3pWSm1sUGNYb2dsYktzZmZFcUM3aTVueUN0MlpmZVVwczlV0gFzQVVfeXFMTUdqa2dPZnNMMnRWTDFleGpJOU1MTmo0NEZTd3EzZDhYTVNVZ1ZCc2VKZUptTW1CSm5mNHQtMHlFUG1mTUhFY2psUDNHbDkwV1hyMWo4VFhvMlNPeEdkSkZNd21SSkliWTlXSnc1bzVDazJFTQ?oc=5&hl=en-US&gl=US&ceid=US:en"
         },
         {
+          "title": "איך בצלאל סמוטריץ' יכול לזלזל ככה במצביעים שלו? כי החלופה גרועה יותר",
+          "source": "הארץ",
+          "published_at": "Wed, 19 Aug 2026 03:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbFhxQTRTVzVyWjllYm11ZC05RG5XRnBSYlJjNGxPbkZIWnVaZjk3YldRVFJLZTQwWDRtTzNpTEMtMzlTemMzb1M2ZFFoMmVuV01uVlhTR09UMU11T0RrYTJydU5SNlRhNUNCY01VM2gycDFwcTl4bDZZclVmZlh2QmFJV0VFNi1NV2dpQ1RhU0VMTW10U2VfNlktZkVIZDh5VDdTQnBKaHduOUVINUdZ?oc=5&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
           "title": "סמוטריץ' סירב לפשרה, בג\"ץ הורה לו למסור פרטים על רכיבי תקציב דחופים",
           "source": "TheMarker",
           "published_at": "Tue, 18 Aug 2026 13:39:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZHNJcXFjMlEtODNnZS1pUUJQZHNYdGVVaEo4aGFOWnY3eWE5dV9RS1FqQ0Z5YVB1bWxCUFlpTGZTWnpyUTFHNUEycUtpd3ZLMDg4UDJmeU4yQWtJQWZoelJaUXNoV2pDb2FmRENGSHNMeF9leHh0Y2FlZXM2WGhkb185U0tWeDRzMGRpVmdmUUJkRnprU3pZRnplTzRlX2Q0ZUtleEdkaFJESkE?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "סמוטריץ' עוקץ את אייזנקוט: \"חושב שתושבי הצפון מטוטמטמים\"",
-          "source": "ice (אייס)",
-          "published_at": "Tue, 18 Aug 2026 16:32:48 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE12Wkd2RWh3NUkwbHdrek9UdkZFUFJZTGs4dlV6d3dGX3ByanJ2YXJST0lacHMyRnFDemo4QUhXTmxEdVZLZW1tdXcwcS02Z2hnUG5GcUdGNTZ6NGtr?oc=5&hl=en-US&gl=US&ceid=US:en"
         }
       ]
     }
