@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+import { revalidatePath } from "next/cache";
 import { verifyRequest, isAuthConfigured } from "@/lib/auth";
 import { supabaseAdmin } from "@/lib/supabase-admin";
 
@@ -49,6 +50,8 @@ export async function POST(req: NextRequest) {
     .from("daily_digests")
     .delete()
     .eq("status", "draft");
+
+  revalidatePath("/");
 
   return NextResponse.json({ ok: true, digest });
 }
