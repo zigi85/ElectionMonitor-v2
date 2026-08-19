@@ -325,17 +325,15 @@ export default function EditorPage() {
   };
 
   const publish = async () => {
+    if (!draft) return;
     setPublishing(true);
     setStatus("");
     try {
-      if (draft) {
-        await fetch("/api/draft-digest", {
-          method: "PUT",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify(draft),
-        });
-      }
-      const res = await fetch("/api/publish-digest", { method: "POST" });
+      const res = await fetch("/api/publish-digest", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(draft),
+      });
       const data = await res.json();
       if (data.ok) {
         setLive(data.digest);
