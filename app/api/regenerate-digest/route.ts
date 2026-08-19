@@ -4,7 +4,7 @@ import { readFile } from "fs/promises";
 import { join } from "path";
 import { verifyRequest, isAuthConfigured } from "@/lib/auth";
 
-const DIGEST_PATH = join(process.cwd(), "public", "data", "daily_digest.json");
+const DRAFT_PATH = join(process.cwd(), "public", "data", "daily_digest_draft.json");
 
 export async function POST() {
   if (isAuthConfigured()) {
@@ -14,7 +14,7 @@ export async function POST() {
 
   return new Promise<NextResponse>((resolve) => {
     exec(
-      "python scripts/generate_daily_digest.py",
+      `python scripts/generate_daily_digest.py --output "${DRAFT_PATH}"`,
       { cwd: process.cwd(), timeout: 120_000 },
       async (error, stdout, stderr) => {
         if (error) {
@@ -28,7 +28,7 @@ export async function POST() {
         }
 
         try {
-          const raw = await readFile(DIGEST_PATH, "utf-8");
+          const raw = await readFile(DRAFT_PATH, "utf-8");
           resolve(NextResponse.json({ ok: true, digest: JSON.parse(raw), log: stdout }));
         } catch {
           resolve(NextResponse.json({ ok: true, log: stdout }));

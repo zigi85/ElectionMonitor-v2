@@ -126,7 +126,6 @@ export default function ElectionCountdown() {
             </div>
           );
         })}
-        <div className="cd-track-line" />
       </div>
     </div>
   );

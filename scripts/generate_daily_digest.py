@@ -19,10 +19,12 @@ import anthropic
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 log = logging.getLogger(__name__)
 
+import argparse
+
 SCRIPT_DIR = Path(__file__).resolve().parent
 DATA_DIR = SCRIPT_DIR.parent / "public" / "data"
 HISTORY_DIR = DATA_DIR / "digest_history"
-OUTPUT_PATH = DATA_DIR / "daily_digest.json"
+DEFAULT_OUTPUT_PATH = DATA_DIR / "daily_digest.json"
 ENV_PATH = SCRIPT_DIR.parent / ".env"
 
 def load_dotenv() -> None:
@@ -301,6 +303,12 @@ def save_to_supabase(output: dict) -> None:
 
 
 def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--output", type=str, default=None,
+                        help="Override output file path")
+    args = parser.parse_args()
+    output_path = Path(args.output) if args.output else DEFAULT_OUTPUT_PATH
+
     log.info("Generating daily digest (model: %s)...", ANTHROPIC_MODEL)
 
     data_context = build_data_context()
@@ -318,12 +326,13 @@ def main() -> None:
         "story": digest.get("story", {}),
     }
 
-    with open(OUTPUT_PATH, "w", encoding="utf-8") as fh:
+    with open(output_path, "w", encoding="utf-8") as fh:
         json.dump(output, fh, ensure_ascii=False, indent=2)
-    log.info("Wrote %s", OUTPUT_PATH)
+    log.info("Wrote %s", output_path)
 
-    save_history(output)
-    save_to_supabase(output)
+    if output_path == DEFAULT_OUTPUT_PATH:
+        save_history(output)
+        save_to_supabase(output)
 
     print(f"Changes: {len(output['changes'])}")
     print(f"Story: {output['story'].get('title', 'N/A')}")
