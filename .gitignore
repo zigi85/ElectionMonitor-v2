@@ -23,3 +23,9 @@ Thumbs.db
 
 .claude/
 tsconfig.tsbuildinfo
+
+Image/
+Logo/
+*.fig
+public/data/daily_digest_backup.json
+public/data/digest_history/

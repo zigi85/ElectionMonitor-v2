@@ -74,8 +74,8 @@ export default function ElectionCountdown() {
   const { days, hours, minutes, seconds } = getTimeLeft(now);
   const todayStr = now.toISOString().slice(0, 10);
 
-  const nextIdx = MILESTONES.findIndex(m => m.date > todayStr);
-  const nextMilestone = nextIdx >= 0 ? MILESTONES[nextIdx] : null;
+  const futureMilestones = MILESTONES.filter(m => m.date >= todayStr);
+  const nextMilestone = futureMilestones.length > 0 ? futureMilestones[0] : null;
 
   return (
     <div className="card countdown-card">
@@ -113,32 +113,19 @@ export default function ElectionCountdown() {
       )}
 
       <div className="cd-track">
-        {MILESTONES.map((m, i) => {
-          const isPast = m.date <= todayStr;
-          const isNext = nextIdx === i;
+        <div className="cd-stop cd-today">
+          <span className="cd-stop-date">{`${now.getDate()}.${now.getMonth() + 1}`}</span>
+          <span className="cd-stop-label">היום</span>
+        </div>
+        {futureMilestones.filter(m => m.date > todayStr).map((m) => {
           const isElection = m.date === "2026-10-27";
-
           return (
-            <Fragment key={m.date}>
-              {isNext && (
-                <div className="cd-stop cd-today">
-                  <span className="cd-stop-date">{`${now.getDate()}.${now.getMonth() + 1}`}</span>
-                  <span className="cd-stop-label">היום</span>
-                </div>
-              )}
-              <div className={`cd-stop${isPast ? " cd-done" : ""}${isElection ? " cd-final" : ""}`}>
-                <span className="cd-stop-date">{formatDate(m.date)}</span>
-                <span className="cd-stop-label">{m.label}</span>
-              </div>
-            </Fragment>
+            <div key={m.date} className={`cd-stop${isElection ? " cd-final" : ""}`}>
+              <span className="cd-stop-date">{formatDate(m.date)}</span>
+              <span className="cd-stop-label">{m.label}</span>
+            </div>
           );
         })}
-        {nextIdx < 0 && (
-          <div className="cd-stop cd-today">
-            <span className="cd-stop-date">{`${now.getDate()}.${now.getMonth() + 1}`}</span>
-            <span className="cd-stop-label">היום</span>
-          </div>
-        )}
         <div className="cd-track-line" />
       </div>
     </div>

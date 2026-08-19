@@ -19,8 +19,8 @@ export default async function HomePage() {
 
       <main className="app-content">
         <ElectionCountdown />
-        <DailyDigest dailyDigest={dailyDigest} />
         <KnessetHemicycle manualPolls={manualPolls} />
+        <DailyDigest dailyDigest={dailyDigest} />
         <PredictionMarkets polymarket={polymarket} />
         <GoogleTrends trends={trends} />
         <MediaMentions mediaMentions={mediaMentions} />

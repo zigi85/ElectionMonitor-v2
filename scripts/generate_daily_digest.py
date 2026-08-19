@@ -144,6 +144,21 @@ def build_data_context() -> str:
             if party.get("score", 0) != 0 or party.get("direction") != "stable":
                 sections.append(f"  {party.get('label', party['party'])}: {party['direction']} (ציון: {party.get('score', 0):.2f})")
 
+    # Editorial notes (manually added context not in data files)
+    notes = read_json("editorial_notes.json")
+    if notes and notes.get("notes"):
+        sections.append("\n## הערות עריכתיות (חובה לשלב בניתוח)")
+        for note in notes["notes"]:
+            if isinstance(note, dict):
+                text = note.get("text", "")
+                url = note.get("url", "")
+                if url:
+                    sections.append(f"  - {text} (מקור: {url})")
+                else:
+                    sections.append(f"  - {text}")
+            else:
+                sections.append(f"  - {note}")
+
     return "\n".join(sections)
 
 
@@ -174,6 +189,7 @@ def call_llm(data_context: str) -> dict | None:
 - ראש ממשלה (לא "ראש הממשלה הבא")
 - שוק הניבוי / פולימרקט
 - גוש (קואליציה / אופוזיציה)
+- שמות מפלגות בלבד — לעולם אל תכתוב "מפלגת נתניהו" או "מפלגת איזנקוט". כתוב "הליכוד", "ישר", וכו'.
 
 החזר רק JSON תקין. בלי markdown, בלי הסברים, בלי עטיפת קוד."""
 
@@ -219,7 +235,7 @@ def call_llm(data_context: str) -> dict | None:
     try:
         response = client.messages.create(
             model=ANTHROPIC_MODEL,
-            max_tokens=1024,
+            max_tokens=4096,
             system=system_msg,
             messages=[{"role": "user", "content": user_msg}],
         )
@@ -227,7 +243,7 @@ def call_llm(data_context: str) -> dict | None:
         log.error("Anthropic API call failed: %s", exc)
         return None
 
-    text = response.content[0].text.strip()
+    text = next(b.text for b in response.content if b.type == "text").strip()
     if text.startswith("```"):
         text = text.split("\n", 1)[1] if "\n" in text else text[3:]
         if text.endswith("```"):

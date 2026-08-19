@@ -62,7 +62,11 @@ export default function DailyDigest({ dailyDigest }: Props) {
         <div className="dd-story">
           <div className="dd-story-label">הסיפור של היום</div>
           <h3 className="dd-story-title">{dailyDigest.story.title}</h3>
-          <p className="dd-story-body">{dailyDigest.story.body}</p>
+          <div className="dd-story-body">
+            {dailyDigest.story.body?.split(/(?<=\.)\s+/).map((sentence, i) => (
+              <p key={i}>{sentence}</p>
+            ))}
+          </div>
         </div>
       )}
     </div>

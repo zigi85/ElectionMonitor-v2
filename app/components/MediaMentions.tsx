@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import type { MediaMentionsData, MediaLeader, MediaHeadline } from "@/lib/types";
 
 const IHY = "ישראל היום";
@@ -87,6 +87,8 @@ interface Props {
 export default function MediaMentions({ mediaMentions }: Props) {
   const [selectedKey, setSelectedKey] = useState<string | null>(null);
   const [filter, setFilter] = useState<HeadlineFilter>("all");
+  const scrollRef = useRef<HTMLDivElement>(null);
+  const panelRef = useRef<HTMLDivElement>(null);
 
   if (!mediaMentions.leaders || mediaMentions.leaders.length === 0) return null;
 
@@ -98,6 +100,49 @@ export default function MediaMentions({ mediaMentions }: Props) {
   const topHeadlines = filter === "ihy"
     ? buildIhyOnlyHeadlines(sorted)
     : buildMixedHeadlines(sorted);
+
+  const scrollCarousel = (dir: number) => {
+    scrollRef.current?.scrollBy({ left: dir, behavior: "smooth" });
+  };
+
+  useEffect(() => {
+    const update = () => {
+      const panel = panelRef.current;
+      const row = scrollRef.current;
+      if (!panel || !row) return;
+
+      const activeBtn = row.querySelector(".mm-avatar-active") as HTMLElement;
+      if (!activeBtn) {
+        panel.style.setProperty("--tab-vis", "0");
+        return;
+      }
+
+      const panelRect = panel.getBoundingClientRect();
+      const btnRect = activeBtn.getBoundingClientRect();
+      const rowRect = row.getBoundingClientRect();
+
+      if (btnRect.right <= rowRect.left + 10 || btnRect.left >= rowRect.right - 10) {
+        panel.style.setProperty("--tab-vis", "0");
+        return;
+      }
+
+      const pad = 14;
+      panel.style.setProperty("--tab-vis", "1");
+      panel.style.setProperty("--tab-left", `${btnRect.left - panelRect.left - pad}px`);
+      panel.style.setProperty("--tab-width", `${btnRect.width + pad * 2}px`);
+      panel.style.setProperty("--tab-height", `${panelRect.top - btnRect.top + pad + 6}px`);
+    };
+
+    const t = setTimeout(update, 60);
+    const r = scrollRef.current;
+    r?.addEventListener("scroll", update, { passive: true });
+    window.addEventListener("resize", update);
+    return () => {
+      clearTimeout(t);
+      r?.removeEventListener("scroll", update);
+      window.removeEventListener("resize", update);
+    };
+  }, [activeKey]);
 
   return (
     <section className="mm-section fade-in">
@@ -111,12 +156,16 @@ export default function MediaMentions({ mediaMentions }: Props) {
           ספירת אזכורים ב-Google News ב{mediaMentions.period_label}. כמות האזכורים משקפת נוכחות תקשורתית, לא סנטימנט חיובי או שלילי.
         </p>
 
-        <div className="mm-card-container">
-          <div className="mm-avatars-row">
-            {sorted.map(leader => {
+        <div className="mm-content-wrap">
+        <div className="mm-carousel-wrap">
+          <button className="mm-carousel-arrow" onClick={() => scrollCarousel(150)} aria-label="הקודם">
+            <span className="mm-carousel-chevron mm-chevron-right" />
+          </button>
+          <div className="mm-avatars-row" ref={scrollRef}>
+            {sorted.map((leader, idx) => {
               const isActive = leader.key === activeKey;
               const [firstName, lastName] = splitName(leader.name_he);
-              const imgSrc = LEADER_IMAGES[leader.key];
+              const leaderImg = LEADER_IMAGES[leader.key];
               return (
                 <button
                   key={leader.key}
@@ -124,12 +173,15 @@ export default function MediaMentions({ mediaMentions }: Props) {
                   onClick={() => setSelectedKey(leader.key)}
                   aria-pressed={isActive}
                 >
-                  <div className={`mm-avatar-img${isActive ? " mm-avatar-img-active" : ""}`}>
-                    {imgSrc ? (
-                      <img src={imgSrc} alt={leader.name_he} />
-                    ) : (
-                      <span className="mm-avatar-placeholder">{firstName[0]}</span>
-                    )}
+                  <div className="mm-avatar-img-wrap">
+                    <span className={`mm-rank${isActive ? " mm-rank-active" : ""}`}>{idx + 1}</span>
+                    <div className={`mm-avatar-img${isActive ? " mm-avatar-img-active" : ""}`}>
+                      {leaderImg ? (
+                        <img src={leaderImg} alt={leader.name_he} />
+                      ) : (
+                        <span className="mm-avatar-placeholder">{firstName[0]}</span>
+                      )}
+                    </div>
                   </div>
                   <span className={`mm-avatar-name${isActive ? " mm-avatar-name-active" : ""}`}>
                     {firstName}
@@ -140,26 +192,35 @@ export default function MediaMentions({ mediaMentions }: Props) {
               );
             })}
           </div>
+          <button className="mm-carousel-arrow" onClick={() => scrollCarousel(-150)} aria-label="הבא">
+            <span className="mm-carousel-chevron mm-chevron-left" />
+          </button>
+        </div>
 
+        <div ref={panelRef} className="mm-detail-panel">
           <div className="mm-badge">
-            {selectedLeader.role}
+            {selectedLeader.role} | {selectedLeader.mention_count} כתבות
           </div>
 
           <div className="mm-leader-headlines">
-            {selectedHeadlines.map((h, i) => (
-              <div key={i} className="mm-hl-row">
-                <span className="mm-hl-source">{h.source}</span>
-                <span className="mm-hl-divider" />
-                {h.url ? (
-                  <a href={h.url} target="_blank" rel="noopener noreferrer" className="mm-hl-text mm-hl-link">
-                    {h.title}
-                  </a>
-                ) : (
-                  <span className="mm-hl-text">{h.title}</span>
-                )}
-              </div>
-            ))}
+            {selectedHeadlines.map((h, i) => {
+              const isIhy = h.source === IHY;
+              return (
+                <div key={i} className="mm-hl-row">
+                  <span className="mm-hl-source">{h.source}</span>
+                  <span className="mm-hl-divider" />
+                  {isIhy && h.url ? (
+                    <a href={h.url} target="_blank" rel="noopener noreferrer" className="mm-hl-text mm-hl-link">
+                      {h.title}
+                    </a>
+                  ) : (
+                    <span className="mm-hl-text">{h.title}</span>
+                  )}
+                </div>
+              );
+            })}
           </div>
+        </div>
         </div>
 
         <div className="mm-top-section">
@@ -170,7 +231,7 @@ export default function MediaMentions({ mediaMentions }: Props) {
                 className={`mm-tab${filter === "ihy" ? " mm-tab-active" : ""}`}
                 onClick={() => setFilter("ihy")}
               >
-                ישראל היום
+                <img src="/images/outlets/israel_hayom.png" alt="ישראל היום" className="mm-tab-logo" />
               </button>
               <button
                 className={`mm-tab mm-tab-all${filter === "all" ? " mm-tab-active" : ""}`}
@@ -180,18 +241,28 @@ export default function MediaMentions({ mediaMentions }: Props) {
               </button>
             </div>
             <div className="mm-top-headlines">
-              {topHeadlines.map((h, i) => (
-                <div key={i} className="mm-top-hl-row">
-                  <span className="mm-top-hl-arrow">&#x276E;</span>
-                  {h.url ? (
-                    <a href={h.url} target="_blank" rel="noopener noreferrer" className="mm-top-hl-text mm-hl-link">
-                      {h.title}
-                    </a>
-                  ) : (
-                    <span className="mm-top-hl-text">{h.title}</span>
-                  )}
-                </div>
-              ))}
+              {topHeadlines.map((h, i) => {
+                const isIhy = h.source === IHY;
+                const showSource = filter !== "ihy";
+                return (
+                  <div key={i} className="mm-top-hl-row">
+                    {showSource && (
+                      <>
+                        <span className="mm-hl-source">{h.source}</span>
+                        <span className="mm-hl-divider" />
+                      </>
+                    )}
+                    <span className="mm-top-hl-arrow" />
+                    {isIhy && h.url ? (
+                      <a href={h.url} target="_blank" rel="noopener noreferrer" className="mm-top-hl-text mm-hl-link">
+                        {h.title}
+                      </a>
+                    ) : (
+                      <span className="mm-top-hl-text">{h.title}</span>
+                    )}
+                  </div>
+                );
+              })}
             </div>
           </div>
         </div>
