@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T03:45:15Z",
+  "generated_at": "2026-08-19T06:41:47Z",
   "period": "3d",
   "period_label": "3 ימים אחרונים",
   "source": "Google News",
@@ -12,15 +12,15 @@
       "mention_count": 100,
       "headlines": [
         {
-          "title": "האיש שיהיה היורש של נתניהו - ועוד לא יודע את זה",
+          "title": "היום שאחרי הפריימריז: נתניהו יחפש סרוגים, מילואימניקים ונשים",
           "source": "ישראל היום",
           "published_at": "",
-          "url": "https://www.israelhayom.co.il/magazine/hashavua/article/21185588",
+          "url": "https://www.israelhayom.co.il/news/politics/article/21228685",
           "fallback": true
         },
         {
           "title": "\"שריקת הסיום\" בבלומפילד היא רק יריית הפתיחה: אלה האתגרים הבאים של נתניהו",
-          "source": "ynet",
+          "source": "ynet.co.il",
           "published_at": "Tue, 18 Aug 2026 22:07:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9zS1p4dzJEbS1ZMVA3WVdwTGtwR2dnMWhDcXFvSGd6clJUZHo3eEtlVGhUdmZWWlJVOUhxbnNpdHBHbjJ1SVhuZldXOXItdEt0SjhuV21kM25ZM1k?oc=5&hl=en-US&gl=US&ceid=US:en"
         },
@@ -37,7 +37,7 @@
       "name_he": "גדי איזנקוט",
       "role": "יו\"ר ישר",
       "party": "yashar",
-      "mention_count": 67,
+      "mention_count": 64,
       "headlines": [
         {
           "title": "\"בן אדם צ'יל ברמות\": איזנקוט - בקרוב בבתי הקולנוע?",
@@ -52,10 +52,10 @@
           "url": "https://news.google.com/rss/articles/CBMiugJBVV95cUxORWwzeWFFMWZuV1BudmJxN3d4QmZlOWd0OXlKRkpXYmtQOGVxUmhqYWZVNkRiN1dlejNWMWZfQ1VEckhiVlQ3UVRZYzJtdVc0UVVfVUNDcnZjbHNfNWVfSExTa2V3SjdSbUo3SElaZGN3ZTlQMVNOS05xYk9ZRlpVbkxSUGRCLTNJNnVtNGZlWFJQMnQ0LXpaNFlVenp0WVVWVkdHT0xyUUZqT01sZU85YU9HdDVhbklTaDlTeDE5NHdTY0tXWmFETEp5Wm1hTG5wcDJ5cUxWdmZLcTVIYXRZQmRIWXd0SWZKcVVBRldLbVJWX3FlZkFEWUNQUEY5cXRXLVNrZGtSV0FPVzd2UHMwMUV2YVF1ODI3cXBYQ25Ja3QydzBVMzJpSGVlQ0xrSmt5clFOa2VNbzhjQQ?oc=5&hl=en-US&gl=US&ceid=US:en"
         },
         {
-          "title": "אחרי הפריימריז בליכוד - התגובות לא איחרו להגיע, גדי איזנקוט: \"יש לכם בית\"",
-          "source": "מעריב",
-          "published_at": "Tue, 18 Aug 2026 14:20:50 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5NdGZETUU5UnFRbmREcmF1LXppYllpXzBfcGZaYy1nQ3NyeUdSTFFDZXRFT0lZRzhnZjlUc3czRmdlVDY5eW5ET2Q0M2xSaWhyTFBZaGJwWlY5RjJvNEVuMXhVRHA?oc=5&hl=en-US&gl=US&ceid=US:en"
+          "title": "\"אני רוצה להרגיש שהאסון שעברתי לא היה לחינם\"",
+          "source": "ynet.co.il",
+          "published_at": "Tue, 18 Aug 2026 21:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1nRU56eHkyS2xaMFYwMldrX1BGaTJWbjh0NzdBUTJJU1ZLcUtva0hGZlVJTDBtaE1LVWpNYTZiWU5xd0pBd0xUWE5IbWhXME5fZWZjMW1nV1JjT2lNZm11TXd3?oc=5&hl=en-US&gl=US&ceid=US:en"
         }
       ]
     },
@@ -64,7 +64,7 @@
       "name_he": "נפתלי בנט",
       "role": "יו\"ר ביחד",
       "party": "together",
-      "mention_count": 76,
+      "mention_count": 75,
       "headlines": [
         {
           "title": "\"להיות הקול של תושבי הצפון\": המצטרף החדש לנבחרת של בנט",
@@ -79,10 +79,10 @@
           "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9LRkNzRVFlNGRPWlZBSWNfOFc4OEtyUlFyZUppdEpIazB0eTRsMlZwVzlVQy1sWFE2ZnhKR2VzOTFIRTNF?oc=5&hl=en-US&gl=US&ceid=US:en"
         },
         {
-          "title": "\"הממשלה התנתקה מהצפון\": ניסן זאבי, ממובילי מאבק הצפון, מצטרף לבנט",
-          "source": "davar1.co.il",
-          "published_at": "Tue, 18 Aug 2026 13:54:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1TMEpJRDJOV19tXzNLaHYxakRFVEN6YXprVGdNRXUzeXkyUnpDR05NUGVCOWNPSGZZYXhYcUlWd0RaNE9rM3dj?oc=5&hl=en-US&gl=US&ceid=US:en"
+          "title": "תחילת הנפילה: ההסכת שדרדר את הקמפיין של בנט",
+          "source": "מקור ראשון",
+          "published_at": "Tue, 18 Aug 2026 19:01:22 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1BeENDQm8waG5BQ3l6dlBXYjM5bFJiTGZGM3pjSHozVk5MZ1NsbXZ5VnlWMFloX2NKOW94a01yLURjckNkS2VOLUhmU2hMemN4M3RhMHRUMTFRYVVPaFZUX01tSkJJemRRalE?oc=5&hl=en-US&gl=US&ceid=US:en"
         }
       ]
     },
@@ -100,16 +100,16 @@
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAyWVB5Njg3REVTNGJrbU5FTVlDT2Q2R1FUWnFNaHQ1OVd1b0lBRkRCZ1BxZV85YnF2VWJ4cmJSemJEN1JEUXE0cDFKNlg5RkZabHlzUjFodTlVSXhrZ05vQUNmZUNEa2JUTWFZU9IBdEFVX3lxTE9LaHdveG9IcDNNUlIwdE1tTW5ZNW14cVhiRkh4RVplZjRGN1liZEZBeFN1N3ViZ1hwOUsySGRIdl81a1JEUkI3SmJ3eXg4WnhZYzUzYjc5Z2ZqT09KNEJWeng5eUNybnozOUZvV3k0eWM2QXR6?oc=5&hl=en-US&gl=US&ceid=US:en"
         },
         {
-          "title": "סקר העומק שהגיע לנתניהו – והפאניקה בעקבותיו: \"העסק גמור\"",
-          "source": "מעריב",
-          "published_at": "Tue, 18 Aug 2026 07:39:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5rclNtYU9sOHM4RnprSlgzbzB3cVdFNHJ2ZjliYmxGU21CQ0RYbDdpaXdZVTNKOXBTTFdyaXVGdWlFRWM4b1ZjODJydmV6cU9EU0xYN1I3YWNHWXhMQWFFbW9TcEU?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
           "title": "ליברמן מסנדל את איזנקוט? \"לא אכנס לממשלת מיעוט. לא יהיה פטור לחרדים\"",
-          "source": "ynet",
+          "source": "ynet.co.il",
           "published_at": "Mon, 17 Aug 2026 10:21:36 GMT",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB2U1dpcENDc3RFR3JZTGRweG5wU21YZVdxMk9Ycjk3YkJubi04U1pVZkozM1JJVVk5VlljRGhrMm9JY0hOUnZVdzMwX1Y2MWhCdVhCNG93X3p4aTg?oc=5&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "title": "\"שום סיכוי: לא לבני, לא לגלעד ויולי, לא ליועז וחילי\"",
+          "source": "103FM",
+          "published_at": "Tue, 18 Aug 2026 09:45:06 GMT",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQeFR5MjgxSTUzT2dzOFZ2TUNkcXBLczVKRUFFZUNZUjNOZFo1UEg5aWdJTjhyLWJKekJCNU90VmZkRTEtbDE0azBDbDVPREllaVBxNUZjM0lWS1M4V0VPbXViOXJfNUoybUlOdk8xNTBxd0FvQlYzZElqRE9yOFhfZA?oc=5&hl=en-US&gl=US&ceid=US:en"
         }
       ]
     },
@@ -118,13 +118,13 @@
       "name_he": "יאיר גולן",
       "role": "יו\"ר הדמוקרטים",
       "party": "democrats",
-      "mention_count": 26,
+      "mention_count": 30,
       "headlines": [
         {
-          "title": "ביקורת על רשימת הליכוד המסתמנת: \"רק שתי נשים, הפכו למפלגה חרדית\"",
+          "title": "\"אני שמאלני גאה\": יעקב בוזגלו בבקשה מפתיעה - לפני הבחירות",
           "source": "ישראל היום",
-          "published_at": "Mon, 17 Aug 2026 19:35:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5JSlRsTkZTV1dUZ25DdS1XeWI4ZTVWajNxMklBaDJZTzdmeEZWeFY2SElpRW1KVGk5VzUtVXE2MnQzM2lKQTdNcWhSbWQ4a3hNYmJmeWphSnNFSkl5ZF9STjhoZjRtcXc3YlZpV9IBdEFVX3lxTE5Zcl8tT0JGT3l4QjZWUFJnQy03dWFCTHo2TC13cFBjMFY2UUVVRHE0LU0xRDN3YkZmQ0FEMllSX1hnajJsLVBCQmpDQzVCbW5BaEVFRTBHbmllcVdmYnozeVpQdnZGbDFzLWVQYVRjTjNxQ1Zs?oc=5&hl=en-US&gl=US&ceid=US:en"
+          "published_at": "Tue, 18 Aug 2026 20:31:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAzeGJ3XzVpVlhlSFhiTy1XdEtfQl9QWkE2RzZYUERHd0FhQ1RzdHVtckhfaHVreEJNNHAtOEVKT3RQT09pVzc4b1hhU0FTTUhFQmlGVWJCMGk0dzgtdG5yTXdERm9FNjVDSWxTUNIBdEFVX3lxTE5WcXU5TUxDSDZBZTZlQjFEdmJNMkJibUpGRlQyLVNQZGJ3SEY2RktCTTVrQ0hoQWtkaWFCeWxDN2xRSzl4X1pENU1OQng2aTBvMGpqVDZlRC1aSUw0R2hTNDdiUVU3cnA0MDFiR2V3TWVGYjJJ?oc=5&hl=en-US&gl=US&ceid=US:en"
         },
         {
           "title": "שריון עינב צנגאוקר: די לחפש פגמים במנהיגי השמאל, יאיר גולן התנצל",
@@ -145,7 +145,7 @@
       "name_he": "איתמר בן גביר",
       "role": "יו\"ר עוצמה יהודית",
       "party": "otzma_yehudit",
-      "mention_count": 88,
+      "mention_count": 90,
       "headlines": [
         {
           "title": "כבר לא ימין ממלכתי: בן גביר מושך את הליכוד לזירה הכהניסטית",
@@ -155,7 +155,7 @@
         },
         {
           "title": "\"כל לילה להוריד 40-30 בעזה\": האמירה של בן גביר לשורד השבי - והסערה העולמית",
-          "source": "ynet",
+          "source": "ynet.co.il",
           "published_at": "Mon, 17 Aug 2026 13:13:48 GMT",
           "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9OSERkdmN4cTlPbi05TWkwRHBSMUlmUG9jRDFldW1JQkpOb1FXeDZsdlZSWGZJd2pUbUMzZTExUHBFRU5LUlBaYzktd1ZPQU56RUQ2eTI3RzdNUQ?oc=5&hl=en-US&gl=US&ceid=US:en"
         },
