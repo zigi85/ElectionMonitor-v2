@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-18T05:25:22Z",
+  "generated_at": "2026-08-19T05:26:30Z",
   "source_urls": [
     "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
     "https://en.wikipedia.org/wiki/2025_opinion_polling_for_the_2026_Israeli_legislative_election"
   ],
   "excluded_firms": {
-    "Filber": "Channel 14 affiliate; consistently shows Likud 7-10 seats above other firms",
-    "Direct Polls": "Methodological outlier; excluded per editorial policy"
+    "Direct Polls": "Methodological outlier; excluded per editorial policy",
+    "Filber": "Channel 14 affiliate; consistently shows Likud 7-10 seats above other firms"
   },
   "raw_polls": [
     {
@@ -370,8 +370,8 @@
         "likud": 23,
         "together": 14,
         "otzma_yehudit": 10,
-        "shas": 8,
-        "utj": 7,
+        "shas": 7,
+        "utj": 8,
         "yisrael_beiteinu": 10,
         "raam": 5,
         "joint_list": 6,
@@ -478,18 +478,7 @@
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": true,
-      "seats": {
-        "likud": 33,
-        "together": 7,
-        "otzma_yehudit": 6,
-        "shas": 10,
-        "utj": 7,
-        "yisrael_beiteinu": 8,
-        "raam": 5,
-        "joint_list": 5,
-        "democrats": 10,
-        "yashar": 23
-      }
+      "seats": {}
     },
     {
       "id": "kantar-2026-08-09",
@@ -8097,8 +8086,8 @@
         "likud": 24.3,
         "together": 15.0,
         "otzma_yehudit": 7.7,
-        "shas": 9.0,
-        "utj": 7.0,
+        "shas": 8.7,
+        "utj": 7.3,
         "yisrael_beiteinu": 8.3,
         "raam": 4.7,
         "joint_list": 5.5,
