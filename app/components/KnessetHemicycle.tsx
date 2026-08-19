@@ -273,7 +273,7 @@ export default function KnessetHemicycle({ manualPolls }: Props) {
 
         <div className="cb-hemicycle-area" dir="ltr">
           <div className="cb-politician">
-            <img src="/images/eisenkot.png" alt="אייזנקוט" />
+            <img src="/images/politicians/eisenkot.png" alt="אייזנקוט" />
           </div>
           <div className="cb-hemicycle-center">
             <ArcChart blocs={blocs} />
@@ -283,7 +283,7 @@ export default function KnessetHemicycle({ manualPolls }: Props) {
             </div>
           </div>
           <div className="cb-politician">
-            <img src="/images/netanyahu.png" alt="נתניהו" />
+            <img src="/images/politicians/netanyahu.png" alt="נתניהו" />
           </div>
         </div>
 
