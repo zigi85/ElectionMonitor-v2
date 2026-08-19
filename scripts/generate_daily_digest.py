@@ -281,7 +281,7 @@ def save_to_supabase(output: dict) -> None:
         "changes": output["changes"],
         "story": output["story"],
         "raw": output,
-        "status": "published",
+        "status": "draft",
     }
 
     body = json.dumps(row, ensure_ascii=False).encode("utf-8")
