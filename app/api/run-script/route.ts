@@ -1,20 +1,24 @@
 import { NextRequest, NextResponse } from "next/server";
-import { exec } from "child_process";
 import { verifyRequest, isAuthConfigured } from "@/lib/auth";
 
-const SCRIPTS: Record<string, { cmd: string; label: string }> = {
-  polls: { cmd: "python scripts/scrape_polls.py", label: "סקרים" },
-  polymarket: { cmd: "python scripts/fetch_polymarket.py", label: "שוקי ניבוי" },
-  media: { cmd: "python scripts/fetch_media_mentions.py", label: "אזכורים בתקשורת" },
-  social: { cmd: "python scripts/fetch_social.py", label: "סיגנלים חברתיים" },
-  trends: { cmd: "python scripts/fetch_trends.py", label: "Google Trends" },
-  momentum: { cmd: "python scripts/calculate_momentum.py", label: "חישוב מומנטום" },
-  digest: { cmd: "python scripts/generate_daily_digest.py", label: "דייג'סט יומי" },
+const REPO = process.env.GITHUB_REPO || "zigi85/ElectionMonitor-v2";
+const WORKFLOW_FILE = "refresh-data.yml";
+
+const SCRIPTS: Record<string, { target: string; label: string }> = {
+  polls: { target: "polls", label: "סקרים" },
+  polymarket: { target: "polymarket", label: "שוקי ניבוי" },
+  media: { target: "media", label: "אזכורים בתקשורת" },
+  social: { target: "social", label: "סיגנלים חברתיים" },
+  trends: { target: "trends", label: "Google Trends" },
+  digest: { target: "digest", label: "דייג'סט יומי" },
+  all: { target: "all", label: "הרץ הכל" },
 };
 
 export async function GET() {
   return NextResponse.json({
-    scripts: Object.entries(SCRIPTS).map(([id, s]) => ({ id, label: s.label })),
+    scripts: Object.entries(SCRIPTS)
+      .filter(([id]) => id !== "all")
+      .map(([id, s]) => ({ id, label: s.label })),
   });
 }
 
@@ -24,24 +28,42 @@ export async function POST(req: NextRequest) {
     if (!valid) return NextResponse.json({ error: "unauthorized" }, { status: 401 });
   }
 
+  const ghToken = process.env.GITHUB_ACTIONS_TOKEN;
+  if (!ghToken) {
+    return NextResponse.json(
+      { ok: false, error: "GITHUB_ACTIONS_TOKEN not configured" },
+      { status: 500 },
+    );
+  }
+
   const { scriptId } = await req.json();
   const script = SCRIPTS[scriptId];
   if (!script) {
     return NextResponse.json({ ok: false, error: "unknown script" }, { status: 400 });
   }
 
-  return new Promise<NextResponse>((resolve) => {
-    exec(script.cmd, { cwd: process.cwd(), timeout: 180_000 }, (error, stdout, stderr) => {
-      if (error) {
-        resolve(
-          NextResponse.json(
-            { ok: false, scriptId, error: stderr || error.message },
-            { status: 500 },
-          ),
-        );
-        return;
-      }
-      resolve(NextResponse.json({ ok: true, scriptId, log: stdout, warnings: stderr || undefined }));
-    });
+  const url = `https://api.github.com/repos/${REPO}/actions/workflows/${WORKFLOW_FILE}/dispatches`;
+
+  const res = await fetch(url, {
+    method: "POST",
+    headers: {
+      Authorization: `Bearer ${ghToken}`,
+      Accept: "application/vnd.github.v3+json",
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      ref: "master",
+      inputs: { target: script.target },
+    }),
   });
+
+  if (res.status === 204) {
+    return NextResponse.json({ ok: true, scriptId, message: "Workflow triggered" });
+  }
+
+  const errorBody = await res.text();
+  return NextResponse.json(
+    { ok: false, scriptId, error: `GitHub API ${res.status}: ${errorBody}` },
+    { status: 500 },
+  );
 }

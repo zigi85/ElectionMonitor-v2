@@ -39,6 +39,7 @@ async function fetchDailyDigest(): Promise<DailyDigestData | null> {
       const { data, error } = await supabase
         .from("daily_digests")
         .select("generated_at, changes, story")
+        .eq("status", "published")
         .order("generated_at", { ascending: false })
         .limit(1)
         .single();

@@ -154,7 +154,7 @@ function ScriptRunner({ scripts }: { scripts: ScriptInfo[] }) {
       });
       const data = await res.json();
       if (data.ok) {
-        setResults((prev) => ({ ...prev, [scriptId]: { ok: true, message: "הסתיים בהצלחה" } }));
+        setResults((prev) => ({ ...prev, [scriptId]: { ok: true, message: data.message || "הופעל בהצלחה" } }));
       } else {
         setResults((prev) => ({ ...prev, [scriptId]: { ok: false, message: data.error || "שגיאה" } }));
       }
@@ -174,9 +174,7 @@ function ScriptRunner({ scripts }: { scripts: ScriptInfo[] }) {
 
   const runAll = async () => {
     const enabled = scripts.filter((s) => !disabled[s.id]);
-    for (const s of enabled) {
-      await runScript(s.id);
-    }
+    await Promise.all(enabled.map((s) => runScript(s.id)));
   };
 
   const anyRunning = Object.values(running).some(Boolean);
