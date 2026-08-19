@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T21:23:27Z",
+  "generated_at": "2026-08-19T01:11:44Z",
   "period": "3d",
   "period_label": "3 ימים אחרונים",
   "source": "Google News",
@@ -12,21 +12,22 @@
       "mention_count": 100,
       "headlines": [
         {
-          "title": "לנשים ולחובשי כיפה אין סיבה להצביע לליכוד",
+          "title": "האיש שיהיה היורש של נתניהו - ועוד לא יודע את זה",
           "source": "ישראל היום",
-          "published_at": "Tue, 18 Aug 2026 20:22:45 GMT",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9ybzRlYzQ3RG5RS1Z0LVdLcDAtMXlxUnFvNHdHWlpCa2FHT2V5ZkJleWpaU2FmbXQ3NVhhUFN1NXdYcnA5STFGQnNRTEg1VFBOR3lvb3RGb3hpZTF5bXgzZVNhaVlMdEd0Q2tvWdIBdEFVX3lxTE9faUpGS2kzQ3haWFRpX1Y2MVBwY2QyUGRzUFVQYm5zeS1ISGRFYXBXZ3VTRUNFY1lBSENFVnVKTl9haEpQa2phdUx1VkU4Wkc5M1J4cUhZUTVrQ2dzX1BoTmJfSzFFeUd2N2JzY1VLNE5WZWhB?oc=5&hl=en-US&gl=US&ceid=US:en"
+          "published_at": "",
+          "url": "https://www.israelhayom.co.il/magazine/hashavua/article/21185588",
+          "fallback": true
         },
         {
           "title": "\"שריקת הסיום\" בבלומפילד היא רק יריית הפתיחה: אלה האתגרים הבאים של נתניהו",
-          "source": "ynet.co.il",
-          "published_at": "Tue, 18 Aug 2026 19:32:46 GMT",
+          "source": "ynet",
+          "published_at": "Tue, 18 Aug 2026 22:07:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9zS1p4dzJEbS1ZMVA3WVdwTGtwR2dnMWhDcXFvSGd6clJUZHo3eEtlVGhUdmZWWlJVOUhxbnNpdHBHbjJ1SVhuZldXOXItdEt0SjhuV21kM25ZM1k?oc=5&hl=en-US&gl=US&ceid=US:en"
         },
         {
           "title": "אחרי ש\"הודח\" ע\"י המתפקדים: נתניהו שוקל לשריין את דיכטר",
           "source": "כאן 11",
-          "published_at": "Tue, 18 Aug 2026 20:59:04 GMT",
+          "published_at": "Tue, 18 Aug 2026 17:27:35 GMT",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBjSEhzYk8xNnkyWWNRMmFsaUtMa2hYVE5qa0hZbDNDUWkyYm04Z09YNENHQ2RncGNtZlhyb1I4RjZRcWY1clNSR01QNFJDLWZZSzJwejhjdGdFODhFRnlCYm4ySVJpYjA?oc=5&hl=en-US&gl=US&ceid=US:en"
         }
       ]
@@ -36,7 +37,7 @@
       "name_he": "גדי איזנקוט",
       "role": "יו\"ר ישר",
       "party": "yashar",
-      "mention_count": 66,
+      "mention_count": 65,
       "headlines": [
         {
           "title": "\"בן אדם צ'יל ברמות\": איזנקוט - בקרוב בבתי הקולנוע?",
@@ -52,7 +53,7 @@
         },
         {
           "title": "\"אני רוצה להרגיש שהאסון שעברתי לא היה לחינם\"",
-          "source": "ynet.co.il",
+          "source": "ynet",
           "published_at": "Tue, 18 Aug 2026 21:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1nRU56eHkyS2xaMFYwMldrX1BGaTJWbjh0NzdBUTJJU1ZLcUtva0hGZlVJTDBtaE1LVWpNYTZiWU5xd0pBd0xUWE5IbWhXME5fZWZjMW1nV1JjT2lNZm11TXd3?oc=5&hl=en-US&gl=US&ceid=US:en"
         }
@@ -63,7 +64,7 @@
       "name_he": "נפתלי בנט",
       "role": "יו\"ר ביחד",
       "party": "together",
-      "mention_count": 76,
+      "mention_count": 78,
       "headlines": [
         {
           "title": "\"להיות הקול של תושבי הצפון\": המצטרף החדש לנבחרת של בנט",
@@ -106,7 +107,7 @@
         },
         {
           "title": "ליברמן מסנדל את איזנקוט? \"לא אכנס לממשלת מיעוט. לא יהיה פטור לחרדים\"",
-          "source": "ynet.co.il",
+          "source": "ynet",
           "published_at": "Mon, 17 Aug 2026 10:21:36 GMT",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB2U1dpcENDc3RFR3JZTGRweG5wU21YZVdxMk9Ycjk3YkJubi04U1pVZkozM1JJVVk5VlljRGhrMm9JY0hOUnZVdzMwX1Y2MWhCdVhCNG93X3p4aTg?oc=5&hl=en-US&gl=US&ceid=US:en"
         }
@@ -117,7 +118,7 @@
       "name_he": "יאיר גולן",
       "role": "יו\"ר הדמוקרטים",
       "party": "democrats",
-      "mention_count": 26,
+      "mention_count": 28,
       "headlines": [
         {
           "title": "ביקורת על רשימת הליכוד המסתמנת: \"רק שתי נשים, הפכו למפלגה חרדית\"",
@@ -132,10 +133,10 @@
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOYnJJNmxlYUJhVHgxbXQ3dmw0emFUQ0xrWkdiOEJiNkdiQmRBMjZqUG5RLUtMZFpoblJCMlN0dkQ2b3VlVGxvcUFYV19nZWJFYVVOa05BckVENjFMSDFnUklzTHBRQWEwN0FQWlN3ZUE4NkFxYVZQbHhTZFJERHBBMmxTMWtfcjk3TTQxd2RNbjVrZmlXRkNVSGNkaHAwSzhnOUxlNVNWcmpWR3dyWjdoTVdpZDNnU1JvREE?oc=5&hl=en-US&gl=US&ceid=US:en"
         },
         {
-          "title": "יאיר גולן: \"מברך את הליכוד על רשימה מצוינת\"",
-          "source": "סרוגים",
-          "published_at": "Tue, 18 Aug 2026 06:08:29 GMT",
-          "url": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxOc1ZsY0VzOXkzaGhmMzhnX3p6eHpJTTBXelVEV0V1ZDlreHExM0M3THVMUkJLclRXTzRvVVNlX0tMQ3RtWU04UkI0alpUd19wbGVGcjFQMXVoMi1kdUVBZFgzYzNyVE1rYzdOenJxTXhhLXBPenp4SXN3SkRvQ05PeFRZa0IzOHhFazJUUUh1SmNqR0NhNWlUTUNiSnVqZlNBVS1IREdpWFo3aUZyaVBZYUxFMV9ybzZEMzBnaGk5dVA5WVlYYV81bTJOZFNLdk1EWDlYT2oxSnJ4NjBCZmpUQnR5WkNSTGp3YnBsc3JYYkVEcnlscUZmX0pXUlJ0cVhQT3F6Q1JNRzZzazNNazh3Zzh4ODRxYjhJa0Q1Sk9aYmtXclNtM1lXQm8zXzY4QVh2UXF0SHBieS1hUjVTWlRLa1hydnMxSjlnTERyRkRsa0JyMEtTTUVONXp4YjY?oc=5&hl=en-US&gl=US&ceid=US:en"
+          "title": "לאחר שכינה את יאיר גולן \"עוכר ישראל\": עתירה לבג\"ץ נגד דובר המשטרה",
+          "source": "i24NEWS",
+          "published_at": "Tue, 18 Aug 2026 14:52:57 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1DYXFURnhJYURxVnBpYnF3OGVmMnIzbWhpMUNoZFhxdGFzdE1LZ0N5V01EbnRGbVJkZnk2cF9RdXJTNXBCcjI3S2tTZ1lrd1dXVGk2NU14RG00S3hrcGtZSmZfVQ?oc=5&hl=en-US&gl=US&ceid=US:en"
         }
       ]
     },
@@ -144,7 +145,7 @@
       "name_he": "איתמר בן גביר",
       "role": "יו\"ר עוצמה יהודית",
       "party": "otzma_yehudit",
-      "mention_count": 93,
+      "mention_count": 92,
       "headlines": [
         {
           "title": "כבר לא ימין ממלכתי: בן גביר מושך את הליכוד לזירה הכהניסטית",
@@ -153,16 +154,16 @@
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE80aDlTTTRIak51dFZYalNKWGxuRE9UVDFxUWtYSm5fR19taUNVY0hLNlF6SEd4S1hhaVpZZU5OdVpDWUR5UjB6ZHY1RllfQ09ZbVhuSWFGNFhlRlpJQ2Q2Vnhva3h0QnRJdUpXX2VMSXbSAXhBVV95cUxQcFlTVTFMT2Z1ZG1neC1LVUJxMGdERVl2c3pLem5pZWZYcnVmelNTREkwcXZQM1AyNEtOU19qcU1Pa0tCVnZ1TnpITVJxdGZ6el9ONEVZamRIaE5ocjlPd3FFd2hHUXZsd2JKdHVIRHpIX3YyYlNzZkY?oc=5&hl=en-US&gl=US&ceid=US:en"
         },
         {
-          "title": "\"כל לילה להוריד 40-30 בעזה\": האמירה של בן גביר לשורד השבי - והסערה העולמית",
-          "source": "ynet.co.il",
-          "published_at": "Mon, 17 Aug 2026 13:13:48 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9OSERkdmN4cTlPbi05TWkwRHBSMUlmUG9jRDFldW1JQkpOb1FXeDZsdlZSWGZJd2pUbUMzZTExUHBFRU5LUlBaYzktd1ZPQU56RUQ2eTI3RzdNUQ?oc=5&hl=en-US&gl=US&ceid=US:en"
+          "title": "בן גביר עורך פגישות עבודה בדירה לא מאובטחת בבעלות יזם נדל\"ן בירושלים",
+          "source": "הארץ",
+          "published_at": "Sun, 16 Aug 2026 03:01:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQaHRkTFl1aVhFR294NldoS1NNOElYYTFxTkJoNmxGdTF6VXNFZWc3N1hSQ29TcE5NdXlPSExJMWV5bVVDUDRQS0lycHluTEVaZHJsSnkzZXhyck0xd3Y0eHp2ZlNrWUZVME9NcHUxMndsNEY2ZVFJd0F2cEdVXzE1bXlndHp2bURERnhXWjhBSXpZWWtuaURsR0xXeVpIdkh0N2FhUGxfSjNnOEFh?oc=5&hl=en-US&gl=US&ceid=US:en"
         },
         {
-          "title": "השר בן גביר הכריז: כפר חב\"ד יישוב זכאי לנשק",
-          "source": "חב\"ד אינפו",
-          "published_at": "Tue, 18 Aug 2026 20:30:39 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5vTGdkc1U3aXB1NWZYdXdzSnlkcWdvTjNYeTl6c1Q5azR0V3QtSTFfWnRhczZ5T0JHN3MwU1BDZW5BUWJpRFBibg?oc=5&hl=en-US&gl=US&ceid=US:en"
+          "title": "\"כל לילה להוריד 40-30 בעזה\": האמירה של בן גביר לשורד השבי - והסערה העולמית",
+          "source": "ynet",
+          "published_at": "Mon, 17 Aug 2026 13:13:48 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9OSERkdmN4cTlPbi05TWkwRHBSMUlmUG9jRDFldW1JQkpOb1FXeDZsdlZSWGZJd2pUbUMzZTExUHBFRU5LUlBaYzktd1ZPQU56RUQ2eTI3RzdNUQ?oc=5&hl=en-US&gl=US&ceid=US:en"
         }
       ]
     },
