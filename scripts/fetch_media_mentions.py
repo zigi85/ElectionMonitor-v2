@@ -252,6 +252,21 @@ def main() -> None:
 
         time.sleep(1)
 
+    total_mentions = sum(ld["mention_count"] for ld in leaders_data)
+
+    if total_mentions == 0 and OUTPUT_PATH.exists():
+        log.warning("All mention counts are 0 — Google News likely blocked. Keeping previous data.")
+        try:
+            with open(OUTPUT_PATH, "r", encoding="utf-8") as fh:
+                prev = json.load(fh)
+            prev_total = sum(l.get("mention_count", 0) for l in prev.get("leaders", []))
+            if prev_total > 0:
+                log.info("Previous file has %d total mentions — preserved.", prev_total)
+                print("SKIPPED: Google News returned 0 results, keeping previous data.")
+                return
+        except Exception:
+            pass
+
     output = {
         "generated_at": generated_at,
         "period": PERIOD,

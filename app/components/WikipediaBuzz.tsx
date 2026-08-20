@@ -83,33 +83,13 @@ export default function WikipediaBuzz({ leaderBuzz }: Props) {
       <div className="wiki-buzz-header">
         <span className="wiki-buzz-title">מדד הבאז</span>
         <span className="wiki-buzz-source">
-          <svg
+          <img
+            src="/images/wikipedia.png"
+            alt="Wikipedia"
             className="wiki-logo-icon"
-            viewBox="0 0 24 24"
-            width="18"
-            height="18"
-            aria-hidden="true"
-          >
-            <circle
-              cx="12"
-              cy="12"
-              r="10.5"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="1.2"
-            />
-            <text
-              x="12"
-              y="16.5"
-              textAnchor="middle"
-              fontSize="14"
-              fontWeight="800"
-              fontFamily="serif"
-              fill="currentColor"
-            >
-              W
-            </text>
-          </svg>
+            width={18}
+            height={18}
+          />
           ויקיפדיה
         </span>
       </div>

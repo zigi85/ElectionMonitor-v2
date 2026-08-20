@@ -249,7 +249,7 @@ ul { list-style: none; }
   font-weight: 500;
   color: var(--text-dim);
 }
-.wiki-logo-icon { color: var(--text-dim); flex-shrink: 0; }
+.wiki-logo-icon { flex-shrink: 0; opacity: 0.8; }
 .wiki-cards-row {
   display: flex;
   gap: 10px;
