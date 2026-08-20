@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T03:45:47Z",
+  "generated_at": "2026-08-20T06:43:36Z",
   "period": "3d",
   "period_label": "3 ימים אחרונים",
   "source": "Google News",
@@ -9,25 +9,14 @@
       "name_he": "בנימין נתניהו",
       "role": "ראש הממשלה",
       "party": "likud",
-      "mention_count": 100,
+      "mention_count": 0,
       "headlines": [
         {
           "title": "אחרי הפריימריז: המועמד שמאיים על גוש נתניהו",
           "source": "ישראל היום",
-          "published_at": "Wed, 19 Aug 2026 16:04:35 GMT",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1VclItVVpxbUs0WmlXMERQZUJ2VmZyNFdBVE1CUXloT1BpM1FtS3BkWjBfVjVBUFFvZnJXMnRTRk9IYWN0TTJXb1dpVHZ2bVNDVDdrdVRmTU9QcjZpZGpuOXkzMmRzRHlGV2N4c3ZRYWZsQdIBekFVX3lxTE1YRjNURE12OXNDT3NpUGhHYUZ3cEJVOTNZOXF1d1k4ZDdidU5FMl9XNHlkMzRCbzVVVlRnbEJPTkgzSV9mUzZoMk10VWVxTGQxRWJSaFFzN2dRbEF5dFFmVFFUSTE2aGJTR3VIaUlTbFU2bjdJNVdUeVVB?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "האנשים שאתם לא מכירים: כוורת הקמפיין של נתניהו נחשפת",
-          "source": "ynet.co.il",
-          "published_at": "Wed, 19 Aug 2026 16:02:16 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8zV1JOb1dNSTdGUmQ4RXBCWEo4bzJYbGM1U2FXLXpLbk1CVUJwV0cxeWVTak12a25RSE1EeENmZXJhNGZ0dE5PYnBDZVIzbUJoWDFUMy00TUxFZw?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "מקדם את תיאוריית הבגידה ותוקף את יריבי נתניהו: הציוצים של אבי גרוס",
-          "source": "הארץ",
-          "published_at": "Thu, 20 Aug 2026 03:01:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNm1qRmZ4M3BFb2cya1h5VTlGeU1sS3E3RXgySDdaS0xTN01tS2dWbTk1NlRvWXdpZ1h3NTYwb2pVbWpmVFVKRlk3c1d4bkFRLVoyYjAySnRITVZ1MEV3VmlDeGNmcXlNcS1ZOHdLUE96MWZFYjlCSnZJaEdhdk9RSHdPT0lRQUlhcDhydnRxZWxJWXZTTGo2NlBfUlpoRzJhaUs4UG5lbkVQSGp3?oc=5&hl=en-US&gl=US&ceid=US:en"
+          "published_at": "",
+          "url": "https://www.israelhayom.co.il/magazine/hashavua/article/21235475",
+          "fallback": true
         }
       ]
     },
@@ -36,25 +25,14 @@
       "name_he": "גדי איזנקוט",
       "role": "יו\"ר ישר",
       "party": "yashar",
-      "mention_count": 79,
+      "mention_count": 0,
       "headlines": [
         {
-          "title": "איזנקוט ובנט: הרוסים במגזר",
+          "title": "מצביעי הליכוד ותומכי איזנקוט מתגעגעים לאותו ראש ממשלה | עמית סגל",
           "source": "ישראל היום",
-          "published_at": "Mon, 17 Aug 2026 20:07:54 GMT",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5nV3NzRUtkUlBHMHhVRHRDRFdyS2lJMTJKXzJkZDZzZ0ExMlcxMnB6WlF1MldxOVhWZVhaeFlBaC03WnBqVEk0Y1VnM2FtQzhQWG1Pby1TWkJEN0NnazhXZElKM3QtZTRTUWJqRE9n0gFuQVVfeXFMTmdXc3NFS2RSUEcweFVEdENEV3JLaUkxMkpfMmRkNnNnQTEyVzEycHpaUXUyV3E5WFZlWFp4WUFoLTdacGpUSTRjVWczYW1DOFBYbU9vLVNaQkQ3Q2drOFdkSUozdC1lNFNRYmpET2c?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "סקר: מפלגת ישר! בראשותו של גדי איזנקוט עולה ל-26 מנדטים",
-          "source": "זמן ישראל",
-          "published_at": "Wed, 19 Aug 2026 18:13:51 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBjODdTYXB4LUdZVnJkaUtneGpvdWo1ZlRnR2pIeVlvd3RlemRXTExiY1BxaEkzSE1HZW45WHNJVy1Zd3VINmVzWFRmbw?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "\"תראה איזה עציץ\", הצביע נתניהו - ועבר לתקוף בסרטון לרשת את גדי | צפו",
-          "source": "כיכר השבת",
-          "published_at": "Wed, 19 Aug 2026 22:37:08 GMT",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBrS2VrYjNNZUFhQUR2LVdCTmx1ZEUzdmdiVEhPSVI0YlhWM28xLWcxNFc1MWViN3NCbndNQVJjTUtxSC1wSnNYeUZJSC12WFV2clI2SXhIeVVmb191MmR5N3pYejR5MG1JQkc5MzBrdTAzejB1bTZWTjBFN2tkUQ?oc=5&hl=en-US&gl=US&ceid=US:en"
+          "published_at": "",
+          "url": "https://www.israelhayom.co.il/news/politics/article/21177399",
+          "fallback": true
         }
       ]
     },
@@ -63,25 +41,14 @@
       "name_he": "נפתלי בנט",
       "role": "יו\"ר ביחד",
       "party": "together",
-      "mention_count": 87,
+      "mention_count": 0,
       "headlines": [
         {
-          "title": "נפתלי בנט: \"נתקוף באיראן בתגובה על ירי חיזבאללה\"",
+          "title": "שינוי הכיוון של בנט, והמלכודת שמחכה לאיזנקוט",
           "source": "ישראל היום",
-          "published_at": "Wed, 19 Aug 2026 09:18:34 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1JZWlVcE1vOWxrUVhCOWtPQ0NhZzd6b3NTMGhCYVRtT0RRU0tnb1FoeVRHbm11VWVUVmFvZjd1Y19XSEdjR2FILUlKa3dhdWxual96ZTcteDRFWTQ1alF2LW1pa3RBbVnSAW9BVV95cUxNQ0U1TmVGMW95NjRCZjlES2hmVDMzSHdReHlGM0cxMnh0WUFDcDZEWHNscFJYSG9jb0p0ZWlPZHE2NXJkOFRJWFhLRUg1NS1KU2tnbWQwejBRdnBwNG5TZUpVaVNKUV9JYWdfSzFaUjg?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "\"התוכנית הביטחונית\" של בנט: נסלק את טורקיה וקטר מעזה - ונכניס את מצרים במקום",
-          "source": "כאן 11",
-          "published_at": "Wed, 19 Aug 2026 11:11:08 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQQUJZTGpROGw1TTUyX1F2ZjFkUnJUWkUxdlZJNkNYUzU0QnBIY3loYWlDYmdrYU5IMVBKbmdMRmsyaUlzQVl0YndWNFRoQXVSVkhBOHNVQUszVnJXTG9RenFQWkVYX1AzQ3QzbjAtS1VyOVk5RVJlWGZfdm1NWkNWbkVn?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "בנט נגד איזנקוט: \"ברגע שמתחילים עם פטור של 30%, יודעים איך זה יסתיים\"",
-          "source": "ynet.co.il",
-          "published_at": "Wed, 19 Aug 2026 09:33:12 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9zeVVSdEtHakFSZDAzNTNEb1E1QUtkUEZ0aXBqdFN4eUdzbmRoT1ExYV8wWm9UcUxNQi1XeFY5RDh3NXo3eFFNcFVad1NaYVlfZDltVjlyODM3dw?oc=5&hl=en-US&gl=US&ceid=US:en"
+          "published_at": "",
+          "url": "https://www.israelhayom.co.il/news/politics/article/21193438",
+          "fallback": true
         }
       ]
     },
@@ -90,25 +57,14 @@
       "name_he": "אביגדור ליברמן",
       "role": "יו\"ר ישראל ביתנו",
       "party": "yisrael_beiteinu",
-      "mention_count": 35,
+      "mention_count": 0,
       "headlines": [
         {
-          "title": "ליברמן נגד איזנקוט: \"לא נשב בממשלת מיעוט\"",
+          "title": "התוכנית נחשפת: איזנקוט מועמד הגוש? בנט וליברמן שותקים - ויש סיבה",
           "source": "ישראל היום",
-          "published_at": "Mon, 17 Aug 2026 06:56:05 GMT",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9LaHdveG9IcDNNUlIwdE1tTW5ZNW14cVhiRkh4RVplZjRGN1liZEZBeFN1N3ViZ1hwOUsySGRIdl81a1JEUkI3SmJ3eXg4WnhZYzUzYjc5Z2ZqT09KNEJWeng5eUNybnozOUZvV3k0eWM2QXR60gF0QVVfeXFMT0tod294b0hwM01SUjB0TW1Nblk1bXhxWGJGSHhFWmVmNEY3WWJkRkF4U3U3dWJnWHA5SzJIZEh2XzVrUkRSQjdKYnd5eDhaeFljNTNiNzlnZmpPT0o0QlZ6eDl5Q3JuejM5Rm9XeTR5YzZBdHo?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "ליברמן מסנדל את איזנקוט? \"לא אכנס לממשלת מיעוט. לא יהיה פטור לחרדים\"",
-          "source": "ynet.co.il",
-          "published_at": "Mon, 17 Aug 2026 10:21:36 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB2U1dpcENDc3RFR3JZTGRweG5wU21YZVdxMk9Ycjk3YkJubi04U1pVZkozM1JJVVk5VlljRGhrMm9JY0hOUnZVdzMwX1Y2MWhCdVhCNG93X3p4aTg?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "\"שום סיכוי: לא לבני, לא לגלעד ויולי, לא ליועז וחילי\"",
-          "source": "103FM",
-          "published_at": "Tue, 18 Aug 2026 09:45:06 GMT",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQeFR5MjgxSTUzT2dzOFZ2TUNkcXBLczVKRUFFZUNZUjNOZFo1UEg5aWdJTjhyLWJKekJCNU90VmZkRTEtbDE0azBDbDVPREllaVBxNUZjM0lWS1M4V0VPbXViOXJfNUoybUlOdk8xNTBxd0FvQlYzZElqRE9yOFhfZA?oc=5&hl=en-US&gl=US&ceid=US:en"
+          "published_at": "",
+          "url": "https://www.israelhayom.co.il/news/politics/article/21145922",
+          "fallback": true
         }
       ]
     },
@@ -117,81 +73,24 @@
       "name_he": "יאיר גולן",
       "role": "יו\"ר הדמוקרטים",
       "party": "democrats",
-      "mention_count": 42,
-      "headlines": [
-        {
-          "title": "יאיר גולן נגד התקיפה בסוריה: \"עלול לגרום לעימות עם טורקיה\"",
-          "source": "ישראל היום",
-          "published_at": "Wed, 19 Aug 2026 17:09:03 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1nLU5Uc3FWSEpzVW1VdDJRYkluU2ZVUkxrQ2lDTFA2dFV5cFFzbmlGNVdwZkxHV09fREdyYnV3NXkxbnkyLUlvd1NPNzF5VG8tNUhTUlRmZ0s3OHYwZWI3S0hsNFpmQlHSAW9BVV95cUxOUVVGN0NUUFFCZEhwd21TZV9hUEhqRkprU2JObDd0ei1QSXI3RHhkd1JhWFlNU0dXRXo5V2R2bnppVWtyVlpGUTlxb0ZVTEZlQzZDcUJHWU1ta2xZM1A5LXNTNU9WM0hEd2lVR3p1MEE?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "יאיר גולן: \"התקיפה בסוריה - מהלך מתריס ומסוכן, שמקרב אותנו לעימות עם טורקיה\"",
-          "source": "ynet.co.il",
-          "published_at": "Wed, 19 Aug 2026 16:51:21 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5aSWtkOEhEMUdHZ0swUVgzVnViNVJCUk9Ec1JEZDdUcTZ5eDREN2U4TW9iQmxVN2ltSnpXV0Z2SkpkMzNna19fSmJnYldHN0VtQ0JkYXZURkVSQQ?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "יאיר גולן תוקף את ישראל על התקיפה בסוריה: \"מהלך מסוכן ומתריס\"",
-          "source": "JDN",
-          "published_at": "Wed, 19 Aug 2026 21:43:12 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBVNkFWaHQxQTZKemFZMHNIZm5HT2dYaGV5alptak1YZ1NUam9vekxkc0FXdVYyamJIZGllT0lkUGlNRzh3eFpycF8xYw?oc=5&hl=en-US&gl=US&ceid=US:en"
-        }
-      ]
+      "mention_count": 0,
+      "headlines": []
     },
     {
       "key": "ben_gvir",
       "name_he": "איתמר בן גביר",
       "role": "יו\"ר עוצמה יהודית",
       "party": "otzma_yehudit",
-      "mention_count": 77,
-      "headlines": [
-        {
-          "title": "צרפת: \"ההתפרעויות ביו״ש מצדיקות את הסנקציות נגד בן גביר\"",
-          "source": "ישראל היום",
-          "published_at": "Wed, 19 Aug 2026 15:48:22 GMT",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1tdzVrUFBNRE5mbzd4dm9Gbld0em5sTzVjNWtyU2lGVlZRVkR0ZUlVU0plUzFKTTFfejFXVkFHVm4tdlpzc25CUzJNY3l2Qy1pbjJwMzhQa1ViUjRIdXZaRFFKbENtQ0lILXJsQmZVc9IBb0FVX3lxTE1tdzVrUFBNRE5mbzd4dm9Gbld0em5sTzVjNWtyU2lGVlZRVkR0ZUlVU0plUzFKTTFfejFXVkFHVm4tdlpzc25CUzJNY3l2Qy1pbjJwMzhQa1ViUjRIdXZaRFFKbENtQ0lILXJsQmZVcw?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "בליכוד זועמים על בן גביר: \"מנסה לגדול על חשבוננו\"",
-          "source": "ynet.co.il",
-          "published_at": "Wed, 19 Aug 2026 21:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBscDZuaHEzYzlfZnJjQWYxYk9JZVBnUW1TajN3anhzNnFqTlBVcExSZ2FrYUZBMEs5anVvY1hzSFhIcldEdWZ0Y2l1bnBDcEFtQnY3bE5XMkt4RFJBeEE?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "דיווח: סגן קנצלר גרמניה קרא לאיחוד האירופי לשקול הטלת סנקציות על בן גביר",
-          "source": "הארץ",
-          "published_at": "Wed, 19 Aug 2026 08:29:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQd2RaeDNzbjUtWVVtSG05VHo1ZzFxMEVxYkE0aU1qMFBDV0l3R2NOaVdhUUFtbGc0TldDTnlnY2Nrd1BaeU4ybmxMNlRTUktta2Q4LThwNEpfYmRzSF9kSG9FbFNLMzMtVXFrd1lBb3NwUG5pbzVkOV9BbWk5STBac2FES0UxWC1LZ1hDd25NME5YeUFjVjZQS2VvQXlZN0dtaFIyRDBTYmZobDA?oc=5&hl=en-US&gl=US&ceid=US:en"
-        }
-      ]
+      "mention_count": 0,
+      "headlines": []
     },
     {
       "key": "smotrich",
       "name_he": "בצלאל סמוטריץ'",
       "role": "יו\"ר הציונות הדתית",
       "party": "religious_zionism",
-      "mention_count": 48,
-      "headlines": [
-        {
-          "title": "אחרי 28 שנות המתנה: שני יישובים ביו\"ש הוכרו רשמית כיישובים מן המניין",
-          "source": "ישראל היום",
-          "published_at": "Wed, 19 Aug 2026 13:37:41 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA4WXAzU09OeU01T1JNWS1rLWtFZWJESWtGVGtRUXRxaDFaaUU1OWRBcEFuV2JiaGZsZHYyOERLRVVXQW5DVzdxVmFUWUNFWWI1ZmQwWFVMenZCSVFYQVNvY0pYQXRLRXNw0gFwQVVfeXFMTnVSZDFWZHB1dDdEdFJUcHdfek43R2tFT0RWbDBGQms1ZUhEalk3akFNSUJua3BNa2JOb1dYSVBKZFpDQWdqYU8xUlh6Q25sRzJPSVpxMWoxdThwMVRvRXBxT3F1bmQ2bndTalN0R3otZA?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "סמוטריץ' רוצה להשתלט על E1. להתערב לפני שיכריע את הפלסטינים ואת ישראל | מאמר מערכת",
-          "source": "הארץ",
-          "published_at": "Wed, 19 Aug 2026 21:01:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQQmtXVXVISElJSmJMVmdCRWJ6Q3Q4UXBSeVExZDFyWC00OVNTaFZqMHFoT2x5bmVoekI2NXpBQ2Q5VGptcjBpeXRwRmNSRGxCVlVGV2xFQm9OdlhmVnZjV1VRM000SWxJbnZRZG1DaTAtYzB2SE1Cemt3ekp2eXctS253dm1xWlNsSnNrXzhfNndtek81VU9QaUl3cTdqUll2emdnVDBVd2VjbklVeVk3czl4QUVMUFdaU3l5Zw?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "נתניהו וסמוטריץ' הסכימו: עשרות מיליארדים לביטחון, בלי לקצץ בהוצאות",
-          "source": "TheMarker",
-          "published_at": "Wed, 19 Aug 2026 15:10:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNYS1jWW9VcHdOVzJXeUFTWHlkckV2VGdILVk1VTAzS0lwdEtmWGM4bjRyZXA1OEFHS2t4OGY3eUpEekc2WFk5MnFGRjVRR3BUM05uLUN0dDFCQWxsbThBcHRRbFVrdHRyd3RKcml3ZlR6d2FnS25qUjU3dkhYZmVGMkZZVGZISmt0anowX1FsVEhpdFpTNjN0VjdRZkpua0s1ZHRsQ0FaMFdsM0h4UEVVUDRJUQ?oc=5&hl=en-US&gl=US&ceid=US:en"
-        }
-      ]
+      "mention_count": 0,
+      "headlines": []
     }
   ]
 }
