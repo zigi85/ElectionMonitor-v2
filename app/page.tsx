@@ -30,7 +30,9 @@ export default async function HomePage() {
 
         <footer className="app-footer">
           <div className="app-footer-brand">
-            <a href="/methodology" className="methodology-link">מתודולוגיה</a>
+            <a href="https://election-ideas-hub.lovable.app/methodology" className="methodology-link" target="_blank" rel="noopener noreferrer">איך זה עובד?</a>
+            <span className="footer-sep">|</span>
+            <a href="https://election-ideas-hub.lovable.app/" className="methodology-link" target="_blank" rel="noopener noreferrer">דברו איתנו</a>
           </div>
         </footer>
       </main>

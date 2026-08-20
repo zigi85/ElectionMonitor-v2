@@ -536,6 +536,10 @@ def fetch_telegram_data() -> list[dict[str, Any]]:
 
 
 def main() -> None:
+    from run_logger import RunLogger
+    rl = RunLogger("fetch_social")
+    rl.start()
+
     generated_at = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
     # Phase 1: Hot topics from Google News
@@ -583,6 +587,11 @@ def main() -> None:
         print(f"    {tg['name_he']:20s}  {tg['post_count']:>3d} posts  avg {tg['avg_views_str']:>6s} views")
     print(f"  Output: {OUTPUT_PATH}")
     print("=" * 60)
+
+    rl.success(
+        summary=f"{len(hot_topics)} נושאים, {len(leader_buzz)} מנהיגים, {len(viral_videos)} סרטונים",
+        records_count=len(headlines),
+    )
 
 
 if __name__ == "__main__":

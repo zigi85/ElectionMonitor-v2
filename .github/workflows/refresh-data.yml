@@ -39,6 +39,9 @@ jobs:
         with:
           python-version: "3.12"
       - run: python scripts/fetch_media_mentions.py
+        env:
+          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
       - name: Commit
         run: |
           git config user.name "github-actions[bot]"
@@ -62,6 +65,9 @@ jobs:
           cache: pip
       - run: pip install pytrends pandas
       - run: python scripts/fetch_trends.py
+        env:
+          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
       - name: Commit
         run: |
           git config user.name "github-actions[bot]"
@@ -83,6 +89,9 @@ jobs:
         with:
           python-version: "3.12"
       - run: python scripts/fetch_social.py
+        env:
+          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
       - name: Commit
         run: |
           git config user.name "github-actions[bot]"
@@ -106,6 +115,9 @@ jobs:
           cache: pip
       - run: pip install requests
       - run: python scripts/fetch_polymarket.py
+        env:
+          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
       - name: Commit
         run: |
           git config user.name "github-actions[bot]"
@@ -129,7 +141,13 @@ jobs:
           cache: pip
       - run: pip install -r scripts/requirements.txt
       - run: python scripts/scrape_polls.py
+        env:
+          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
       - run: python scripts/calculate_momentum.py
+        env:
+          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
       - name: Commit
         run: |
           git config user.name "github-actions[bot]"

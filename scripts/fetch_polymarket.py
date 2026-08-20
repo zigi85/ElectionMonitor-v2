@@ -220,6 +220,10 @@ def build_market_record(market_def: dict, event: dict) -> dict:
 # Main
 # ---------------------------------------------------------------------------
 def main() -> None:
+    from run_logger import RunLogger
+    rl = RunLogger("fetch_polymarket")
+    rl.start()
+
     result_markets: list[Optional[dict]] = []
 
     for market_def in MARKETS:
@@ -286,6 +290,12 @@ def main() -> None:
             print(f"  {m['key']:20s}  {len(outcomes)} outcomes  top={top_str}")
     print(f"  Output: {OUTPUT_PATH}")
     print("=" * 60)
+
+    errors = [m for m in result_markets if m and m.get("error")]
+    rl.success(
+        summary=f"{len(result_markets)} שווקים, {len(errors)} שגיאות",
+        records_count=len(result_markets),
+    )
 
 
 if __name__ == "__main__":

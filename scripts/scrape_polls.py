@@ -603,6 +603,10 @@ def build_weekly_averages(raw_polls: list[dict]) -> list[dict]:
 # Main
 # ---------------------------------------------------------------------------
 def main() -> None:
+    from run_logger import RunLogger
+    rl = RunLogger("scrape_polls")
+    rl.start()
+
     all_polls: list[dict] = []
 
     for url in SOURCE_URLS:
@@ -648,6 +652,11 @@ def main() -> None:
     print(f"  Sparse weeks    : {sparse_count}")
     print(f"  Output          : {OUTPUT_PATH}")
     print("=" * 60)
+
+    rl.success(
+        summary=f"{len(unique_polls)} סקרים, {len(weekly_avgs)} שבועות",
+        records_count=len(unique_polls),
+    )
 
 
 if __name__ == "__main__":

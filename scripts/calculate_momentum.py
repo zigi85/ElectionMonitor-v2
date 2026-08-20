@@ -477,6 +477,10 @@ def compute_bloc_stats(
 # Main
 # ---------------------------------------------------------------------------
 def main() -> None:
+    from run_logger import RunLogger
+    rl = RunLogger("calculate_momentum")
+    rl.start()
+
     # Load all data sources
     polls_data = load_json(POLLS_PATH)
     polymarket_data = load_json(POLYMARKET_PATH)
@@ -597,6 +601,12 @@ def main() -> None:
         print(f"    {bloc_name:<12}  seats={seats_str}  delta={delta_str}  {direction}")
     print(f"\n  Output : {OUTPUT_PATH}")
     print("=" * 60)
+
+    degraded_he = ", ".join(degraded_sources) if degraded_sources else "אין"
+    rl.success(
+        summary=f"{len(parties_output)} מפלגות, חסרים: {degraded_he}",
+        records_count=len(parties_output),
+    )
 
 
 if __name__ == "__main__":

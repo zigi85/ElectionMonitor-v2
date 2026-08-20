@@ -304,6 +304,10 @@ def save_to_supabase(output: dict) -> None:
 
 
 def main() -> None:
+    from run_logger import RunLogger
+    rl = RunLogger("generate_daily_digest")
+    rl.start()
+
     parser = argparse.ArgumentParser()
     parser.add_argument("--output", type=str, default=None,
                         help="Override output file path")
@@ -318,6 +322,7 @@ def main() -> None:
     digest = call_llm(data_context)
     if not digest:
         log.error("Failed to generate digest")
+        rl.fail("קריאה ל-LLM לא החזירה תוצאה")
         return
 
     output = {
@@ -337,6 +342,11 @@ def main() -> None:
 
     print(f"Changes: {len(output['changes'])}")
     print(f"Story: {output['story'].get('title', 'N/A')}")
+
+    rl.success(
+        summary=f"{len(output['changes'])} שינויים, מודל: {ANTHROPIC_MODEL}",
+        records_count=len(output["changes"]),
+    )
 
 
 if __name__ == "__main__":

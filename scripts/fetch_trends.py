@@ -211,6 +211,10 @@ def _empty_keyword_result(keyword: str) -> dict:
 # Main
 # ---------------------------------------------------------------------------
 def main() -> None:
+    from run_logger import RunLogger
+    rl = RunLogger("fetch_trends")
+    rl.start()
+
     generated_at = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
 
     try:
@@ -263,6 +267,13 @@ def main() -> None:
         print(f"  Error  : {output.get('error_message', 'unknown')}")
     print(f"  Output : {OUTPUT_PATH}")
     print("=" * 60)
+
+    kw_count = len(output.get("keywords", []))
+    status_he = {"ok": "תקין", "partial": "חלקי", "error": "שגיאה"}.get(output["status"], output["status"])
+    rl.success(
+        summary=f"{status_he}, {kw_count} מילות מפתח",
+        records_count=kw_count,
+    )
 
 
 if __name__ == "__main__":

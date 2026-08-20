@@ -37,19 +37,12 @@ function BuzzCard({ leader }: { leader: SocialLeaderBuzz }) {
         ? "#fe6969"
         : "#42abff";
 
-  const arrowClass =
+  const arrowColor =
     leader.direction === "rising"
-      ? "wiki-arrow-up"
+      ? "#4ade80"
       : leader.direction === "falling"
-        ? "wiki-arrow-down"
-        : "wiki-arrow-stable";
-
-  const arrow =
-    leader.direction === "rising"
-      ? "▲"
-      : leader.direction === "falling"
-        ? "▼"
-        : "–";
+        ? "#fe6969"
+        : "rgba(255,255,255,0.4)";
 
   const initials = INITIALS[leader.key] || leader.name_he.charAt(0);
 
@@ -87,7 +80,17 @@ function BuzzCard({ leader }: { leader: SocialLeaderBuzz }) {
           <span className="wiki-initials">{initials}</span>
         </div>
       </div>
-      <span className={`wiki-arrow ${arrowClass}`}>{arrow}</span>
+      <span className="wiki-arrow">
+        {leader.direction === "stable" ? (
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+            <line x1="3" y1="8" x2="13" y2="8" stroke={arrowColor} strokeWidth="2.5" strokeLinecap="round" />
+          </svg>
+        ) : (
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" style={leader.direction === "falling" ? { transform: "rotate(180deg)" } : undefined}>
+            <path d="M8 2L14 11H2L8 2Z" fill={arrowColor} />
+          </svg>
+        )}
+      </span>
       <div className="wiki-info">
         <span className="wiki-name">{leader.name_he}</span>
         <span className="wiki-views">{fmtViews(leader.views_7d)} צפיות</span>

@@ -566,6 +566,11 @@ export default function EditorPage() {
         </section>
       )}
 
+      {/* Link to logs page */}
+      <section className="editor-card" style={{ textAlign: "center", padding: "12px" }}>
+        <a href="/logs" className="editor-btn" style={{ textDecoration: "none", display: "inline-block" }}>לוג ריצות &larr;</a>
+      </section>
+
       {status && (
         <div className={`editor-toast ${status.startsWith("error") ? "editor-toast-error" : "editor-toast-ok"}`}>
           {statusText[status] || status}

@@ -234,6 +234,10 @@ def pick_headlines(all_headlines: list[dict[str, Any]], leader: dict[str, Any]) 
 
 
 def main() -> None:
+    from run_logger import RunLogger
+    rl = RunLogger("fetch_media_mentions")
+    rl.start()
+
     generated_at = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     leaders_data: list[dict[str, Any]] = []
 
@@ -263,6 +267,7 @@ def main() -> None:
             if prev_total > 0:
                 log.info("Previous file has %d total mentions — preserved.", prev_total)
                 print("SKIPPED: Google News returned 0 results, keeping previous data.")
+                rl.success(summary="Google News חסום — נשמר מידע קודם", records_count=0)
                 return
         except Exception:
             pass
@@ -290,6 +295,11 @@ def main() -> None:
         print(f"  {ld['name_he']:20s}  mentions={ld['mention_count']:>4d}  headlines={len(ld['headlines'])}  ihy={ihy_count}{fallback}")
     print(f"  Output: {OUTPUT_PATH}")
     print("=" * 60)
+
+    rl.success(
+        summary=f"{total_mentions} אזכורים, {len(leaders_data)} מנהיגים",
+        records_count=total_mentions,
+    )
 
 
 if __name__ == "__main__":

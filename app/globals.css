@@ -316,13 +316,12 @@ ul { list-style: none; }
   z-index: 0;
 }
 .wiki-arrow {
-  font-size: 11px;
-  font-weight: 700;
-  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+  margin: 2px 0;
 }
-.wiki-arrow-up { color: var(--green); }
-.wiki-arrow-down { color: var(--red); }
-.wiki-arrow-stable { color: var(--text-muted); font-size: 13px; }
 .wiki-info {
   background: var(--surface-dim);
   border: 1px solid var(--border);
@@ -613,7 +612,14 @@ ul { list-style: none; }
 .app-footer { padding: 16px; text-align: center; }
 .app-footer-text { font-size: 10px; color: var(--text-muted); line-height: 1.6; margin-bottom: 4px; }
 .app-footer-brand { font-size: 11px; color: var(--text-muted); display: flex; align-items: center; justify-content: center; gap: 4px; }
-.methodology-link { color: var(--text-dim); text-decoration: underline; text-underline-offset: 2px; }
+.methodology-link { color: var(--text-dim); text-decoration: underline; text-underline-offset: 2px; transition: color 0.2s; }
+.methodology-link:hover { color: var(--accent); }
+.footer-sep { color: var(--text-dim); opacity: 0.4; margin: 0 4px; }
+
+/* Logs page */
+.logs-page { max-width: 900px; margin: 0 auto; padding: 24px 16px; }
+.logs-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; }
+.logs-header h1 { font-size: 22px; font-weight: 700; }
 
 @keyframes fadeIn { from{opacity:0;transform:translateY(4px)} to{opacity:1;transform:translateY(0)} }
 .fade-in { animation: fadeIn 0.35s ease both; }
@@ -2898,6 +2904,55 @@ textarea.editor-change-text:focus {
   margin: 0 auto;
   max-width: 900px;
 }
+
+.run-log-table-wrap {
+  overflow-x: auto;
+  margin-top: 12px;
+}
+.run-log-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+.run-log-table th {
+  text-align: right;
+  padding: 8px 10px;
+  color: var(--text-muted);
+  font-weight: 600;
+  border-bottom: 1px solid var(--border);
+  white-space: nowrap;
+}
+.run-log-table td {
+  padding: 7px 10px;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+  vertical-align: middle;
+}
+.run-script-name {
+  font-weight: 600;
+  white-space: nowrap;
+}
+.run-summary {
+  color: var(--text-muted);
+  max-width: 280px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.run-time {
+  color: var(--text-muted);
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+.run-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 6px;
+  font-size: 11px;
+  font-weight: 700;
+}
+.run-ok { background: rgba(74,222,128,0.15); color: #4ade80; }
+.run-err { background: rgba(254,105,105,0.15); color: #fe6969; }
+.run-pending { background: rgba(66,171,255,0.15); color: #42abff; }
 
 .editor-scripts-list {
   display: flex;
