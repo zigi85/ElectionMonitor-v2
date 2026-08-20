@@ -17,6 +17,10 @@ const INITIALS: Record<string, string> = {
   shaked: "א.ש",
 };
 
+const RADIUS = 44;
+const CIRCUMFERENCE = 2 * Math.PI * RADIUS;
+const STROKE = 5;
+
 function fmtViews(n: number): string {
   if (n >= 1_000_000) return `${(n / 1_000_000).toFixed(1)}M`;
   if (n >= 1_000) return `${(n / 1_000).toFixed(1)}K`;
@@ -24,12 +28,14 @@ function fmtViews(n: number): string {
 }
 
 function BuzzCard({ leader }: { leader: SocialLeaderBuzz }) {
-  const ringClass =
+  const arcFraction = Math.min(Math.abs(leader.change_pct) / 60, 0.75);
+  const dashOffset = CIRCUMFERENCE * (1 - arcFraction);
+  const arcColor =
     leader.direction === "rising"
-      ? "wiki-ring-rising"
+      ? "#4ade80"
       : leader.direction === "falling"
-        ? "wiki-ring-falling"
-        : "wiki-ring-stable";
+        ? "#fe6969"
+        : "#42abff";
 
   const arrowClass =
     leader.direction === "rising"
@@ -49,7 +55,26 @@ function BuzzCard({ leader }: { leader: SocialLeaderBuzz }) {
 
   return (
     <div className="wiki-card">
-      <div className={`wiki-ring ${ringClass}`}>
+      <div className="wiki-ring-container">
+        <svg className="wiki-ring-svg" viewBox="0 0 100 100">
+          <circle
+            className="wiki-ring-track"
+            cx="50"
+            cy="50"
+            r={RADIUS}
+          />
+          <circle
+            className="wiki-ring-arc"
+            cx="50"
+            cy="50"
+            r={RADIUS}
+            style={{
+              strokeDasharray: CIRCUMFERENCE,
+              strokeDashoffset: dashOffset,
+              stroke: arcColor,
+            }}
+          />
+        </svg>
         <div className="wiki-photo">
           <img
             src={`/images/politicians/${leader.key}.png`}

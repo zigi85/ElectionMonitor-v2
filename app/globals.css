@@ -267,22 +267,33 @@ ul { list-style: none; }
   min-width: 0;
   gap: 5px;
 }
-.wiki-ring {
+.wiki-ring-container {
+  position: relative;
   width: 88px;
   height: 88px;
-  border-radius: 50%;
-  padding: 4px;
   flex-shrink: 0;
 }
-.wiki-ring-rising { background: linear-gradient(145deg, #2dd4bf, #22c55e); }
-.wiki-ring-falling { background: linear-gradient(145deg, #f87171, #ef4444); }
-.wiki-ring-stable { background: linear-gradient(145deg, #60a5fa, #42abff); }
-.wiki-photo {
+.wiki-ring-svg {
   width: 100%;
   height: 100%;
+  transform: rotate(-90deg);
+}
+.wiki-ring-track {
+  fill: none;
+  stroke: rgba(255,255,255,0.08);
+  stroke-width: 5;
+}
+.wiki-ring-arc {
+  fill: none;
+  stroke-width: 5;
+  stroke-linecap: round;
+  transition: stroke-dashoffset 0.6s ease;
+}
+.wiki-photo {
+  position: absolute;
+  inset: 8px;
   border-radius: 50%;
   background: #1c1c2e;
-  position: relative;
   overflow: hidden;
 }
 .wiki-photo-img {
@@ -299,7 +310,7 @@ ul { list-style: none; }
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 800;
   color: var(--text-muted);
   z-index: 0;
@@ -346,8 +357,9 @@ ul { list-style: none; }
 
 @media (max-width: 599px) {
   .wiki-card { flex: 0 0 108px; }
-  .wiki-ring { width: 76px; height: 76px; padding: 3px; }
-  .wiki-initials { font-size: 18px; }
+  .wiki-ring-container { width: 76px; height: 76px; }
+  .wiki-photo { inset: 7px; }
+  .wiki-initials { font-size: 16px; }
   .wiki-name { font-size: 11px; }
   .wiki-views { font-size: 10px; }
   .wiki-info { padding: 6px 4px; }
