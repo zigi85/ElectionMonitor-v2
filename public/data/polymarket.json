@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-20T07:00:34Z",
+  "generated_at": "2026-08-20T09:07:14Z",
   "markets": [
     {
       "key": "next_pm",
       "title": "Who will be the next Prime Minister of Israel after the next election?",
       "slug": "who-will-be-the-next-prime-minister-of-israel-after-the-next-election",
       "url": "https://polymarket.com/event/who-will-be-the-next-prime-minister-of-israel-after-the-next-election",
-      "updated_at": "2026-08-20T06:58:08.109396Z",
+      "updated_at": "2026-08-20T09:03:43.168282Z",
       "outcomes": [
         {
           "name": "Gadi Eizenkot",
@@ -14,7 +14,7 @@
         },
         {
           "name": "Benjamin Netanyahu",
-          "probability": 0.27
+          "probability": 0.275
         },
         {
           "name": "Naftali Bennett",
@@ -87,7 +87,7 @@
       "title": "Israel Election: Likud # of seats?",
       "slug": "israel-election-likud-of-seats",
       "url": "https://polymarket.com/event/israel-election-likud-of-seats",
-      "updated_at": "2026-08-20T06:54:07.21126Z",
+      "updated_at": "2026-08-20T09:01:43.117535Z",
       "outcomes": [
         {
           "name": "20-24",
@@ -95,7 +95,7 @@
         },
         {
           "name": "25-29",
-          "probability": 0.325
+          "probability": 0.335
         },
         {
           "name": "<20",
@@ -103,11 +103,11 @@
         },
         {
           "name": "30-34",
-          "probability": 0.155
+          "probability": 0.165
         },
         {
           "name": "35+",
-          "probability": 0.0505
+          "probability": 0.048
         }
       ]
     },
@@ -116,7 +116,7 @@
       "title": "Israeli election results in a hung parliament?",
       "slug": "israeli-election-results-in-a-hung-parliament",
       "url": "https://polymarket.com/event/israeli-election-results-in-a-hung-parliament",
-      "updated_at": "2026-08-20T06:58:08.109396Z",
+      "updated_at": "2026-08-20T09:01:43.117535Z",
       "outcomes": [
         {
           "name": "No",
