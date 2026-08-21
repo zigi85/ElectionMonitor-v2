@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T21:27:43Z",
+  "generated_at": "2026-08-21T01:14:57Z",
   "period": "3d",
   "period_label": "3 ימים אחרונים",
   "source": "Google News",
@@ -36,7 +36,7 @@
       "name_he": "גדי איזנקוט",
       "role": "יו\"ר ישר",
       "party": "yashar",
-      "mention_count": 97,
+      "mention_count": 99,
       "headlines": [
         {
           "title": "פרסום ראשון: אנשי איזנקוט בוחנים חיבור פוליטי מפתיע",
@@ -51,10 +51,10 @@
           "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBrS2VrYjNNZUFhQUR2LVdCTmx1ZEUzdmdiVEhPSVI0YlhWM28xLWcxNFc1MWViN3NCbndNQVJjTUtxSC1wSnNYeUZJSC12WFV2clI2SXhIeVVmb191MmR5N3pYejR5MG1JQkc5MzBrdTAzejB1bTZWTjBFN2tkUQ?oc=5&hl=en-US&gl=US&ceid=US:en"
         },
         {
-          "title": "סולברג, צריך לאבטח את איזנקוט — ועליך לדרוש משב\"כ שיעשה זאת",
-          "source": "הארץ",
-          "published_at": "Thu, 20 Aug 2026 17:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPcm5hTjdaWnlZUVBFN0g1LUt0ak5xbHl5RHp0R2lYd1dhV1VsYUlZaU9keUFmcHhPLVlBUWgyYmxOY2FUU205LUsySUJYb1JJaDUzWk16bGRwTWVIRWQ4TlRWM1BSaWxTYnJ1UjFiQzFWMGE4ZVFzSlh6b2Z4S3U5SlBWRXZqOU54VnBTVlpjaW9ieGZCQVV6LWRPQWhSNWRMWDVEWk1CT0tNX1hUUFg4?oc=5&hl=en-US&gl=US&ceid=US:en"
+          "title": "סקר מנדטים: איזנקוט מתחזק במנדט - אבל לא מצליח להקים ממשלה",
+          "source": "ice (אייס)",
+          "published_at": "Thu, 20 Aug 2026 19:36:04 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE91YXlSX1dLb1lNcGk1SGl4cy16eEJoUnFHTWdLblhnWWNjZ3F1UTBqdDAwc3JnTF9lSFA3cjJqSXgxVFB4VHVzcFRMOFM3UE9yTjZPQ1hVTFdMLVBrWkVJcw?oc=5&hl=en-US&gl=US&ceid=US:en"
         }
       ]
     },
@@ -63,7 +63,7 @@
       "name_he": "נפתלי בנט",
       "role": "יו\"ר ביחד",
       "party": "together",
-      "mention_count": 95,
+      "mention_count": 99,
       "headlines": [
         {
           "title": "בנט על הכאוס בנתב\"ג: \"ממשלה שנסחטת מכל הכיוונים\"",
@@ -72,16 +72,16 @@
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5SR1M3VEMyM2kzVEV0dnFSeFZQd01sVDM3U0xUSl9NYWVHQ01iQ3BnbENZY2xKM2VLSHdxMjBfQ3FQUC0xdzByQUJLZmFHM01RN3h1dUtpU0I4aS1nWVBHUWEteldJRFE1Yl9mWnVvdzA0Z0VW0gF0QVVfeXFMTlJHUzdUQzIzaTNURXR2cVJ4VlB3TWxUMzdTTFRKX01hZUdDTWJDcGdsQ1ljbEozZUtId3EyMF9DcVBQLTF3MHJBQktmYUczTVE3eHV1S2lTQjhpLWdZUEdRYS16V0lEUTViX2ZadW93MDRnRVY?oc=5&hl=en-US&gl=US&ceid=US:en"
         },
         {
+          "title": "הקורא בקלפי: נפתלי ג'ובס מרעננה עדיין מחפש את המוצר המנצח",
+          "source": "זמן ישראל",
+          "published_at": "Thu, 20 Aug 2026 09:14:58 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9LRkNzRVFlNGRPWlZBSWNfOFc4OEtyUlFyZUppdEpIazB0eTRsMlZwVzlVQy1sWFE2ZnhKR2VzOTFIRTNF?oc=5&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
           "title": "בנט בהצהרה בנתב\"ג: \"הממשלה נסחטת מכל הכיוונים - והעם משלם את המחיר\"",
           "source": "ynet",
           "published_at": "Thu, 20 Aug 2026 13:44:04 GMT",
           "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1ubmRGOEtKWjF1MG53NnJleEgzNDMxQmprOFlvYWhXLTd6RXFWWHlQd2l2MVgzdjMwNmxHOW5neWo1QTZaNkhydXUwQkxWTjBTWkxINmpxUmtPQQ?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "יו\"ר ועדת הבחירות המרכזית הורה לבנט להסיר תמונות חיילים מסרטון שפרסם",
-          "source": "Gov.il",
-          "published_at": "Thu, 20 Aug 2026 08:31:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5xSTZCQWNCR2k5Nm0ySzB3VjhnWFJfQmxsMFExYmp0Y2JodGluZzRnQ1dUMjhwNlpIMGVESFlXSDRyUHpGUlNiYzFZbDE?oc=5&hl=en-US&gl=US&ceid=US:en"
         }
       ]
     },
@@ -90,7 +90,7 @@
       "name_he": "אביגדור ליברמן",
       "role": "יו\"ר ישראל ביתנו",
       "party": "yisrael_beiteinu",
-      "mention_count": 25,
+      "mention_count": 27,
       "headlines": [
         {
           "title": "התוכנית נחשפת: איזנקוט מועמד הגוש? בנט וליברמן שותקים - ויש סיבה",
@@ -100,16 +100,16 @@
           "fallback": true
         },
         {
+          "title": "תחנה סופית",
+          "source": "ynet",
+          "published_at": "Thu, 20 Aug 2026 21:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1HNXNiOV9oaFJwVmh0ZmRuZElXRnpBRktBazlkTkxZM21wVkhaYW5OanY3bWVWaGlDdmNTVlVkVUJxd2pEcWxTVDBCakhyYjRYN0FXSzFpSkpyVlZNLVRMQUlB?oc=5&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
           "title": "ממשיך להתחזק: מצטרפת נוספת למפלגה של ליברמן",
           "source": "סרוגים",
           "published_at": "Thu, 20 Aug 2026 06:22:17 GMT",
           "url": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxOaDlZMEhGRWJSR2pqQUZYMVpzWnZXcnVqN3AzaVlEaTA0M2lOMUVOSlB2V0tkWFZySVdXVVN6N3RqUnU5b2dzb3RQeF82ZC1KeWdKeTk3dDY4bDFxa01OaVZFWGFIZEhxSnpmLXZvS19HOFBxWG9TNFNhVk04NnFOMnFpOURoVTM1aHlJckhYNlBwa1Bkak1SSnNVY1R6VmlxMUpzQ0dGdzVvZXhmZDRRMG5iVVU3SGtIbTl3TlJNVXZya2thVW1VVG1CeWstdFp6US1OTWFWMU9sNFNTQk9oc0t4bkVOSF91VHNRQ08tTHhtRm0yZ1FqdGNXUmtYUFFJbFdvMGl0eFN0cGFjZzh3TnY4YzlJUUJGUW1DZE1FVGhrdlhreFBTQzZUQ0J1STdkNDdkYnBoSnp0bHVBbV9CbWh3?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "סקר העומק שהגיע לנתניהו – והפאניקה בעקבותיו: \"העסק גמור\"",
-          "source": "מעריב",
-          "published_at": "Tue, 18 Aug 2026 07:39:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5rclNtYU9sOHM4RnprSlgzbzB3cVdFNHJ2ZjliYmxGU21CQ0RYbDdpaXdZVTNKOXBTTFdyaXVGdWlFRWM4b1ZjODJydmV6cU9EU0xYN1I3YWNHWXhMQWFFbW9TcEU?oc=5&hl=en-US&gl=US&ceid=US:en"
         }
       ]
     },
@@ -118,7 +118,7 @@
       "name_he": "יאיר גולן",
       "role": "יו\"ר הדמוקרטים",
       "party": "democrats",
-      "mention_count": 44,
+      "mention_count": 43,
       "headlines": [
         {
           "title": "פנה ליאיר גולן: הקצין הבכיר לשעבר גילה שהוא מופיע בסרטון של הדמוקרטים",
@@ -150,7 +150,7 @@
         {
           "title": "ממשלה נוספת עם בן גביר בתפקיד בכיר תהיה אסון לישראל",
           "source": "ישראל היום",
-          "published_at": "Thu, 20 Aug 2026 20:11:56 GMT",
+          "published_at": "Thu, 20 Aug 2026 15:46:29 GMT",
           "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB3alAwUTdaSUh0TjlyaF9VMHAteWJUOHUxbTdITDJVWHpqOEpSQ3FDd25zQnhMeHlORTl5R1dNZHJNUkVqX1pfcDJkQ1lpeExVRlU0bkdBRFdKczZxSjZWbGtuZUZVUmM2ZkJILUUyYnZldw?oc=5&hl=en-US&gl=US&ceid=US:en"
         },
         {
@@ -172,7 +172,7 @@
       "name_he": "בצלאל סמוטריץ'",
       "role": "יו\"ר הציונות הדתית",
       "party": "religious_zionism",
-      "mention_count": 66,
+      "mention_count": 68,
       "headlines": [
         {
           "title": "ועדת הבחירות הורתה לסמוטריץ' להסיר סרטון | זו הסיבה",
@@ -189,7 +189,7 @@
         {
           "title": "מעצמות אירופה במסר מאיים עקב תוכנית הבנייה ב-E1: \"תפגע עוד במעמד ישראל\"",
           "source": "ynet",
-          "published_at": "Thu, 20 Aug 2026 17:24:35 GMT",
+          "published_at": "Thu, 20 Aug 2026 16:26:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1PS0dLcE1taE1hUlJiNGs3Qnc3Z1h5SHZuZjd1dUVmdVpMOG91MlZNZ0tKQTdaYWFjNDBGaW14R0U0bldxdVo2OVBILVJ4LVo4a1dZU1JLTlBaZw?oc=5&hl=en-US&gl=US&ceid=US:en"
         }
       ]
