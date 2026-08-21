@@ -207,7 +207,7 @@ export default function MediaMentions({ mediaMentions }: Props) {
               const isIhy = h.source === IHY;
               return (
                 <div key={i} className="mm-hl-row">
-                  <span className="mm-hl-source">{h.source}</span>
+                  <span className="mm-hl-source">{isIhy ? "היום" : h.source}</span>
                   <span className="mm-hl-divider" />
                   {isIhy && h.url ? (
                     <a href={h.url} target="_blank" rel="noopener noreferrer" className="mm-hl-text mm-hl-link">
@@ -248,7 +248,7 @@ export default function MediaMentions({ mediaMentions }: Props) {
                   <div key={i} className="mm-top-hl-row">
                     {showSource && (
                       <>
-                        <span className="mm-hl-source">{h.source}</span>
+                        <span className="mm-hl-source">{h.source === IHY ? "היום" : h.source}</span>
                         <span className="mm-hl-divider" />
                       </>
                     )}

@@ -37,7 +37,6 @@ const BINARY_TITLES: Record<string, string> = {
 
 function NextPMSection({ market }: { market: PolymarketMarket }) {
   const top = [...market.outcomes].sort((a, b) => b.probability - a.probability).slice(0, 4);
-  const maxP = top[0]?.probability ?? 1;
 
   return (
     <div className="poly-section">
@@ -45,19 +44,21 @@ function NextPMSection({ market }: { market: PolymarketMarket }) {
       <div className="poly-bars">
         {top.map(o => {
           const pct = Math.round(o.probability * 100);
-          const widthPct = (o.probability / maxP) * 100;
           const colors = BAR_COLORS[o.name] ?? DEFAULT_BAR;
           return (
-            <div
-              key={o.name}
-              className="poly-bar"
-              style={{ width: `${widthPct}%`, background: colors.bg, color: colors.text }}
-            >
-              <span className="poly-bar-name">{HEBREW_NAMES[o.name] ?? o.name}</span>
-              <span className="poly-bar-pct">
-                <span className="poly-bar-pct-num">{pct}</span>
-                <span className="poly-bar-pct-sign">%</span>
-              </span>
+            <div key={o.name} className="poly-bar-row">
+              <span className="poly-bar-label">{HEBREW_NAMES[o.name] ?? o.name}</span>
+              <div className="poly-bar-track">
+                <div
+                  className="poly-bar"
+                  style={{ width: `${pct}%`, background: colors.bg, color: colors.text }}
+                >
+                  <span className="poly-bar-pct">
+                    <span className="poly-bar-pct-num">{pct}</span>
+                    <span className="poly-bar-pct-sign">%</span>
+                  </span>
+                </div>
+              </div>
             </div>
           );
         })}

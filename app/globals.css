@@ -442,19 +442,40 @@ ul { list-style: none; }
 .poly-bars {
   display: flex;
   flex-direction: column;
+  gap: 12px;
+}
+.poly-bar-row {
+  display: flex;
+  align-items: center;
   gap: 10px;
-  align-items: flex-start;
+  direction: rtl;
+}
+.poly-bar-label {
+  flex-shrink: 0;
+  width: 100px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #fff;
+  text-align: right;
+  white-space: nowrap;
+}
+.poly-bar-track {
+  flex: 1;
+  min-width: 0;
+  background: rgba(255,255,255,0.06);
+  border-radius: 8px;
+  overflow: hidden;
 }
 .poly-bar {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  direction: rtl;
-  min-height: 45px;
+  justify-content: flex-start;
+  direction: ltr;
+  min-height: 42px;
   border-radius: 8px;
-  padding: 6px 10px;
-  min-width: 200px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  padding: 4px 10px;
+  min-width: 50px;
+  transition: width 0.4s ease;
 }
 .poly-bar-pct {
   display: flex;
@@ -463,9 +484,8 @@ ul { list-style: none; }
   flex-shrink: 0;
   direction: ltr;
 }
-.poly-bar-pct-num { font-size: 32px; font-weight: 900; }
-.poly-bar-pct-sign { font-size: 20px; font-weight: 800; }
-.poly-bar-name { font-size: 16px; font-weight: 700; min-width: 0; }
+.poly-bar-pct-num { font-size: 28px; font-weight: 900; }
+.poly-bar-pct-sign { font-size: 16px; font-weight: 800; }
 .poly-market-link {
   display: inline-block;
   margin-top: 12px;
@@ -566,9 +586,9 @@ ul { list-style: none; }
   .poly-title { font-size: 32px; }
   .poly-desc { font-size: 18px; }
   .poly-sub-title { font-size: 24px; }
-  .poly-bar-pct-num { font-size: 40px; }
-  .poly-bar-pct-sign { font-size: 24px; }
-  .poly-bar-name { font-size: 18px; }
+  .poly-bar-pct-num { font-size: 34px; }
+  .poly-bar-pct-sign { font-size: 20px; }
+  .poly-bar-label { font-size: 17px; width: 120px; }
   .poly-section { margin-top: 24px; }
   .poly-bets-row { gap: 24px; }
   .poly-bet-card { width: 282px; min-height: 210px; padding: 20px 24px; }
@@ -1764,7 +1784,7 @@ ul { list-style: none; }
   font-weight: 900;
   color: #fff;
   white-space: nowrap;
-  min-width: 55px;
+  width: 70px;
   text-align: center;
 }
 

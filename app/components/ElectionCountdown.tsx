@@ -107,7 +107,11 @@ export default function ElectionCountdown() {
       {nextMilestone && (
         <div className="cd-next">
           <span className="cd-next-label">האירוע הבא:</span>
-          <span className="cd-next-in">בעוד {daysUntil(nextMilestone.date, now)} ימים</span>
+          {daysUntil(nextMilestone.date, now) === 0 ? (
+            <span className="cd-next-in">היום</span>
+          ) : (
+            <span className="cd-next-in">בעוד {daysUntil(nextMilestone.date, now)} ימים</span>
+          )}
           <span className="cd-next-event">{nextMilestone.label}</span>
         </div>
       )}
