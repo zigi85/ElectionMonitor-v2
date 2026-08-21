@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T05:29:15Z",
+  "generated_at": "2026-08-21T17:17:15Z",
   "weights": {
     "polls": 0.45,
     "polymarket": 0.3,
@@ -9,24 +9,24 @@
   "parties": [
     {
       "party": "likud",
-      "direction": "losing",
-      "score": -0.7,
+      "direction": "stable",
+      "score": 0.0,
       "label": "הליכוד",
       "signals": {
-        "polls": -1,
+        "polls": 0,
         "polymarket": 0,
-        "google_trends": -1
+        "google_trends": 0
       }
     },
     {
       "party": "together",
       "direction": "stable",
-      "score": 0.25,
+      "score": 0.0,
       "label": "יחד",
       "signals": {
         "polls": 0,
         "polymarket": 0,
-        "google_trends": 1
+        "google_trends": 0
       }
     },
     {
@@ -76,11 +76,11 @@
     {
       "party": "yashar",
       "direction": "gaining",
-      "score": 1.0,
+      "score": 0.6,
       "label": "ישר",
       "signals": {
         "polls": 1,
-        "polymarket": 1,
+        "polymarket": 0,
         "google_trends": null
       }
     },
@@ -98,18 +98,18 @@
   ],
   "blocs": {
     "coalition": {
-      "seats": 46.0,
-      "delta": -2.0,
-      "direction": "losing"
-    },
-    "opposition": {
-      "seats": 59.7,
-      "delta": 0.0,
+      "seats": 51.9,
+      "delta": 0.1,
       "direction": "stable"
     },
+    "opposition": {
+      "seats": 57.3,
+      "delta": 2.0,
+      "direction": "gaining"
+    },
     "unaligned": {
-      "seats": 9.7,
-      "delta": -0.5,
+      "seats": 10.4,
+      "delta": -0.1,
       "direction": "stable"
     }
   }

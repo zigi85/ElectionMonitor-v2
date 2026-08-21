@@ -229,6 +229,7 @@ export default function KnessetHemicycle({ manualPolls }: Props) {
           >ממוצע</button>
           {availableOutlets.filter(o => o.id !== "walla").map(o => {
             const isActive = outlet === o.id;
+            const imgId = o.id === "walla_maariv" ? "walla" : o.id;
             return (
               <button
                 key={o.id}
@@ -238,15 +239,15 @@ export default function KnessetHemicycle({ manualPolls }: Props) {
                 style={isActive ? { background: "#fff", borderColor: "transparent" } : undefined}
               >
                 <img
-                  src={isActive ? `/images/outlets/${o.id}-color.png` : `/images/outlets/${o.id}.png`}
+                  src={isActive ? `/images/outlets/${imgId}-color.png` : `/images/outlets/${imgId}.png`}
                   className="outlet-pill-icon"
                   alt={o.name}
                   onError={(e) => {
                     const img = e.currentTarget as HTMLImageElement;
-                    const fallback = `/images/outlets/${o.id}.png`;
-                    if (!img.src.endsWith(`/${o.id}.png`)) {
+                    const fallback = `/images/outlets/${imgId}.png`;
+                    if (!img.src.endsWith(`/${imgId}.png`)) {
                       img.src = fallback;
-                    } else {
+                    } else if (img.style.display !== "none") {
                       img.style.display = "none";
                       (img.parentElement as HTMLElement).insertAdjacentText("afterbegin", o.name);
                     }
