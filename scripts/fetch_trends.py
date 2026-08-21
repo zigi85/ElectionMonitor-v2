@@ -56,6 +56,8 @@ HL = "he"
 TZ = 120  # Israel Standard Time offset
 
 DIRECTION_THRESHOLD = 15.0  # percent
+MAX_RETRIES = 2
+RETRY_DELAY = 15  # seconds
 
 
 # ---------------------------------------------------------------------------
@@ -123,71 +125,85 @@ def fetch_trends_data() -> list[dict]:
 
     for keyword in KEYWORDS:
         log.info("Fetching trends for: %s", keyword)
-        try:
-            # Build payload with single keyword (avoids cross-keyword normalisation issues)
-            pytrends.build_payload(
-                [keyword],
-                cat=0,
-                timeframe=TIMEFRAME,
-                geo=GEO,
-                gprop="",
-            )
+        success = False
 
-            # Sleep between calls to avoid rate limiting
-            time.sleep(5)
-
-            df = pytrends.interest_over_time()
-
-            if df is None or df.empty:
-                log.warning("Empty response for keyword: %s", keyword)
-                keyword_results.append(_empty_keyword_result(keyword))
-                continue
-
-            # Drop the isPartial column if present
-            if "isPartial" in df.columns:
-                df = df.drop(columns=["isPartial"])
-
-            # Extract weekly data
-            weekly_data: list[dict] = []
-            if keyword in df.columns:
-                for ts, row in df.iterrows():
-                    val = int(row[keyword])
-                    weekly_data.append({
-                        "date": ts.strftime("%Y-%m-%d"),
-                        "value": val,
-                    })
-            else:
-                log.warning(
-                    "Keyword %r not in returned columns: %s",
-                    keyword, list(df.columns),
+        for attempt in range(1, MAX_RETRIES + 2):
+            try:
+                pytrends.build_payload(
+                    [keyword],
+                    cat=0,
+                    timeframe=TIMEFRAME,
+                    geo=GEO,
+                    gprop="",
                 )
-                keyword_results.append(_empty_keyword_result(keyword))
-                continue
 
-            current_avg, previous_avg, change_pct, direction = calculate_direction(
-                weekly_data
-            )
+                time.sleep(5)
 
-            keyword_results.append({
-                "keyword": keyword,
-                "keyword_en": KEYWORD_EN.get(keyword, keyword),
-                "current_interest": round(current_avg, 1),
-                "previous_interest": round(previous_avg, 1),
-                "change_pct": change_pct,
-                "direction": direction,
-                "weekly_data": weekly_data,
-            })
+                df = pytrends.interest_over_time()
 
-            log.info(
-                "  %s → current=%.1f previous=%.1f change=%.1f%% direction=%s",
-                keyword, current_avg, previous_avg, change_pct, direction,
-            )
+                if df is None or df.empty:
+                    if attempt <= MAX_RETRIES:
+                        log.warning("ריק — ניסיון %d/%d עבור %s, ממתין %ds...",
+                                    attempt, MAX_RETRIES + 1, keyword, RETRY_DELAY)
+                        time.sleep(RETRY_DELAY)
+                        continue
+                    log.warning("ריק — כל הניסיונות נכשלו עבור: %s", keyword)
+                    keyword_results.append(_empty_keyword_result(keyword))
+                    break
 
-        except Exception as exc:
-            log.warning(
-                "Failed to fetch trends for %r: %s — using empty result",
-                keyword, exc,
-            )
+                if "isPartial" in df.columns:
+                    df = df.drop(columns=["isPartial"])
+
+                weekly_data: list[dict] = []
+                if keyword in df.columns:
+                    for ts, row in df.iterrows():
+                        val = int(row[keyword])
+                        weekly_data.append({
+                            "date": ts.strftime("%Y-%m-%d"),
+                            "value": val,
+                        })
+                else:
+                    log.warning(
+                        "Keyword %r not in returned columns: %s",
+                        keyword, list(df.columns),
+                    )
+                    keyword_results.append(_empty_keyword_result(keyword))
+                    break
+
+                current_avg, previous_avg, change_pct, direction = calculate_direction(
+                    weekly_data
+                )
+
+                if attempt > 1:
+                    log.info("  הצליח בניסיון %d עבור %s", attempt, keyword)
+
+                keyword_results.append({
+                    "keyword": keyword,
+                    "keyword_en": KEYWORD_EN.get(keyword, keyword),
+                    "current_interest": round(current_avg, 1),
+                    "previous_interest": round(previous_avg, 1),
+                    "change_pct": change_pct,
+                    "direction": direction,
+                    "weekly_data": weekly_data,
+                })
+
+                log.info(
+                    "  %s → current=%.1f previous=%.1f change=%.1f%% direction=%s",
+                    keyword, current_avg, previous_avg, change_pct, direction,
+                )
+                success = True
+                break
+
+            except Exception as exc:
+                if attempt <= MAX_RETRIES:
+                    log.warning("שגיאה בניסיון %d/%d עבור %s: %s — ממתין %ds...",
+                                attempt, MAX_RETRIES + 1, keyword, exc, RETRY_DELAY)
+                    time.sleep(RETRY_DELAY)
+                else:
+                    log.warning("כל הניסיונות נכשלו עבור %s: %s", keyword, exc)
+                    keyword_results.append(_empty_keyword_result(keyword))
+
+        if not success and not any(k["keyword"] == keyword for k in keyword_results):
             keyword_results.append(_empty_keyword_result(keyword))
 
     return keyword_results
@@ -268,11 +284,13 @@ def main() -> None:
     print(f"  Output : {OUTPUT_PATH}")
     print("=" * 60)
 
-    kw_count = len(output.get("keywords", []))
+    keywords = output.get("keywords", [])
+    kw_count = len(keywords)
+    ok_count = sum(1 for k in keywords if not k.get("error"))
     status_he = {"ok": "תקין", "partial": "חלקי", "error": "שגיאה"}.get(output["status"], output["status"])
     rl.success(
-        summary=f"{status_he}, {kw_count} מילות מפתח",
-        records_count=kw_count,
+        summary=f"{status_he}, {ok_count}/{kw_count} מילות מפתח הצליחו",
+        records_count=ok_count,
     )
 
 
