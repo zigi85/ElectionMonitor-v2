@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T05:27:27Z",
+  "generated_at": "2026-08-21T05:29:14Z",
   "source_urls": [
     "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
     "https://en.wikipedia.org/wiki/2025_opinion_polling_for_the_2026_Israeli_legislative_election"
@@ -90,10 +90,10 @@
       }
     },
     {
-      "id": "midgam-2026-12-18",
+      "id": "midgam_r_c-2026-12-18",
       "date": "2026-12-18",
       "iso_week": "2026-W51",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -120,10 +120,10 @@
       "seats": {}
     },
     {
-      "id": "midgam-2026-11-18",
+      "id": "midgam_r_c-2026-11-18",
       "date": "2026-11-18",
       "iso_week": "2026-W47",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -140,10 +140,10 @@
       }
     },
     {
-      "id": "midgam-2026-11-16",
+      "id": "midgam_r_c-2026-11-16",
       "date": "2026-11-16",
       "iso_week": "2026-W47",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -200,10 +200,10 @@
       }
     },
     {
-      "id": "midgam-2026-10-16",
+      "id": "midgam_r_c-2026-10-16",
       "date": "2026-10-16",
       "iso_week": "2026-W42",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -230,10 +230,10 @@
       }
     },
     {
-      "id": "midgam-2026-09-18",
+      "id": "midgam_r_c-2026-09-18",
       "date": "2026-09-18",
       "iso_week": "2026-W38",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -270,10 +270,10 @@
       }
     },
     {
-      "id": "midgam-2026-09-10",
+      "id": "midgam_r_c-2026-09-10",
       "date": "2026-09-10",
       "iso_week": "2026-W37",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -359,6 +359,27 @@
       }
     },
     {
+      "id": "maagar_mochot-2026-08-19",
+      "date": "2026-08-19",
+      "iso_week": "2026-W34",
+      "firm": "Maagar Mochot",
+      "publisher": "",
+      "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
+      "excluded_from_avg": false,
+      "seats": {
+        "likud": 22,
+        "together": 16,
+        "otzma_yehudit": 9,
+        "shas": 9,
+        "utj": 7,
+        "yisrael_beiteinu": 9,
+        "raam": 4,
+        "joint_list": 5,
+        "democrats": 10,
+        "yashar": 25
+      }
+    },
+    {
       "id": "filber-2026-08-18",
       "date": "2026-08-18",
       "iso_week": "2026-W34",
@@ -380,10 +401,31 @@
       }
     },
     {
-      "id": "midgam-2026-08-17",
+      "id": "direct_polls-2026-08-18",
+      "date": "2026-08-18",
+      "iso_week": "2026-W34",
+      "firm": "Direct Polls",
+      "publisher": "",
+      "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
+      "excluded_from_avg": true,
+      "seats": {
+        "likud": 31,
+        "together": 9,
+        "otzma_yehudit": 6,
+        "shas": 8,
+        "utj": 8,
+        "yisrael_beiteinu": 8,
+        "raam": 5,
+        "joint_list": 5,
+        "democrats": 11,
+        "yashar": 24
+      }
+    },
+    {
+      "id": "midgam_r_c-2026-08-17",
       "date": "2026-08-17",
       "iso_week": "2026-W34",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -474,10 +516,10 @@
       }
     },
     {
-      "id": "midgam-2026-08-10",
+      "id": "midgam_r_c-2026-08-10",
       "date": "2026-08-10",
       "iso_week": "2026-W33",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -605,10 +647,10 @@
       }
     },
     {
-      "id": "midgam-2026-08-04",
+      "id": "midgam_r_c-2026-08-04",
       "date": "2026-08-04",
       "iso_week": "2026-W32",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -624,10 +666,10 @@
       }
     },
     {
-      "id": "midgam-2026-08-03",
+      "id": "midgam_r_c-2026-08-03",
       "date": "2026-08-03",
       "iso_week": "2026-W32",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -686,10 +728,10 @@
       }
     },
     {
-      "id": "midgam-2026-07-27",
+      "id": "midgam_r_c-2026-07-27",
       "date": "2026-07-27",
       "iso_week": "2026-W31",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -790,10 +832,10 @@
       }
     },
     {
-      "id": "midgam-2026-07-20",
+      "id": "midgam_r_c-2026-07-20",
       "date": "2026-07-20",
       "iso_week": "2026-W30",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -915,10 +957,10 @@
       }
     },
     {
-      "id": "midgam-2026-07-13",
+      "id": "midgam_r_c-2026-07-13",
       "date": "2026-07-13",
       "iso_week": "2026-W29",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -1068,10 +1110,10 @@
       }
     },
     {
-      "id": "midgam-2026-07-06",
+      "id": "midgam_r_c-2026-07-06",
       "date": "2026-07-06",
       "iso_week": "2026-W28",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -1168,10 +1210,10 @@
       }
     },
     {
-      "id": "midgam-2026-06-29",
+      "id": "midgam_r_c-2026-06-29",
       "date": "2026-06-29",
       "iso_week": "2026-W27",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -1218,10 +1260,10 @@
       "seats": {}
     },
     {
-      "id": "midgam-2026-06-25",
+      "id": "midgam_r_c-2026-06-25",
       "date": "2026-06-25",
       "iso_week": "2026-W26",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -1308,10 +1350,10 @@
       }
     },
     {
-      "id": "midgam-2026-06-24",
+      "id": "midgam_r_c-2026-06-24",
       "date": "2026-06-24",
       "iso_week": "2026-W26",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -1346,10 +1388,10 @@
       }
     },
     {
-      "id": "midgam-2026-06-18",
+      "id": "midgam_r_c-2026-06-18",
       "date": "2026-06-18",
       "iso_week": "2026-W25",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -1446,10 +1488,10 @@
       }
     },
     {
-      "id": "midgam-2026-06-11",
+      "id": "midgam_r_c-2026-06-11",
       "date": "2026-06-11",
       "iso_week": "2026-W24",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -1496,10 +1538,10 @@
       }
     },
     {
-      "id": "midgam-2026-06-10",
+      "id": "midgam_r_c-2026-06-10",
       "date": "2026-06-10",
       "iso_week": "2026-W24",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -1574,10 +1616,10 @@
       }
     },
     {
-      "id": "midgam-2026-06-04",
+      "id": "midgam_r_c-2026-06-04",
       "date": "2026-06-04",
       "iso_week": "2026-W23",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -1624,10 +1666,10 @@
       }
     },
     {
-      "id": "midgam-2026-06-01",
+      "id": "midgam_r_c-2026-06-01",
       "date": "2026-06-01",
       "iso_week": "2026-W23",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -1661,10 +1703,10 @@
       }
     },
     {
-      "id": "midgam-2026-05-29",
+      "id": "midgam_r_c-2026-05-29",
       "date": "2026-05-29",
       "iso_week": "2026-W22",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -1680,10 +1722,10 @@
       }
     },
     {
-      "id": "midgam-2026-05-28",
+      "id": "midgam_r_c-2026-05-28",
       "date": "2026-05-28",
       "iso_week": "2026-W22",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -1799,10 +1841,10 @@
       }
     },
     {
-      "id": "midgam-2026-05-20",
+      "id": "midgam_r_c-2026-05-20",
       "date": "2026-05-20",
       "iso_week": "2026-W21",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -1869,10 +1911,10 @@
       }
     },
     {
-      "id": "midgam-2026-05-16",
+      "id": "midgam_r_c-2026-05-16",
       "date": "2026-05-16",
       "iso_week": "2026-W20",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -1889,10 +1931,10 @@
       }
     },
     {
-      "id": "midgam-2026-05-14",
+      "id": "midgam_r_c-2026-05-14",
       "date": "2026-05-14",
       "iso_week": "2026-W20",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -1993,10 +2035,10 @@
       }
     },
     {
-      "id": "midgam-2026-05-07",
+      "id": "midgam_r_c-2026-05-07",
       "date": "2026-05-07",
       "iso_week": "2026-W19",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -2121,10 +2163,10 @@
       }
     },
     {
-      "id": "midgam-2026-04-30",
+      "id": "midgam_r_c-2026-04-30",
       "date": "2026-04-30",
       "iso_week": "2026-W18",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -2180,10 +2222,10 @@
       }
     },
     {
-      "id": "midgam-2026-04-27",
+      "id": "midgam_r_c-2026-04-27",
       "date": "2026-04-27",
       "iso_week": "2026-W18",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -2244,10 +2286,10 @@
       }
     },
     {
-      "id": "midgam-2026-04-23",
+      "id": "midgam_r_c-2026-04-23",
       "date": "2026-04-23",
       "iso_week": "2026-W17",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -2367,10 +2409,10 @@
       }
     },
     {
-      "id": "midgam-2026-04-16",
+      "id": "midgam_r_c-2026-04-16",
       "date": "2026-04-16",
       "iso_week": "2026-W16",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -2502,10 +2544,10 @@
       }
     },
     {
-      "id": "midgam-2026-04-09",
+      "id": "midgam_r_c-2026-04-09",
       "date": "2026-04-09",
       "iso_week": "2026-W15",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -2644,10 +2686,10 @@
       }
     },
     {
-      "id": "midgam-2026-03-19",
+      "id": "midgam_r_c-2026-03-19",
       "date": "2026-03-19",
       "iso_week": "2026-W12",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -2665,10 +2707,10 @@
       }
     },
     {
-      "id": "midgam-2026-03-16",
+      "id": "midgam_r_c-2026-03-16",
       "date": "2026-03-16",
       "iso_week": "2026-W12",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -2723,10 +2765,10 @@
       }
     },
     {
-      "id": "midgam-2026-03-13",
+      "id": "midgam_r_c-2026-03-13",
       "date": "2026-03-13",
       "iso_week": "2026-W11",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -2742,10 +2784,10 @@
       }
     },
     {
-      "id": "midgam-2026-03-11",
+      "id": "midgam_r_c-2026-03-11",
       "date": "2026-03-11",
       "iso_week": "2026-W11",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -2823,10 +2865,10 @@
       }
     },
     {
-      "id": "midgam-2026-02-26",
+      "id": "midgam_r_c-2026-02-26",
       "date": "2026-02-26",
       "iso_week": "2026-W09",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -2917,10 +2959,10 @@
       }
     },
     {
-      "id": "midgam-2026-02-12",
+      "id": "midgam_r_c-2026-02-12",
       "date": "2026-02-12",
       "iso_week": "2026-W07",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -3049,10 +3091,10 @@
       "seats": {}
     },
     {
-      "id": "midgam-2026-01-30",
+      "id": "midgam_r_c-2026-01-30",
       "date": "2026-01-30",
       "iso_week": "2026-W05",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -3068,10 +3110,10 @@
       }
     },
     {
-      "id": "midgam-2026-01-29",
+      "id": "midgam_r_c-2026-01-29",
       "date": "2026-01-29",
       "iso_week": "2026-W05",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -3139,10 +3181,10 @@
       }
     },
     {
-      "id": "midgam-2026-01-22",
+      "id": "midgam_r_c-2026-01-22",
       "date": "2026-01-22",
       "iso_week": "2026-W04",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -3220,10 +3262,10 @@
       }
     },
     {
-      "id": "midgam-2026-01-15",
+      "id": "midgam_r_c-2026-01-15",
       "date": "2026-01-15",
       "iso_week": "2026-W03",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -3304,10 +3346,10 @@
       }
     },
     {
-      "id": "midgam-2026-01-11",
+      "id": "midgam_r_c-2026-01-11",
       "date": "2026-01-11",
       "iso_week": "2026-W02",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -3324,10 +3366,10 @@
       }
     },
     {
-      "id": "midgam-2026-01-08",
+      "id": "midgam_r_c-2026-01-08",
       "date": "2026-01-08",
       "iso_week": "2026-W02",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -3376,10 +3418,10 @@
       "seats": {}
     },
     {
-      "id": "midgam-2026-01-01",
+      "id": "midgam_r_c-2026-01-01",
       "date": "2026-01-01",
       "iso_week": "2026-W01",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -3418,10 +3460,10 @@
       }
     },
     {
-      "id": "midgam-2025-12-25",
+      "id": "midgam_r_c-2025-12-25",
       "date": "2025-12-25",
       "iso_week": "2025-W52",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/2025_opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -3523,10 +3565,10 @@
       }
     },
     {
-      "id": "midgam-2025-12-11",
+      "id": "midgam_r_c-2025-12-11",
       "date": "2025-12-11",
       "iso_week": "2025-W50",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/2025_opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -3607,10 +3649,10 @@
       }
     },
     {
-      "id": "midgam-2025-12-04",
+      "id": "midgam_r_c-2025-12-04",
       "date": "2025-12-04",
       "iso_week": "2025-W49",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/2025_opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -3670,10 +3712,10 @@
       }
     },
     {
-      "id": "midgam-2025-11-27",
+      "id": "midgam_r_c-2025-11-27",
       "date": "2025-11-27",
       "iso_week": "2025-W48",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/2025_opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -3712,10 +3754,10 @@
       }
     },
     {
-      "id": "midgam-2025-11-20",
+      "id": "midgam_r_c-2025-11-20",
       "date": "2025-11-20",
       "iso_week": "2025-W47",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/2025_opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -3766,10 +3808,10 @@
       }
     },
     {
-      "id": "midgam-2025-11-13",
+      "id": "midgam_r_c-2025-11-13",
       "date": "2025-11-13",
       "iso_week": "2025-W46",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/2025_opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -3829,10 +3871,10 @@
       }
     },
     {
-      "id": "midgam-2025-11-06",
+      "id": "midgam_r_c-2025-11-06",
       "date": "2025-11-06",
       "iso_week": "2025-W45",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/2025_opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -3871,10 +3913,10 @@
       }
     },
     {
-      "id": "midgam-2025-10-30",
+      "id": "midgam_r_c-2025-10-30",
       "date": "2025-10-30",
       "iso_week": "2025-W44",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/2025_opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -3934,10 +3976,10 @@
       }
     },
     {
-      "id": "midgam-2025-10-23",
+      "id": "midgam_r_c-2025-10-23",
       "date": "2025-10-23",
       "iso_week": "2025-W43",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/2025_opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -4018,10 +4060,10 @@
       }
     },
     {
-      "id": "midgam-2025-10-16",
+      "id": "midgam_r_c-2025-10-16",
       "date": "2025-10-16",
       "iso_week": "2025-W42",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/2025_opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -4226,10 +4268,10 @@
       }
     },
     {
-      "id": "midgam-2025-09-25",
+      "id": "midgam_r_c-2025-09-25",
       "date": "2025-09-25",
       "iso_week": "2025-W39",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/2025_opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -4268,10 +4310,10 @@
       }
     },
     {
-      "id": "midgam-2025-09-18",
+      "id": "midgam_r_c-2025-09-18",
       "date": "2025-09-18",
       "iso_week": "2025-W38",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/2025_opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -4373,10 +4415,10 @@
       }
     },
     {
-      "id": "midgam-2025-09-11",
+      "id": "midgam_r_c-2025-09-11",
       "date": "2025-09-11",
       "iso_week": "2025-W37",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/2025_opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -4456,10 +4498,10 @@
       }
     },
     {
-      "id": "midgam-2025-09-04",
+      "id": "midgam_r_c-2025-09-04",
       "date": "2025-09-04",
       "iso_week": "2025-W36",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/2025_opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -4599,10 +4641,10 @@
       }
     },
     {
-      "id": "midgam-2025-08-28",
+      "id": "midgam_r_c-2025-08-28",
       "date": "2025-08-28",
       "iso_week": "2025-W35",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/2025_opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -4662,10 +4704,10 @@
       }
     },
     {
-      "id": "midgam-2025-08-17",
+      "id": "midgam_r_c-2025-08-17",
       "date": "2025-08-17",
       "iso_week": "2025-W33",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/2025_opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -4951,10 +4993,10 @@
       }
     },
     {
-      "id": "midgam-2025-07-16",
+      "id": "midgam_r_c-2025-07-16",
       "date": "2025-07-16",
       "iso_week": "2025-W29",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/2025_opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -5096,10 +5138,10 @@
       }
     },
     {
-      "id": "midgam-2025-07-01",
+      "id": "midgam_r_c-2025-07-01",
       "date": "2025-07-01",
       "iso_week": "2025-W27",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/2025_opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -5179,10 +5221,10 @@
       }
     },
     {
-      "id": "midgam-2025-06-24",
+      "id": "midgam_r_c-2025-06-24",
       "date": "2025-06-24",
       "iso_week": "2025-W26",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/2025_opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -5365,10 +5407,10 @@
       }
     },
     {
-      "id": "midgam-2025-06-04",
+      "id": "midgam_r_c-2025-06-04",
       "date": "2025-06-04",
       "iso_week": "2025-W23",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/2025_opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -5406,10 +5448,10 @@
       }
     },
     {
-      "id": "midgam-2025-05-25",
+      "id": "midgam_r_c-2025-05-25",
       "date": "2025-05-25",
       "iso_week": "2025-W21",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/2025_opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -5488,10 +5530,10 @@
       }
     },
     {
-      "id": "midgam-2025-05-07",
+      "id": "midgam_r_c-2025-05-07",
       "date": "2025-05-07",
       "iso_week": "2025-W19",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/2025_opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -5589,10 +5631,10 @@
       }
     },
     {
-      "id": "midgam-2025-04-06",
+      "id": "midgam_r_c-2025-04-06",
       "date": "2025-04-06",
       "iso_week": "2025-W14",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/2025_opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -5649,10 +5691,10 @@
       }
     },
     {
-      "id": "midgam-2025-03-17",
+      "id": "midgam_r_c-2025-03-17",
       "date": "2025-03-17",
       "iso_week": "2025-W12",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/2025_opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -5729,10 +5771,10 @@
       }
     },
     {
-      "id": "midgam-2025-03-05",
+      "id": "midgam_r_c-2025-03-05",
       "date": "2025-03-05",
       "iso_week": "2025-W10",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/2025_opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -5781,10 +5823,10 @@
       }
     },
     {
-      "id": "midgam-2025-02-17",
+      "id": "midgam_r_c-2025-02-17",
       "date": "2025-02-17",
       "iso_week": "2025-W08",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/2025_opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -5861,10 +5903,10 @@
       }
     },
     {
-      "id": "midgam-2025-01-23",
+      "id": "midgam_r_c-2025-01-23",
       "date": "2025-01-23",
       "iso_week": "2025-W04",
-      "firm": "Midgam",
+      "firm": "Midgam R&C",
       "publisher": "",
       "source_url": "https://en.wikipedia.org/wiki/2025_opinion_polling_for_the_2026_Israeli_legislative_election",
       "excluded_from_avg": false,
@@ -6196,7 +6238,7 @@
       "week_end": "2025-01-26",
       "sparse": true,
       "included_firms": [
-        "Midgam",
+        "Midgam R&C",
         "Smith Consulting"
       ],
       "seats": {
@@ -6247,7 +6289,7 @@
       "week_end": "2025-02-23",
       "sparse": true,
       "included_firms": [
-        "Midgam",
+        "Midgam R&C",
         "Stat-Net Research Institute"
       ],
       "seats": {
@@ -6274,7 +6316,7 @@
       "week_end": "2025-03-09",
       "sparse": true,
       "included_firms": [
-        "Midgam"
+        "Midgam R&C"
       ],
       "seats": {
         "likud": 25.0,
@@ -6324,7 +6366,7 @@
       "week_end": "2025-03-23",
       "sparse": true,
       "included_firms": [
-        "Midgam"
+        "Midgam R&C"
       ],
       "seats": {
         "likud": 24.0,
@@ -6350,7 +6392,7 @@
       "sparse": true,
       "included_firms": [
         "Lazar",
-        "Midgam"
+        "Midgam R&C"
       ],
       "seats": {
         "likud": 24.0,
@@ -6401,7 +6443,7 @@
       "sparse": true,
       "included_firms": [
         "Maagar Mochot",
-        "Midgam"
+        "Midgam R&C"
       ],
       "seats": {
         "likud": 22.5,
@@ -6428,7 +6470,7 @@
       "sparse": true,
       "included_firms": [
         "Maagar Mochot",
-        "Midgam"
+        "Midgam R&C"
       ],
       "seats": {
         "likud": 20.5,
@@ -6455,7 +6497,7 @@
       "sparse": true,
       "included_firms": [
         "Maagar Mochot",
-        "Midgam"
+        "Midgam R&C"
       ],
       "seats": {
         "likud": 23.0,
@@ -6536,7 +6578,7 @@
       "sparse": true,
       "included_firms": [
         "Kantar",
-        "Midgam"
+        "Midgam R&C"
       ],
       "seats": {
         "likud": 27.0,
@@ -6563,7 +6605,7 @@
       "sparse": false,
       "included_firms": [
         "Maagar Mochot",
-        "Midgam",
+        "Midgam R&C",
         "Yossi Tatika"
       ],
       "seats": {
@@ -6615,7 +6657,7 @@
       "week_end": "2025-07-20",
       "sparse": true,
       "included_firms": [
-        "Midgam",
+        "Midgam R&C",
         "Yossi Tatika"
       ],
       "seats": {
@@ -6723,7 +6765,7 @@
       "week_end": "2025-08-17",
       "sparse": true,
       "included_firms": [
-        "Midgam",
+        "Midgam R&C",
         "Yossi Tatika"
       ],
       "seats": {
@@ -6750,7 +6792,7 @@
       "week_end": "2025-08-31",
       "sparse": true,
       "included_firms": [
-        "Midgam",
+        "Midgam R&C",
         "TrendZone"
       ],
       "seats": {
@@ -6779,7 +6821,7 @@
       "included_firms": [
         "Lazar",
         "Maagar Mochot",
-        "Midgam",
+        "Midgam R&C",
         "Yossi Tatika"
       ],
       "seats": {
@@ -6807,7 +6849,7 @@
       "sparse": true,
       "included_firms": [
         "Lazar",
-        "Midgam"
+        "Midgam R&C"
       ],
       "seats": {
         "likud": 25.5,
@@ -6835,7 +6877,7 @@
       "included_firms": [
         "Kantar",
         "Maagar Mochot",
-        "Midgam"
+        "Midgam R&C"
       ],
       "seats": {
         "likud": 24.0,
@@ -6862,7 +6904,7 @@
       "sparse": true,
       "included_firms": [
         "Lazar",
-        "Midgam"
+        "Midgam R&C"
       ],
       "seats": {
         "likud": 25.0,
@@ -6943,7 +6985,7 @@
       "sparse": false,
       "included_firms": [
         "Lazar",
-        "Midgam",
+        "Midgam R&C",
         "TrendZone"
       ],
       "seats": {
@@ -6970,7 +7012,7 @@
       "week_end": "2025-10-26",
       "sparse": true,
       "included_firms": [
-        "Midgam"
+        "Midgam R&C"
       ],
       "seats": {
         "likud": 27.0,
@@ -6997,7 +7039,7 @@
       "sparse": true,
       "included_firms": [
         "Maagar Mochot",
-        "Midgam"
+        "Midgam R&C"
       ],
       "seats": {
         "likud": 26.5,
@@ -7023,7 +7065,7 @@
       "week_end": "2025-11-09",
       "sparse": true,
       "included_firms": [
-        "Midgam"
+        "Midgam R&C"
       ],
       "seats": {
         "likud": 27.0,
@@ -7049,7 +7091,7 @@
       "week_end": "2025-11-16",
       "sparse": true,
       "included_firms": [
-        "Midgam",
+        "Midgam R&C",
         "TrendZone"
       ],
       "seats": {
@@ -7076,7 +7118,7 @@
       "week_end": "2025-11-23",
       "sparse": true,
       "included_firms": [
-        "Midgam",
+        "Midgam R&C",
         "Stat-Net Research Institute"
       ],
       "seats": {
@@ -7103,7 +7145,7 @@
       "week_end": "2025-11-30",
       "sparse": true,
       "included_firms": [
-        "Midgam"
+        "Midgam R&C"
       ],
       "seats": {
         "likud": 27.0,
@@ -7131,7 +7173,7 @@
       "included_firms": [
         "Kantar",
         "Maagar Mochot",
-        "Midgam"
+        "Midgam R&C"
       ],
       "seats": {
         "likud": 24.3,
@@ -7157,7 +7199,7 @@
       "week_end": "2025-12-14",
       "sparse": true,
       "included_firms": [
-        "Midgam"
+        "Midgam R&C"
       ],
       "seats": {
         "likud": 27.0,
@@ -7184,7 +7226,7 @@
       "sparse": true,
       "included_firms": [
         "Maagar Mochot",
-        "Midgam"
+        "Midgam R&C"
       ],
       "seats": {
         "likud": 25.0,
@@ -7210,7 +7252,7 @@
       "week_end": "2026-01-04",
       "sparse": true,
       "included_firms": [
-        "Midgam"
+        "Midgam R&C"
       ],
       "seats": {
         "likud": 26.0,
@@ -7237,7 +7279,7 @@
       "sparse": true,
       "included_firms": [
         "Maagar Mochot",
-        "Midgam"
+        "Midgam R&C"
       ],
       "seats": {
         "likud": 18.0,
@@ -7263,7 +7305,7 @@
       "sparse": false,
       "included_firms": [
         "Kantar",
-        "Midgam",
+        "Midgam R&C",
         "TrendZone"
       ],
       "seats": {
@@ -7293,7 +7335,7 @@
         "Camil Fuchs",
         "Lazar",
         "Maagar Mochot",
-        "Midgam"
+        "Midgam R&C"
       ],
       "seats": {
         "likud": 20.5,
@@ -7322,7 +7364,7 @@
       "sparse": true,
       "included_firms": [
         "Arpanel",
-        "Midgam"
+        "Midgam R&C"
       ],
       "seats": {
         "likud": 18.0,
@@ -7376,7 +7418,7 @@
       "included_firms": [
         "Camil Fuchs",
         "Kantar",
-        "Midgam"
+        "Midgam R&C"
       ],
       "seats": {
         "likud": 18.0,
@@ -7425,7 +7467,7 @@
       "week_end": "2026-03-01",
       "sparse": false,
       "included_firms": [
-        "Midgam",
+        "Midgam R&C",
         "Start of the 2026 Iran war",
         "Viterbi Center"
       ],
@@ -7472,7 +7514,7 @@
       "included_firms": [
         "Camil Fuchs",
         "Lazar",
-        "Midgam"
+        "Midgam R&C"
       ],
       "seats": {
         "likud": 20.7,
@@ -7501,7 +7543,7 @@
       "sparse": true,
       "included_firms": [
         "Lazar",
-        "Midgam"
+        "Midgam R&C"
       ],
       "seats": {
         "likud": 28.0,
@@ -7583,7 +7625,7 @@
         "Kantar",
         "Lazar",
         "Maagar Mochot",
-        "Midgam"
+        "Midgam R&C"
       ],
       "seats": {
         "likud": 24.2,
@@ -7612,7 +7654,7 @@
         "2026 Israel–Lebanon ceasefire goes into effect",
         "Kantar",
         "Lazar",
-        "Midgam",
+        "Midgam R&C",
         "Yossi Tatika"
       ],
       "seats": {
@@ -7641,8 +7683,8 @@
       "week_end": "2026-04-26",
       "sparse": false,
       "included_firms": [
-        "Midgam",
         "Midgam Project & Stat Net",
+        "Midgam R&C",
         "Stat-Net Research Institute",
         "TrendZone"
       ],
@@ -7675,7 +7717,7 @@
         "Kantar",
         "Lazar",
         "Maagar Mochot",
-        "Midgam",
+        "Midgam R&C",
         "Yossi Tatika"
       ],
       "seats": {
@@ -7705,7 +7747,7 @@
       "sparse": false,
       "included_firms": [
         "Camil Fuchs",
-        "Midgam",
+        "Midgam R&C",
         "Viterbi Center",
         "Yossi Tatika"
       ],
@@ -7733,7 +7775,7 @@
       "included_firms": [
         "Kantar",
         "Maagar Mochot",
-        "Midgam",
+        "Midgam R&C",
         "Yossi Tatika"
       ],
       "seats": {
@@ -7765,7 +7807,7 @@
         "Camil Fuchs",
         "Kantar",
         "Lazar",
-        "Midgam",
+        "Midgam R&C",
         "Yossi Tatika"
       ],
       "seats": {
@@ -7797,7 +7839,7 @@
         "Kantar",
         "Lazar",
         "Maagar Mochot",
-        "Midgam",
+        "Midgam R&C",
         "Yossi Tatika"
       ],
       "seats": {
@@ -7827,7 +7869,7 @@
       "sparse": false,
       "included_firms": [
         "Kantar",
-        "Midgam",
+        "Midgam R&C",
         "Yossi Tatika"
       ],
       "seats": {
@@ -7855,7 +7897,7 @@
       "included_firms": [
         "Kantar",
         "Maagar Mochot",
-        "Midgam"
+        "Midgam R&C"
       ],
       "seats": {
         "likud": 20.0,
@@ -7884,8 +7926,8 @@
       "sparse": false,
       "included_firms": [
         "Kantar",
-        "Midgam",
-        "Midgam Project"
+        "Midgam Project",
+        "Midgam R&C"
       ],
       "seats": {
         "likud": 22.3,
@@ -7913,8 +7955,8 @@
         "Kantar",
         "Lazar",
         "Maagar Mochot",
-        "Midgam",
-        "Midgam Project"
+        "Midgam Project",
+        "Midgam R&C"
       ],
       "seats": {
         "likud": 22.0,
@@ -7944,8 +7986,8 @@
       "included_firms": [
         "Kantar",
         "Lazar",
-        "Midgam",
-        "Midgam Project"
+        "Midgam Project",
+        "Midgam R&C"
       ],
       "seats": {
         "likud": 23.5,
@@ -7973,8 +8015,8 @@
         "Kantar",
         "Lazar",
         "Maagar Mochot",
-        "Midgam",
-        "Midgam Project"
+        "Midgam Project",
+        "Midgam R&C"
       ],
       "seats": {
         "likud": 21.8,
@@ -8004,8 +8046,8 @@
       "included_firms": [
         "Kantar",
         "Lazar",
-        "Midgam",
-        "Midgam Project"
+        "Midgam Project",
+        "Midgam R&C"
       ],
       "seats": {
         "likud": 21.8,
@@ -8032,8 +8074,8 @@
       "sparse": false,
       "included_firms": [
         "Kantar",
-        "Midgam",
-        "Midgam Project"
+        "Midgam Project",
+        "Midgam R&C"
       ],
       "seats": {
         "likud": 22.0,
@@ -8060,8 +8102,8 @@
       "sparse": false,
       "included_firms": [
         "Kantar",
-        "Midgam",
-        "Midgam Project"
+        "Midgam Project",
+        "Midgam R&C"
       ],
       "seats": {
         "likud": 23.0,
@@ -8089,8 +8131,8 @@
       "included_firms": [
         "Kantar",
         "Maagar Mochot",
-        "Midgam",
-        "Midgam Project"
+        "Midgam Project",
+        "Midgam R&C"
       ],
       "seats": {
         "likud": 23.5,
@@ -8121,8 +8163,8 @@
         "Kantar",
         "Lazar",
         "Maagar Mochot",
-        "Midgam",
-        "Midgam Project"
+        "Midgam Project",
+        "Midgam R&C"
       ],
       "seats": {
         "likud": 24.3,
@@ -8148,27 +8190,28 @@
       "iso_week": "2026-W34",
       "week_start": "2026-08-17",
       "week_end": "2026-08-23",
-      "sparse": true,
+      "sparse": false,
       "included_firms": [
-        "Midgam",
-        "Midgam Project"
+        "Maagar Mochot",
+        "Midgam Project",
+        "Midgam R&C"
       ],
       "seats": {
-        "likud": 22.5,
-        "together": 14.0,
-        "otzma_yehudit": 8.0,
-        "shas": 7.0,
-        "utj": 8.0,
-        "yisrael_beiteinu": 9.5,
-        "raam": 5.0,
+        "likud": 22.3,
+        "together": 14.7,
+        "otzma_yehudit": 8.3,
+        "shas": 7.7,
+        "utj": 7.7,
+        "yisrael_beiteinu": 9.3,
+        "raam": 4.7,
         "joint_list": 5.0,
-        "democrats": 11.0,
+        "democrats": 10.7,
         "yashar": 25.0
       },
       "blocs": {
-        "coalition": 45.5,
-        "opposition": 59.5,
-        "unaligned": 10.0
+        "coalition": 46.0,
+        "opposition": 59.7,
+        "unaligned": 9.7
       }
     },
     {
@@ -8218,7 +8261,7 @@
       "sparse": true,
       "included_firms": [
         "Lazar",
-        "Midgam"
+        "Midgam R&C"
       ],
       "seats": {
         "likud": 26.0,
@@ -8243,7 +8286,7 @@
       "sparse": true,
       "included_firms": [
         "Lazar",
-        "Midgam"
+        "Midgam R&C"
       ],
       "seats": {
         "likud": 25.5,
@@ -8296,7 +8339,7 @@
       "week_end": "2026-10-18",
       "sparse": true,
       "included_firms": [
-        "Midgam"
+        "Midgam R&C"
       ],
       "seats": {},
       "blocs": {
@@ -8336,7 +8379,7 @@
       "week_end": "2026-11-22",
       "sparse": true,
       "included_firms": [
-        "Midgam"
+        "Midgam R&C"
       ],
       "seats": {
         "likud": 26.0,
@@ -8376,7 +8419,7 @@
       "week_end": "2026-12-20",
       "sparse": true,
       "included_firms": [
-        "Midgam"
+        "Midgam R&C"
       ],
       "seats": {
         "likud": 18.0,
