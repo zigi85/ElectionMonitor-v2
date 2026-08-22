@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T06:38:19Z",
+  "generated_at": "2026-08-22T09:26:04Z",
   "period": "3d",
   "period_label": "3 ימים אחרונים",
   "source": "Google News",
@@ -19,15 +19,15 @@
         },
         {
           "title": "טורקיה הוציאה \"הודעה אדומה\" נגד נתניהו \"על רצח עם\", רה\"מ: \"ארדואן רודן אנטישמי\"",
-          "source": "ynet",
+          "source": "ynet.co.il",
           "published_at": "Fri, 21 Aug 2026 14:47:32 GMT",
           "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5zd1lSMThBT1VNYVUtRlBVZGZ0a0E0bXc5c2d3Nl9IMkpORlQ5RDNoQk9rZjRMNzN5VThPNXlaT0FsTlRVTkllZml4X29aa25hazZKcjk1QnJEUQ?oc=5&hl=en-US&gl=US&ceid=US:en"
         },
         {
-          "title": "טורקיה פנתה לאינטרפול בבקשה לעצור את נתניהו, רה\"מ תקף: \"צביעות, ארדואן רודן אנטישמי\"",
-          "source": "כאן 11",
-          "published_at": "Fri, 21 Aug 2026 12:38:57 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBwSHpVYzN5Y2d0aktyczBUVVFFbXFPZFFOcTd6eTZ2WGhaQlVxTzlwVHFsWjhGS093aU5nR2hPV0o1RnR1UTFoM1RnZ0VoQXJBdXVydUp0OUt0S0doZmNGOUsta3dHV0k?oc=5&hl=en-US&gl=US&ceid=US:en"
+          "title": "נתניהו עתר להדחת פנחס עידן מהליכוד: \"התזמון נבחר כדי לפגוע בראש הממשלה\"",
+          "source": "Calcalist",
+          "published_at": "Fri, 21 Aug 2026 14:54:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBVVTJONVU0bnZsZGV6SzI0OGhiN0NLR0VUbkVsWkV2Sl9HT0dobDM3bFVPeE52UklBX1V3YTJTa0V1N2J6UVlxY2pBNi04SEh1TjU5Q1pUaG1iZUpUM0M0dTlralk5dmRy?oc=5&hl=en-US&gl=US&ceid=US:en"
         }
       ]
     },
@@ -63,13 +63,13 @@
       "name_he": "נפתלי בנט",
       "role": "יו\"ר ביחד",
       "party": "together",
-      "mention_count": 87,
+      "mention_count": 82,
       "headlines": [
         {
-          "title": "בנט מציג את תפיסת הביטחון שלו: \"אם חיזבאללה יורה עלינו - אנחנו יורים על איראן\"",
+          "title": "\"פנינו לכל המועמדים\": האקבי מגיב לסערת הפגישה עם בנט",
           "source": "ישראל היום",
-          "published_at": "Wed, 19 Aug 2026 09:12:52 GMT",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5ZTHZrUkNCTzFwYnZ0YUFaVWl5aW92X3RidlB2alJTeG90NmdUUEgxcGdiZWQ4NFJqZTdHTHhra2kxaEVvS1J3dF9qejNHQ1RDQmJ6NW11YXV6THBVSjBBLUFCUlZoT3RIalRv0gFzQVVfeXFMT0hVeEZWMkJFYTE3a1NxbHM5eGVyUUttQlhGa2dLQTNnYjY5Ml9IV2ppdTc1XzZtZ1BfN0k4ZW1BcHdrZmEzMWJPdTdkY1VzSDQtaVY2ZWRLY3U4SU1UOHZSVXgyV0lOTURQV19LOFR1Y3JzSQ?oc=5&hl=en-US&gl=US&ceid=US:en"
+          "published_at": "Fri, 21 Aug 2026 15:21:13 GMT",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1VSzJFNG5vNGxxQUtnRWVSQ05wWDVFdWpnRTdidDBfdlVLWW5CNVJaSFRoYjlpUDRmNmk4RmZQU3NJN1c2SkRDendHbTRILVVJRGhveG44THh3Zkl5VDNSSTVpYll3ajk4YU9PcjFSY19QLXVPenlXTdIBeEFVX3lxTE1VSzJFNG5vNGxxQUtnRWVSQ05wWDVFdWpnRTdidDBfdlVLWW5CNVJaSFRoYjlpUDRmNmk4RmZQU3NJN1c2SkRDendHbTRILVVJRGhveG44THh3Zkl5VDNSSTVpYll3ajk4YU9PcjFSY19QLXVPenlXTQ?oc=5&hl=en-US&gl=US&ceid=US:en"
         },
         {
           "title": "בנט מבטיח לפרק מונופולים אבל שוכח שזה לא משחק ילדים",
@@ -90,7 +90,7 @@
       "name_he": "אביגדור ליברמן",
       "role": "יו\"ר ישראל ביתנו",
       "party": "yisrael_beiteinu",
-      "mention_count": 32,
+      "mention_count": 33,
       "headlines": [
         {
           "title": "התוכנית נחשפת: איזנקוט מועמד הגוש? בנט וליברמן שותקים - ויש סיבה",
@@ -118,7 +118,7 @@
       "name_he": "יאיר גולן",
       "role": "יו\"ר הדמוקרטים",
       "party": "democrats",
-      "mention_count": 35,
+      "mention_count": 33,
       "headlines": [
         {
           "title": "\"מחריבי הדמוקרטיה\" על הכוונת: יאיר גולן משיק קמפיין בחירות",
@@ -128,7 +128,7 @@
         },
         {
           "title": "יאיר גולן טוען שהתקיפה בסוריה הייתה משיקולים פוליטיים: \"מהלך מסוכן\"",
-          "source": "ynet",
+          "source": "ynet.co.il",
           "published_at": "Wed, 19 Aug 2026 16:51:11 GMT",
           "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE01dEdBTWVWQUkxT2tqVVRiYWowa0kwTXk1Qm1wSWx6a01jUHp5RjdsSEhMYmdXZkh4dkhpdlVjRGNOUEVpSnAxLVNtalV0aDVYOUVPOG1wZFRiZw?oc=5&hl=en-US&gl=US&ceid=US:en"
         },
@@ -145,7 +145,7 @@
       "name_he": "איתמר בן גביר",
       "role": "יו\"ר עוצמה יהודית",
       "party": "otzma_yehudit",
-      "mention_count": 64,
+      "mention_count": 58,
       "headlines": [
         {
           "title": "ממשלה נוספת עם בן גביר בתפקיד בכיר תהיה אסון לישראל",
@@ -172,7 +172,7 @@
       "name_he": "בצלאל סמוטריץ'",
       "role": "יו\"ר הציונות הדתית",
       "party": "religious_zionism",
-      "mention_count": 56,
+      "mention_count": 52,
       "headlines": [
         {
           "title": "ועדת הבחירות הורתה לסמוטריץ' להסיר סרטון | זו הסיבה",
@@ -182,7 +182,7 @@
         },
         {
           "title": "בג\"ץ: מאות מיליוני שקלים לחרדים יישארו חסומים - 78 מיליון לשירותי הדת ישוחררו",
-          "source": "ynet",
+          "source": "ynet.co.il",
           "published_at": "Fri, 21 Aug 2026 15:39:39 GMT",
           "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBMbExOX19wWVVpVl9zTmZUeDE4cVZ3dkRKdl92TlhCdnNkSkpuVFRLd2NXY1FfdWJ3aEFtcjA4MldiMlZuRUkwMjFTMExtc2p4bkdHSjVwS1daV2VISXc?oc=5&hl=en-US&gl=US&ceid=US:en"
         },
