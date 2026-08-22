@@ -1,34 +1,34 @@
 {
-  "generated_at": "2026-08-22T09:24:40Z",
-  "headline_count": 135,
+  "generated_at": "2026-08-22T15:18:14Z",
+  "headline_count": 123,
   "hot_topics": [
     {
       "id": "elections",
       "label": "בחירות וסקרים",
-      "mention_count": 52,
+      "mention_count": 47,
       "sample_headline": "סקר מנדטים עדכני - המידע העדכני ביותר לבחירות 2026 | מרכז הסקרים",
       "sample_source": "כאן 11"
     },
     {
       "id": "coalition",
       "label": "קואליציה וכנסת",
-      "mention_count": 17,
+      "mention_count": 10,
       "sample_headline": "אחרי 6,900 ימי כהונה של נתניהו: תמיכה רחבה באופוזיציה בהגבלת כהונת ראש הממשלה",
       "sample_source": "שקוף"
     },
     {
       "id": "security",
       "label": "ביטחון",
-      "mention_count": 5,
+      "mention_count": 7,
       "sample_headline": "ארבעה פעילי חמאס לפחות שהו בתחנת המשטרה שהותקפה בעיר עזה",
       "sample_source": "זמן ישראל"
     },
     {
       "id": "haredim",
       "label": "חרדים וגיוס",
-      "mention_count": 5,
-      "sample_headline": "פיוס בתמורה לחוק גיוס? דרעי השיק את קמפיין הבחירות של ש\"ס",
-      "sample_source": "היום"
+      "mention_count": 7,
+      "sample_headline": "\"כנגד ברירת מחדל שלהם, החרדים הלכו ימינה\" - בשיחה עם מתי טוכפלד",
+      "sample_source": "SBS"
     },
     {
       "id": "judiciary",
@@ -115,18 +115,51 @@
       "video_id": "LxviO8h-9GY",
       "title": "האיחוד של בנט ולפיד היה נראה כמו הבטחה - אז למה הם מתרסקים בסקרים?",
       "channel": "כאן | חדשות - תאגיד השידור הישראלי",
-      "views": 40676,
-      "views_str": "40.7K",
+      "views": 41861,
+      "views_str": "41.9K",
       "duration": "11:24",
       "published_text": "לפני יומיים (2)",
       "thumbnail": "https://i.ytimg.com/vi/LxviO8h-9GY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAvHUYYLkgBGhOi5sAw_D7h2ALB3Q",
       "url": "https://www.youtube.com/watch?v=LxviO8h-9GY"
     },
     {
+      "video_id": "CEag7ng57qc",
+      "title": "עוצמה חרדית | בן גביר: “מי שלא מצביע למפלגות החרדיות - צריך להצביע לי”",
+      "channel": "כיכר השבת",
+      "views": 25081,
+      "views_str": "25.1K",
+      "duration": "0:26",
+      "published_text": "לפני יומיים (2)",
+      "thumbnail": "https://i.ytimg.com/vi/CEag7ng57qc/hq720_2.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARh_IBwoHzAP&rs=AOn4CLCFcvM9IeVuuiTo5db28yZ3_Xf52Q",
+      "url": "https://www.youtube.com/watch?v=CEag7ng57qc"
+    },
+    {
+      "video_id": "vr6hvpu9lFM",
+      "title": "השר בן גביר: \"אם אני וסמוטריץ' רצים ביחד - אין גוש ימין. אנחנו ביחד מקבלים פחות מנדטים\"",
+      "channel": "C14",
+      "views": 21715,
+      "views_str": "21.7K",
+      "duration": "14:23",
+      "published_text": "לפני 4 ימים",
+      "thumbnail": "https://i.ytimg.com/vi/vr6hvpu9lFM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDWNkkOfS_AnVQtcn9lNyZGMi1hjg",
+      "url": "https://www.youtube.com/watch?v=vr6hvpu9lFM"
+    },
+    {
+      "video_id": "nW2EGVrogpE",
+      "title": "הרב הראשי קיבל בחום את גדי איזנקוט: \"אתה מקור של השראה\"",
+      "channel": "ערוץ 7",
+      "views": 19004,
+      "views_str": "19.0K",
+      "duration": "0:11",
+      "published_text": "לפני יומיים (2)",
+      "thumbnail": "https://i.ytimg.com/vi/nW2EGVrogpE/hq720_2.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARhEIEwocjAP&rs=AOn4CLCM_GPsBMuN_EwyHRGXdi9f97sXYw",
+      "url": "https://www.youtube.com/watch?v=nW2EGVrogpE"
+    },
+    {
       "video_id": "8LMdj_XMnSI",
       "title": "\"תתאחדו או תפרשו\": הקמפיין של נתניהו - והמסר הישיר למפלגות הקטנות",
       "channel": "C14",
-      "views": 10252,
+      "views": 10290,
       "views_str": "10.3K",
       "duration": "12:55",
       "published_text": "לפני 3 ימים",
@@ -134,26 +167,26 @@
       "url": "https://www.youtube.com/watch?v=8LMdj_XMnSI"
     },
     {
+      "video_id": "IXkPJoEhooA",
+      "title": "יושב ראש הכנסת ג'ונסון: טראמפ \"למעשה\" נמצא ברשימת המועמדים לבחירות האמצע",
+      "channel": "Forbes Breaking News",
+      "views": 5151,
+      "views_str": "5.2K",
+      "duration": "0:44",
+      "published_text": "לפני 14 שעות",
+      "thumbnail": "https://i.ytimg.com/vi/IXkPJoEhooA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCW8qoykhDhqkbUlEbioWhW4BZyZQ",
+      "url": "https://www.youtube.com/watch?v=IXkPJoEhooA"
+    },
+    {
       "video_id": "8cIvBaSNdUA",
       "title": "השר בן גביר בראיון לכיכר השבת: משפחת יהלומי, המצב הביטחוני, בחירות 2026 ועוד",
       "channel": "עוצמה יהודית",
-      "views": 4117,
-      "views_str": "4.1K",
+      "views": 4225,
+      "views_str": "4.2K",
       "duration": "23:14",
       "published_text": "לפני יומיים (2)",
       "thumbnail": "https://i.ytimg.com/vi/8cIvBaSNdUA/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARh_IDIoNzAP&rs=AOn4CLBe_IjLgo6byh6sMNA9u7XHfPlARA",
       "url": "https://www.youtube.com/watch?v=8cIvBaSNdUA"
-    },
-    {
-      "video_id": "eXpF9Lhq5SI",
-      "title": "שגרירות ארה\"ב: הצבעה מישראל (16 באוגוסט 2026)",
-      "channel": "Nefesh B'Nefesh",
-      "views": 156,
-      "views_str": "156",
-      "duration": "38:01",
-      "published_text": "לפני 5 ימים",
-      "thumbnail": "https://i.ytimg.com/vi/eXpF9Lhq5SI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCLBvUHXFaOvnn2GhkxNfC2nosHew",
-      "url": "https://www.youtube.com/watch?v=eXpF9Lhq5SI"
     }
   ],
   "telegram_channels": [
@@ -163,12 +196,12 @@
       "username": "bnetanyahu",
       "type": "politician",
       "post_count": 20,
-      "avg_views": 16561,
-      "avg_views_str": "16.6K",
+      "avg_views": 16660,
+      "avg_views_str": "16.7K",
       "top_post": {
         "text": "הבוקר הפר חיזבאללה את הפסקת האש בלבנון ותקף את לוחמינו בתוך הקו הצהוב. במתקפה נפצעו קשה שלושה לוחמי צה\"ל. בתגובה, צה\"ל ת",
-        "views": 26800,
-        "views_str": "26.8K",
+        "views": 26900,
+        "views_str": "26.9K",
         "date": "2026-08-15T17:23:34+00:00"
       }
     },
@@ -178,8 +211,8 @@
       "username": "bengvir",
       "type": "politician",
       "post_count": 18,
-      "avg_views": 7402,
-      "avg_views_str": "7.4K",
+      "avg_views": 7470,
+      "avg_views_str": "7.5K",
       "top_post": {
         "text": "מצטרפים למשחק החם של הקיץ ! מחסלים מחבלים, אוספים הישגים, מתחמקים מהיועמ\"שית הרעה ויכולים לזכות בפרסים שווים! מי שמאמין ",
         "views": 18400,
@@ -203,21 +236,6 @@
       }
     },
     {
-      "key": "ynet",
-      "name_he": "ynet",
-      "username": "ynetalerts",
-      "type": "news",
-      "post_count": 20,
-      "avg_views": 4499,
-      "avg_views_str": "4.5K",
-      "top_post": {
-        "text": "🔴 השחקנית קרוליין לנגפורד, גרושתו של אסי דיין, הלכה לעולמה בגיל 68 למבזק המלא ב-ynet >",
-        "views": 6130,
-        "views_str": "6.13K",
-        "date": "2026-08-21T21:22:14+00:00"
-      }
-    },
-    {
       "key": "ch13",
       "name_he": "חדשות 13",
       "username": "newsisrael13_il",
@@ -233,18 +251,33 @@
       }
     },
     {
+      "key": "ynet",
+      "name_he": "ynet",
+      "username": "ynetalerts",
+      "type": "news",
+      "post_count": 20,
+      "avg_views": 3702,
+      "avg_views_str": "3.7K",
+      "top_post": {
+        "text": "🔴 רוכב אופנוע נהרג בתאונה בכביש 574, סמוך ליישוב זמר למבזק המלא ב-ynet >",
+        "views": 5960,
+        "views_str": "5.96K",
+        "date": "2026-08-22T08:04:00+00:00"
+      }
+    },
+    {
       "key": "israelhayom",
       "name_he": "ישראל היום",
       "username": "israelhayomofficial",
       "type": "news",
       "post_count": 20,
-      "avg_views": 2746,
+      "avg_views": 2720,
       "avg_views_str": "2.7K",
       "top_post": {
-        "text": "השרה רגב בתגובה ממרוקו: \"זו שביתה איטלקית - כל עובד יזומן לשימוע\"",
-        "views": 3710,
-        "views_str": "3.71K",
-        "date": "2026-08-20T10:43:52+00:00"
+        "text": "⁨ רה״מ נתניהו הפתיע ונאם בהופעתה של עדן בן זקן במנורה⁩",
+        "views": 3380,
+        "views_str": "3.38K",
+        "date": "2026-08-20T20:06:41+00:00"
       }
     },
     {
@@ -253,7 +286,7 @@
       "username": "naftalibennett1",
       "type": "politician",
       "post_count": 20,
-      "avg_views": 2704,
+      "avg_views": 2714,
       "avg_views_str": "2.7K",
       "top_post": {
         "text": "מפרסם לבקשת המשפחה: ביום ראשון תתקיים אזכרה לקרן טנדלר ז\"ל שנפלה בלבנון לפני 20 שנה, במלחמת לבנון השנייה. חשוב על כך להג",
@@ -268,8 +301,8 @@
       "username": "smutrich",
       "type": "politician",
       "post_count": 12,
-      "avg_views": 806,
-      "avg_views_str": "806",
+      "avg_views": 815,
+      "avg_views_str": "815",
       "top_post": {
         "text": "כלכלה חזקה ואחראית, מדינה חזקה ואחראית 🇮🇱",
         "views": 1070,
@@ -283,13 +316,13 @@
       "username": "N12_News",
       "type": "news",
       "post_count": 20,
-      "avg_views": 81,
-      "avg_views_str": "81",
+      "avg_views": 70,
+      "avg_views_str": "70",
       "top_post": {
-        "text": "פרסום ראשון: תרגיל ההונאה של פנחס עידן שהוביל לשביתה ששיתקה את נתב\"ג | פרטים חדשים קישור לכתבה",
-        "views": 124,
-        "views_str": "124",
-        "date": "2026-08-21T20:27:40+00:00"
+        "text": "\"אין רחמים ואין מצפון\": הילדים שעובדים עבור ארגוני פשע, והשיטה החדשה של העבריינים קישור לכתבה",
+        "views": 98,
+        "views_str": "98",
+        "date": "2026-08-22T06:49:46+00:00"
       }
     },
     {
@@ -302,8 +335,8 @@
       "avg_views_str": "4",
       "top_post": {
         "text": "\"לא נחזיק מעמד\" בכיר איראני מצביע על האיום שיכול להכריע את גורל צמרת המשטר קישור לכתבה",
-        "views": 5,
-        "views_str": "5",
+        "views": 6,
+        "views_str": "6",
         "date": "2026-08-21T14:02:41+00:00"
       }
     }
