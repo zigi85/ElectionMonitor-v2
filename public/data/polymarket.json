@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-22T01:59:54Z",
+  "generated_at": "2026-08-22T05:00:55Z",
   "markets": [
     {
       "key": "next_pm",
       "title": "Prime Minister of Israel after the next election?",
       "slug": "who-will-be-the-next-prime-minister-of-israel-after-the-next-election",
       "url": "https://polymarket.com/event/who-will-be-the-next-prime-minister-of-israel-after-the-next-election",
-      "updated_at": "2026-08-22T01:57:43.958079Z",
+      "updated_at": "2026-08-22T04:57:46.426663Z",
       "outcomes": [
         {
           "name": "Gadi Eizenkot",
@@ -87,7 +87,7 @@
       "title": "Israel Election: Likud # of seats?",
       "slug": "israel-election-likud-of-seats",
       "url": "https://polymarket.com/event/israel-election-likud-of-seats",
-      "updated_at": "2026-08-22T01:57:43.958079Z",
+      "updated_at": "2026-08-22T04:57:46.426663Z",
       "outcomes": [
         {
           "name": "25-29",
@@ -103,11 +103,11 @@
         },
         {
           "name": "30-34",
-          "probability": 0.14
+          "probability": 0.145
         },
         {
           "name": "35+",
-          "probability": 0.0365
+          "probability": 0.033
         }
       ]
     },
@@ -116,7 +116,7 @@
       "title": "Israeli election results in a hung parliament?",
       "slug": "israeli-election-results-in-a-hung-parliament",
       "url": "https://polymarket.com/event/israeli-election-results-in-a-hung-parliament",
-      "updated_at": "2026-08-22T01:57:43.958079Z",
+      "updated_at": "2026-08-22T04:55:45.236338Z",
       "outcomes": [
         {
           "name": "No",
